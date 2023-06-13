@@ -5,7 +5,7 @@
 What data do we plan to make available as 'Open Data' and in what form (structure, formats, ...)?
 
 - publication-opendata
-    - [](surface)
+    - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#surface)
         - ~~aviation~~
         - smn (automatic-measurements)
         - nime (manual-measurements)
