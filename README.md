@@ -1,10 +1,8 @@
 # Open Government Data
 ## Remit and legal mandate 
 [s. MCH 'About us'](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html)
-##
-What data do we plan to make available as 'Open Data' and in what form (structure, formats, ...)?
-
-- publication-opendata
+## Open data products
+What data do we plan to make available as 'Open Data' and in what form (structure, formats, chunks, frequencies/periodicities, volumes)?
     - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#surface)
         - ~~aviation~~
         - smn (automatic-measurements)
