@@ -3,7 +3,8 @@
 [s. MCH 'About us'](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html)
 ## Open data products
 What data do we plan to make available as 'Open Data' and in what form (structure, formats, chunks, frequencies/periodicities, volumes)?
-    - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#surface)
+ - publication-opendata
+     - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#surface)
         - ~~aviation~~
         - smn (automatic-measurements)
         - nime (manual-measurements)
