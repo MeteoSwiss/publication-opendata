@@ -1,9 +1,9 @@
 - publication-opendata
     - surface~~measurements~~
         - ~~aviation~~
-        - automatic-measurements (smn)
-        - manual-measurements (nime)
-        - manual-observations (obs)
+        - smn (automatic-measurements)
+        - nime (manual-measurements)
+        - obs (manual-observations)
         - climate (climate)
             - records
         - pollen-monitoring (pollen)
