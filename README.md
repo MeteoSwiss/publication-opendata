@@ -1,3 +1,9 @@
+# Open Government Data
+## Remit and legal mandate 
+[s. MCH 'About us'](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html)
+##
+What data do we plan to make available as 'Open Data' and in what form (structure, formats, ...)?
+
 - publication-opendata
     - [](surface)
         - ~~aviation~~
