@@ -1,3 +1,17 @@
 # publication-opendata
-## nowcasting-inca
-## surfacemeasurements
+## surface~~measurements~~
+### ~~aviation~~
+### automatic-measurements (smn)
+### manual-measurements (nime)
+### manual-observations (obs)
+### climate (climate)
+#### records
+### pollen-monitoring (pollen)
+### phenological-observations (phenology)
+### ~~aerosol~~ (?)
+## atmosphere~~measurements~~
+### radiosounding
+### radar
+
+
+nowcasting-inca
