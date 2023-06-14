@@ -1,4 +1,5 @@
 # OGD@MeteoSwiss - Open Government Data
+
 ## Context and purpose
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending. In the current year (2023) the necessary technical and organizational measures for the implementation of OGD at MeteoSwiss are being tackled within the scope of a project.
 
@@ -7,8 +8,8 @@ This repository is used by MeteoSwiss to inform potential users interested in op
 All information reflects the current state of work and is subject to change. Finding out, collecting, analysing and weighting user needs is the central way for MeteoSwiss to be able to offer good open data products. 
 
 Thank you very much for your attention and openness to enter into an exchange with us for this purpose.
+
 ## Open data products
-What data do we plan to make available as 'Open Data' and in what form (structure, formats, chunks, frequencies/periodicities, volumes)?
  - publication-opendata
      - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#surface)
         - ~~aviation~~
@@ -17,10 +18,10 @@ What data do we plan to make available as 'Open Data' and in what form (structur
         - obs (manual-observations)
         - climate (climate)
             - records
-        - pollen-monitoring (pollen)
-        - phenological-observations (phenology)
+        - pollen (pollen-monitoring)
+        - phenology (phenological-observations)
         - ~~aerosol~~
-    - atmosphere~~measurements~~
+    - atmosphere
         - radiosounding
         - radar
         - ...
