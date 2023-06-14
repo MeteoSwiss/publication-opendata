@@ -23,7 +23,7 @@ Thank you very much for your attention and openness to enter into an exchange wi
         - ~~aerosol~~
     - atmosphere
         - radiosounding
-        - remote sensing
+        - remote sensing (was 'radar')
         - ...
     - model
         - postprocessed data (Data4Web)
