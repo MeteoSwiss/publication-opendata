@@ -28,7 +28,7 @@ If you have any questions, please contact the project core team: [opendata(at)me
         - pollen (pollen-monitoring)
         - phenology (phenological-observations)
         - ~~aerosol~~
-    - atmosphere
+    - [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-atmosphere)
         - radiosounding
         - remote sensing (was 'radar')
         - ...
