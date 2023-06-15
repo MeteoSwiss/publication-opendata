@@ -42,5 +42,46 @@ If you have any questions, please contact the project core team: [opendata@meteo
         - radar and compiprecip
 
 ### 2.1. Surface
-#### 2.1.x. Open questions to users
+
+#### 2.1.1. General description
+This data is ...
+<!-- generated and validated daily using manual and automated procedures. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for the specific date. -->
+
+#### 2.1.2. Open questions to users
 1. ...
+
+#### 2.1.3. Data
+
+>**https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2** <br>
+>*Description:* Case numbers for each spatial unit separately  <br>
+>*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
+>*Format:* csv <br>
+>*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ )
+
+>**https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
+>*Description:* Case numbers for all spatial units in one single file.  <br>
+>*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
+>*Format:* csv <br>
+>*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv)
+
+#### 2.1.4. Metadata
+
+| Field Name          | Description                                | Format     | Note |
+|---------------------|--------------------------------------------|------------|------|
+| __date__              | Date of notification                       | YYYY-MM-DD | |
+| __time__                 | Time of notification                       | HH:MM      | |
+| __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
+| __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
+| __ncumul_conf__          | Reported number of confirmed cases as of date| Number     | Only cases that reside in the current canton |
+| __new_hosp__        | new hospitalisations since last date | Number     | Irrespective of canton of residence |
+| __current_hosp__       | Reported number of hospitalised patients on date | Number     | Irrespective of canton of residence |
+| __current_icu__       | Reported number of hospitalised patients in ICUs on date| Number     | Irrespective of canton of residence |
+| __current_vent__        | Reported number of patients requiring invasive ventilation on date | Number     | Irrespective of canton of residence |
+| __ncumul_released__     |Reported number of patients released from hospitals or reported recovered as of date| Number     | Irrespective of canton of residence |
+| __ncumul_deceased__     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
+| __source__              | Source of the information                  | href       | |
+| __current_isolated__       | Reported number of isolated persons on date          | Number       | Infected persons, who are not hospitalised |
+| __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves |
+| __current_quarantined_riskareatravel__    | Reported number of quarantined persons on date       | Number       | People arriving in Switzerland from [certain countries and areas](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende/quarantaene-einreisende.html), who are required to go into quarantine.  |
+
+
