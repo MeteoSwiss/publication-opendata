@@ -72,3 +72,35 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 | __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
 
 <!-- Metadaten als .csv -->
+
+### 2.2. Atmosphere ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-IT))
+...
+
+#### 2.2.1. Open questions to the user community
+1. [fill in Question X](https://github.com/MeteoSwiss/publication-opendata/discussions/X)
+2. [fill in Question Y](https://github.com/MeteoSwiss/publication-opendata/discussions/Y)
+3. ...
+
+#### 2.2.2. ...
+...
+
+#### 2.2.2.1. Data
+
+>*Open Data Product (Title):* **...** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* ... <br>
+>*Update frequency:* ... <br>
+>*Format:* ... <br>
+>*Volume (MB/GB/TB):* ... <br>
+>*Additional remarks*: ... <br>
+
+#### 2.1.2.2. Metadata
+
+| Field Name          | Description                                | Format     | Note |
+|---------------------|--------------------------------------------|------------|------|
+| __date__              | Date of notification                       | YYYY-MM-DD | |
+| __time__                 | Time of notification                       | HH:MM      | |
+| __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
+| __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
+
+<!-- Metadaten als .csv -->
