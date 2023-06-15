@@ -18,7 +18,7 @@ If you have any questions, please contact the project core team: [opendata(at)me
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
 - publication-opendata
-     - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface)
+     - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
         - ~~aviation~~
         - [smn (automatic-measurements)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
         - nime (manual-measurements)
@@ -28,7 +28,7 @@ If you have any questions, please contact the project core team: [opendata(at)me
         - pollen (pollen-monitoring)
         - phenology (phenological-observations)
         - ~~aerosol~~
-    - [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-atmosphere)
+    - [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
         - radiosounding
         - remote sensing (was 'radar')
         - ...
