@@ -49,19 +49,20 @@ This category/type of data is about ...
 #### 2.1.2. Open questions to users
 1. ...
 
-#### 2.1.3. Data structures, formats, denominations, update frequencies
+#### 2.1.3. smn (automatic-measurements)
 
->*Open Data Product (Title):* **[title]** <br>
->*Data structure (Example file):* [https://github.com/openZH/covid_19/](https://github.com/MeteoSwiss/publication-opendata/blob/main/...) <br>
+#### 2.1.3.1.  
+
+Data structures, formats, granularities, update frequencies
+
+>*Open Data Product (Title):* **10-Minuten-SMN-Werte-...** <br>
+>*Data structure (Example file):* [https://github.com/openZH/covid_19/](https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv) <br>
+>*Granularity:*  <br>
 >*Format:* csv <br>
->*Denominations*: 
 
 >*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ )
 
->*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br> <!-- sinnvoll? -->
-
-
-data structures, formats, denominations, update frequencies, volumes and other specifics
+volumes and other specifics
 
 #### 2.1.4. Metadata
 
