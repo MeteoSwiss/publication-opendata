@@ -45,7 +45,7 @@ If you have any questions, please contact the project core team: [opendata(at)me
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
 
 #### 2.1.1. Open questions to users
-1. ...
+1. ... - [Discussion]()
 
 #### 2.1.2. smn (automatic-measurements)
 SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program. These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by automatic precipitation stations (about 100 stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings.
@@ -53,16 +53,12 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 #### 2.1.2.1. Data
 
 >*Open Data Product (Title):* **10-Minuten-SMN-Werte-...** <br>
->*Data structure (Example file):* [https://github.com/openZH/covid_19/](https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv) <br>
->*Granularity:*  <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv) <br>
+>*Granularity:* ... <br>
+>*Update frequency:* ... <br>
 >*Format:* csv <br>
-
->*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ )
-
-volumes and other specifics
-
-ata structures, formats, granularities, update frequencies
-
+>*Volume (MB/GB/TB):* ... <br>
+>*Additional remarks*: ... <br>
 
 #### 2.1.2.2. Metadata
 
