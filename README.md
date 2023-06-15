@@ -10,7 +10,7 @@ All information reflects the current state of work and is subject to change. Fin
 
 Thank you very much for your attention and openness to enter into an exchange with us for this purpose.
 
-### 1.2. Contact point
+### 1.2. General contact point
 If you have any questions, please contact the project core team: [opendata@meteoswiss.ch](mailto:opendata@meteoswiss.ch)
 
 ## 2. Open data products ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-IT))
