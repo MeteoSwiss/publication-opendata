@@ -72,16 +72,5 @@ volumes and other specifics
 | __time__                 | Time of notification                       | HH:MM      | |
 | __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
 | __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
-| __ncumul_conf__          | Reported number of confirmed cases as of date| Number     | Only cases that reside in the current canton |
-| __new_hosp__        | new hospitalisations since last date | Number     | Irrespective of canton of residence |
-| __current_hosp__       | Reported number of hospitalised patients on date | Number     | Irrespective of canton of residence |
-| __current_icu__       | Reported number of hospitalised patients in ICUs on date| Number     | Irrespective of canton of residence |
-| __current_vent__        | Reported number of patients requiring invasive ventilation on date | Number     | Irrespective of canton of residence |
-| __ncumul_released__     |Reported number of patients released from hospitals or reported recovered as of date| Number     | Irrespective of canton of residence |
-| __ncumul_deceased__     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
-| __source__              | Source of the information                  | href       | |
-| __current_isolated__       | Reported number of isolated persons on date          | Number       | Infected persons, who are not hospitalised |
-| __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves |
-| __current_quarantined_riskareatravel__    | Reported number of quarantined persons on date       | Number       | People arriving in Switzerland from [certain countries and areas](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende/quarantaene-einreisende.html), who are required to go into quarantine.  |
 
-
+<!-- Metadaten als .csv -->
