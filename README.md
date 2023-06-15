@@ -15,7 +15,7 @@ If you have any questions, please contact the project core team: [opendata@meteo
 
 ## 2. Open data products
  - publication-opendata
-     - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-1-surface)
+     - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface)
         - ~~aviation~~
         - smn (automatic-measurements)
         - nime (manual-measurements)
