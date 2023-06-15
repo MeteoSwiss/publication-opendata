@@ -44,25 +44,24 @@ If you have any questions, please contact the project core team: [opendata@meteo
 ### 2.1. Surface
 
 #### 2.1.1. General description
-This data is ...
-<!-- generated and validated daily using manual and automated procedures. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for the specific date. -->
+This category/type of data is about ...
 
 #### 2.1.2. Open questions to users
 1. ...
 
-#### 2.1.3. Data
+#### 2.1.3. Data structures, formats, denominations, update frequencies
 
->**https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2** <br>
->*Description:* Case numbers for each spatial unit separately  <br>
->*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
+>*Open Data Product (Title):* **[title]** <br>
+>*Data structure (Example file):* [https://github.com/openZH/covid_19/](https://github.com/MeteoSwiss/publication-opendata/blob/main/...) <br>
 >*Format:* csv <br>
+>*Denominations*: 
+
 >*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ )
 
->**https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
->*Description:* Case numbers for all spatial units in one single file.  <br>
->*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
->*Format:* csv <br>
->*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv)
+>*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br> <!-- sinnvoll? -->
+
+
+data structures, formats, denominations, update frequencies, volumes and other specifics
 
 #### 2.1.4. Metadata
 
