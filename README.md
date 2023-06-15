@@ -48,6 +48,7 @@ MeteoSwiss operates a network of [land-based weather stations](https://www.meteo
 1. ...
 
 #### 2.1.2. smn (automatic-measurements)
+SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program. These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by automatic precipitation stations (about 100 stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings.
 
 #### 2.1.2.1. Data
 
