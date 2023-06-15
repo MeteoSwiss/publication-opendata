@@ -41,7 +41,7 @@ If you have any questions, please contact the project core team: [opendata@meteo
         - climate data
         - radar and compiprecip
 
-### 2.1. Surface
+### 2.1. Surface ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
 
 #### 2.1.1. Open questions to users
