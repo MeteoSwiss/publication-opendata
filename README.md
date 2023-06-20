@@ -19,7 +19,7 @@ If you have any questions, please contact the project core team: [opendata(at)me
 
 - publication-opendata
      - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
-        - [smn (automatic-measurements)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
+        - [automatic-measurements (smn)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
         - ~~aviation~~
         - nime (manual-measurements) (precipitation only)
         - obs (manual-observations)
