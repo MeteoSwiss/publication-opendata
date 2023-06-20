@@ -19,19 +19,27 @@ If you have any questions, please contact the project core team: [opendata(at)me
 
 - publication-opendata
      - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
-        - ~~aviation~~
         - [smn (automatic-measurements)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
+        - ~~aviation~~
         - nime (manual-measurements)
         - obs (manual-observations)
-        - climate (climate) (2!)
+        - climate (climate) (2!) (= "Swiss National Basic Climatological Network" ?)
             - records
         - pollen (pollen-monitoring)
         - phenology (phenological-observations)
         - ~~aerosol~~
     - [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
         - radiosounding
-        - remote sensing (was 'radar')
-        - ...
+        - remotesensing (weather-radar)
+        - (?) "Windprofiler"
+        - (?) "LIDAR and ceilometers"
+        - (?) "Microwave Radiometry"
+        - (?) "Windprofiler"
+        - (?) "Observations from aircraft"
+        - (?) "Satellite observations"
+        - (?) "Ozone measurements"
+        - ~~"Lightning detection network"~~
+        - (?) "Radiation monitoring network"
     - model
         - postprocessed data (Data4Web)
         - ~~nowcasting~~inca ()
