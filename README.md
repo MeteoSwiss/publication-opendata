@@ -40,9 +40,9 @@ If you have any questions, please contact the project core team: [opendata(at)me
         - (?) "Ozone measurements"
         - ~~"Lightning detection network"~~
         - (?) "Radiation monitoring network"
-    - model
-        - postprocessed data (Data4Web)
-        - ~~nowcasting~~inca ()
+    - model (= "Weather forecasts" ?)
+        - postprocessed data (Data4Web) (?)
+        - ~~nowcasting~~inca (nowcasting) (?)
         - COSMO/ICON
         - ...
     - gridded data
