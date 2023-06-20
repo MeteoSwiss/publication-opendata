@@ -34,9 +34,8 @@ If you have any questions, please contact the project core team: [opendata(at)me
         - (?) "Windprofiler"
         - (?) "LIDAR and ceilometers"
         - (?) "Microwave Radiometry"
-        - (?) "Windprofiler"
-        - (?) "Observations from aircraft"
-        - (?) "Satellite observations"
+        - ~~Observations from aircraft~~
+        - ~~Satellite observations~~
         - (?) "Ozone measurements"
         - ~~"Lightning detection network"~~
         - (?) "Radiation monitoring network"
