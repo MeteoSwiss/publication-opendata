@@ -21,9 +21,9 @@ If you have any questions, please contact the project core team: [opendata(at)me
      - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
         - [smn (automatic-measurements)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
         - ~~aviation~~
-        - nime (manual-measurements)
+        - nime (manual-measurements) (precipitation only)
         - obs (manual-observations)
-        - climate (climate) (2!) (= "Swiss National Basic Climatological Network" ?)
+        - climate (point climate)
             - records
         - pollen (pollen-monitoring)
         - phenology (phenological-observations)
@@ -46,7 +46,7 @@ If you have any questions, please contact the project core team: [opendata(at)me
         - COSMO/ICON
         - ...
     - gridded data
-        - climate data (2!)
+        - climate data (spatial data)
         - radar and compiprecip
 
 ### 2.1. Surface ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
