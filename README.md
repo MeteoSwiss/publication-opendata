@@ -21,16 +21,16 @@ If you have any questions, please contact the project core team: [opendata(at)me
      - [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
         - [automatic-measurements (smn)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
         - ~~aviation~~
-        - nime (manual-measurements) (precipitation only)
-        - obs (manual-observations)
-        - climate (point climate)
+        - manual-measurements (nime) ((precipitation only))
+        - manual-observations (obs)
+        - point-climate (climate)
             - records
-        - pollen (pollen-monitoring)
-        - phenology (phenological-observations)
+        - pollen-monitoring (pollen)
+        - phenological-observations (phenology)
         - ~~aerosol~~
     - [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
-        - radiosounding
-        - remotesensing (weather-radar)
+        - ((weather balloon)) radiosondes (radiosounding)
+        - weather-radar (remotesensing)
         - (?) "Windprofiler"
         - (?) "LIDAR and ceilometers"
         - (?) "Microwave Radiometry"
