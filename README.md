@@ -19,33 +19,33 @@ If you have any questions, please contact the project core team: [opendata(at)me
 
 - 2.1. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
   - 2.1.1. [automatic-measurements (smn)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
-        - 2.1.2. ~~aviation~~
-        - 2.1.3. manual-measurements (nime) ((precipitation only))
-        - 2.1.4. manual-observations (obs)
-        - 2.1.5. point-climate (climate)
-            - records
-        - 2.1.6. pollen-monitoring (pollen)
-        - 2.1.7. phenological-observations (phenology)
-        - 2.1.8. ~~aerosol~~
-    - 2.2. [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
-        - ((weather balloon)) radiosondes (radiosounding)
-        - weather-radar (remotesensing)
-        - (?) "Windprofiler"
-        - (?) "LIDAR and ceilometers"
-        - (?) "Microwave Radiometry"
-        - ~~Observations from aircraft~~
-        - ~~Satellite observations~~
-        - (?) "Ozone measurements"
-        - ~~"Lightning detection network"~~
-        - (?) "Radiation monitoring network"
-    - 2.3. model
-        - postprocessed data (Data4Web) (?)
-        - ~~nowcasting~~inca (nowcasting) (?)
-        - COSMO/ICON
-        - ...
-    - 2.4. grid
-        - climate data (spatial data)
-        - radar and compiprecip
+  - 2.1.2. ~~aviation~~
+  - 2.1.3. manual-measurements (nime) ((precipitation only))
+  - 2.1.4. manual-observations (obs)
+  - 2.1.5. point-climate (climate)
+    - records
+  - 2.1.6. pollen-monitoring (pollen)
+  - 2.1.7. phenological-observations (phenology)
+  - 2.1.8. ~~aerosol~~
+- 2.2. [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
+  - ((weather balloon)) radiosondes (radiosounding)
+  - weather-radar (remotesensing)
+  - (?) "Windprofiler"
+  - (?) "LIDAR and ceilometers"
+  - (?) "Microwave Radiometry"
+  - ~~Observations from aircraft~~
+  - ~~Satellite observations~~
+  - (?) "Ozone measurements"
+  - ~~"Lightning detection network"~~
+  - (?) "Radiation monitoring network"
+- 2.3. model
+  - postprocessed data (Data4Web) (?)
+  - ~~nowcasting~~inca (nowcasting) (?)
+  - COSMO/ICON
+  - ...
+- 2.4. grid
+  - climate data (spatial data)
+  - radar and compiprecip
 
 ### 2.1. Surface ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
