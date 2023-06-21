@@ -39,12 +39,12 @@ If you have any questions, please contact the project core team: [opendata(at)me
         - (?) "Ozone measurements"
         - ~~"Lightning detection network"~~
         - (?) "Radiation monitoring network"
-    - model (= "Weather forecasts" ?)
+    - model
         - postprocessed data (Data4Web) (?)
         - ~~nowcasting~~inca (nowcasting) (?)
         - COSMO/ICON
         - ...
-    - gridded data
+    - grid
         - climate data (spatial data)
         - radar and compiprecip
 
