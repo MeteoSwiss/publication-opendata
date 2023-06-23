@@ -35,9 +35,9 @@ For measurement data MeteoSwiss provides an optimized directory structure separa
 
 | Type | Description | Update cycle | Used for |
 | --- | --- | --- | --- |
-| historical | From the start of the measurement until the 31st of december of last year | Once a year on March 1st  | Granularity M, D, H and T |
-| recent | From January 1st of this year until yesterday | Daily at 12UTC | Granularity M, D, H and T |
-| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only Granularity H and T |
+| historical | From the start of the measurement until the 31st of december of last year | Once a year  | Granularity M, D, H, T |
+| recent | From January 1st of this year until yesterday | Daily at 12UTC | Granularity M, D, H, T |
+| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only Granularity H, T |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. Granularity Y) |
 
 #### 2.1.3. General questions to the open data user community 
@@ -81,15 +81,17 @@ For measurement data MeteoSwiss provides an optimized directory structure separa
 ### 2.2. Surface ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
 
+All MeteoSwiss surface stations have a name and an identfier consiting of three letters (e. g. BER for Bern / Zollikofen or LUG for Lugano). Data files use this station identifier in the file name throughout the all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according metadata section.
+
 #### 2.2.1. Automatic weather stations (smn, smn-precip, smn-tower)
 SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program (type "smn"). These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by around 100 automatic precipitation stations (type "smn-precip"). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three tower stations at 150m to 230m above ground for boundry layer measurements (type "smn-tower").
 
-#### 2.2.1.1. Discovery metadata w/ data structure
+#### 2.2.1.1. Discovery metadata w/ data structure for type "smn"
 
 >*Open Data Product (Title):* **10-Minuten-SMN-Werte-...** <br>
 >**Data structure (Example file):** [https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv) <br>
->*Granularity: T, H, D, M and Y (see above) <br>
->*Update frequency:* ... <br>
+>*Granularity: T, H, D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
 >*Format:* csv <br>
 >*Volume (MB/GB/TB):* ... <br>
 >*Additional remarks*: ... <br>
