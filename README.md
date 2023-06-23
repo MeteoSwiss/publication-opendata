@@ -40,7 +40,18 @@ For measurement data MeteoSwiss provides an optimized directory structure separa
 | now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only Granularity H, T |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. Granularity Y) |
 
-#### 2.1.3. General questions to the open data user community 
+#### 2.1.3. Time stamps and time intervals
+All reference time stamps at MeteoSwiss are in UTC! Depending on the granularity the time stamp does define different intervals:
+- T: The sum, mean or max/min of the last 10 minutes (ReferenceTS 16:00 = 15:51 to 16:00)
+- H*: The sum, mean or max/min of the last 60 minutes (ReferenceTS 16:00 = 15:01 to 16:00)
+- D: For most parameters the sum, mean or max/min from 00:00 to 23:50 of the according date. Exception for precipitation and snow (manual measurement times used for consistency) where the interval is 6:00 UTC until 5:50 UTC tomorrow (ReferenceTS 22.6.2023 = From 22.6.2023 6:00UTC to 23.6.2023 5:50UTC)
+- M: The sum, mean or max/min of the whole month from 1st to last day of month (ReferenceTS 1.6.2023 = 1.6.2023 00:00 UTC to 30.6.2023 23:50 UTC)
+- Y: The sum, mean or max/min of the whole year (ReferenceTS 1.1.2023 = 1.1.2023 00:00 UTC to 31.12.2023 23:50 UTC)
+
+So for granularity T and H the time stamp defines the end of the measurement interval and for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
+* Hourly values before 2018 were calculated differently based on the SYNOP schedule (HH-1:50 to HH:40)! 
+
+#### 2.1.4. General questions to the open data user community 
 1. [fill in Question 1](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
 2. [fill in Question 2](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
 3. ...
@@ -86,26 +97,15 @@ All MeteoSwiss surface stations have a name and an identfier consiting of three 
 #### 2.2.1. Automatic weather stations (smn, smn-precip, smn-tower)
 SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program (type "smn"). These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by around 100 automatic precipitation stations (type "smn-precip"). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three tower stations at 150m to 230m above ground for boundry layer measurements (type "smn-tower").
 
-#### 2.2.1.1. Discovery metadata w/ data structure for type "smn"
-
->*Open Data Product (Title):* **10-Minuten-SMN-Werte-...** <br>
->**Data structure (Example file):** [https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/smn-10min-now.csv) <br>
+>*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
 >*Granularity: T, H, D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
 >*Format:* csv <br>
->*Volume (MB/GB/TB):* ... <br>
->*Additional remarks*: ... <br>
-
-#### 2.2.1.2. File-level metadata
-
-| Field Name          | Description                                | Format     | Note |
-|---------------------|--------------------------------------------|------------|------|
-| __date__              | Date of notification                       | YYYY-MM-DD | |
-| __time__                 | Time of notification                       | HH:MM      | |
-| __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
-| __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
-
-<!-- Metadaten als .csv -->
+>*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en)
+>*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv)
+>*Parameter metadata:* To be defined
+>*Additional remarks*: One file per station! <br>
 
 #### 2.2.2. ...
 ...
