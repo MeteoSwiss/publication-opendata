@@ -15,6 +15,12 @@ If you have any questions, please contact the project core team: [opendata(at)me
 
 ## Open data products ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-IT))
 
+### 1.3. Granulartiy of MeteoSwiss data
+For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. For measurement data the lowest granulartiy is usually called raw data (Rohwert) or orignal data (Originalwert) and higher granularties are called aggregations or aggregated values. The world meteorological organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines. So if you need hourly, daily, monthly or yearly values, we strongly recommend that you download the according granularity. Downloading the raw data (10min) and calculating sums or means yourself, will not always lead to the same results! Furthermore for historic data it is possibly that manual data corrections have only been applied on higher granularities (like hourly or daily data), which means that historic raw data can still contain errors. Here is an overview of the granularities used in MeteoSwiss:
+
+|Granularity|Name|Description|Examples|
+|T|10min or Instant value|Usually the lowest granularity of a measurement network or model output, also called raw data or original data|SwissMetNet stations|
+
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
 - 2.1. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
@@ -55,8 +61,8 @@ MeteoSwiss operates a network of [land-based weather stations](https://www.meteo
 2. [fill in Question 2](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
 3. ...
 
-#### 2.1.2. smn (automatic-measurements)
-SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program. These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by automatic precipitation stations (about 100 stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings.
+#### 2.1.2. Automatic weather stations (smn, smn-precip, smn-tower)
+SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program (type "smn"). These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by around 100 automatic precipitation stations (type "smn-precip"). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three tower stations at 150m to 230m above ground for boundry layer measurements (type "smn-tower").
 
 #### 2.1.2.1. Discovery metadata w/ data structure
 
