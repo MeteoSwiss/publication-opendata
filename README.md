@@ -100,7 +100,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
->*Granularity: T, H, D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
+>*Granularity:* T, H, D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
 >*Format:* csv <br>
 >*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en)
@@ -108,24 +108,6 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 >*Parameter metadata:* To be defined
 >*Additional remarks*: One file per station! <br>
 
-#### 2.2.2. ...
-...
-
-#### 2.2.2.1. Discovery metadata w/ data structure
-
->*Open Data Product (Title):* **...** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* ... <br>
->*Update frequency:* ... <br>
->*Format:* ... <br>
->*Volume (MB/GB/TB):* ... <br>
->*Additional remarks*: ... <br>
-
-#### 2.2.2.2. File-level metadata
-
-| Field Name          | Description                                | Format     | Note |
-|---------------------|--------------------------------------------|------------|------|
-| __date__            | Date of notification                       | YYYY-MM-DD |      |
 
 ### 2.3. Atmosphere ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-IT))
 ...
