@@ -1,5 +1,38 @@
 # OGD@MeteoSwiss - Open Government Data
 
+<!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
+
+- 2.2. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
+  - 2.2.1. [automatic-measurements (smn)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
+  - 2.2.2. ~~aviation~~
+  - 2.2.3. manual-precipitation-measurements (nime)
+  - 2.2.4. manual-observations (obs)
+  - 2.2.5. point-climate (climate)
+    - records
+  - 2.2.6. pollen-monitoring (pollen)
+  - 2.2.7. phenological-observations (phenology)
+  - 2.2.8. ~~aerosol~~
+- 2.3. [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
+  - ((weather balloon)) radiosondes (radiosounding)
+  - weather-radar (remotesensing)
+  - (?) "Windprofiler"
+  - (?) "LIDAR and ceilometers"
+  - (?) "Microwave Radiometry"
+  - ~~Observations from aircraft~~
+  - ~~Satellite observations~~
+  - (?) "Ozone measurements"
+  - ~~"Lightning detection network"~~
+  - (?) "Radiation monitoring network"
+- 2.4. model
+  - postprocessed data (Data4Web) (?)
+  - ~~nowcasting~~inca (nowcasting) (?)
+  - COSMO/ICON
+  - ...
+- 2.5. grid
+  - climate data (spatial data)
+  - radar and compiprecip
+ 
+    
 ## 1. Context and mission ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-IT))
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending. In the current year (2023) the necessary technical and organizational measures for the implementation of OGD at MeteoSwiss are being tackled within the scope of a project.
 
@@ -42,14 +75,13 @@ For measurement data MeteoSwiss provides an optimized directory structure separa
 
 #### 2.1.3. Time stamps and time intervals
 All reference time stamps at MeteoSwiss are in UTC! Depending on the granularity the time stamp does define different intervals:
-- T: The sum, mean or max/min of the last 10 minutes (ReferenceTS 16:00 = 15:51 to 16:00)
-- H*: The sum, mean or max/min of the last 60 minutes (ReferenceTS 16:00 = 15:01 to 16:00)
-- D: For most parameters the sum, mean or max/min from 00:00 to 23:50 of the according date. Exception for precipitation and snow (manual measurement times used for consistency) where the interval is 6:00 UTC until 5:50 UTC tomorrow (ReferenceTS 22.6.2023 = From 22.6.2023 6:00UTC to 23.6.2023 5:50UTC)
-- M: The sum, mean or max/min of the whole month from 1st to last day of month (ReferenceTS 1.6.2023 = 1.6.2023 00:00 UTC to 30.6.2023 23:50 UTC)
-- Y: The sum, mean or max/min of the whole year (ReferenceTS 1.1.2023 = 1.1.2023 00:00 UTC to 31.12.2023 23:50 UTC)
+- T: The sum, mean or max/min of the last 10 minutes (ReferenceTS 16:00 = `15:50 to 16:00`)
+- H: The sum, mean or max/min of the last six 10min-values (ReferenceTS 16:00 = `15:10 to 16:00`). Please note: Hourly values before 2018 were calculated differently based on the SYNOP schedule (ReferenceTS 16:00 = `14:50 to 15:40`)! 
+- D: For most parameters the sum, mean or max/min from 00:00 to 23:50 of the according date. Exception for precipitation and snow (manual measurement times used for consistency) where the interval is 6:00 UTC until 5:50 UTC tomorrow (ReferenceTS 22.6.2023 = `22.6.2023 6:00 UTC to 23.6.2023 5:50 UTC`)
+- M: The sum, mean or max/min of the whole month from 1st to last day of month (ReferenceTS 1.6.2023 = `1.6.2023 00:00 UTC to 30.6.2023 23:50 UTC`)
+- Y: The sum, mean or max/min of the whole year (ReferenceTS 1.1.2023 = `1.1.2023 00:00 UTC to 31.12.2023 23:50 UTC`)
 
 So for granularity T and H the time stamp defines the end of the measurement interval and for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
-* Hourly values before 2018 were calculated differently based on the SYNOP schedule (HH-1:50 to HH:40)! 
 
 #### 2.1.4. General questions to the open data user community 
 1. [fill in Question 1](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
@@ -57,37 +89,6 @@ So for granularity T and H the time stamp defines the end of the measurement int
 3. ...
 4. 
 
-<!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
-
-- 2.2. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
-  - 2.2.1. [automatic-measurements (smn)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
-  - 2.2.2. ~~aviation~~
-  - 2.2.3. manual-precipitation-measurements (nime)
-  - 2.2.4. manual-observations (obs)
-  - 2.2.5. point-climate (climate)
-    - records
-  - 2.2.6. pollen-monitoring (pollen)
-  - 2.2.7. phenological-observations (phenology)
-  - 2.2.8. ~~aerosol~~
-- 2.3. [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
-  - ((weather balloon)) radiosondes (radiosounding)
-  - weather-radar (remotesensing)
-  - (?) "Windprofiler"
-  - (?) "LIDAR and ceilometers"
-  - (?) "Microwave Radiometry"
-  - ~~Observations from aircraft~~
-  - ~~Satellite observations~~
-  - (?) "Ozone measurements"
-  - ~~"Lightning detection network"~~
-  - (?) "Radiation monitoring network"
-- 2.4. model
-  - postprocessed data (Data4Web) (?)
-  - ~~nowcasting~~inca (nowcasting) (?)
-  - COSMO/ICON
-  - ...
-- 2.5. grid
-  - climate data (spatial data)
-  - radar and compiprecip
 
 ### 2.2. Surface ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
