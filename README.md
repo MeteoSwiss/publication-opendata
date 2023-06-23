@@ -103,9 +103,9 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 >*Granularity:* T, H, D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
 >*Format:* csv <br>
->*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en)
->*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv)
->*Parameter metadata:* To be defined
+>*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
+>*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) <br>
+>*Parameter metadata:* To be defined <br>
 >*Additional remarks*: One file per station! <br>
 
 
