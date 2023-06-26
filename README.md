@@ -222,7 +222,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 1.8 <br>
->*Additional remarks*: ... <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 <br>
 
 >*Open Data Product (Title):* **INCA Precipitation quantitative extended forecast (RR_ext)** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
@@ -230,6 +230,6 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 20 <br>
->*Additional remarks*: ... <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 <!-- Metadaten als .csv -->
