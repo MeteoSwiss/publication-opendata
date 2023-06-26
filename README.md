@@ -232,4 +232,46 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Volume (MB):* 20 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
+>*Open Data Product (Title):* **INCA Precipitation qualitative (based radar only,RP)** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* 5min <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 3.5 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **INCA Precipitation qualitative extended forecast (based radard only, RP_ext )** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* 5min <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 37 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **INCA Snowfall quantitative (RS)** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* 10min <br>
+>*Update frequency:* 10min <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.5 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **INCA Snowfall quantitative extended forecast (RS_ext)** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* 10min <br>
+>*Update frequency:* 10min <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 1.5 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **INCA Snowfall qualitative (based radar only, PN)** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* 10min <br>
+>*Update frequency:* 10min <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 20 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+
+
 <!-- Metadaten als .csv -->
