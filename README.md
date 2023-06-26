@@ -206,7 +206,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 
 
-#### 2.4 Model data
+#### 2.4. Model data
 
 #### 2.4.1. postprocessed data
 
@@ -214,6 +214,6 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 
 
-#### 2.4.2 INCA data
+#### 2.4.2. INCA data
 
 <!-- Metadaten als .csv -->
