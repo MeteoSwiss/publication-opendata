@@ -215,6 +215,8 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 
 #### 2.4.2. INCA data
+The INCA nowcasting forecast come in 2 versions for most parameters a) a short 0h- +6h version and a long 6h-+28/33h version.
+Please keep in mind, that in the long version, the part after the first 6h comes from the COSMO-1E model, which means, that it is beeing update only every 3h (00h, 03h, 06h, 09h etc. UTC)
 
 >*Open Data Product (Title):* **INCA Precipitation quantitative (RR)** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
@@ -352,12 +354,12 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Volume (MB):* 42 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Snowfall qualitative (based radar only, PN)** <br>
+>*Open Data Product (Title):* **INCA Relative Humidity (RH)** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* 10min <br>
+>*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 20 <br>
+>*Volume (MB):* 12.5 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Snowfall qualitative (based radar only, PN)** <br>
