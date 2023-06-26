@@ -3,14 +3,13 @@
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
 - 2.2. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
-  - 2.2.1. [automatic-measurements (smn)](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-smn-automatic-measurements)
+  - 2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower)
   - 2.2.2. ~~aviation~~
-  - 2.2.3. manual-precipitation-measurements (nime)
-  - 2.2.4. manual-observations (obs)
-  - 2.2.5. point-climate (climate)
-    - records
-  - 2.2.6. pollen-monitoring (pollen)
-  - 2.2.7. phenological-observations (phenology)
+  - 2.2.3. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot)
+  - 2.2.4. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs)
+  - 2.2.5. [point-climate (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip) and records
+  - 2.2.6. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#224-swiss-pollen-monitoring-stations-pollen)
+  - 2.2.7. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#225-phenological-observations-phenology)
   - 2.2.8. ~~aerosol~~
 - 2.3. [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
   - ((weather balloon)) radiosondes (radiosounding)
@@ -146,6 +145,8 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
 >*Additional remarks*: One file per station! <br>
+
+Additionally the top 10 records of every climate station and the overall records can be downloaded per parameter separately. TBD...
 
 #### 2.2.4. Swiss pollen monitoring stations (pollen)
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). This consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is now operational: for the first time in the world, instead of daily averages being available after a week, information is available in real time at an hourly resolution.
