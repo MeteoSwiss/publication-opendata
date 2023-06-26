@@ -224,4 +224,12 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Volume (MB):* 1.8 <br>
 >*Additional remarks*: ... <br>
 
+>*Open Data Product (Title):* **INCA Precipitation quantitative extended forecast (RR_ext)** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* 10min <br>
+>*Update frequency:* 10min <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 20 <br>
+>*Additional remarks*: ... <br>
+
 <!-- Metadaten als .csv -->
