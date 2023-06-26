@@ -216,4 +216,12 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 #### 2.4.2. INCA data
 
+>*Open Data Product (Title):* **...** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
+>*Granularity:* ... <br>
+>*Update frequency:* ... <br>
+>*Format:* ... <br>
+>*Volume (MB/GB/TB):* ... <br>
+>*Additional remarks*: ... <br>
+
 <!-- Metadaten als .csv -->
