@@ -22,7 +22,7 @@
   - (?) "Ozone measurements"
   - ~~"Lightning detection network"~~
   - (?) "Radiation monitoring network"
-- 2.4. model (https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data).
+- 2.4. [model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data).
   - postprocessed data (Data4Web) (?)
   - ~~nowcasting~~inca (nowcasting) (?)
   - COSMO/ICON
