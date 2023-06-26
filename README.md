@@ -4,13 +4,13 @@
 
 - 2.2. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
   - 2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower)
-  - 2.2.2. ~~aviation~~
-  - 2.2.3. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot)
-  - 2.2.4. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs)
-  - 2.2.5. [point-climate (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip) and records
-  - 2.2.6. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#224-swiss-pollen-monitoring-stations-pollen)
-  - 2.2.7. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#225-phenological-observations-phenology)
-  - 2.2.8. ~~aerosol~~
+  - 2.2.x. ~~aviation~~
+  - 2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot)
+  - 2.2.3. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs)
+  - 2.2.4. [point-climate (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip) and records
+  - 2.2.5. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#224-swiss-pollen-monitoring-stations-pollen)
+  - 2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#225-phenological-observations-phenology)
+  - 2.2.x. ~~aerosol~~
 - 2.3. [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
   - ((weather balloon)) radiosondes (radiosounding)
   - weather-radar (remotesensing)
@@ -83,8 +83,8 @@ All reference time stamps at MeteoSwiss are in UTC! Depending on the granularity
 So for granularity T and H the time stamp defines the end of the measurement interval and for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
 
 #### 2.1.4. General questions to the open data user community 
-1. [fill in Question 1](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
-2. [fill in Question 2](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
+1. [Besides wind guts (maximum wind speed) MeteoSwiss plans to only publish maximum and minimum (hourly, daily, monthly and yearly) for temperature, since these aggregations are widely used and used to be measured by separate instruments in the past. Du users want to have aggregated (calculate) maximum and minimum also for other parameters like pressure, humidity or soil parameters or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
+2. [For sum parameters (precipitation, snow) MeteoSwiss plans to only publish one parameter per granularity. Do users want to have multi-hour (e.g. 6h, 12h, 24h) or multi-day (2d, 3d, 6d) aggregated sums or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
 3. ...
 4. 
 
