@@ -204,4 +204,16 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 | __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
 | __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
 
+
+
+#### 2.4 Model data
+
+#### 2.4.1. postprocessed data
+
+
+
+
+
+#### 2.4.2 INCA data
+
 <!-- Metadaten als .csv -->
