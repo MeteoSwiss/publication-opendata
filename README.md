@@ -336,20 +336,20 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Volume (MB):* 12.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Snowfall qualitative (based radar only, PN)** <br>
+>*Open Data Product (Title):* **INCA temperature (TT)** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* 10min <br>
+>*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 20 <br>
+>*Volume (MB):* 12.5 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Snowfall qualitative (based radar only, PN)** <br>
+>*Open Data Product (Title):* **INCA Temperature extended (TT_ext)** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* 10min <br>
+>*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 20 <br>
+>*Volume (MB):* 42 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Snowfall qualitative (based radar only, PN)** <br>
