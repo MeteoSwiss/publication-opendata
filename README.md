@@ -10,7 +10,7 @@
     2.1.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#211-data-granularity) ((Plurals?)) <br>
     2.1.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-data-structure-and-update-cycle) ((Plurals?)) <br>
     2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/master#213-time-stamps-and-intervals) <br>
-    2.2. [Surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-de-fr-it) <br>
+    2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-de-fr-it) <br>
     2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower) <br>
     2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot) <br>
     2.2.3. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs) <br>
@@ -19,7 +19,7 @@
     2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#226-phenological-observations-phenology) <br>
     2.2.x. ~~aviation~~ <br>
     2.2.x. ~~aerosol~~ <br>
-    2.3. [Atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-de-fr-it) <br>
+    2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-de-fr-it) <br>
     2.3.1. ((weather balloon)) radiosondes (radiosounding) <br>
     2.3.2. weather-radar (remotesensing) <br>
     2.3.x. (?) "Windprofiler" <br>
@@ -35,8 +35,8 @@
     2.4.2. [INCA (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-INCA-data) <br>
     2.4.3. COSMO/ICON <br>
     2.3.x. ... <br>
-    2.5. Grid <br>
-    2.3.x. climate-data (spatial data) <br>
+    2.5. Grid data <br>
+    2.3.x. spatial-climate-data <br>
     2.3.x. radar and compiprecip <br>
 3. Questions to the open data user community <br> 
  
