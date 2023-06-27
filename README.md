@@ -15,7 +15,7 @@
     2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower) <br>
     2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot) <br>
     2.2.3. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs) <br>
-    2.2.4. [climate-data (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip)
+    2.2.4. [climate-data (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip) <br>
     2.2.4.1 records and extremes <br>
     2.2.5. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#225-swiss-pollen-monitoring-stations-pollen) <br>
     2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#226-phenological-observations-phenology) <br>
