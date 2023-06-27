@@ -11,6 +11,7 @@
     2.1.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-data-structure-and-update-cycle) ((Plurals?)) <br>
     2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/master#213-time-stamps-and-intervals) <br>
     2.1.4. Field separator ((;)), decimal divider ((.)) and missing values ((-)) <br>
+<br>
     2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-de-fr-it) <br>
     2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower) <br>
     2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot) <br>
