@@ -2,11 +2,12 @@
 
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
-1. [Context and mission](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-de-fr-it) <br>
-    1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository) <br>
-    1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point) <br>
-2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it) <br>
-    2.2. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it) <br>
+- 1. [Context and mission](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-de-fr-it) <br>
+    - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository) <br>
+    - 1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point) <br>
+- 2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it) <br>
+    - 2.1. General information
+    2.2. [Surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it) <br>
     2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower) <br>
     2.2.x. ~~aviation~~ <br>
     2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot)
@@ -15,7 +16,7 @@
     2.2.5. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#224-swiss-pollen-monitoring-stations-pollen)
     2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#225-phenological-observations-phenology)
     2.2.x. ~~aerosol~~
-    2.3. [atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
+    2.3. [Atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
     ((weather balloon)) radiosondes (radiosounding)
     weather-radar (remotesensing)
     (?) "Windprofiler"
@@ -26,12 +27,12 @@
     (?) "Ozone measurements"
     ~~"Lightning detection network"~~
     (?) "Radiation monitoring network"
-    2.4. [model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data)
+    2.4. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data)
     2.4.1. postprocessed data (Data4Web) (?)
     2.4.2. [INCA (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-INCA-data)
     2.4.3. COSMO/ICON
     ...
-    2.5. grid
+    2.5. Grid
     climate data (spatial data)
     radar and compiprecip
  
