@@ -6,38 +6,38 @@
     1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository) <br>
     1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point) <br>
 2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it) <br>
-    2.1. General information <br>
-    2.1.1. Data granularity ((Plurals?)) <br>
-    2.1.2. Data structure and update cycle ((Plurals?)) <br>
-    2.1.3. Time stamps and time intervals <br>
+    2.1. [General information](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-general-information) <br>
+    2.1.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#211-data-granularity) ((Plurals?)) <br>
+    2.1.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-data-structure-and-update-cycle) ((Plurals?)) <br>
+    2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/master#213-time-stamps-and-intervals) <br>
     2.2. [Surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-de-fr-it) <br>
     2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower) <br>
-    2.2.x. ~~aviation~~ <br>
     2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot) <br>
     2.2.3. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs) <br>
     2.2.4. [point-climate (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip) (("and records")) <br>
     2.2.5. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#225-swiss-pollen-monitoring-stations-pollen) <br>
     2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#226-phenological-observations-phenology) <br>
+    2.2.x. ~~aviation~~ <br>
     2.2.x. ~~aerosol~~ <br>
     2.3. [Atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-de-fr-it) <br>
-    ((weather balloon)) radiosondes (radiosounding) <br>
-    weather-radar (remotesensing) <br>
-    (?) "Windprofiler" <br>
-    (?) "LIDAR and ceilometers" <br>
-    (?) "Microwave Radiometry" <br>
-    ~~Observations from aircraft~~ <br>
-    ~~Satellite observations~~ <br>
-    (?) "Ozone measurements" <br>
-    ~~"Lightning detection network"~~ <br>
-    (?) "Radiation monitoring network" <br>
+    2.3.1. ((weather balloon)) radiosondes (radiosounding) <br>
+    2.3.2. weather-radar (remotesensing) <br>
+    2.3.x. (?) "Windprofiler" <br>
+    2.3.x. (?) "LIDAR and ceilometers" <br>
+    2.3.x. (?) "Microwave Radiometry" <br>
+    2.3.x. (?) "Ozone measurements" <br>
+    2.3.x. (?) "Radiation monitoring network" <br>
+    2.3.x. ~~Observations from aircraft~~ <br>
+    2.3.x. ~~Satellite observations~~ <br>
+    2.3.x. ~~"Lightning detection network"~~ <br>
     2.4. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data) <br>
     2.4.1. postprocessed data (Data4Web) (?) <br>
     2.4.2. [INCA (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-INCA-data) <br>
     2.4.3. COSMO/ICON <br>
-    ... <br>
+    2.3.x. ... <br>
     2.5. Grid <br>
-    climate data (spatial data) <br>
-    radar and compiprecip <br>
+    2.3.x. climate data (spatial data) <br>
+    2.3.x. radar and compiprecip <br>
 3. Questions to the open data user community <br> 
  
     
@@ -59,7 +59,7 @@ If you have any questions, please contact the project core team: [opendata(at)me
 ### 2.1. General information
 MeteoSwiss operates an extensive monitoring network, both on the ground (surface stations) and in the atmosphere, that enables it to collect round-the-clock meteorological data for the whole of Switzerland. These data form the basis for making weather forecasts, issuing bad weather warnings, and analysing climate change. Furthermore MeteoSwiss operates a weather model for forecasting and also generates gridded data sets. All these different data types are described below and are available under an open data license.
 
-#### 2.1.1. Granulartiy of MeteoSwiss data
+#### 2.1.1. Data granularity
 For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. For measurement data the lowest granulartiy is usually called raw data (Rohwert) or orignal data (Originalwert) and higher granularties are called aggregations or aggregated values. The world meteorological organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines. So if you need hourly, daily, monthly or yearly values, we strongly recommend that you download the according granularity. Downloading the raw data (10min) and calculating sums or means yourself, will not always lead to the same results! Furthermore for historic data it is possibly that manual data corrections have only been applied on higher granularities (like hourly or daily data), which means that historic raw data can still contain errors. Here is an overview of the granularities used in MeteoSwiss:
 
 | Granularity | Name | Description | Examples |
