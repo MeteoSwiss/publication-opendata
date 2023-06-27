@@ -21,7 +21,7 @@
     2.2.x. ~~aviation~~ <br>
     2.2.x. ~~aerosol~~ <br>
     2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-de-fr-it) <br>
-    2.3.1. ((weather balloon)) radiosondes (radiosounding) <br>
+    2.3.1. radiosondes (radiosounding) <br>
     2.3.2. weather-radar (remotesensing) <br>
     2.3.x. (?) "Windprofiler" <br>
     2.3.x. (?) "LIDAR and ceilometers" <br>
