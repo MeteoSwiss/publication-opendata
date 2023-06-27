@@ -23,9 +23,9 @@
   - ~~"Lightning detection network"~~
   - (?) "Radiation monitoring network"
 - 2.4. [model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data).
-  - postprocessed data (Data4Web) (?)
-  - [INCA (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-INCA-data).
-  - COSMO/ICON
+  - 2.4.1. postprocessed data (Data4Web) (?)
+  - 2.4.2. [INCA (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-INCA-data).
+  - 2.4.3. COSMO/ICON
   - ...
 - 2.5. grid
   - climate data (spatial data)
