@@ -216,7 +216,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 #### 2.4.2. INCA data
 The INCA nowcasting forecast come in 2 versions for most parameters a) a short 0h- +6h version and an extended 6h-+28/33h version.
-Please keep in mind, that in the extended version, the part after the first 6h comes from the COSMO-1E model, which means, that it is beeing update only every 3h (00h, 03h, 06h, 09h etc. UTC).
+Please be aware, that in the extended version, the part after the first 6h comes from the COSMO-1E model, which means, that it is beeing update only every 3h (00h, 03h, 06h, 09h etc. UTC). Only the first +6h are beeing updated according to the respective update frequency. 
 For more information see the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **INCA Precipitation quantitative (RR)** <br>
