@@ -2,21 +2,24 @@
 
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
-- 1. [Context and mission](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-de-fr-it) <br>
-    - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository) <br>
-    - 1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point) <br>
-- 2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it) <br>
-    - 2.1. General information
-    2.2. [Surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it) <br>
+1. [Context and mission](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-de-fr-it) <br>
+    1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository) <br>
+    1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point) <br>
+2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it) <br>
+    2.1. General information
+    2.1.1. Data granularity ((Plurals?))
+    2.1.2. Data structure and update cycle ((Plurals?))
+    2.1.3. Time stamps and time intervals
+    2.2. [Surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-de-fr-it) <br>
     2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower) <br>
     2.2.x. ~~aviation~~ <br>
     2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot)
     2.2.3. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs)
     2.2.4. [point-climate (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip) and records
-    2.2.5. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#224-swiss-pollen-monitoring-stations-pollen)
-    2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#225-phenological-observations-phenology)
+    2.2.5. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#225-swiss-pollen-monitoring-stations-pollen)
+    2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#226-phenological-observations-phenology)
     2.2.x. ~~aerosol~~
-    2.3. [Atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-atmosphere-de-fr-it)
+    2.3. [Atmosphere](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-de-fr-it)
     ((weather balloon)) radiosondes (radiosounding)
     weather-radar (remotesensing)
     (?) "Windprofiler"
@@ -35,6 +38,7 @@
     2.5. Grid
     climate data (spatial data)
     radar and compiprecip
+3. Questions to the open data user community 
  
     
 ## 1. Context and mission ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-IT))
@@ -66,7 +70,7 @@ For all types of data MeteoSwiss uses standard granularities. Depending on the a
 | M | Monthly value | Usually aggregated from daily values and widely used in climatology for homogenized data and norm values and for seasonal data. For some very old data series (pre 1864) only monthly data exists!| [Homogeneous data series](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html), [Climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) |
 | Y | Yearly value | Usually aggregated from daily values and mostly used in climatology or climage change screnarios. | [Climate change scenarios](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-change-scenarios.html)|
 
-#### 2.1.2. Structure and update cycle
+#### 2.1.2. Data structure and update cycle
 For measurement data MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency. Here is the overview:
 
 | Type | Description | Update cycle | Used for |
