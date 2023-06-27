@@ -14,7 +14,8 @@
     2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower) <br>
     2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot) <br>
     2.2.3. [visual-observations (obs)](https://github.com/MeteoSwiss/publication-opendata#223-visual-observations-obs) <br>
-    2.2.4. [climate-data (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip) (("and records")) <br>
+    2.2.4. [climate-data (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata#224-climate-stations-swiss-nbcn-climate-climate-precip)
+    2.2.4.1 records and extremes <br>
     2.2.5. [pollen-monitoring (pollen)](https://github.com/MeteoSwiss/publication-opendata#225-swiss-pollen-monitoring-stations-pollen) <br>
     2.2.6. [phenological-observations (phenology)](https://github.com/MeteoSwiss/publication-opendata#226-phenological-observations-phenology) <br>
     2.2.x. ~~aviation~~ <br>
@@ -38,7 +39,7 @@
     2.5. Grid data <br>
     2.3.x. spatial-climate-data <br>
     2.3.x. radar and compiprecip <br>
-3. Questions to the open data user community <br> 
+4. Questions to the open data user community <br> 
  
     
 ## 1. Context and mission ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-IT))
