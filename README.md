@@ -3,7 +3,7 @@
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
 1. [Context and mission](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-de-fr-it)
-    1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
+   1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point)
 2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it)
     2.2. [surface](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-surface-de-fr-it)
