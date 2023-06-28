@@ -37,8 +37,8 @@
         - 2.4.2. [INCA (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-INCA-data)
         - 2.4.3. COSMO/ICON
         - 2.3.x. ...
-    - 2.5. Grid data
-        - 2.3.x. spatial-climate-data
+    - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-Grid-data)
+        - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Spatial-climate-data)
         - 2.3.x. radar and compiprecip
 3. Questions to the open data user community 
  
@@ -441,6 +441,11 @@ For more information see the metadata in each NetCDF-File.
 >*Format:* NetCDF <br>
 >*Volume (MB):* 20 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+
+#### 2.5. Grid data
+
+#### 2.5.1. Spatial climate data  
 
 
 <!-- Metadaten als .csv -->
