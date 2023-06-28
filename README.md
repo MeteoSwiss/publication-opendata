@@ -2,7 +2,7 @@
 
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
-1. [Context and mission](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-de-fr-it)
+1. [Context and mission of OGD@MeteoSwiss](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-ogd@meteoswiss-de-fr-it)
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     - 1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point)
 2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it)
@@ -43,19 +43,21 @@
 3. Questions to the open data user community 
  
     
-## 1. Context and mission ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-IT))
+## 1. Context and mission of OGD@MeteoSwiss ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-IT))
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
 
 In the current year (2023) the necessary technical and organizational measures for the implementation of Open Government Data (OGD) at [MeteoSwiss](https://www.meteoswiss.admin.ch/about-us/portrait.html) are being tackled within the scope of a project.
+
+Finding out, collecting, analysing and weighting user needs is the central way for us to be able to offer good 'open data products'.
 
 ### 1.1. Purpose of this repository
 This repository is used by MeteoSwiss to inform potential users interested in open data and the public about the plans and to receive specific feedback from them on proposals.
 1. [We describe the 'open data products'](https://github.com/MeteoSwiss/publication-opendata/tree/main#2-open-data-products) being designed by MeteoSwiss' specialist data teams. That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics**.
 2. We are looking for your feedback on our proposals: To this end, [we ask you general questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#3-questions-to-the-open-data-user-community) on the one hand and are open to your specific questions and feedback on the other. **The preferred way to share the latter is to [open a public issue in this repository](https://github.com/MeteoSwiss/publication-opendata/issues/new).** Alternatively, [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-general-contact-point).
 
-All information reflects the current state of work and is subject to change. Finding out, collecting, analysing and weighting user needs is the central way for MeteoSwiss to be able to offer good open data products.
+**Important note:** All information reflects the current state of work and is subject to change.
 
-Thank you very much for your attention and openness to enter into an exchange with us for this purpose.
+Thank you very much for your attention and openness to enter into an exchange with us.
 
 ### 1.2. General contact point
 If you have any questions, please contact the project core team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
