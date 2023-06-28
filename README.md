@@ -72,9 +72,9 @@ For all types of data MeteoSwiss uses standard granularities. Depending on the a
 
 If you need hourly, daily, monthly or yearly values, we strongly recommend that you download the according granularity. Downloading the raw data (10min) and calculating sums or means yourself, will not always lead to the same results! Furthermore for historic data it is possibly that manual data corrections have only been applied on higher granularities (like hourly or daily data), which means that historic raw data can still contain errors.
 
-This is an overview of the granularities used by MeteoSwiss:
+This is the overview of the granularities used by MeteoSwiss:
 
-| Granularity | Name | Description | Applications |
+| Granularity | Name | Description | Used for |
 | --- | --- | --- | --- |
 | T | 10min value | At MeteoSwiss this is the standard granularity for realtime data of the automatic measurement network SwissMetNet (SMN) or the model output. Meteorological observations do also use this granularity but only offer values at fixed intervals like 6UTC, 12UTC and 18UTC (called "Terminwerte")! | [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html), [OBS](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html) |
 | H | Hourly value | Either aggregated from 10min values or provided by the instrument/network | [Pollen](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) |
@@ -83,7 +83,9 @@ This is an overview of the granularities used by MeteoSwiss:
 | Y | Yearly value | Usually aggregated from daily values and mostly used in climatology or climate change screnarios. | [Climate change scenarios](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-change-scenarios.html)|
 
 #### 2.1.2. Data structure and update cycle
-For measurement data MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency. Here is the overview:
+For measurement data MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
+
+This is the overview:
 
 | Type | Description | Update cycle | Used for |
 | --- | --- | --- | --- |
