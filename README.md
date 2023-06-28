@@ -89,7 +89,7 @@ This is the overview:
 
 | Type | Description | Update cycle | Used for |
 | --- | --- | --- | --- |
-| historical | From the start of the measurement until the 31st of december of last year | Once a year  | Granularity M, D, H, T |
+| historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) M, D, H, T |
 | recent | From January 1st of this year until yesterday | Daily at 12UTC | Granularity M, D, H, T |
 | now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only Granularity H, T |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. Granularity Y) |
