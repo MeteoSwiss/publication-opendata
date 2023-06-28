@@ -269,7 +269,7 @@ For more information see the metadata in each NetCDF-File.
 >*Open Data Product (Title):* **INCA Precipitation qualitative extended forecast (based on radar only, RP_ext )** <br>
 >*Data structure (Example file):* see short forecast version <br>
 >*Granularity:* 5min <br>
->*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC <br>
+>*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 37 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
