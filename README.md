@@ -187,9 +187,9 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
 >*Open Data Product (Title):* **Measurement data from the Swiss phenology network** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical_ADB.csv](https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical_ADB.csv) <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical.csv](https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical.csv) <br>
 >*Granularity:* Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
+>*Update frequency:* Yearly (directory "historical"), event driven (directory "recent")  - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
 >*Format:* csv <br>
 >*Network map:* [Phenology](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) <br>
