@@ -372,7 +372,6 @@ For more information see the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **INCA Temperature extended (TT_ext)** <br>
 >*Data structure (Example file):* see short forecast version  <br>
->*Granularity:* 60min <br> <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
 >*Format:* NetCDF <br>
