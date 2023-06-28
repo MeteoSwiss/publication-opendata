@@ -38,7 +38,7 @@
         - 2.4.3. COSMO/ICON
         - 2.3.x. ...
     - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-Grid-data)
-        - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Spatial-climate-data)
+        - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
         - 2.3.x. radar and compiprecip
 3. Questions to the open data user community 
  
