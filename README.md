@@ -258,7 +258,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 20 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Precipitation qualitative (based radar only,RP)** <br>
+>*Open Data Product (Title):* **INCA Precipitation qualitative (based on radar only, RP)** <br>
 >*Data structure (Example file):* [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/RP_INCA_202106280700.nc)  <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* 5min <br>
@@ -266,7 +266,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 3.5 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Precipitation qualitative extended forecast (based radard only, RP_ext )** <br>
+>*Open Data Product (Title):* **INCA Precipitation qualitative extended forecast (based on radar only, RP_ext )** <br>
 >*Data structure (Example file):* see short forecast version <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC <br>
@@ -290,7 +290,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 1.5 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Snowfall qualitative (based radar only, PN)** <br>
+>*Open Data Product (Title):* **INCA Snowfall qualitative (based on radar only, PN)** <br>
 >*Data structure (Example file):* [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/PN_INCA_202106280700.nc) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* 5min <br>
@@ -298,7 +298,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 0.7 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Snowfall qualitative extended forecast (based radar only, PN_ext)** <br>
+>*Open Data Product (Title):* **INCA Snowfall qualitative extended forecast (based on radar only, PN_ext)** <br>
 >*Data structure (Example file):* see short forecast version  <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
@@ -314,7 +314,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 0.7 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Precipitation type for RR_ext extended forecast in 5 classes rain, snow, snow-rain,freezing rain,rain&hail ((hail first 30min only, PT_ext)** <br>
+>*Open Data Product (Title):* **INCA Precipitation type for RR_ext extended forecast in 5 classes rain, snow, snow-rain,freezing rain,rain&hail (hail first 30min only, PT_ext)** <br>
 >*Data structure (Example file):* see short forecast version  <br>
 >*Granularity:* 10min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
@@ -322,7 +322,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 4.5 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Precipitation type for RP in 5 classes rain, snow, snow-rain,freezing rain,rain&hail ((hail first 30min only, NT)** <br>
+>*Open Data Product (Title):* **INCA Precipitation type for RP in 5 classes rain, snow, snow-rain,freezing rain,rain&hail (hail first 30min only, NT)** <br>
 >*Data structure (Example file):* [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/NT_INCA_202106280700.nc) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* 5min <br>
@@ -330,7 +330,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 1.5 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA Precipitation type for RP_ext extended forecast in 5 classes rain, snow, snow-rain,freezing rain,rain&hail ((hail first 30min only, NT_ext)** <br>
+>*Open Data Product (Title):* **INCA Precipitation type for RP_ext extended forecast in 5 classes rain, snow, snow-rain,freezing rain,rain&hail (hail first 30min only, NT_ext)** <br>
 >*Data structure (Example file):* see short forecast version  <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
@@ -363,7 +363,7 @@ For more information see the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA temperature (TT)** <br>
->*Data structure (Example file):* [RS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/RS_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/TT_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
@@ -371,7 +371,8 @@ For more information see the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Temperature extended (TT_ext)** <br>
->*Data structure (Example file):* [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/TT_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* see short forecast version  <br>
+>*Granularity:* 60min <br> <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
 >*Format:* NetCDF <br>
