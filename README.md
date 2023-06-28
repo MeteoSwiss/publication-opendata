@@ -453,7 +453,7 @@ See the linked description files for each product for further information.
 For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
->*Detailed product document(s): *[RprelimD](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf),  [RhiresD](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [RhiresM,RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
+>Detailed product document(s): *[RprelimD](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf),  [RhiresD](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [RhiresM,RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
