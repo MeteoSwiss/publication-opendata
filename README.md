@@ -446,11 +446,14 @@ For more information see the metadata in each NetCDF-File.
 #### 2.5. Grid data
 
 #### 2.5.1. Spatial climate data  
+[Overview of spatial climate products](https://www.meteoschweiz.admin.ch/dam/jcr:215c313a-dc13-4b67-bca0-dbd966597f9a/ProdDoc_Cover-dfie.pdf)
 The spatial climate data are statistically derived from surface data. 
 The spatial climate data, which contain radiation and cloud cover parameters are derived from MeteoSat satellite data together with surface data. 
 See the linked description files for each product for further information. 
+For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
+>*Detailed product document(s): * 
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
