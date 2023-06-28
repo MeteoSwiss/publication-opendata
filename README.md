@@ -47,7 +47,9 @@
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending. In the current year (2023) the necessary technical and organizational measures for the implementation of OGD at MeteoSwiss are being tackled within the scope of a project.
 
 ### 1.1. Purpose of this repository
-This repository is used by MeteoSwiss to inform potential users interested in open data about the plans and to receive specific feedback from them on proposals. **We describe below the open data products being designed by the various interdisciplinary data teams.** That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics.**
+This repository is used by MeteoSwiss to inform potential users interested in open data about the plans and to receive specific feedback from them on proposals.
+- **We describe below the open data products being designed by the various interdisciplinary data teams.** That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics.**
+- We are looking for your feedback on our proposals: To this end, we ask you general questions on the one hand and are open to your specific questions and feedback on the other.
 
 All information reflects the current state of work and is subject to change. Finding out, collecting, analysing and weighting user needs is the central way for MeteoSwiss to be able to offer good open data products.
 
