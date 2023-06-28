@@ -446,6 +446,50 @@ For more information see the metadata in each NetCDF-File.
 #### 2.5. Grid data
 
 #### 2.5.1. Spatial climate data  
+The spatial climate data are statistically derived from surface data. 
+The spatial climate data, which contain radiation and cloud cover parameters are derived from MeteoSat satellite data together with surface data. 
+See the linked description files for each product for further information. 
+
+>*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded mean temperature data (TabsD, TabsM, TabsY)** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
 
 
 <!-- Metadaten als .csv -->
