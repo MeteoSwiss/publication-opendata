@@ -243,7 +243,7 @@ Please be aware, that in the extended version, the part after the first 6h comes
 For more information see the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **INCA Precipitation quantitative (RR)** <br>
-1. >*Data structure (Example file):* [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/RR_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/RR_INCA_202106280700.nc) <br>
 >*Granularity:* 10min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
@@ -259,7 +259,7 @@ For more information see the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Precipitation qualitative (based radar only,RP)** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv)  <br>
+>*Data structure (Example file):* [RS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca/RS_INCA_202106280700.nc)  <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* 5min <br>
 >*Format:* NetCDF <br>
