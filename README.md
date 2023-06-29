@@ -102,7 +102,9 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 - M: The sum, mean or max/min of the whole month from 1st to last day of month (ReferenceTS 1.6.2023 = `1.6.2023 00:10 UTC to 30.6.2023 24:00 UTC`)
 - Y: The sum, mean or max/min of the whole year (ReferenceTS 1.1.2023 = `1.1.2023 00:10 UTC to 31.12.2023 24:00 UTC`)
 
-So for granularity T and H the time stamp defines the end of the measurement interval and for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
+Accordingly, it follows that
+- for granularity T and H the time stamp defines the end of the measurement interval and
+- for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
 
 #### 2.1.4. General questions to the open data user community 
 1. [Besides wind guts (maximum wind speed) MeteoSwiss plans to only publish maximum and minimum (hourly, daily, monthly and yearly) for temperature, since these aggregations are widely used and used to be measured by separate instruments in the past. Do users want to have aggregated (calculated) maximum and minimum also for other parameters like pressure, humidity or soil parameters or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
