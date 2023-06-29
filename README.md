@@ -23,7 +23,7 @@
         - 2.2.8. Aerosol measurements (will not be provided as 'open data'; more about [official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html))
     - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data-de-fr-it)
         - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
-        - 2.3.2. weather-radar (remotesensing)
+        - 2.3.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
         - 2.3.x. (?) "Windprofiler"
         - 2.3.x. (?) "LIDAR and ceilometers"
         - 2.3.x. (?) "Microwave Radiometry"
@@ -223,28 +223,26 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 >*Parameter metadata:* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-atmosphere/radiosounding-PAY-metadata](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata) <br>
 >*Additional remarks*: ... <br>
 
-#### 2.3.2. ...
-...
+#### 2.3.2. Weather radar network (remotesensing)
+Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
 
-#### 2.3.2.1. Discovery metadata w/ data structure
+The sites are
+- Albis near Zurich (equipped with the latest technology (dual polarisation) in 2012, monitors the atmosphere of the whole of northern Switzerland)
+- Monte Lema in the Canton of Ticino (equipped with the latest technology (dual polarisation) in 2011, monitors the atmosphere of the whole of southern Switzerland)
+- La Dôle near Geneva (equipped with the latest technology (dual polarisation) in 2011)
+- Pointe de la Plaine Morte in the Canton of Valais (equipped with the latest technology (dual polarisation), commenced operation in 2014 and monitors the atmosphere in the inner Alpine region)
+- the Weissfluhgipfel in the Canton of Graubünden (equipped with the latest technology (dual polarisation), commenced operation in 2016, and monitors the atmosphere in the inner Alpine region)
 
 >*Open Data Product (Title):* **...** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* ... <br>
->*Update frequency:* ... <br>
+>*Data structure (Example file):* [...](...) <br>
+>*Granularity:* ... (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* ... - see [chapter 2.1.2.](#212-structure-and-update-cycle) for more details! <br>
 >*Format:* ... <br>
 >*Volume (MB/GB/TB):* ... <br>
+>*Network map:* ... <br>
+>*Station metadata:* ... <br>
+>*Parameter metadata:* [...](...) <br>
 >*Additional remarks*: ... <br>
-
-#### 2.3.2.2. File-level metadata
-
-| Field Name          | Description                                | Format     | Note |
-|---------------------|--------------------------------------------|------------|------|
-| __date__              | Date of notification                       | YYYY-MM-DD | |
-| __time__                 | Time of notification                       | HH:MM      | |
-| __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
-| __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
-
 
 
 #### 2.4. Model data
