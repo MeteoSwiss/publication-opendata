@@ -121,7 +121,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
 >*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* csv <br>
+>*Format:* CSV <br>
 >*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -134,7 +134,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss also operate
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/nime/daily/historical/nime_D_historical_PFA.csv](https://github.com/MeteoSwiss/publication-opendata/nime/daily/historical/nime_D_historical_PFA.csv) <br>
 >*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* csv <br>
+>*Format:* CSV <br>
 >*Network map:* [NIME and TOT](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-manuell/ch.meteoschweiz.messnetz-manuell_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -147,7 +147,7 @@ The information on current weather events is supplemented by [visual human obser
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/obs/hourly/recent/obs_H_recent_TAV.csv](https://github.com/MeteoSwiss/publication-opendata/publication-opendata/obs/hourly/recent/obs_H_recent_TAV.csv) <br>
 >*Granularity:* T (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* csv <br>
+>*Format:* CSV <br>
 >*Network map:* [OBS](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-beobachtungen&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -160,7 +160,7 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/climate/monthly/historical/climate_M_historical_GSB.csv](https://github.com/MeteoSwiss/publication-opendata/climate/monthly/historical/climate_M_historical_GSB.csv) <br>
 >*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* csv <br>
+>*Format:* CSV <br>
 >*Network map:* [CLIMATE](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -178,7 +178,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/pollen/hourly/recent/pollen_H_recent_PBS.csv](https://github.com/MeteoSwiss/publication-opendata/pollen/hourly/recent/pollen_H_recent_PBS.csv) <br>
 >*Granularity:* H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* csv <br>
+>*Format:* CSV <br>
 >*Network map:* [Pollen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -191,7 +191,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical.csv](https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical.csv) <br>
 >*Granularity:* Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), event driven (directory "recent")  - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* csv <br>
+>*Format:* CSV <br>
 >*Network map:* [Phenology](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) <br>
 >*Parameter metadata:* phenology-description.csv <br>
@@ -210,7 +210,7 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
 >*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-structure-and-update-cycle) for more details! <br>
->*Format:* csv <br>
+>*Format:* CSV <br>
 >*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -511,4 +511,4 @@ For more information see also the metadata in each NetCDF-File.
 4. What kind of metadata for stations and parameters does the user community expect from MeteoSwiss? Are the examples below sufficient or does the OGD community need more metadata?
 
 
-<!-- Metadaten als .csv -->
+<!-- Metadaten als . -->
