@@ -24,16 +24,16 @@
     - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data-de-fr-it)
         - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
         - 2.3.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
-        - 2.3.x. (?) "Windprofiler"
-        - 2.3.x. (?) "LIDAR and ceilometers"
-        - 2.3.x. (?) "Microwave Radiometry"
-        - 2.3.x. (?) "Ozone measurements"
-        - 2.3.x. (?) "Radiation monitoring network"
-        - 2.3.x. ~~Observations from aircraft~~
-        - 2.3.x. ~~Satellite observations~~
-        - 2.3.x. ~~"Lightning detection network"~~
+        - 2.3.?. Windprofiler (in question as to whether it can be made available as 'open data')
+        - 2.3.?. LIDAR and ceilometers (in question as to whether it can be made available as 'open data')
+        - 2.3.?. Microwave Radiometry (in question as to whether it can be made available as 'open data')
+        - 2.3.?. Ozone measurements (in question as to whether it can be made available as 'open data')
+        - 2.3.?. Radiation monitoring networkm (in question as to whether it can be made available as 'open data')
+        - 2.3.x. Observations from aircraft (will not be provided as 'open data')
+        - 2.3.y. Satellite observations (will not be provided as 'open data')
+        - 2.3.z. Lightning detection network (will not be provided as 'open data')
     - 2.4. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data)
-        - 2.4.1. postprocessed data (Data4Web) (?)
+        - 2.4.1. Postprocessed data (Data4Web) ((?))
         - 2.4.2. [INCA (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-INCA-data)
         - 2.4.3. COSMO/ICON
         - 2.3.x. ...
@@ -247,7 +247,7 @@ The sites are
 
 #### 2.4. Model data
 
-#### 2.4.1. postprocessed data
+#### 2.4.1. Postprocessed data (Data4Web)
 
 
 
