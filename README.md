@@ -102,7 +102,7 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 - M: The sum, mean or max/min of the whole month from 1st to last day of month (ReferenceTS 1.6.2023 = `1.6.2023 00:10 UTC to 30.6.2023 24:00 UTC`)
 - Y: The sum, mean or max/min of the whole year (ReferenceTS 1.1.2023 = `1.1.2023 00:10 UTC to 31.12.2023 24:00 UTC`)
 
-Accordingly, it follows that
+**Accordingly, it follows that:**
 - for granularity T and H the time stamp defines the end of the measurement interval and
 - for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
 
