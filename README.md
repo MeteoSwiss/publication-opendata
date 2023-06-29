@@ -106,12 +106,7 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 - for granularity T and H the time stamp defines the end of the measurement interval and
 - for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
 
-#### 2.1.4. General questions to the open data user community 
-1. [Besides wind guts (maximum wind speed) MeteoSwiss plans to only publish maximum and minimum (hourly, daily, monthly and yearly) for temperature, since these aggregations are widely used and used to be measured by separate instruments in the past. Do users want to have aggregated (calculated) maximum and minimum also for other parameters like pressure, humidity or soil parameters or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
-2. [For sum parameters (precipitation, snow) MeteoSwiss plans to publish only one parameter per granularity. Do users want to have multi-hour (e.g. 6h, 12h, 24h) or multi-day (2d, 3d, 6d) aggregated sums or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
-3. Is the mutation information (e.g. if a value is original, interpolated, automatically or manually corrected, aggregated etc.) or a value interesting for the user? If yes, in which format should we publish this data?
-4. What kind of metadata for stations and parameters does the user community expect from MeteoSwiss? Are the examples below sufficient or does the OGD community need more metadata?
-
+#### 2.1.4. ...
 
 ### 2.2. Surface ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
@@ -495,6 +490,11 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
+### 3. Questions to the open data user community
+1. [Besides wind guts (maximum wind speed) MeteoSwiss plans to only publish maximum and minimum (hourly, daily, monthly and yearly) for temperature, since these aggregations are widely used and used to be measured by separate instruments in the past. Do users want to have aggregated (calculated) maximum and minimum also for other parameters like pressure, humidity or soil parameters or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
+2. [For sum parameters (precipitation, snow) MeteoSwiss plans to publish only one parameter per granularity. Do users want to have multi-hour (e.g. 6h, 12h, 24h) or multi-day (2d, 3d, 6d) aggregated sums or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
+3. Is the mutation information (e.g. if a value is original, interpolated, automatically or manually corrected, aggregated etc.) or a value interesting for the user? If yes, in which format should we publish this data?
+4. What kind of metadata for stations and parameters does the user community expect from MeteoSwiss? Are the examples below sufficient or does the OGD community need more metadata?
 
 
 <!-- Metadaten als .csv -->
