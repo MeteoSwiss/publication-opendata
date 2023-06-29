@@ -122,6 +122,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 >*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
+>*Volume (MB/GB/TB):* ... <br>
 >*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -135,6 +136,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss also operate
 >*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
+>*Volume (MB/GB/TB):* ... <br>
 >*Network map:* [NIME and TOT](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-manuell/ch.meteoschweiz.messnetz-manuell_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -148,6 +150,7 @@ The information on current weather events is supplemented by [visual human obser
 >*Granularity:* T (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
+>*Volume (MB/GB/TB):* ... <br>
 >*Network map:* [OBS](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-beobachtungen&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -161,6 +164,7 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 >*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
+>*Volume (MB/GB/TB):* ... <br>
 >*Network map:* [CLIMATE](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -179,6 +183,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 >*Granularity:* H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
+>*Volume (MB/GB/TB):* ... <br>
 >*Network map:* [Pollen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) <br>
 >*Parameter metadata:* To be defined <br>
@@ -192,6 +197,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Granularity:* Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), event driven (directory "recent")  - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
+>*Volume (MB/GB/TB):* ... <br>
 >*Network map:* [Phenology](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) <br>
 >*Parameter metadata:* phenology-description.csv <br>
