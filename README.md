@@ -9,7 +9,7 @@
     - 2.1. [General information](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-general-information)
         - 2.1.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#211-data-granularity)
         - 2.1.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-data-structure-and-update-cycle)
-        - 2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/master#213-time-stamps-and-intervals)
+        - 2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#213-time-stamps-and-time-intervals)
         - 2.1.4. Field separator ((;)), decimal divider ((.)) and missing values ((-))
     - 2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-de-fr-it)
         - 2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower)
