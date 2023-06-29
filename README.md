@@ -10,7 +10,7 @@
         - 2.1.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#211-data-granularity)
         - 2.1.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-data-structure-and-update-cycle)
         - 2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#213-time-stamps-and-time-intervals)
-        - 2.1.4. Field separator ((;)), decimal divider ((.)) and missing values ((-))
+        - 2.1.4. [Column separators, decimal dividers and missing values]()
     - 2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-de-fr-it)
         - 2.2.1. [automatic-measurements (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata#221-automatic-weather-stations-smn-smn-precip-smn-tower)
         - 2.2.2. [manual-precipitation-measurements (nime, tot)](https://github.com/MeteoSwiss/publication-opendata#222-manual-precipitation-stations-nime-tot)
@@ -106,7 +106,8 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 - for granularity T and H the time stamp defines the end of the measurement interval and
 - for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
 
-#### 2.1.4. ...
+#### 2.1.4. Column separators, decimal dividers and missing values
+Generally, columns are separated with `;`. The decimal divider is `.`. Missing values are indicated with `-`.
 
 ### 2.2. Surface ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
