@@ -207,13 +207,13 @@ MeteoSwiss performs soundings twice a day using weather balloon radiosondes. Thi
 The radiosondes measure air pressure, temperature and humidity. Attached to a [weather balloon](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-balloon.html) and carried high into the atmosphere, the radiosonde also records the exact position, allowing altitude, wind speed and direction to be determined. The data obtained in this way are of great importance for weather forecasts and climate research. MeteoSwiss launches a weather balloon twice a day from the sounding station in Payerne. Special soundings are also carried out to determine other parameters such as ozone or aerosol concentrations. In addition, MeteoSwiss operators launch research flights, for which several radiosondes are attached to the same balloon. This allows the readings to be compared with each other, checked for quality and verified.
 
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY) <br>
 >*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-structure-and-update-cycle) for more details! <br>
 >*Format:* CSV <br>
 >*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) <br>
->*Parameter metadata:* To be defined <br>
+>*Parameter metadata:* [https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata) <br>
 >*Additional remarks*: One file per station! <br>
 
 #### 2.3.2. ...
