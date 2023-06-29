@@ -184,7 +184,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 >*Parameter metadata:* To be defined <br>
 >*Additional remarks*: One file per station! <br>
 
-#### 2.2.5. Phenological observations (phenology)
+#### 2.2.6. Phenological observations (phenology)
 The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
 >*Open Data Product (Title):* **Measurement data from the Swiss phenology network** <br>
