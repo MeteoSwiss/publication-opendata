@@ -119,8 +119,8 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
->*Granularity:* T, H, D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
+>*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* csv <br>
 >*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) <br>
@@ -132,8 +132,8 @@ In addition to its automatic precipitation measurements, MeteoSwiss also operate
 
 >*Open Data Product (Title):* **Measurement data from manual precipitation stations** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/nime/daily/historical/nime_D_historical_PFA.csv](https://github.com/MeteoSwiss/publication-opendata/nime/daily/historical/nime_D_historical_PFA.csv) <br>
->*Granularity:* D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
+>*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* csv <br>
 >*Network map:* [NIME and TOT](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-manuell/ch.meteoschweiz.messnetz-manuell_en.csv) <br>
@@ -145,8 +145,8 @@ The information on current weather events is supplemented by [visual human obser
 
 >*Open Data Product (Title):* **Measurement data from visual observations** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/obs/hourly/recent/obs_H_recent_TAV.csv](https://github.com/MeteoSwiss/publication-opendata/publication-opendata/obs/hourly/recent/obs_H_recent_TAV.csv) <br>
->*Granularity:* T (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
+>*Granularity:* T (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* csv <br>
 >*Network map:* [OBS](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-beobachtungen&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) <br>
@@ -158,8 +158,8 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 
 >*Open Data Product (Title):* **Measurement data from the Swiss National Basic Climatological Network** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/climate/monthly/historical/climate_M_historical_GSB.csv](https://github.com/MeteoSwiss/publication-opendata/climate/monthly/historical/climate_M_historical_GSB.csv) <br>
->*Granularity:* D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
+>*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* csv <br>
 >*Network map:* [CLIMATE](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) <br>
@@ -176,8 +176,8 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 
 >*Open Data Product (Title):* **Measurement data from the Swiss pollen monitoring network** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/pollen/hourly/recent/pollen_H_recent_PBS.csv](https://github.com/MeteoSwiss/publication-opendata/pollen/hourly/recent/pollen_H_recent_PBS.csv) <br>
->*Granularity:* H, D, M and Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
+>*Granularity:* H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* csv <br>
 >*Network map:* [Pollen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) <br>
@@ -189,8 +189,8 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 >*Open Data Product (Title):* **Measurement data from the Swiss phenology network** <br>
 >*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical.csv](https://github.com/MeteoSwiss/publication-opendata/phenology/yearly/historical/phenology_Y_historical.csv) <br>
->*Granularity:* Y (see [chapter 2.1.1](#211-granulartiy-of-meteoswiss-data) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), event driven (directory "recent")  - see [chapter 2.1.2](#212-structure-and-update-cycle) for more details! <br>
+>*Granularity:* Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), event driven (directory "recent")  - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* csv <br>
 >*Network map:* [Phenology](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) <br>
@@ -204,10 +204,17 @@ MeteoSwiss obtains relevant data for weather forecasting and climate analysis fr
 #### 2.3.1. Radio soundings (radiosounding)
 MeteoSwiss performs soundings twice a day using weather balloon radiosondes. This allows important meteorology-related atmospheric values to be measured at high altitudes. The results of the latest [radio soundings](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radio-soundings.html) are made available in the form of data files ([decoded data](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-decoded)) and graphs ([emagrams](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram)).
 
-The radiosondes measure air pressure, temperature and humidity. Attached to a [weather balloon](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-balloon.html) and carried high into the atmosphere, the radiosonde also records the exact position, allowing altitude, wind speed and direction to be determined. The data obtained in this way are of great importance for weather forecasts and climate research.
+The radiosondes measure air pressure, temperature and humidity. Attached to a [weather balloon](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-balloon.html) and carried high into the atmosphere, the radiosonde also records the exact position, allowing altitude, wind speed and direction to be determined. The data obtained in this way are of great importance for weather forecasts and climate research. MeteoSwiss launches a weather balloon twice a day from the sounding station in Payerne. Special soundings are also carried out to determine other parameters such as ozone or aerosol concentrations. In addition, MeteoSwiss operators launch research flights, for which several radiosondes are attached to the same balloon. This allows the readings to be compared with each other, checked for quality and verified.
 
-MeteoSwiss launches a weather balloon twice a day from the sounding station in Payerne. Special soundings are also carried out to determine other parameters such as ozone or aerosol concentrations. In addition, MeteoSwiss operators launch research flights, for which several radiosondes are attached to the same balloon. This allows the readings to be compared with each other, checked for quality and verified.
-
+>*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
+>*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
+>*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-structure-and-update-cycle) for more details! <br>
+>*Format:* csv <br>
+>*Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
+>*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) <br>
+>*Parameter metadata:* To be defined <br>
+>*Additional remarks*: One file per station! <br>
 
 #### 2.3.2. ...
 ...
