@@ -22,7 +22,7 @@
         - 2.2.7. Aviation weather (will not be provided as 'open data'; more about [MeteoSwiss' aviation weather service and products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html))
         - 2.2.8. Aerosol measurements (will not be provided as 'open data'; more about [official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html))
     - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data-de-fr-it)
-        - 2.3.1. radiosondes (radiosounding)
+        - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
         - 2.3.2. weather-radar (remotesensing)
         - 2.3.x. (?) "Windprofiler"
         - 2.3.x. (?) "LIDAR and ceilometers"
@@ -199,12 +199,15 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 
 ### 2.3. Atmosphere data ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-IT))
-...
+MeteoSwiss obtains relevant data for weather forecasting and climate analysis from the [atmosphere](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere.html). The properties and composition of the atmosphere are studied using various instruments and methods, including weather balloons, satellites and laser equipment. Weather radar stations play an important role, as they record precipitation and thunderstorms throughout Switzerland in real time.
 
-#### 2.3.1. Open questions to the user community about data in the 'atmosphere' category
-1. [fill in Question X](https://github.com/MeteoSwiss/publication-opendata/discussions/X)
-2. [fill in Question Y](https://github.com/MeteoSwiss/publication-opendata/discussions/Y)
-3. ...
+#### 2.3.1. Radio soundings (radiosounding)
+MeteoSwiss performs soundings twice a day using weather balloon radiosondes. This allows important meteorology-related atmospheric values to be measured at high altitudes. The results of the latest [radio soundings](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radio-soundings.html) are made available in the form of data files ([decoded data](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-decoded)) and graphs ([emagrams](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram)).
+
+The radiosondes measure air pressure, temperature and humidity. Attached to a [weather balloon](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-balloon.html) and carried high into the atmosphere, the radiosonde also records the exact position, allowing altitude, wind speed and direction to be determined. The data obtained in this way are of great importance for weather forecasts and climate research.
+
+MeteoSwiss launches a weather balloon twice a day from the sounding station in Payerne. Special soundings are also carried out to determine other parameters such as ozone or aerosol concentrations. In addition, MeteoSwiss operators launch research flights, for which several radiosondes are attached to the same balloon. This allows the readings to be compared with each other, checked for quality and verified.
+
 
 #### 2.3.2. ...
 ...
