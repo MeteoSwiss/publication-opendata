@@ -490,7 +490,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
-### 3. Questions to the open data user community
+## 3. Questions to the open data user community
 1. [Besides wind guts (maximum wind speed) MeteoSwiss plans to only publish maximum and minimum (hourly, daily, monthly and yearly) for temperature, since these aggregations are widely used and used to be measured by separate instruments in the past. Do users want to have aggregated (calculated) maximum and minimum also for other parameters like pressure, humidity or soil parameters or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
 2. [For sum parameters (precipitation, snow) MeteoSwiss plans to publish only one parameter per granularity. Do users want to have multi-hour (e.g. 6h, 12h, 24h) or multi-day (2d, 3d, 6d) aggregated sums or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
 3. Is the mutation information (e.g. if a value is original, interpolated, automatically or manually corrected, aggregated etc.) or a value interesting for the user? If yes, in which format should we publish this data?
