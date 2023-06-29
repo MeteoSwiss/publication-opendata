@@ -1,1 +1,34 @@
-
+Parameter;Unit;Beschreibung;Description;Descrizione;Description
+;;;;;
+Iiiii;;Station-ID 06610 = Payerne;Station-ID 06610 = Payerne;Station-ID 06610 = Payerne;Station-ID 06610 = Payerne
+zzzztttt;Date/Time;Zeitangaben in UTC;Heures en UTC;Orari UTC;Time in UTC
+zxracos0;Code;Profile Type;Profile Type;Profile Type;Profile Type
+zxracos0;141;Vaisala RS41 with pressure derived from GPS height/DigiCORA MW41;Vaisala RS41 with pressure derived from GPS height/DigiCORA MW41;Vaisala RS41 with pressure derived from GPS height/DigiCORA MW41;Vaisala RS41 with pressure derived from GPS height/DigiCORA MW41
+zxracos0;142;Vaisala RS41 with pressure derived from GPS height/AUTOSONDE;Vaisala RS41 with pressure derived from GPS height/AUTOSONDE;Vaisala RS41 with pressure derived from GPS height/AUTOSONDE;Vaisala RS41 with pressure derived from GPS height/AUTOSONDE
+yloclas0;°;Breitengrad;Latitude;Latitude;Latitude
+yloclos0;°;Längengrad;Longitude;Longitude;Longitude
+zxltcos0;Code;Level Type;Level Type;Level Type;Level Type
+zxltcos0;0;No special level type;No special level type;No special level type;No special level type
+zxltcos0;1;Surface level;Surface level;Surface level;Surface level
+zxltcos0;2;Significant level for temperature and/or humidity;Significant level for temperature and/or humidity;Significant level for temperature and/or humidity;Significant level for temperature and/or humidity
+zxltcos0;3;Tropopause (overrides 02);Tropopause (overrides 02);Tropopause (overrides 02);Tropopause (overrides 02)
+zxltcos0;4;Significant level for wind;Significant level for wind;Significant level for wind;Significant level for wind
+zxltcos0;5;Maximum wind level (overrides 04);Maximum wind level (overrides 04);Maximum wind level (overrides 04);Maximum wind level (overrides 04)
+zxltcos0;6;Significant level for temperature and/or humidity and wind;Significant level for temperature and/or humidity and wind;Significant level for temperature and/or humidity and wind;Significant level for temperature and/or humidity and wind
+zxltcos0;10;mandatory level;mandatory level;mandatory level;mandatory level
+zxsrcos0;Code;Sonnenstrahlungskorrektur;Correction de rayonnement solaire;Solar Radiation Correction;Solar Radiation Correction
+zxsrcos0;4;Solar and infrared corrected  by radiosonde system;Solar and infrared corrected  by radiosonde system;Solar and infrared corrected  by radiosonde system;Solar and infrared corrected  by radiosonde system
+zxsacos0;Code;Tracking Typ: 8=Automatic satellite navigation;Tracking Typ: 8=Automatic satellite navigation;Tracking Typ: 8=Automatic satellite navigation;Tracking Typ: 8=Automatic satellite navigation
+zxlntis0;Datum;Startzeit;Launch Time;Launch Time;Launch Time
+zreppps0;hPa;Luftdruck;pression atmosphérique;Pressione atmosferica;Atmospheric pressure
+zreppzs0;gpm;Geopotentielle Höhe;altitude géopotentielle;Altitudine geopotenziale;Geopotential height
+zrettts0;°C;Temperatur;température;Temperatura;Dry air temperature
+zklddds0;°;Windrichtung;direction du vent;Direzione del vento;Wind direction
+zretdes0;°C;Taupunkt;point de rosée;Punto di rugiada;Dew point temperature
+zretdds0;°C;Taupunktdifferenz;Dew Point depression;Dew Point depression;Dew Point depression
+zklfffs0;m/s;Windgeschwindigkeit;vitesse du vent;Velocità del vento;Windspeed
+nsh000s0; ;Nicht beobachtet;non observé;non osservato;not observed
+ccl000s0; ;Nicht beobachtet;non observé;non osservato;not observed
+chh000s0; ;Nicht beobachtet;non observé;non osservato;not observed
+ccm000s0; ;Nicht beobachtet;non observé;non osservato;not observed
+cch000s0; ;Nicht beobachtet;non observé;non osservato;not observed
