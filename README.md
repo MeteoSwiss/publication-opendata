@@ -196,7 +196,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Granularity:* Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), event driven (directory "recent") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
->*Volume (MB):* 7.08,  <br>
+>*Volume (MB):* 7.08 <br>
 >*Network map:* [Phenology](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false) <br>
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) <br>
 >*Parameter metadata:* [https://github.com/MeteoSwiss/publication-opendata/data-surface/phenology/phenology-metadata.csv](https://github.com/MeteoSwiss/publication-opendata/data-surface/phenology/phenology-metadata.csv) <br>
