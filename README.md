@@ -468,7 +468,7 @@ For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY)** <br>
 >Detailed product document(s): *[RprelimD](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf),  [RhiresD](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [RhiresM,RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Data structure (Example file):* [RhiresD.nc](RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc), [RhiresM.nc](RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc),[RhiresY.nc](RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
@@ -477,7 +477,7 @@ For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded temperature data (TabsD,TminD,TmaxD,TabsM,TminM,TmaxM,TabsY,TminY,TmaxY)** <br>
 >Detailed product document(s): *[TabsD,TminD,TmaxD](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf),  [TabsM, TabsY](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf)) <br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Data structure (Example file):* [RhiresD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
