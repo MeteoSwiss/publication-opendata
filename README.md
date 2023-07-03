@@ -472,7 +472,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 0.1 <br>
+>*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded temperature data (TabsD,TminD,TmaxD,TabsM,TminM,TmaxM,TabsY,TminY,TmaxY)** <br>
@@ -481,7 +481,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 0.1 <br>
+>*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB<br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded relative sunshine duration data (SreldD,SrelM,SrelY)** <br>
@@ -490,7 +490,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 0.1 <br>
+>*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
