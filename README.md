@@ -1,4 +1,4 @@
-# OGD@MeteoSwiss - Open Government Data
+0# OGD@MeteoSwiss - Open Government Data
 
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
@@ -493,7 +493,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
+>*Open Data Product (Title):* **Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y)** <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
@@ -501,13 +501,75 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY** <br>
+>*Open Data Product (Title):* **Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded direct radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded cloud cover fraction (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded albedo (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded longwave surface temperature (MSG.LST.D, )** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded KI (MSG.KI.D) MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded SAA (MSG.SAA.D, )** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+>*Open Data Product (Title):* **Gridded SZA (MSG.SZA.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Granularity:*  daily, monthly, yearly <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* NetCDF <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+
+
+
+
+
+
 
 ## 3. Questions to the open data user community
 1. [Besides wind guts (maximum wind speed) MeteoSwiss plans to only publish maximum and minimum (hourly, daily, monthly and yearly) for temperature, since these aggregations are widely used and used to be measured by separate instruments in the past. Do users want to have aggregated (calculated) maximum and minimum also for other parameters like pressure, humidity or soil parameters or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
