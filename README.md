@@ -501,7 +501,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Open Data Product (Title):* **Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y)** <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
@@ -509,7 +509,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded direct radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Open Data Product (Title):* **Gridded direct radiation (MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y)** <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
@@ -517,7 +517,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded cloud cover fraction (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
+>*Open Data Product (Title):* **Gridded cloud fractional cover (MSG.CFC.D, MSG.CFC.M, MSG.CFC.Y)** <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
@@ -525,13 +525,6 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded albedo (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded longwave surface temperature (MSG.LST.D, )** <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
@@ -541,29 +534,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded KI (MSG.KI.D) MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **Gridded SAA (MSG.SAA.D, )** <br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
-
->*Open Data Product (Title):* **Gridded SZA (MSG.SZA.D, MSG.SISDIF.M, MSG.SIDIF.Y)** <br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 
 
