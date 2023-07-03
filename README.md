@@ -494,6 +494,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y)** <br>
+>Detailed product document(s): *[MSG.SIS.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
@@ -502,6 +503,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
 >*Open Data Product (Title):* **Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y)** <br>
+>Detailed product document(s): *[MSG.CFC.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
@@ -518,6 +520,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
 >*Open Data Product (Title):* **Gridded cloud fractional cover (MSG.CFC.D, MSG.CFC.M, MSG.CFC.Y)** <br>
+>Detailed product document(s): *[MSG.CFC.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
