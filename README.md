@@ -522,7 +522,7 @@ For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded cloud fractional cover (MSG.CFC.D, MSG.CFC.M, MSG.CFC.Y)** <br>
 >Detailed product document(s): *[MSG.CFC.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
->*Data structure (Example file):* [MSG.SIS.D.nc](msg.SIS.D_ch02.lonlat_20201206000000.nc),[MSG.SIS.M.nc](msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc](msg.CFC.M_ch02.lonlat_20210401000000.nc), [MSG.CFC.Y.nc](msg.CFC.Y_ch02.lonlat_20210101000000.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
