@@ -486,7 +486,7 @@ For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded relative sunshine duration data (SreldD,SrelM,SrelY)** <br>
 >Detailed product document(s): *[SrelD](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf),  [SrelM,SrelY](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf) <br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Data structure (Example file):* [SrelD.nc](SrelD_ch01r.swiss.lv95_202305010000_202305310000.nc),[SrelM.nc](SrelM_ch01r.swiss.lv95_202305010000_202305010000.nc), [SrelY.nc](SrelY_ch01r.swiss.lv95_202201010000_202201010000.nc)  <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
