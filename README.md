@@ -477,7 +477,7 @@ For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded temperature data (TabsD,TminD,TmaxD,TabsM,TminM,TmaxM,TabsY,TminY,TmaxY)** <br>
 >Detailed product document(s): *[TabsD,TminD,TmaxD](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf),  [TabsM, TabsY](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf)) <br>
->*Data structure (Example file):* [RhiresD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Data structure (Example file):* [TabsD.nc](TabsD_ch01r.swiss.lv95_202305010000_202305310000.nc), [TabsM.nc](TabsM_ch01r.swiss.lv95_202305010000_202305010000.nc), [TmaxM.nc](TmaxM_ch01r.swiss.lv95_202305010000_202305010000.nc),[TminY.nc](TminY_ch01r.swiss.lv95_202201010000_202201010000.nc)<br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
