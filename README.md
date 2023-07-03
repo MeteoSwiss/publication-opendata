@@ -482,7 +482,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB<br>
->*Additional remarks*: Coordinate System : WGS84 lat/lon EPSG:4326< <br>
+>*Additional remarks*: Coordinate System : Swiss LV95 EPSG:2056< <br>
 
 >*Open Data Product (Title):* **Gridded relative sunshine duration data (SreldD,SrelM,SrelY)** <br>
 >Detailed product document(s): *[SrelD](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf),  [SrelM,SrelY](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf) <br>
@@ -491,7 +491,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y)** <br>
 >*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
