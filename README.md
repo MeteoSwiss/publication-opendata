@@ -495,7 +495,7 @@ For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y)** <br>
 >Detailed product document(s): *[MSG.SIS.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
->*Data structure (Example file):* [Rhires.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/Rhires.nc) <br>
+>*Data structure (Example file):* [[MSG.SIS.D.nc](msg.SIS.D_ch02.lonlat_20201206000000.nc),[MSG.SIS.M.nc](msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
 >*Granularity:*  daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
