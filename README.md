@@ -194,7 +194,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Open Data Product (Title):* **Measurement data from the Swiss phenology network** <br>
 >*Data structure (Example files):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-historical](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-historical), [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-recent](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-recent) <br>
 >*Granularity:* Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), event driven (directory "recent") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
+>*Update frequency:* Yearly (directory "historical"), daily (directory "recent") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
 >*Volume (MB):* 7.08 <br>
 >*Network map:* [Phenology](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false) <br>
