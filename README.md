@@ -19,8 +19,8 @@
             - 2.2.4.1 [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2241-records-and-extremes)
         - 2.2.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen)
         - 2.2.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology)
-        - ~~2.2.7.~~ Aviation weather (will not be provided as 'open data'; more about [MeteoSwiss' aviation weather service and products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html))
-        - ~~2.2.8.~~ Aerosol measurements (will not be provided as 'open data'; more about [official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html))
+        - 2.2.7. Aviation weather (will not be provided as 'open data'; more about [MeteoSwiss' aviation weather service and products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html))
+        - 2.2.8. Aerosol measurements (will not be provided as 'open data'; more about [official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html))
     - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data-de-fr-it)
         - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
         - 2.3.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
@@ -201,6 +201,12 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) <br>
 >*Parameter metadata:* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-metadata](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-metadata) <br>
 >*Additional remarks*: One file for all stattions! <br>
+
+#### 2.2.7. Aviation weather
+[MeteoSwiss' aviation weather service and products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html)) will not be provided as 'open data'.
+
+#### 2.2.8. Aerosol measurements
+[Official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html)) will not be provided as 'open data'. 
 
 
 ### 2.3. Atmosphere data ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-IT))
