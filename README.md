@@ -66,9 +66,9 @@ MeteoSwiss operates an extensive monitoring network, both on the ground (surface
 
 This is the **current status of the clarifications** as to which data categories/types can be made available under an open data license by MeteoSwiss, and which not:
 
-| Category      | Type in clarification | Type can be made available as open data | Type cannot be made available as open data | 
-| ------------- | --------------------- | --------------------------------------- | ------------------------------------------ |
-| Surface data  |                       | Automatic weather stations              | Aviation weather                           |
+| Data category | Type in clarification | Type can be made available as open data | Type cannot be made available as open data | 
+| :------------ | :-------------------- | :-------------------------------------- | :----------------------------------------- |
+| Surface       |                       | Automatic weather stations              | Aviation weather                           |
 |               |                       | Manual precipitation stations           | Aerosol measurements                       |
 |               |                       | Visual observations                     |                                            |
 |               |                       | Climate stations "Swiss NBCN"           |                                            |
