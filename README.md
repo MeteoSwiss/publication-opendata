@@ -62,7 +62,19 @@ If you have any questions, please contact the project core team: [opendata(at)me
 ## 2. Open data products ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-IT))
 
 ### 2.1. General information
-MeteoSwiss operates an extensive monitoring network, both on the ground (surface stations) and in the atmosphere, that enables it to collect round-the-clock meteorological data for the whole of Switzerland. These data form the basis for making weather forecasts, issuing bad weather warnings, and analysing climate change. Furthermore MeteoSwiss operates a weather model for forecasting and also generates gridded data sets. All these different data types are described below and should become available under an open data license.
+MeteoSwiss operates an extensive monitoring network, both on the ground (surface stations) and in the atmosphere, that enables it to collect round-the-clock meteorological data for the whole of Switzerland. These data form the basis for making weather forecasts, issuing bad weather warnings, and analysing climate change. Furthermore MeteoSwiss operates a weather model for forecasting and also generates gridded data sets.
+
+This is the **current status of the clarifications** as to which data categories/types can be made available under an open data license by MeteoSwiss, and which not:
+
+| Category      | Type in clarification | Type can be made available as open data | Type cannot be made available as open data | 
+| ------------- | --------------------- | --------------------------------------- | ------------------------------------------ |
+| Surface data  |                       | Automatic weather stations              | Aviation weather                           |
+|               |                       | Manual precipitation stations           | Aerosol measurements                       |
+|               |                       | Visual observations                     |                                            |
+|               |                       | Climate stations "Swiss NBCN"           |                                            |
+|               |                       | Swiss pollen monitoring stations        |                                            |
+|               |                       | Phenological observations               |                                            |
+
 
 #### 2.1.1. Data granularity
 For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. For measurement data the lowest granulartiy is usually called 'raw data' (Rohwert) or 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The world meteorological organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
