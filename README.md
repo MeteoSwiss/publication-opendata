@@ -12,7 +12,7 @@
         - 2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#213-time-stamps-and-time-intervals)
         - 2.1.4. [Column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/publication-opendata/tree/main#214-column-separators-decimal-dividers-and-missing-values)
     - 2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-data-de-fr-it)
-        - 2.2.1. [Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)
+        - 2.2.1. **[Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)**
         - 2.2.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot)
         - 2.2.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs)
         - 2.2.4. [Climate stations "Swiss NBCN" (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip)
