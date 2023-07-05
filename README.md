@@ -66,15 +66,15 @@ MeteoSwiss operates an extensive monitoring network, both on the ground (surface
 
 This is the **current status of the clarifications** as to which data categories/types can be made available under an open data license by MeteoSwiss, and which not:
 
-| Data category | Type in clarification | Type can be made available as open data | Type cannot be made available as open data | 
+| Data category | in clarification      | can be made available as open data | cannot be made available as open data | 
 | :------------ | :-------------------- | :-------------------------------------- | :----------------------------------------- |
 | Surface       | *all types clarified* | Automatic weather stations              | Aviation weather                           |
-| Surface       |                       | Manual precipitation stations           | Aerosol measurements                       |
-| Surface       |                       | Visual observations                     |                                            |
-| Surface       |                       | Climate stations "Swiss NBCN"           |                                            |
-| Surface       |                       | Swiss pollen monitoring stations        |                                            |
-| Surface       |                       | Phenological observations               |                                            |
-| Atmosphere    | *all types clarified* | ...              | ...                           |
+|               |                       | Manual precipitation stations           | Aerosol measurements                       |
+|               |                       | Visual observations                     |                                            |
+|               |                       | Climate stations "Swiss NBCN"           |                                            |
+|               |                       | Swiss pollen monitoring stations        |                                            |
+|               |                       | Phenological observations               |                                            |
+| Atmosphere    | ...                   | Radio soundings                         | ...                                        |
 
 
 #### 2.1.1. Data granularity
