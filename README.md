@@ -1,4 +1,4 @@
-0# OGD@MeteoSwiss - Open Government Data
+# OGD@MeteoSwiss - Open Government Data
 
 <!-- Tabelle mit 4 sprachen in spalten, statt Übersetzungen in Files? -->
 
