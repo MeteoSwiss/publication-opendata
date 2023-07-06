@@ -64,19 +64,19 @@ If you have any questions, please contact the project core team: [opendata(at)me
 ### 2.1. General information
 MeteoSwiss operates an extensive monitoring network, both on the ground (surface stations) and in the atmosphere, that enables it to collect round-the-clock meteorological data for the whole of Switzerland. These data form the basis for making weather forecasts, issuing bad weather warnings, and analysing climate change. Furthermore MeteoSwiss operates a weather model for forecasting and also generates gridded data sets.
 
-This is the **current status of the clarifications** as to which data categories/types can be made available under an open data license by MeteoSwiss, and which not:
+This is the **current status of the clarifications** as to which data types can be made available (and how) under an open data license by MeteoSwiss, and which not:
 
-| Data category | in clarification      | can be made available as open data | cannot be made available as open data | 
-| :------------ | :-------------------- | :-------------------------------------- | :----------------------------------------- |
-| Surface       | *all types clarified* | [2.2.1. Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)              | [2.2.7. Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-aviation-weather)                           |
-|               |                       | [2.2.2. Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot)           | [2.2.8. Aerosol measurements](https://github.com/MeteoSwiss/publication-opendata/tree/main#228-aerosol-measurements)                       |
-|               |                       | [2.2.3. Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs)                     |                                            |
-|               |                       | [Climate stations "Swiss NBCN"           |                                            |
-|               |                       | Swiss pollen monitoring stations        |                                            |
-|               |                       | Phenological observations               |                                            |
-| Atmosphere    | ...                   | Radio soundings                         |                                         |
-|               |                       | Weather radar network                   |                        |
-|               |                       |                      |                                            |
+| Data category | in clarification if and how | can be made available as open data | cannot be made available as open data | 
+| :------------ | :-------------------------- | :--------------------------------- | :------------------------------------ |
+| Surface       | *all types clarified*       | [2.2.1. Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) | [2.2.7. Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-aviation-weather) |
+|               |                             | [2.2.2. Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) | [2.2.8. Aerosol measurements](https://github.com/MeteoSwiss/publication-opendata/tree/main#228-aerosol-measurements) |
+|               |                             | [2.2.3. Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs) |                             |
+|               |                             | [2.2.4. Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip) |                             |
+|               |                             | [2.2.5. Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen) |                             |
+|               |                             | [2.2.6. Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology) |                             |
+| Atmosphere    | *2.3.3. Windprofiler*       | [2.3.1. Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding) | 2.3.8. Observations from aircraft |
+|               | *2.3.4. LIDAR and ceilometers* | [2.3.2. Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing) | 2.3.9. Satellite observations |
+|               | *2.3.5. Microwave radiometry* |                             | 2.3.10. Lightning detection network |
 |               |                       |            |                                            |
 |               |                       |         |                                            |
 |               |                       |                |                                            |
