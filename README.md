@@ -77,10 +77,10 @@ This is the **current status of the clarifications** as to which data types can 
 | Atmosphere    | *2.3.3. Windprofiler*       | [2.3.1. Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding) | 2.3.8. Observations from aircraft |
 |               | *2.3.4. LIDAR and ceilometers* | [2.3.2. Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing) | 2.3.9. Satellite observations |
 |               | *2.3.5. Microwave radiometry* |                             | 2.3.10. Lightning detection network |
-|               |                       |            |                                            |
-|               |                       |         |                                            |
-|               |                       |                |                                            |
-
+|               | *2.3.6. Ozone measurements* |                             |                             |
+|               | *2.3.7. Radiation monitoring network* |                             |                             |
+| Model         |                             |                             |                             |
+| Grid          |                             |                             |                             |
 
 #### 2.1.1. Data granularity
 For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. For measurement data the lowest granulartiy is usually called 'raw data' (Rohwert) or 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The world meteorological organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
