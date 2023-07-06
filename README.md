@@ -1,5 +1,5 @@
 *Status:* DRAFT <br>
-*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [Project OGD@MeteoSwiss Core team](mailto:opendata@meteoswiss.ch) <br>
+*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss Project core team](mailto:opendata@meteoswiss.ch) <br>
 *Version, date:* v0.9, 2023-07-06
 
 # OGD@MeteoSwiss - Open Government Data 
