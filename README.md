@@ -141,7 +141,7 @@ All MeteoSwiss surface stations have a name and an identfier consisting of three
 SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program (type "smn"). These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by around 100 automatic precipitation stations (type "smn-precip"). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three tower stations at 150m to 230m above ground for boundry layer measurements (type "smn-tower").
 
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv](https://github.com/MeteoSwiss/publication-opendata/smn/10min/recent/smn_T_recent_SMA.csv) <br>
+>*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
 >*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
@@ -155,7 +155,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 In addition to its automatic precipitation measurements, MeteoSwiss also operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html). Measurements are taken here once a day and transmitted to MeteoSwiss via SMS. The network comprises 243 locations, 190 stations measure rainfall and snowfall and 53 stations measure snowfall only (nime). Due to their long-series measurements, they are of great climatological significance. In mountainous areas that are difficult to access, around 57 totalisers are used which record the volume of precipitation for an entire year (tot).
 
 >*Open Data Product (Title):* **Measurement data from manual precipitation stations** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/nime/daily/historical/nime_D_historical_PFA.csv](https://github.com/MeteoSwiss/publication-opendata/nime/daily/historical/nime_D_historical_PFA.csv) <br>
+>*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
 >*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
@@ -169,7 +169,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss also operate
 The information on current weather events is supplemented by [visual human observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html). The atmospheric conditions around the observation site are described in detail.
 
 >*Open Data Product (Title):* **Measurement data from visual observations** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/obs/hourly/recent/obs_H_recent_TAV.csv](https://github.com/MeteoSwiss/publication-opendata/publication-opendata/obs/hourly/recent/obs_H_recent_TAV.csv) <br>
+>*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
 >*Granularity:* T (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
@@ -183,7 +183,7 @@ The information on current weather events is supplemented by [visual human obser
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of 29 climate monitoring stations and 46 precipitation stations. The measurement series available in digital form for temperature, precipitation and hours of sunshine date back, in some cases, to the mid-nineteenth century.
 
 >*Open Data Product (Title):* **Measurement data from the Swiss National Basic Climatological Network** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/climate/monthly/historical/climate_M_historical_GSB.csv](https://github.com/MeteoSwiss/publication-opendata/climate/monthly/historical/climate_M_historical_GSB.csv) <br>
+>*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
 >*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
@@ -202,7 +202,7 @@ Additionally the top 10 records of every climate station and the overall records
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). This consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is now operational: for the first time in the world, instead of daily averages being available after a week, information is available in real time at an hourly resolution.
 
 >*Open Data Product (Title):* **Measurement data from the Swiss pollen monitoring network** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/pollen/hourly/recent/pollen_H_recent_PBS.csv](https://github.com/MeteoSwiss/publication-opendata/pollen/hourly/recent/pollen_H_recent_PBS.csv) <br>
+>*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
 >*Granularity:* H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
