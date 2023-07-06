@@ -1,0 +1,7 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+th9120dv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Tagesmittels (statistisch abgeleitet) von der Norm 9120";Temperatur;homogen;D;1;-99.9..99.9;Float;°C;11926
+th91dndv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Tagesminimum (statistisch abgeleitet) von der Norm 9120";Temperatur;homogen;D;1;-99.9..99.9;Float;°C;11930
+th91dxdv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Tagesmaximum (statistisch abgeleitet) von der Norm 9120";Temperatur;homogen;D;1;-99.9..99.9;Float;°C;11933
+ths200d0;"Lufttemperatur 2 m über Boden; homogenes Tagesmittel (statistisch abgeleitet)";Temperatur;homogen;D;1;-99.9..99.9;Float;°C;1801
+ths200dn;"Lufttemperatur 2 m über Boden; homogenes Tagesminimum (statistisch abgeleitet)";Temperatur;homogen;D;1;-99.9..99.9;Float;°C;1092
+ths200dx;"Lufttemperatur 2 m über Boden; homogenes Tagesmaximum (statistisch abgeleitet)";Temperatur;homogen;D;1;-99.9..99.9;Float;°C;1094

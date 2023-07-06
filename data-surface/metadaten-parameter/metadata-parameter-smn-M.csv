@@ -1,0 +1,22 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+fkl010m0;"Windgeschwindigkeit skalar; Monatsmittel";Wind;aggregat;M;1;0..99.9;Float;m/s;382
+fkl010m1;"Böenspitze (Sekundenböe); Monatsmaximum";Wind;aggregat;M;1;0..999.9;Float;m/s;384
+fu3010m0;"Windgeschwindigkeit skalar; Monatsmittel";Wind;aggregat;M;1;0..999.9;Float;km/h;1086
+fu3010m1;"Böenspitze (Sekundenböe); Monatsmaximum";Wind;aggregat;M;1;0..999.9;Float;km/h;1941
+gre000m0;"Globalstrahlung; Monatsmittel";Strahlung;aggregat;M;0;0..9999;Integer;W/m²;357
+oli000m0;"Langwellige Einstrahlung; Monatsmittel";Strahlung;aggregat;M;0;0..9999;Integer;W/m²;3675
+pp0qffm0;"Luftdruck reduziert auf Meeresniveau (QFF); Monatsmittel";Druck;aggregat;M;1;0..1500.0;Float;hPa;328
+pp0qnhm0;"Luftdruck reduziert auf Meeresniveau mit Standardatmosphäre (QNH); Monatsmittel";Druck;aggregat;M;1;0..1500.0;Float;hPa;1858
+ppz700m0;"Geopotentielle Höhe der 700 hPa-Fläche; Monatsmittel";Druck;aggregat;M;1;0..10000.0;Float;gpm;976
+ppz850m0;"Geopotentielle Höhe der 850 hPa-Fläche; Monatsmittel";Druck;aggregat;M;1;0..10000.0;Float;gpm;975
+prestam0;"Luftdruck auf Barometerhöhe (QFE); Monatsmittel";Druck;aggregat;M;1;0..1500.0;Float;hPa;300
+pva200m0;"Dampfdruck 2 m über Boden; Monatsmittel";Feuchte;aggregat;M;1;0..100.0;Float;hPa;379
+rre150m0;"Niederschlag; Monatssumme";Niederschlag;aggregat;M;1;0..9999.9;Float;mm;301
+sre000m0;"Sonnenscheindauer; Monatssumme";Sonne;aggregat;M;0;0..99999;Integer;min;302
+tre005m0;"Lufttemperatur 5 cm über Gras; Monatsmittel";Temperatur;aggregat;M;1;-99.9..99.9;Float;°C;341
+tre005mn;"Lufttemperatur 5 cm über Gras; absolutes Monatsminimum";Temperatur;aggregat;M;1;-99.9..99.9;Float;°C;343
+tre005mx;"Lufttemperatur 5 cm über Gras; absolutes Monatsmaximum";Temperatur;aggregat;M;1;-99.9..99.9;Float;°C;345
+tre200m0;"Lufttemperatur 2 m über Boden; Monatsmittel";Temperatur;aggregat;M;1;-99.9..99.9;Float;°C;297
+tre200mn;"Lufttemperatur 2 m über Boden; absolutes Monatsminimum";Temperatur;aggregat;M;1;-99.9..99.9;Float;°C;299
+tre200mx;"Lufttemperatur 2 m über Boden; absolutes Monatsmaximum";Temperatur;aggregat;M;1;-99.9..99.9;Float;°C;298
+ure200m0;"Relative Luftfeuchtigkeit 2 m über Boden; Monatsmittel";Feuchte;aggregat;M;1;0..999.9;Float;%;365

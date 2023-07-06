@@ -1,0 +1,8 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+kaalnuh0;"Erle; mittlere stündliche Pollenkonzentration";Pollendaten;aggregat;H;0;0..10000;Integer;No/m³;6086
+kabetuh0;"Birke; mittlere stündliche Pollenkonzentration";Pollendaten;aggregat;H;0;0..10000;Integer;No/m³;5993
+kacoryh0;"Hasel; mittlere stündliche Pollenkonzentration";Pollendaten;aggregat;H;0;0..10000;Integer;No/m³;6096
+kafaguh0;"Buche; mittlere stündliche Pollenkonzentration";Pollendaten;aggregat;H;0;0..10000;Integer;No/m³;6099
+kafraxh0;"Gemeine Esche; mittlere stündliche Pollenkonzentration";Pollendaten;aggregat;H;0;0..10000;Integer;No/m³;6100
+kaquerh0;"Eiche; mittlere stündliche Pollenkonzentration";Pollendaten;aggregat;H;0;0..10000;Integer;No/m³;6116
+khpoach0;"Gräser; mittlere stündliche Pollenkonzentration";Pollendaten;aggregat;H;0;0..10000;Integer;No/m³;5994

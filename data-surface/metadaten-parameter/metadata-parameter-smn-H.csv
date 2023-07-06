@@ -1,0 +1,25 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+dkl010h0;"Windrichtung; Stundenmittel";Wind;aggregat;H;0;0..360;Integer;°;282
+fkl010h0;"Windgeschwindigkeit skalar; Stundenmittel";Wind;aggregat;H;1;0..99.9;Float;m/s;283
+fkl010h1;"Böenspitze (Sekundenböe); Stundenmaximum";Wind;aggregat;H;1;0..999.9;Float;m/s;270
+fu3010h0;"Windgeschwindigkeit skalar; Stundenmittel";Wind;aggregat;H;1;0..999.9;Float;km/h;1084
+fu3010h1;"Böenspitze (Sekundenböe); Stundenmaximum";Wind;aggregat;H;1;0..999.9;Float;km/h;1939
+fve010h0;"Windgeschwindigkeit vektoriell; Stundenmittel";Wind;aggregat;H;1;0..99.9;Float;m/s;7908
+gre000h0;"Globalstrahlung; Stundenmittel";Strahlung;aggregat;H;0;-999..999;Integer;W/m²;269
+oli000h0;"Langwellige Einstrahlung; Stundenmittel";Strahlung;aggregat;H;0;-999..999;Integer;W/m²;3674
+pp0qffh0;"Luftdruck reduziert auf Meeresniveau (QFF); Stundenmittel";Druck;aggregat;H;1;0..1500.0;Float;hPa;307
+pp0qnhh0;"Luftdruck reduziert auf Meeresniveau mit Standardatmosphäre (QNH); Stundenmittel";Druck;aggregat;H;1;0..1500.0;Float;hPa;1852
+ppz700h0;"Geopotentielle Höhe der 700 hPa-Fläche; Stundenmittel";Druck;aggregat;H;1;0..10000.0;Float;gpm;1867
+ppz850h0;"Geopotentielle Höhe der 850 hPa-Fläche; Stundenmittel";Druck;aggregat;H;1;0..10000.0;Float;gpm;1869
+prestah0;"Luftdruck auf Barometerhöhe (QFE); Stundenmittel";Druck;aggregat;H;1;0..1500.0;Float;hPa;306
+pva200h0;"Dampfdruck 2 m über Boden; Stundenmittel";Feuchte;aggregat;H;1;0..100.0;Float;hPa;309
+rre150h0;"Niederschlag; Stundensumme";Niederschlag;aggregat;H;1;0..999.9;Float;mm;267
+sre000h0;"Sonnenscheindauer; Stundensumme";Sonne;aggregat;H;0;0..60;Integer;min;274
+tde200h0;"Taupunkt 2 m über Boden;  Stundenmittel";Feuchte;originalwert;H;1;-99.9..99.9;Float;°C;7746
+tre005h0;"Lufttemperatur 5 cm über Gras; Stundenmittel";Temperatur;aggregat;H;1;-99.9..99.9;Float;°C;264
+tre005hn;"Lufttemperatur 5 cm über Gras; Stundenminimum";Temperatur;aggregat;H;1;-99.9..99.9;Float;°C;265
+tre200h0;"Lufttemperatur 2 m über Boden; Stundenmittel";Temperatur;aggregat;H;1;-99.9..99.9;Float;°C;261
+tre200hn;"Lufttemperatur 2 m über Boden; Stundenminimum";Temperatur;aggregat;H;1;-99.9..99.9;Float;°C;262
+tre200hx;"Lufttemperatur 2 m über Boden; Stundenmaximum";Temperatur;aggregat;H;1;-99.9..99.9;Float;°C;263
+ure200h0;"Relative Luftfeuchtigkeit 2 m über Boden; Stundenmittel";Feuchte;aggregat;H;1;0..999.9;Float;%;266
+wcc006h0;"Föhnindex; Stundenwert";Wind;aggregat;H;0;0..2;Integer;min;7706

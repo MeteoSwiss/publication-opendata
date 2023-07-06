@@ -1,0 +1,15 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+kaalnud0;"Erle; mittlere tägliche Pollenkonzentration";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;1315
+kaalnud1;"Erle; mittlere tägliche Pollenkonzentration 0-0 UTC";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;4837
+kabetud0;"Birke; mittlere tägliche Pollenkonzentration";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;1323
+kabetud1;"Birke ; mittlere tägliche Pollenkonzentration 0-0 UTC";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;4839
+kacoryd0;"Hasel; mittlere tägliche Pollenkonzentration";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;1343
+kacoryd1;"Hasel; mittlere tägliche Pollenkonzentration 0-0 UTC";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;4844
+kafagud0;"Buche; mittlere tägliche Pollenkonzentration";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;1348
+kafagud1;"Buche; mittlere tägliche Pollenkonzentration 0-0 UTC";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;4845
+kafraxd0;"Gemeine Esche; mittlere tägliche Pollenkonzentration";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;1352
+kafraxd1;"Gemeine Esche; mittlere tägliche Pollenkonzentration 0-0 UTC";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;4846
+kaquerd0;"Eiche; mittlere tägliche Pollenkonzentration";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;1401
+kaquerd1;"Eiche; mittlere tägliche Pollenkonzentration 0-0 UTC";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;4856
+khpoacd0;"Gräser; mittlere tägliche Pollenkonzentration";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;1469
+khpoacd1;"Gräser; mittlere tägliche Pollenkonzentration 0-0 UTC";Pollendaten;aggregat;D;0;0..10000;Integer;No/m³;4870

@@ -1,0 +1,19 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+fh9120yv;"Windgeschwindigkeit skalar; Verhältnis des homogenen Jahresmittels zur Norm 9120";Wind;homogen;Y;0;0..999;Integer;%;11913
+fhs010y0;"Windgeschwindigkeit skalar; homogenes Jahresmittel";Wind;homogen;Y;1;0..99.9;Float;m/s;1645
+gh9120yv;"Globalstrahlung; Verhältnis des homogenen Jahresmittels zur Norm 9120";Strahlung;homogen;Y;0;0..999;Integer;%;11915
+ghs000y0;"Globalstrahlung; homogenes Jahresmittel";Strahlung;homogen;Y;0;0..9999;Integer;W/m²;1644
+ph9120yv;"Luftdruck auf Barometerhöhe (QFE); Abweichung des homogenen Jahresmittels von der Norm 9120";Druck;homogen;Y;1;-100.0..100.0;Float;hPa;11919
+phsstay0;"Luftdruck auf Barometerhöhe (QFE); homogenes Jahresmittel";Druck;homogen;Y;1;0..1500.0;Float;hPa;1636
+pv9120yv;"Dampfdruck 2 m über Boden; Abweichung des homogenen Jahresmittels von der Norm 9120";Feuchte;homogen;Y;1;-999.9..999.9;Float;hPa;11921
+pva2hsy0;"Dampfdruck 2 m über Boden; homogenes Jahresmittel";Feuchte;homogen;Y;1;0..100.0;Float;hPa;1648
+rh9120yv;"Niederschlag; Verhältnis der homogenen Jahressumme konventionell zur Norm 9120";Niederschlag;homogen;Y;0;0..999;Integer;%;11923
+rhs150y0;"Niederschlag; homogene Jahressumme";Niederschlag;homogen;Y;1;0..9999.9;Float;mm;1635
+sh9120yv;"Absolute Sonnenscheindauer; Verhältnis der homogenen Jahressumme zur Norm 9120";Sonne;homogen;Y;0;0..999;Integer;%;11925
+shs000y0;"absolute Sonnenscheindauer; homogene Jahressumme";Sonne;homogen;Y;0;0..999999;Integer;min;1639
+th9120yv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Jahresmittels von der Norm 9120";Temperatur;homogen;Y;1;-99.9..99.9;Float;°C;11928
+th91dnyv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Jahresmittels der Tagesminima von der Norm 9120";Temperatur;homogen;Y;1;-99.9..99.9;Float;°C;11931
+th91dxyv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Jahresmittels der Tagesmaxima von der Norm 9120";Temperatur;homogen;Y;1;-99.9..99.9;Float;°C;11934
+ths200y0;"Lufttemperatur 2 m über Boden; homogenes Jahresmittel";Temperatur;homogen;Y;1;-99.9..99.9;Float;°C;1634
+ths2dyyn;"Lufttemperatur 2 m über Boden; homogenes Jahresmittel der Tagesminima";Temperatur;homogen;Y;1;-99.9..99.9;Float;°C;1637
+ths2dyyx;"Lufttemperatur 2 m über Boden; homogenes Jahresmittel der Tagesmaxima";Temperatur;homogen;Y;1;-99.9..99.9;Float;°C;1638

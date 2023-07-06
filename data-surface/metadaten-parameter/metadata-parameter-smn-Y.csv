@@ -1,0 +1,22 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+fkl010y0;"Windgeschwindigkeit skalar; Jahresmittel";Wind;aggregat;Y;1;0..99.9;Float;m/s;497
+fkl010y1;"Böenspitze (Sekundenböe); Jahresmaximum";Wind;aggregat;Y;1;0..999.9;Float;m/s;499
+fu3010y0;"Windgeschwindigkeit skalar; Jahresmittel";Wind;aggregat;Y;1;0..999.9;Float;km/h;1087
+fu3010y1;"Böenspitze (Sekundenböe); Jahresmaximum";Wind;aggregat;Y;1;0..999.9;Float;km/h;1082
+gre000y0;"Globalstrahlung; Jahresmittel";Strahlung;aggregat;Y;0;0..9999;Integer;W/m²;477
+oli000y0;"Langwellige Einstrahlung; Jahresmittel";Strahlung;aggregat;Y;0;0..9999;Integer;W/m²;3676
+pp0qffy0;"Luftdruck reduziert auf Meeresniveau (QFF); Jahresmittel";Druck;aggregat;Y;1;0..1500.0;Float;hPa;450
+pp0qnhy0;"Luftdruck reduziert auf Meeresniveau mit Standardatmosphäre (QNH); Jahresmittel";Druck;aggregat;Y;1;0..1500.0;Float;hPa;1861
+ppz700y0;"Geopotentielle Höhe der 700 hPa-Fläche; Jahresmittel";Druck;aggregat;Y;1;0..10000.0;Float;gpm;978
+ppz850y0;"Geopotentielle Höhe der 850 hPa-Fläche; Jahresmittel";Druck;aggregat;Y;1;0..10000.0;Float;gpm;977
+prestay0;"Luftdruck auf Barometerhöhe (QFE); Jahresmittel";Druck;aggregat;Y;1;0..1500.0;Float;hPa;448
+pva200y0;"Dampfdruck 2 m über Boden; Jahresmittel";Feuchte;aggregat;Y;1;0..999.9;Float;hPa;491
+rre150y0;"Niederschlag; Jahressumme";Niederschlag;aggregat;Y;1;0..9999.9;Float;mm;501
+sre000y0;"Sonnenscheindauer; Jahressumme";Sonne;aggregat;Y;0;0..999999;Integer;min;469
+tre005y0;"Lufttemperatur 5 cm über Gras; Jahresmittel";Temperatur;aggregat;Y;1;-99.9..99.9;Float;°C;462
+tre005yn;"Lufttemperatur 5 cm über Gras; absolutes Jahresminimum";Temperatur;aggregat;Y;1;-99.9..99.9;Float;°C;466
+tre005yx;"Lufttemperatur 5 cm über Gras; absolutes Jahresmaximum";Temperatur;aggregat;Y;1;-99.9..99.9;Float;°C;464
+tre200y0;"Lufttemperatur 2 m über Boden; Jahresmittel";Temperatur;aggregat;Y;1;-99.9..99.9;Float;°C;452
+tre200yn;"Lufttemperatur 2 m über Boden; absolutes Jahresminimum";Temperatur;aggregat;Y;1;-99.9..99.9;Float;°C;456
+tre200yx;"Lufttemperatur 2 m über Boden; absolutes Jahresmaximum";Temperatur;aggregat;Y;1;-99.9..99.9;Float;°C;454
+ure200y0;"Relative Luftfeuchtigkeit 2 m über Boden; Jahresmittel";Feuchte;aggregat;Y;1;0..999.9;Float;%;483

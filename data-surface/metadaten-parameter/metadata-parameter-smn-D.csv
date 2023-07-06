@@ -1,0 +1,23 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+fkl010d0;"Windgeschwindigkeit skalar; Tagesmittel";Wind;aggregat;D;1;0..99.9;Float;m/s;231
+fkl010d1;"Böenspitze (Sekundenböe); Tagesmaximum";Wind;aggregat;D;1;0..999.9;Float;m/s;232
+fu3010d0;"Windgeschwindigkeit skalar; Tagesmittel";Wind;aggregat;D;1;0..999.9;Float;km/h;1085
+fu3010d1;"Böenspitze (Sekundenböe); Tagesmaximum";Wind;aggregat;D;1;0..999.9;Float;km/h;1940
+gre000d0;"Globalstrahlung; Tagesmittel";Strahlung;aggregat;D;0;0..999;Integer;W/m²;224
+oli000d0;"Langwellige Einstrahlung; Tagesmittel";Strahlung;aggregat;D;0;0..999;Integer;W/m²;3673
+pp0qffd0;"Luftdruck reduziert auf Meeresniveau (QFF); Tagesmittel";Druck;aggregat;D;1;0..1500.0;Float;hPa;962
+pp0qnhd0;"Luftdruck reduziert auf Meeresniveau mit Standardatmosphäre (QNH); Tagesmittel";Druck;aggregat;D;1;0..1500.0;Float;hPa;1855
+ppz700d0;"Geopotentielle Höhe der 700 hPa-Fläche; Tagesmittel";Druck;aggregat;D;1;0..10000.0;Float;gpm;964
+ppz850d0;"Geopotentielle Höhe der 850 hPa-Fläche; Tagesmittel";Druck;aggregat;D;1;0..10000.0;Float;gpm;963
+prestad0;"Luftdruck auf Barometerhöhe (QFE); Tagesmittel";Druck;aggregat;D;1;0..1500.0;Float;hPa;209
+pva200d0;"Dampfdruck 2 m über Boden; Tagesmittel";Feuchte;aggregat;D;1;0..100.0;Float;hPa;767
+rre150d0;"Niederschlag; Tagessumme 6 UTC - 6 UTC Folgetag";Niederschlag;aggregat;D;1;0..1000.0;Float;mm;236
+sre000d0;"Sonnenscheindauer; Tagessumme";Sonne;aggregat;D;0;0..1200;Integer;min;221
+tre005d0;"Lufttemperatur 5 cm über Gras; Tagesmittel";Temperatur;aggregat;D;1;-99.9..99.9;Float;°C;218
+tre005dn;"Lufttemperatur 5 cm über Gras; Tagesminimum";Temperatur;aggregat;D;1;-99.9..99.9;Float;°C;220
+tre005dx;"Lufttemperatur 5 cm über Gras; Tagesmaximum";Temperatur;aggregat;D;1;-99.9..99.9;Float;°C;219
+tre200d0;"Lufttemperatur 2 m über Boden; Tagesmittel";Temperatur;aggregat;D;1;-99.9..99.9;Float;°C;211
+tre200dn;"Lufttemperatur 2 m über Boden; Tagesminimum";Temperatur;aggregat;D;1;-99.9..99.9;Float;°C;213
+tre200dx;"Lufttemperatur 2 m über Boden; Tagesmaximum";Temperatur;aggregat;D;1;-99.9..99.9;Float;°C;212
+ure200d0;"Relative Luftfeuchtigkeit 2 m über Boden; Tagesmittel";Feuchte;aggregat;D;1;0..999.9;Float;%;225
+wcc006d0;Föhnindex, Tageswert;Wind;aggregat;D;0;0..2;Integer;min;5376

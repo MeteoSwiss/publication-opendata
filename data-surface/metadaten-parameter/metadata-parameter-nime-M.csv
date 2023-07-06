@@ -1,0 +1,3 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+hns000m0;"Neuschneehöhe; Monatssumme der täglichen Messungen";Schnee;aggregat;M;0;0..1000;Integer;cm;442
+hto000m0;"Schneehöhe; Monatsmittel";Schnee;aggregat;M;0;0..1000;Integer;cm;938

@@ -1,0 +1,19 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+fh9120mv;"Windgeschwindigkeit skalar; Verhältnis des homogenen Monatsmittels zur Norm 9120";Wind;homogen;M;0;0..999;Integer;%;11912
+fhs010m0;"Windgeschwindigkeit skalar; homogenes Monatsmittel";Wind;homogen;M;1;0..99.9;Float;m/s;1101
+gh9120mv;"Globalstrahlung; Verhältnis des homogenen Monatsmittels zur Norm 9120";Strahlung;homogen;M;0;0..999;Integer;%;11914
+ghs000m0;"Globalstrahlung; homogenes Monatsmittel";Strahlung;homogen;M;0;0..9999;Integer;W/m²;1099
+ph9120mv;"Luftdruck auf Barometerhöhe (QFE); Abweichung des homogenen Monatsmittels von der Norm 9120";Druck;homogen;M;1;-100.0..100.0;Float;hPa;11918
+phsstam0;"Luftdruck auf Barometerhöhe (QFE); homogenes Monatsmittel";Druck;homogen;M;1;0..1500.0;Float;hPa;1091
+pv9120mv;"Dampfdruck 2 m über Boden; Abweichung des homogenen Monatsmittels von der Norm 9120";Feuchte;homogen;M;1;-999.9..999.9;Float;hPa;11920
+pva2hsm0;"Dampfdruck 2 m über Boden; homogenes Monatsmittel";Feuchte;homogen;M;1;0..100.0;Float;hPa;1107
+rh9120mv;"Niederschlag; Verhältnis der homogenen Monatssumme konventionell zur Norm 9120";Niederschlag;homogen;M;0;0..999;Integer;%;11922
+rhs150m0;"Niederschlag; homogene Monatssumme";Niederschlag;homogen;M;1;0..9999.9;Float;mm;1804
+sh9120mv;"Absolute Sonnenscheindauer; Verhältnis der homogenen Monatssumme zur Norm 9120";Sonne;homogen;M;0;0..999;Integer;%;11924
+shs000m0;"absolute Sonnenscheindauer; homogene Monatssumme";Sonne;homogen;M;0;0..99999;Integer;min;1097
+th9120mv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Monatsmittels von der Norm 9120";Temperatur;homogen;M;1;-99.9..99.9;Float;°C;11927
+th91dnmv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Monatsmittels der Tagesminima von der Norm 9120";Temperatur;homogen;M;1;-99.9..99.9;Float;°C;11929
+th91dxmv;"Lufttemperatur 2 m über Boden; Abweichung des homogenen Monatsmittels der Tagesmaxima von der Norm 9120";Temperatur;homogen;M;1;-99.9..99.9;Float;°C;11932
+ths200m0;"Lufttemperatur 2 m über Boden; homogenes Monatsmittel";Temperatur;homogen;M;1;-99.9..99.9;Float;°C;1802
+ths2dymn;"Lufttemperatur 2 m über Boden; homogenes Monatsmittel der Tagesminima";Temperatur;homogen;M;1;-99.9..99.9;Float;°C;1093
+ths2dymx;"Lufttemperatur 2 m über Boden; homogenes Monatsmittel der Tagesmaxima";Temperatur;homogen;M;1;-99.9..99.9;Float;°C;1095

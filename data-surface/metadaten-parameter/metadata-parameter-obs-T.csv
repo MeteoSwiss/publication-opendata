@@ -1,0 +1,6 @@
+SHORT_NAME_TX;DESC_G_TX;NAME_G_TX;Art;TIME_GRANULARITY_TX;DECIMALS_NU;VALUE_RANGE_TX;DATA_TYPE_TX;SHORT_SIGN_TX;PARAMETER_ID
+cc1000s0;Gattung der untersten Wolken;Augenbeobachtung;originalwert;T;0;0..9;Integer;Code;127
+ccl000s0;Wolken der Gattungen Sc, St, Cu, Cb  (WMO 0513);Augenbeobachtung;originalwert;T;0;0..10;Integer;Code;130
+nto000s0;Gesamtbewölkung;Augenbeobachtung;originalwert;T;0;0..9;Integer;octas;119
+vho000s0;Horizontale Sichtweite;Augenbeobachtung;originalwert;T;0;0..99;Integer;Code;144
+wat000s0;Wetter zur Zeit der Beobachtung (WMO 4677);Augenbeobachtung;originalwert;T;0;0..99;Integer;Code;145
