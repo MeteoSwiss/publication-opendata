@@ -68,7 +68,7 @@ This is the **current status of the clarifications** as to which data categories
 
 | Data category | in clarification      | can be made available as open data | cannot be made available as open data | 
 | :------------ | :-------------------- | :-------------------------------------- | :----------------------------------------- |
-| Surface       | *all types clarified* | [2.2.1. Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)              | [2.2.7. Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-automatic-weather)                           |
+| Surface       | *all types clarified* | [2.2.1. Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)              | [2.2.7. Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-aviation-weather)                           |
 |               |                       | Manual precipitation stations           | Aerosol measurements                       |
 |               |                       | Visual observations                     |                                            |
 |               |                       | Climate stations "Swiss NBCN"           |                                            |
