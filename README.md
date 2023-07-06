@@ -219,10 +219,10 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Additional remarks*: One file for all stattions! <br>
 
 #### 2.2.7. Aviation weather
-[MeteoSwiss' aviation weather service and products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html)) will not be provided as 'open data'.
+[MeteoSwiss' aviation weather service and products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) will not be provided as 'open data'.
 
 #### 2.2.8. Aerosol measurements
-[Official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html)) will not be provided as 'open data'. 
+[Official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) will not be provided as 'open data'. 
 
 
 ### 2.3. Atmosphere data ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-IT))
