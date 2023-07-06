@@ -19,28 +19,28 @@
         - 2.2.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs)
         - 2.2.4. [Climate stations "Swiss NBCN" (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip)
             - 2.2.4.1 [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2241-records-and-extremes)
-        - 2.2.5. [**Swiss pollen monitoring stations** (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen)
-        - 2.2.6. [**Phenological observations** (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology)
-        - 2.2.7. **Aviation weather** (will not be provided as 'open data'by MeteoSwiss)
-        - 2.2.8. **Aerosol measurements** (will not be provided as 'open data' by MeteoSwiss)
+        - 2.2.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen)
+        - 2.2.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology)
+        - 2.2.7. [Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-aviation-weather)
+        - 2.2.8. [Aerosol measurements](https://github.com/MeteoSwiss/publication-opendata/tree/main#228-aerosol-measurements)
     - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data-de-fr-it)
-        - 2.3.1. [**Radio soundings** (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
-        - 2.3.2. [**Weather radar network** (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
-        - 2.3.3. **Windprofiler** *(in question as to whether it can be made available as 'open data' by MeteoSwiss)*
-        - 2.3.4. **LIDAR and ceilometers** *(in question as to whether it can be made available as 'open data' by MeteoSwiss)*
-        - 2.3.5. **Microwave Radiometry** *(in question as to whether it can be made available as 'open data' by MeteoSwiss)*
-        - 2.3.6. **Ozone measurements** *(in question as to whether it can be made available as 'open data' by MeteoSwiss)*
-        - 2.3.7. **Radiation monitoring network** *(in question as to whether it can be made available as 'open data' by MeteoSwiss)*
-        - 2.3.8. **Observations from aircraft** (will not be provided as 'open data' by MeteoSwiss)
-        - 2.3.9. **Satellite observations** (will not be provided as 'open data' by MeteoSwiss)
-        - 2.3.10. **Lightning detection network** (will not be provided as 'open data' by MeteoSwiss)
+        - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
+        - 2.3.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
+        - 2.3.3. Windprofiler *(in clarification as to whether it can be made available as 'open data' by MeteoSwiss)*
+        - 2.3.4. LIDAR and ceilometers *(in clarification as to whether it can be made available as 'open data' by MeteoSwiss)*
+        - 2.3.5. Microwave Radiometry *(in clarification as to whether it can be made available as 'open data' by MeteoSwiss)*
+        - 2.3.6. Ozone measurements *(in clarification as to whether it can be made available as 'open data' by MeteoSwiss)*
+        - 2.3.7. Radiation monitoring network *(in question as to whether it can be made available as 'open data' by MeteoSwiss)*
+        - 2.3.8. Observations from aircraft (will not be provided as 'open data' by MeteoSwiss)
+        - 2.3.9. Satellite observations (will not be provided as 'open data' by MeteoSwiss)
+        - 2.3.10. Lightning detection network (will not be provided as 'open data' by MeteoSwiss)
     - 2.4. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data)
-        - 2.4.1. **Postprocessed data** (Data4Web) *((better understood name?))*
-        - 2.4.2. [**INCA data** (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-inca-data-nowcasting)
-        - 2.4.3. **COSMO/ICON data** (forecasting)
+        - 2.4.1. Postprocessed data (Data4Web)
+        - 2.4.2. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-inca-data-nowcasting)
+        - 2.4.3. COSMO/ICON data (forecasting)
     - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-grid-data)
-        - 2.5.1. [**Spatial climate data**](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
-        - 2.5.x. Radar and compiprecip
+        - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
+        - 2.5.x. Radar and compiprecip data
 3. [Questions to the open data user community](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#3-questions-to-the-open-data-user-community)
  
     
@@ -87,7 +87,7 @@ This is the **current status of the clarifications** as to which data types can 
 |               |                     | Forecasting data (COSMO/ICON) |                             |
 |               |                     | Postprocessed data (Data4Web) |                             |
 | **Grid**      | ...                 | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data) |                             |
-|               |                     | Radar and compiprecip         |                             |
+|               |                     | Radar and compiprecip data    |                             |
 
 
 #### 2.1.1. Data granularity
