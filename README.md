@@ -576,33 +576,24 @@ Basic radar data
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+>*Volume (MB):* 0.2 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):* **<br>
 >*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+>*Volume (MB):* 0.2 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):* **MAX-ECHO <br>
 >*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
-
->*Open Data Product (Title):* **ECHO-TOP 15dBZ <br>
->*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
->*Granularity:* 5min <br>
->*Update frequency:* according to granularity <br>
->*Format:* HDF5 <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
-
+>*Volume (MB):* 0.2 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):* **ECHO-TOP 45dBZ <br>
 >*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
@@ -610,7 +601,16 @@ Basic radar data
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
 >*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
+
+
+>*Open Data Product (Title):* ** <br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* HDF5 <br>
+>*Volume (MB):* 0.2 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 Advanced radar data
 
@@ -619,8 +619,8 @@ Advanced radar data
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+>*Volume (MB):* 0.2 <br>
+>*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 
 
