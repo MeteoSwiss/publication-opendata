@@ -72,8 +72,8 @@ This is the **current status of the clarifications** as to which data types can 
 
 | Data category | in clarification if | can be made available as open data | cannot be made available as open data | 
 | :------------ | :------------------ | :--------------------------------- | :------------------------------------ |
-| **Surface**   | *all types clarified* | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-aviation-weather) |
-|               |                     | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) | [Aerosol measurements](https://github.com/MeteoSwiss/publication-opendata/tree/main#228-aerosol-measurements) |
+| **Surface**   | *Aviation weather* | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) |                     |
+|               | *Aerosol measurements* | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) |                     |
 |               |                     | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs) |                             |
 |               |                     | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip) |                             |
 |               |                     | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen) |                             |
