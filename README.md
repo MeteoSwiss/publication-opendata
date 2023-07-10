@@ -567,9 +567,9 @@ Satellite derived gridded data
 #### 2.5.2. Radar data
 Radar data is beeing provided in the HDF5-Format which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
-The radar products are diveded into basic products and advanced products.
+The radar data are divided into basic radar data and advanced radar data.
 
-Radar Basic products
+Basic radar data
 
 >*Open Data Product (Title):* **Precip RCZ<br>
 >*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
@@ -612,7 +612,7 @@ Radar Basic products
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
-Radar advanced products
+Advanced radar data
 
 >*Open Data Product (Title):* **Probability of hail (POH) <br>
 >*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
