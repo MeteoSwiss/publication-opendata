@@ -564,7 +564,63 @@ Satellite derived gridded data
 
 
 
+#### 2.5.2. Radar data
+Radar data is beeing provided in the HDF5-Format which is the common exchange format for radar data.
+See the metadata in each HDF5-File for further information. 
+The radar products are diveded into basic products and advanced products.
 
+Radar Basic products
+
+>*Open Data Product (Title):* **Precip RCZ<br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* HDF5 <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+
+>*Open Data Product (Title):* **<br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* HDF5 <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+
+>*Open Data Product (Title):* **MAX-ECHO <br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* HDF5 <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+
+>*Open Data Product (Title):* **ECHO-TOP 15dBZ <br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* HDF5 <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+
+
+>*Open Data Product (Title):* **ECHO-TOP 45dBZ <br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* HDF5 <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+
+Radar advanced products
+
+>*Open Data Product (Title):* **Probability of hail (POH) <br>
+>*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Granularity:* 5min <br>
+>*Update frequency:* according to granularity <br>
+>*Format:* HDF5 <br>
+>*Volume (MB):* 0.1 <br>
+>*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
 
 
