@@ -491,27 +491,27 @@ See the linked description files for each product for further information.
 For more information see also the metadata in each NetCDF-File.
 
 >*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY)** <br>
->*Detailed product document(s): *[RprelimD](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf),  [RhiresD](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [RhiresM,RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
+>*Detailed product document(s):* *[RprelimD](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf),  [RhiresD](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [RhiresM,RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
 >*Data structure (Example file):* [RhiresD.nc](RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc), [RhiresM.nc](RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc),[RhiresY.nc](RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
+>*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded temperature data (TabsD,TminD,TmaxD,TabsM,TminM,TmaxM,TabsY,TminY,TmaxY)** <br>
->*Detailed product document(s): *[TabsD,TminD,TmaxD](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf),  [TabsM, TabsY](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf)) <br>
+>*Detailed product document(s):* *[TabsD,TminD,TmaxD](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf),  [TabsM, TabsY](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf)) <br>
 >*Data structure (Example file):* [TabsD.nc](TabsD_ch01r.swiss.lv95_202305010000_202305310000.nc), [TabsM.nc](TabsM_ch01r.swiss.lv95_202305010000_202305010000.nc), [TmaxM.nc](TmaxM_ch01r.swiss.lv95_202305010000_202305010000.nc),[TminY.nc](TminY_ch01r.swiss.lv95_202201010000_202201010000.nc)<br>
->*Granularity:*  daily, monthly, yearly <br>
+>*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB<br>
 >*Additional remarks*: Coordinate System : Swiss LV95 EPSG:2056< <br>
 
 >*Open Data Product (Title):* **Gridded relative sunshine duration data (SreldD,SrelM,SrelY)** <br>
->*Detailed product document(s): *[SrelD](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf),  [SrelM,SrelY](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf) <br>
+>*Detailed product document(s):* *[SrelD](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf),  [SrelM,SrelY](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf) <br>
 >*Data structure (Example file):* [SrelD.nc](SrelD_ch01r.swiss.lv95_202305010000_202305310000.nc),[SrelM.nc](SrelM_ch01r.swiss.lv95_202305010000_202305010000.nc), [SrelY.nc](SrelY_ch01r.swiss.lv95_202201010000_202201010000.nc)  <br>
->*Granularity:*  daily, monthly, yearly <br>
+>*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
@@ -521,36 +521,36 @@ For more information see also the metadata in each NetCDF-File.
 Satellite derived gridded data 
 
 >*Open Data Product (Title):* **Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y)** <br>
->*Detailed product document(s): *[MSG.SIS.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
+>*Detailed product document(s):* *[MSG.SIS.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
 >*Data structure (Example file):* [[MSG.SIS.D.nc](msg.SIS.D_ch02.lonlat_20201206000000.nc),[MSG.SIS.M.nc](msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
+>*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
 >*Open Data Product (Title):* **Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y)** <br>
->*Detailed product document(s): *[MSG.SISDIF.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
+>*Detailed product document(s):* *[MSG.SISDIF.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
 >*Data structure (Example file):* [[MSG.SIS.D.nc](msg.SIS.D_ch02.lonlat_20201206000000.nc),[MSG.SIS.M.nc](msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
+>*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326< <br>
 
 >*Open Data Product (Title):* **Gridded direct radiation (MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y)** <br>
->*Detailed product document(s): *[MSG.SISDIR.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
+>*Detailed product document(s):* *[MSG.SISDIR.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
 >*Data structure (Example file):* [[MSG.SISDIR.D.nc](msg.SISDIR.D_ch02.lonlat_20201206000000.nc),[MSG.SISDIR.M.nc](msg.SISDIR.M_ch02.lonlat_20210401000000.nc), [MSG.SISDIR.Y.nc](msg.SISDIR.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
+>*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
 >*Open Data Product (Title):* **Gridded cloud fractional cover (MSG.CFC.D, MSG.CFC.M, MSG.CFC.Y)** <br>
->*Detailed product document(s): *[MSG.CFC.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
+>*Detailed product document(s):* *[MSG.CFC.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
 >*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc](msg.CFC.M_ch02.lonlat_20210401000000.nc), [MSG.CFC.Y.nc](msg.CFC.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:*  daily, monthly, yearly <br>
+>*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* NetCDF <br>
 >*Volume (MB):* 0.1 <br>
@@ -574,7 +574,7 @@ Basic radar data
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):** **<br>
->*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Data structure (Example file):* []() <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
@@ -599,7 +599,7 @@ Basic radar data
 
 
 >*Open Data Product (Title):** ** <br>
->*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Data structure (Example file):* []() <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
