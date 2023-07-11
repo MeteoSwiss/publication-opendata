@@ -69,21 +69,21 @@ This is the **current status of the clarifications** as to which data types can 
 
 | Data category | in clarification if/what | can be made available as open data | cannot be made available as open data - with reasons | 
 | :------------ | :----------------------- | :--------------------------------- | :--------------------------------------------------- |
-| **Surface**   |                          | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
-|               | [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) |                     |
-|               |                          | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs) |                             |
-|               |                          | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip) |                           |
-|               |                          | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen) |                             |
-|               |                          | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology) |                             |
-| **Atmosphere** | *[Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html)*     | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding) | *[Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html)* [Data does not belong to MeteoSwiss] |
-|               | *[LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html)* | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing) | *[Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html)* [Data does not belong to MeteoSwiss] |
-|               | *[Microwave radiometry](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/microwave-radiometry.html)* |                             | *[Lightning detection network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lightning-detection-network.html)* [Data does not belong to MeteoSwiss] |
-|               | *[Ozone measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/ozone-measurements.html)* |                             |                             |
-|               | *[Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html)* |                             |                             |
-| **Model**     | *Postprocessed data (Data4Web)*     | [Nowcasting data (INCA)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-inca-data-nowcasting) |                             |
-|               |                     | Forecasting data (COSMO/ICON) |                             |
-| **Grid**      |                     | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data) |                             |
-|               |                     | Radar data    |                             |
+| **Surface** |  | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
+|  | [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) |  |
+|  |  | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs) |  |
+|  |  | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip) |  |
+|  |  | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen) |  |
+|  |  | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology) |  |
+| **Atmosphere** | [Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html) | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding) | [Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html) - Data does not belong to MeteoSwiss |
+|  | [LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html) | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing) | [Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) - Data does not belong to MeteoSwiss |
+|  | [Microwave radiometry](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/microwave-radiometry.html) |  | [Lightning detection network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lightning-detection-network.html) - Data does not belong to MeteoSwiss |
+|  | [Ozone measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/ozone-measurements.html) |  |  |
+|  | [Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html) |  |  |
+| **Model** | Postprocessed data (Data4Web) | [Nowcasting data (INCA)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-inca-data-nowcasting) |  |
+|  |  | Forecasting data (COSMO/ICON) |  |
+| **Grid** |  | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data) |  |
+|  |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-and-combiprecip-data) |  |
 
 
 #### 2.1.1. Data granularity
@@ -94,7 +94,7 @@ If you need hourly, daily, monthly or yearly values, we strongly recommend that 
 This is the overview of the granularities used by MeteoSwiss:
 
 | Granularity | Name | Description | Used for |
-| --- | --- | --- | --- |
+| ----------- | ---- | ----------- | -------- |
 | T | 10min value | At MeteoSwiss this is the standard granularity for realtime data of the automatic measurement network SwissMetNet (SMN) or the model output. Meteorological observations do also use this granularity but only offer values at fixed intervals like 6UTC, 12UTC and 18UTC (called "Terminwerte")! | [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html), [OBS](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html) |
 | H | Hourly value | Either aggregated from 10min values or provided by the instrument/network | [Pollen](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) |
 | D | Daily value | Used throughout the MeteoSwiss measurement network before automatization in 1981 started. Today still used for manual precipitation and snow measurements. For automatic stations daily values are calculated using 10min values according to WMO guidelines. | [NIME](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html) |
