@@ -4,7 +4,7 @@
 
 # OGD@MeteoSwiss - Open Government Data [work in progress]
 
-1. [Context and mission of this project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-this-project-de-fr-it)
+1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-this-project-de-fr-it)
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     - 1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point)
 2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it)
@@ -21,8 +21,8 @@
             - 2.2.4.1 [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2241-records-and-extremes)
         - 2.2.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen)
         - 2.2.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology)
-        - 2.2.7. [Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-aviation-weather)
-        - 2.2.8. [Aerosol measurements](https://github.com/MeteoSwiss/publication-opendata/tree/main#228-aerosol-measurements)
+<!--         - 2.2.7. [Aviation weather](https://github.com/MeteoSwiss/publication-opendata/tree/main#227-aviation-weather)    -->
+<!--         - 2.2.8. [Aerosol measurements](https://github.com/MeteoSwiss/publication-opendata/tree/main#228-aerosol-measurements)    -->
     - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data-de-fr-it)
         - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
         - 2.3.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
