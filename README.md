@@ -81,7 +81,7 @@ This is the **current status of the clarifications** as to which data types can 
 | **Model**     | *Postprocessed data (Data4Web)*     | [Nowcasting data (INCA)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-inca-data-nowcasting) |                             |
 |               |                     | Forecasting data (COSMO/ICON) |                             |
 | **Grid**      |                     | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data) |                             |
-|               |                     | Radar and compiprecip data    |                             |
+|               |                     | Radar data    |                             |
 
 
 #### 2.1.1. Data granularity
