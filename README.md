@@ -35,7 +35,7 @@
         - 2.4.3. COSMO/ICON data (forecasting)
     - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-grid-data)
         - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
-        - 2.5.2. [Radar data and Coombiprecip](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-data)
+        - 2.5.2. [Radar data and Combiprecip](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-data)
 3. [Questions to the open data user community](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#3-questions-to-the-open-data-user-community)
  
     
