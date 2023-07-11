@@ -561,7 +561,7 @@ Satellite derived gridded data
 #### 2.5.2. Radar data
 Radar data is beeing provided in the HDF5-Format which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
-The radar data are divided into basic radar data and advanced radar data.
+The radar data are divided into basic radar data and advanced radar data and combiprecip.
 
 Basic radar data
 
