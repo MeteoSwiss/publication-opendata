@@ -2,7 +2,7 @@
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss Team](mailto:opendata@meteoswiss.ch) <br>
 *Version, date:* v1.0, 2023-07-11
 
-# OGD@MeteoSwiss - Open Government Data [Work in Progress]
+# OGD@MeteoSwiss - Open Government Data [work in progress]
 
 1. [Context and mission of this project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-this-project-de-fr-it)
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
