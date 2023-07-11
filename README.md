@@ -566,7 +566,7 @@ The radar data are divided into basic radar data and advanced radar data.
 Basic radar data
 
 >*Open Data Product (Title):* **Precip RZC**<br>
->*Data structure (Example file):* [Precip_RZC](Precip_RZC.h5) <br>
+>*Data structure (Example file):* [Precip](Precip_RZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
@@ -582,7 +582,7 @@ Basic radar data
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):* **MAX-ECHO (CZC)**<br>
->*Data structure (Example file):* [MAX ECHO ](MAX_ECHO_CZC.h5) <br>
+>*Data structure (Example file):* [MAX ECHO](MAX_ECHO_CZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
@@ -590,7 +590,7 @@ Basic radar data
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):* **ECHO TOP 45dBZ (EZC)** <br>
->*Data structure (Example file):* [ECHO_TOP_45dBZ_EZC](Echo_TOP_45dBZ_EZC.h5) <br>
+>*Data structure (Example file):* [ECHO_TOP_45dBZ](Echo_TOP_45dBZ_EZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
@@ -609,7 +609,7 @@ Basic radar data
 Advanced radar data
 
 >*Open Data Product (Title):* **Probability of hail (POH)** <br>
->*Data structure (Example file):* [POH BZC](POH_BZC.h5) <br>
+>*Data structure (Example file):* [POH](POH_BZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
