@@ -35,7 +35,7 @@
         - 2.4.3. COSMO/ICON data (forecasting)
     - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-grid-data)
         - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
-        - 2.5.2. [Radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-data)
+        - 2.5.2. [Radar data and Coombiprecip](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-data)
 3. [Questions to the open data user community](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#3-questions-to-the-open-data-user-community)
  
     
@@ -561,7 +561,7 @@ Satellite derived gridded data
 #### 2.5.2. Radar data
 Radar data is beeing provided in the HDF5-Format which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
-The radar data are divided into basic radar data and advanced radar data and combiprecip.
+The radar data are divided into [basic radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/basic-radar-products.html), [advanced radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) and [combiprecip](https://www.meteoswiss.admin.ch/dam/jcr:2691db4e-7253-41c6-a413-2c75c9de11e3/ProdDoc_CPC.pdf).
 
 Basic radar data
 
