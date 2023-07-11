@@ -60,7 +60,7 @@ MeteoSwiss operates an extensive monitoring network, both on the ground (surface
 
 This is the **current status of the clarifications** as to which data types can be made available (and how) under an open data license by MeteoSwiss, and which not:
 
-| Data category | in clarification if/what | can be made available as open data | cannot be made available as open data | 
+| Data category | in clarification if/what | can be made available as open data | cannot be made available as open data [with reasons] | 
 | :------------ | :------------------ | :--------------------------------- | :------------------------------------ |
 | **Surface**   | *Aviation weather* | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) |                     |
 |               | *Aerosol measurements* | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) |                     |
