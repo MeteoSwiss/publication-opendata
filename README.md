@@ -23,7 +23,6 @@
         - 2.2.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot)
         - 2.2.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs)
         - 2.2.4. [Climate stations "Swiss NBCN" (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip)
-            - 2.2.4.1 [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2241-records-and-extremes)
         - 2.2.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen)
         - 2.2.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology)
     - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data)
@@ -107,7 +106,7 @@ For measurement data MeteoSwiss provides an optimized directory structure separa
 This is the overview:
 
 | Type | Description | Update cycle | Used for |
-| --- | --- | --- | --- |
+| ---- | ----------- | ------------ | -------- |
 | historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) M, D, H, T |
 | recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) M, D, H, T |
 | now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) H, T |
@@ -128,7 +127,7 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 #### 2.1.4. Column separators, decimal dividers and missing values
 Generally, columns are separated with a semicolon (`;`). The decimal divider is a full stop (`.`). Missing values are indicated with a hyphen (`-`).
 
-### 2.2. Surface data ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/surface-IT))
+### 2.2. Surface data
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
 
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according metadata section.
@@ -189,10 +188,10 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 >*Parameter metadata:* To be defined <br>
 >*Additional remarks*: One file per station! <br>
 
-##### 2.2.4.1 Records and extremes
+<!-- ##### 2.2.4.1 Records and extremes
 Additionally the top 10 records of every climate station and the overall records can be downloaded per parameter separately.
 
-((TBD ..))
+((TBD ..)) -->
 
 #### 2.2.5. Swiss pollen monitoring stations (pollen)
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). This consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is now operational: for the first time in the world, instead of daily averages being available after a week, information is available in real time at an hourly resolution.
@@ -222,14 +221,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 >*Parameter metadata:* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-metadata](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-metadata) <br>
 >*Additional remarks*: One file for all stattions! <br>
 
-#### 2.2.7. Aviation weather
-[MeteoSwiss' aviation weather service and products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) will not be provided as 'open data'.
-
-#### 2.2.8. Aerosol measurements
-[Official aerosol measurements in Switzerland](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) will not be provided as 'open data'. 
-
-
-### 2.3. Atmosphere data ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere-IT))
+### 2.3. Atmosphere data
 MeteoSwiss obtains relevant data for weather forecasting and climate analysis from the [atmosphere](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere.html). The properties and composition of the atmosphere are studied using various instruments and methods, including weather balloons, satellites and laser equipment. Weather radar stations play an important role, as they record precipitation and thunderstorms throughout Switzerland in real time.
 
 #### 2.3.1. Radio soundings (radiosounding)
@@ -272,10 +264,7 @@ The sites are
 
 #### 2.4. Model data
 
-#### 2.4.1. Postprocessed data (Data4Web)
-...
-
-#### 2.4.2. INCA data (nowcasting)
+#### 2.4.1. INCA data (nowcasting)
 The INCA [nowcasting](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/nowcasting.html) forecasts come in 2 versions for most parameters a) a short 0h- +6h version and an b) an extended 6h-+28/33h version.
 Please be aware, that in the extended versions, the part after the first 6h comes from the COSMO-1E model, which means, that it is beeing updated only every 3h (00h, 03h, 06h, 09h etc. UTC). Only the first +6h are beeing updated according to the respective update frequency. 
 For more information see the metadata in each NetCDF-File.
@@ -480,8 +469,8 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 20 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
-#### 2.4.3. COSMO/ICON data (forecasting)
-...
+<!-- #### 2.4.3. COSMO/ICON data (forecasting)
+... -->
 
 #### 2.5. Grid data
 
@@ -560,7 +549,7 @@ Satellite derived gridded data
 
 
 
-#### 2.5.2. Radar data
+#### 2.5.2. Radar and combiprecip data
 Radar data is beeing provided in the HDF5-Format which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
 The radar data are divided into [basic radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/basic-radar-products.html), [advanced radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) and [combiprecip](https://www.meteoswiss.admin.ch/dam/jcr:2691db4e-7253-41c6-a413-2c75c9de11e3/ProdDoc_CPC.pdf).
@@ -620,14 +609,8 @@ Advanced radar data
 
 
 
-
-
-
-## 3. Questions to the open data user community
+## 3. Questions for discussion with the open data user community
 1. [Besides wind gusts (maximum wind speed) MeteoSwiss plans to only publish maximum and minimum (hourly, daily, monthly and yearly) for temperature, since these aggregations are widely used and used to be measured by separate instruments in the past. Do users want to have aggregated (calculated) maximum and minimum also for other parameters like pressure, humidity or soil parameters or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
 2. [For sum parameters (precipitation, snow) MeteoSwiss plans to publish only one parameter per granularity. Do users want to have multi-hour (e.g. 6h, 12h, 24h) or multi-day (2d, 3d, 6d) aggregated sums or will they calculate these themselves?](https://github.com/MeteoSwiss/publication-opendata/discussions/2)
 3. Is the mutation information (e.g. if a value is original, interpolated, automatically or manually corrected, aggregated etc.) or a value interesting for the user? If yes, in which format should we publish this data?
 4. What kind of metadata for stations and parameters does the user community expect from MeteoSwiss? Are the examples below sufficient or does the OGD community need more metadata?
-
-
-<!-- Metadaten als . -->
