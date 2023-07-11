@@ -68,9 +68,9 @@ This is the **current status of the clarifications** as to which data types can 
 |               |                     | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip) |                             |
 |               |                     | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen) |                             |
 |               |                     | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology) |                             |
-| **Atmosphere** | *Windprofiler*     | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding) | Observations from aircraft [Data does not belong to MeteoSwiss] |
-|               | *LIDAR and ceilometers* | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing) | Satellite observations [Data does not belong to MeteoSwiss] |
-|               | *Microwave radiometry* |                             | Lightning detection network [Data does not belong to MeteoSwiss] |
+| **Atmosphere** | *Windprofiler*     | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding) | *[Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html)* [Data does not belong to MeteoSwiss] |
+|               | *LIDAR and ceilometers* | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing) | *[Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html)* [Data does not belong to MeteoSwiss] |
+|               | *Microwave radiometry* |                             | *[Lightning detection network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lightning-detection-network.html)* [Data does not belong to MeteoSwiss] |
 |               | *Ozone measurements* |                             |                             |
 |               | *Radiation monitoring network* |                             |                             |
 | **Model**     |                     | Postprocessed data (Data4Web) |                             |
