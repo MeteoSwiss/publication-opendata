@@ -1,5 +1,5 @@
-*Version, date:* v1.0, 2023-07-11 <br>
-*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss Team](mailto:opendata@meteoswiss.ch)
+*Version, date, status:* v1.0, 2023-07-11, DRAFT <br>
+*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss Project Team](mailto:opendata@meteoswiss.ch)
 
 # OGD@MeteoSwiss - Open Government Data
 
@@ -9,16 +9,16 @@
 
 ## Table of contents
 
-1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-this-project-de-fr-it)
+1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-this-project)
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     - 1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point)
-2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products-de-fr-it)
+2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products)
     - 2.1. [General information and status of clarifications](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-general-information-and-status-of-clarifications)
         - 2.1.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#211-data-granularity)
         - 2.1.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-data-structure-and-update-cycle)
         - 2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#213-time-stamps-and-time-intervals)
         - 2.1.4. [Column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/publication-opendata/tree/main#214-column-separators-decimal-dividers-and-missing-values)
-    - 2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-data-de-fr-it)
+    - 2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-data)
         - 2.2.1. [Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)
         - 2.2.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot)
         - 2.2.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs)
@@ -26,48 +26,50 @@
             - 2.2.4.1 [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2241-records-and-extremes)
         - 2.2.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen)
         - 2.2.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology)
-    - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data-de-fr-it)
+    - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data)
         - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
         - 2.3.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
     - 2.4. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data)
-        - 2.4.1. Postprocessed data (Data4Web)
-        - 2.4.2. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-inca-data-nowcasting)
-        - 2.4.3. COSMO/ICON data (forecasting)
+        - 2.4.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-inca-data-nowcasting)
+        - 2.4.2. COSMO/ICON data (forecasting)
     - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-grid-data)
         - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
-        - 2.5.2. [Radar data and Combiprecip](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-data)
+        - 2.5.2. [Radar and combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-and-combiprecip-data)
 3. [Questions to the open data user community](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#3-questions-to-the-open-data-user-community)
  
     
-## 1. Context and mission of this project ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/context-and-purpose-IT))
+## 1. Context and mission of this project
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
 
 In the current year (2023) the necessary technical and organizational measures for the implementation of Open Government Data (OGD) at [MeteoSwiss](https://www.meteoswiss.admin.ch/about-us/portrait.html) are being tackled within the scope of a project.
 
-Finding out, collecting, analysing and weighting user needs is the central way for us to be able to offer good 'open data products'. Thank you very much for your attention and your openness to enter into an exchange with us on this matter.
+> **Finding out, collecting, analysing and weighting user needs** is the central way for the project team to be able to offer good 'open data products'.
+> Thank you very much for your attention and your openness to enter into an exchange with us on this matter.
 
 ### 1.1. Purpose of this repository
-This repository is used by MeteoSwiss to inform the public and potential users interested in open data about the plans and to receive specific feedback from them on proposals.
+This repository is used by MeteoSwiss' project team to inform potential users interested in open data about the plans and to receive specific feedback from them on proposals.
 1. [We describe the various 'open data products'](https://github.com/MeteoSwiss/publication-opendata/tree/main#2-open-data-products) being designed by MeteoSwiss' specialist data teams. That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics**.
-2. We are looking for your feedback on our proposals: To this end, [we ask you general questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#3-questions-to-the-open-data-user-community) on the one hand and are open to your specific questions and feedback on the other. **The preferred way to share the latter** is to [open a public issue in this repository](https://github.com/MeteoSwiss/publication-opendata/issues/new). Alternatively, [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-general-contact-point).
-3. What rhythm of interaction you can expect: The **leaders of the data teams meet once a week (on Thursdays)** to review and clarify the feedback received and to ask questions if necessary.
+2. We are looking for your feedback on our proposals: To this end, [we ask you general questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#3-questions-to-the-open-data-user-community) on the one hand, and are open to your specific questions and feedback on the other.
+> **The preferred way to share the latter is to [open a public issue in this repository](https://github.com/MeteoSwiss/publication-opendata/issues/new).**
+> Alternatively, [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-general-contact-point).
+> **The data teams meet every second week** to review and clarify the feedback received, to provide answers or ask questions if necessary.
 
 **Important note:**
 - All information in this repository reflects the current state of work and is subject to change.
 
 ### 1.2. General contact point
-If you have any questions, please contact the project core team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
+If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
 
-## 2. Open data products ([DE](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-DE), [FR](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-FR), [IT](https://github.com/MeteoSwiss/publication-opendata/blob/main/opendata-products-IT))
+## 2. Open data products
 
-### 2.1. General information
+### 2.1. General information and status of clarifications
 MeteoSwiss operates an extensive monitoring network, both on the ground (surface stations) and in the atmosphere, that enables it to collect round-the-clock meteorological data for the whole of Switzerland. These data form the basis for making weather forecasts, issuing bad weather warnings, and analysing climate change. Furthermore MeteoSwiss operates a weather model for forecasting and also generates gridded data sets.
 
 This is the **current status of the clarifications** as to which data types can be made available (and how) under an open data license by MeteoSwiss, and which not:
 
-| Data category | in clarification if/what | can be made available as open data | cannot be made available as open data [with reasons] | 
-| :------------ | :------------------ | :--------------------------------- | :------------------------------------ |
-| **Surface**   | *[Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html)* [These data are collected on behalf of and financed by professional aviation.] | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) |                     |
+| Data category | *in clarification if/what* | can be made available as open data | *cannot be made available as open data [with reasons]* | 
+| :------------ | :------------------------- | :--------------------------------- | :----------------------------------------------------- |
+| **Surface**   |                     | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) | *[Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html)* [These data are collected on behalf of and financed by professional aviation] |
 |               | *[Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html)* | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) |                     |
 |               |                     | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs) |                             |
 |               |                     | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip) |                             |
