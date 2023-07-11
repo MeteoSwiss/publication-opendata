@@ -4,7 +4,8 @@
 
 # OGD@MeteoSwiss - Open Government Data
 
-> **This is work in progress.** Jump directly to the overview of [which data types are to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-general-information-and-status-of-clarifications).
+> **This is work in progress.** <br>
+> Jump directly to the overview of [which data types are to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-general-information-and-status-of-clarifications).
 
 
 ## Table of contents
