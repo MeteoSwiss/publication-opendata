@@ -591,7 +591,7 @@ Basic radar data
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):* **ECHO-TOP 45dBZ <br>
->*Data structure (Example file):* [MSG.CFC.D.nc](msg.CFC.D_ch02.lonlat_20201206000000.nc),[MSG.CFC.M.nc] <br>
+>*Data structure (Example file):* [ECHO_TOP_45dBZ](Echo_TOP_45dBZ_EZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
