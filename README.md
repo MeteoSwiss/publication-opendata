@@ -558,8 +558,8 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 Basic radar data
 
->*Open Data Product (Title):* **Precip RZC**<br>
->*Data structure (Example file):* [Precip](Precip_RZC.h5) <br>
+>*Open Data Product (Title):* **Precip RZC** <br>
+>*Data structure (Example file):* [Precip_RZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Precip_RZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
@@ -574,8 +574,8 @@ Basic radar data
 >*Volume (MB):* 0.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
->*Open Data Product (Title):* **MAX-ECHO (CZC)**<br>
->*Data structure (Example file):* [MAX ECHO](MAX_ECHO_CZC.h5) <br>
+>*Open Data Product (Title):* **MAX-ECHO (CZC)** <br>
+>*Data structure (Example file):* [MAX_ECHO_CZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/MAX_ECHO_CZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
@@ -583,7 +583,7 @@ Basic radar data
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 >*Open Data Product (Title):* **ECHO TOP 45dBZ (EZC)** <br>
->*Data structure (Example file):* [ECHO_TOP_45dBZ](Echo_TOP_45dBZ_EZC.h5) <br>
+>*Data structure (Example file):* [ECHO_TOP_45dBZ](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Echo_TOP_45dBZ_EZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
@@ -602,7 +602,7 @@ Basic radar data
 Advanced radar data
 
 >*Open Data Product (Title):* **Probability of hail (POH)** <br>
->*Data structure (Example file):* [POH](POH_BZC.h5) <br>
+>*Data structure (Example file):* [POH_BZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/POH_BZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
