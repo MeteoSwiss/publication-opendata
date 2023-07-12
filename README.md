@@ -1,4 +1,4 @@
-*Version, date, status:* v1.0, 2023-07-11, DRAFT <br>
+*Version, status:* v1.0, DRAFT <br>
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss Project Team](mailto:opendata@meteoswiss.ch)
 
 [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master)
