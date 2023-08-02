@@ -52,8 +52,9 @@ In the current year (2023) the necessary technical and organizational measures f
 ### 1.1. Purpose of this repository
 This repository is used by MeteoSwiss' project team to inform potential users interested in Open Data about the plans and to receive specific feedback from them on proposals.
 1. [We describe the various 'Open Data products'](https://github.com/MeteoSwiss/publication-opendata/tree/main#2-open-data-products) being designed by MeteoSwiss' specialist data teams. That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics**.
-2. We are looking for your feedback on our proposals: To this end, [we ask you specific questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-questions-to-the-open-data-user-community), and are also open to your questions: **Please [share them with us and the community by creating a public issue in this repository](https://github.com/MeteoSwiss/publication-opendata/issues/new)**, or [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-general-contact-point). You can find all issues - open and closed - sorted by update date [here](https://github.com/MeteoSwiss/publication-opendata/issues?q=is%3Aissue+sort%3Aupdated-desc).
-3. MeteoSwiss' Open Data teams usually meet every second week to review and clarify the feedback received, and ask questions back when necessary.
+2. We are looking for your feedback on our proposals. To this end, **[we ask you specific questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-questions-to-the-open-data-user-community)**.
+3. Furthermore we are open to your questions. **Please [share them with us and the community by creating a public issue](https://github.com/MeteoSwiss/publication-opendata/issues/new)**, or [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-general-contact-point). You can find all issues - open and closed - sorted by update date [here](https://github.com/MeteoSwiss/publication-opendata/issues?q=is%3Aissue+sort%3Aupdated-desc).
+4. MeteoSwiss' Open Data teams usually meet every second week to review and clarify the questions and feedback received, and ask questions back when necessary.
 
 **Important note:**
 - All information in this repository reflects the current state of work and is subject to change.
