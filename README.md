@@ -71,22 +71,22 @@ This is the **current status of the clarifications** as to which data types can 
 
 | Data category | in clarification if/what | can be made available as Open Data | cannot be made available as Open Data - with reasons | 
 | :------------ | :----------------------- | :--------------------------------- | :--------------------------------------------------- |
-| **Surface** | [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
-|  |  | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) |  |
-|  |  | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs) |  |
-|  |  | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip) |  |
-|  |  | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen) |  |
-|  |  | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology) |  |
-| **Atmosphere** | [Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html) | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding) | [Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html) - Data does not belong to MeteoSwiss |
-|  | [LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html) | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing) | [Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) - Data does not belong to MeteoSwiss |
+| **Surface** | [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
+|  |  | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-manual-precipitation-stations-nime-tot) |  |
+|  |  | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#243-visual-observations-obs) |  |
+|  |  | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#244-climate-stations-swiss-nbcn-climate-climate-precip) |  |
+|  |  | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#245-swiss-pollen-monitoring-stations-pollen) |  |
+|  |  | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#246-phenological-observations-phenology) |  |
+| **Atmosphere** | [Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html) | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-radio-soundings-radiosounding) | [Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html) - Data does not belong to MeteoSwiss |
+|  | [LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html) | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-weather-radar-network-remotesensing) | [Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) - Data does not belong to MeteoSwiss |
 |  | [Microwave radiometry](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/microwave-radiometry.html) |  | [Lightning detection network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lightning-detection-network.html) - Data does not belong to MeteoSwiss |
 |  | [Ozone measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/ozone-measurements.html) |  |  |
 |  | [Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html) |  |  |
-| **Model** |  | [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-inca-data-nowcasting) |  |
+| **Model** |  | [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-inca-data-nowcasting) |  |
 |  |  | COSMO/ICON data (forecasting) |  |
 |  |  | Postprocessed data (data4web) |  |
-| **Grid** |  | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data) |  |
-|  |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-and-combiprecip-data) |  |
+| **Grid** |  | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#271-Spatial-climate-data) |  |
+|  |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#272-Radar-and-combiprecip-data) |  |
 
 ### 2.2. Questions to the Open Data user community
 These are the **current questions to the Open Data user community** on which we are asking for feedback:
@@ -97,12 +97,11 @@ These are the **current questions to the Open Data user community** on which we 
 | Surface | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-08-02 |
 | Surface | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
 | Surface | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-08-02 |
-| ... |  |  |  |
 
 ### 2.3. General information on the data
 
 #### 2.3.1. Data granularity
-For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. For measurement data the lowest granulartiy is usually called 'raw data' (Rohwert) or 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The world meteorological organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
+For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. For measurement data the lowest granulartiy is usually called 'raw data' (Rohwert) or 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The World Meteorological Organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
 
 If you need hourly, daily, monthly or yearly values, we strongly recommend that you download the according granularity. Downloading the raw data (10min) and calculating sums or means yourself, will not always lead to the same results! Furthermore for historic data it is possibly that manual data corrections have only been applied on higher granularities (like hourly or daily data), which means that historic raw data can still contain errors.
 
@@ -123,10 +122,10 @@ This is the overview:
 
 | Type | Description | Update cycle | Used for |
 | ---- | ----------- | ------------ | -------- |
-| historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) M, D, H, T |
-| recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) M, D, H, T |
-| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) H, T |
-| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) Y) |
+| historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) M, D, H, T |
+| recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) M, D, H, T |
+| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) H, T |
+| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) Y) |
 
 #### 2.3.3. Time stamps and time intervals
 All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! Depending on the granularity the time stamp does define different intervals:
@@ -151,9 +150,11 @@ All MeteoSwiss surface stations have a name and an identfier consisting of three
 #### 2.4.1. Automatic weather stations (smn, smn-precip, smn-tower)
 SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program (type "smn"). These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by around 100 automatic precipitation stations (type "smn-precip"). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three tower stations at 150m to 230m above ground for boundry layer measurements (type "smn-tower").
 
+<!-- check von hier nach unten: alle Links/Referenzen, "Open Data" grossgeschrieben .. -->
+
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
 >*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* T, H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Granularity:* T, H, D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
 >*Volume (MB/GB/TB):* ... <br>
@@ -167,7 +168,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss also operate
 
 >*Open Data Product (Title):* **Measurement data from manual precipitation stations** <br>
 >*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Granularity:* D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
 >*Volume (MB/GB/TB):* ... <br>
@@ -181,7 +182,7 @@ The information on current weather events is supplemented by [visual human obser
 
 >*Open Data Product (Title):* **Measurement data from visual observations** <br>
 >*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* T (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Granularity:* T (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
 >*Volume (MB/GB/TB):* ... <br>
@@ -195,7 +196,7 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 
 >*Open Data Product (Title):* **Measurement data from the Swiss National Basic Climatological Network** <br>
 >*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Granularity:* D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
 >*Volume (MB/GB/TB):* ... <br>
@@ -214,7 +215,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 
 >*Open Data Product (Title):* **Measurement data from the Swiss pollen monitoring network** <br>
 >*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* H, D, M and Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Granularity:* H, D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
 >*Volume (MB/GB/TB):* ... <br>
@@ -228,7 +229,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 
 >*Open Data Product (Title):* **Measurement data from the Swiss phenology network** <br>
 >*Data structure (Example files):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-historical](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-historical), [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-recent](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-recent) <br>
->*Granularity:* Y (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
+>*Granularity:* Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
 >*Volume (MB):* 7.08 <br>
