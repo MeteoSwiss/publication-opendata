@@ -14,13 +14,15 @@
 1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-this-project)
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     - 1.2. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-general-contact-point)
-2. [Open data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products)
-    - 2.1. [General information and status of clarifications](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-general-information-and-status-of-clarifications)
-        - 2.1.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#211-data-granularity)
-        - 2.1.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#212-data-structure-and-update-cycle)
-        - 2.1.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#213-time-stamps-and-time-intervals)
-        - 2.1.4. [Column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/publication-opendata/tree/main#214-column-separators-decimal-dividers-and-missing-values)
-    - 2.2. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-data)
+2. [Open Data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products)
+    - 2.1. [Overview of data types to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data)
+    - 2.2. [Questions to the Open Data user community](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-questions-to-the-open-data-user-community)
+    - 2.3. [General information on the data](https://github.com/MeteoSwiss/publication-opendata/tree/master#23-general-information-on-the-data)
+        - 2.3.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#231-data-granularity)
+        - 2.3.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#232-data-structure-and-update-cycle)
+        - 2.3.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#233-time-stamps-and-time-intervals)
+        - 2.3.4. [Column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-column-separators-decimal-dividers-and-missing-values)
+    - 2.4. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-data)
         - 2.2.1. [Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)
         - 2.2.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot)
         - 2.2.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs)
@@ -62,14 +64,14 @@ Alternatively, [write us an email](https://github.com/MeteoSwiss/publication-ope
 ### 1.2. General contact point
 If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
 
-## 2. Open data products
+## 2. Open Data products
 
-### 2.1. General information and status of clarifications
+### 2.1. Overview of data types to be made available as Open Data
 MeteoSwiss operates an extensive monitoring network, both on the ground (surface stations) and in the atmosphere, that enables it to collect round-the-clock meteorological data for the whole of Switzerland. These data form the basis for making weather forecasts, issuing bad weather warnings, and analysing climate change. Furthermore MeteoSwiss operates a weather model for forecasting and also generates gridded data sets.
 
-This is the **current status of the clarifications** as to which data types can be made available (and how) under an open data license by MeteoSwiss, and which not:
+This is the **current status of the clarifications** as to which data types can be made available (and how) under an Open Data license by MeteoSwiss, and which not:
 
-| Data category | in clarification if/what | can be made available as open data | cannot be made available as open data - with reasons | 
+| Data category | in clarification if/what | can be made available as Open Data | cannot be made available as Open Data - with reasons | 
 | :------------ | :----------------------- | :--------------------------------- | :--------------------------------------------------- |
 | **Surface** | [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
 |  |  | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot) |  |
@@ -88,8 +90,20 @@ This is the **current status of the clarifications** as to which data types can 
 | **Grid** |  | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data) |  |
 |  |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-and-combiprecip-data) |  |
 
+### 2.2. Questions to the Open Data user community
+These are the **current questions to the Open Data user community** on which we are asking for feedback:
 
-#### 2.1.1. Data granularity
+| Data category | Question | Status | Since date |
+| :------------ | :------- | :----- | :--------- |
+| **Surface** | [Aggregated (calculated) maximum and minimum?](https://github.com/MeteoSwiss/publication-opendata/discussions/1) | Open for feedback | 2023-08-02 |
+| **Surface** | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-08-02 |
+| **Surface** | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
+| **Surface** | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-08-02 |
+|  |  |  |  |
+
+### 2.3. General information on the data
+
+#### 2.3.1. Data granularity
 For all types of data MeteoSwiss uses standard granularities. Depending on the application not all granularites are available. For measurement data the lowest granulartiy is usually called 'raw data' (Rohwert) or 'original data' (Originalwert). Higher granularities are called 'aggregations' or 'aggregated values'. The world meteorological organization (WMO) does issue guidelines on how national weather services have to aggregate values and MeteoSwiss does follow these guidelines.
 
 If you need hourly, daily, monthly or yearly values, we strongly recommend that you download the according granularity. Downloading the raw data (10min) and calculating sums or means yourself, will not always lead to the same results! Furthermore for historic data it is possibly that manual data corrections have only been applied on higher granularities (like hourly or daily data), which means that historic raw data can still contain errors.
@@ -104,7 +118,7 @@ This is the overview of the granularities used by MeteoSwiss:
 | M | Monthly value | Usually aggregated from daily values and widely used in climatology for homogenized data and norm values and for seasonal data. For some very old data series (pre 1864) only monthly data exists!| [Homogeneous data series](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html), [Climate normals](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals.html) |
 | Y | Yearly value | Usually aggregated from daily values and mostly used in climatology or climate change screnarios. | [Climate change scenarios](https://www.meteoswiss.admin.ch/climate/climate-change/swiss-climate-change-scenarios.html)|
 
-#### 2.1.2. Data structure and update cycle
+#### 2.3.2. Data structure and update cycle
 For measurement data MeteoSwiss provides an optimized directory structure separating older historical data, which is not updated regularly, and more recent data, which is updated more often. For realtime data we provide a third "now" directory with a high update frequency.
 
 This is the overview:
@@ -116,7 +130,7 @@ This is the overview:
 | now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) H, T |
 | `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#211-data-granularity) Y) |
 
-#### 2.1.3. Time stamps and time intervals
+#### 2.3.3. Time stamps and time intervals
 All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! Depending on the granularity the time stamp does define different intervals:
 - T: The sum, mean or max/min of the last 10 minutes (ReferenceTS 16:00 = `15:50:01 to 16:00:00`)
 - H: The sum, mean or max/min of the last six 10min-values (ReferenceTS 16:00 = `15:10 to 16:00`). Please note: Hourly values before 2018 were calculated differently based on the SYNOP schedule (ReferenceTS 16:00 = `14:50 to 15:40`)! 
@@ -128,10 +142,10 @@ All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! D
 - for granularity T and H the time stamp defines the end of the measurement interval and
 - for higher granularities (D, M and Y) the time stamp defines the beginning of the interval!
 
-#### 2.1.4. Column separators, decimal dividers and missing values
+#### 2.3.4. Column separators, decimal dividers and missing values
 Generally, columns are separated with a semicolon (`;`). The decimal divider is a full stop (`.`). Missing values are indicated with a hyphen (`-`).
 
-### 2.2. Surface data
+### 2.4. Surface data
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of fine particulate matter, through to a network of cameras that covers all major sections of terrain and mountain passes in Switzerland.
 
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according metadata section.
@@ -608,11 +622,3 @@ Advanced radar data
 >*Format:* HDF5 <br>
 >*Volume (MB):* 0.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
-
-
-
-## 3. Questions for discussion with the open data user community
-1. [**Surface**: Aggregated (calculated) maximum and minimum?](https://github.com/MeteoSwiss/publication-opendata/discussions/1)
-2. [**Surface**: Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22)
-3. [**Surface**: Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24)
-4. [**Surface**: Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/26)
