@@ -22,25 +22,24 @@
         - 2.3.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#232-data-structure-and-update-cycle)
         - 2.3.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#233-time-stamps-and-time-intervals)
         - 2.3.4. [Column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-column-separators-decimal-dividers-and-missing-values)
-    - 2.4. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-surface-data)
-        - 2.2.1. [Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-automatic-weather-stations-smn-smn-precip-smn-tower)
-        - 2.2.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-manual-precipitation-stations-nime-tot)
-        - 2.2.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-visual-observations-obs)
-        - 2.2.4. [Climate stations "Swiss NBCN" (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-climate-stations-swiss-nbcn-climate-climate-precip)
-        - 2.2.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#225-swiss-pollen-monitoring-stations-pollen)
-        - 2.2.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#226-phenological-observations-phenology)
-    - 2.3. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-atmosphere-data)
-        - 2.3.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-radio-soundings-radiosounding)
-        - 2.3.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-weather-radar-network-remotesensing)
-    - 2.4. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data)
-        - 2.4.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-inca-data-nowcasting)
-        - 2.4.2. COSMO/ICON data (forecasting)
-        - 2.4.3. Postprocessed data (data4web)
-    - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-grid-data)
-        - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
-        - 2.5.2. [Radar and combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-and-combiprecip-data)
-3. [Questions to the open data user community](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#3-questions-to-the-open-data-user-community)
- 
+    - 2.4. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#24-surface-data)
+        - 2.4.1. [Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-automatic-weather-stations-smn-smn-precip-smn-tower)
+        - 2.4.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-manual-precipitation-stations-nime-tot)
+        - 2.4.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#243-visual-observations-obs)
+        - 2.4.4. [Climate stations "Swiss NBCN" (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#244-climate-stations-swiss-nbcn-climate-climate-precip)
+        - 2.4.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#245-swiss-pollen-monitoring-stations-pollen)
+        - 2.4.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#246-phenological-observations-phenology)
+    - 2.5. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-atmosphere-data)
+        - 2.5.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-radio-soundings-radiosounding)
+        - 2.5.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-weather-radar-network-remotesensing)
+    - 2.6. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-model-data)
+        - 2.6.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-inca-data-nowcasting)
+        - 2.6.2. COSMO/ICON data (forecasting)
+        - 2.6.3. Postprocessed data (data4web)
+    - 2.7. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-grid-data)
+        - 2.7.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#271-Spatial-climate-data)
+        - 2.7.2. [Radar and combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#272-Radar-and-combiprecip-data)
+
     
 ## 1. Context and mission of this project
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
@@ -95,10 +94,10 @@ These are the **current questions to the Open Data user community** on which we 
 
 | Data category | Question | Status | Since date |
 | :------------ | :------- | :----- | :--------- |
-| **Surface** | [Aggregated (calculated) maximum and minimum?](https://github.com/MeteoSwiss/publication-opendata/discussions/1) | Open for feedback | 2023-08-02 |
-| **Surface** | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-08-02 |
-| **Surface** | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
-| **Surface** | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-08-02 |
+| Surface | [Aggregated (calculated) maximum and minimum?](https://github.com/MeteoSwiss/publication-opendata/discussions/1) | Open for feedback | 2023-08-02 |
+| Surface | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-08-02 |
+| Surface | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
+| Surface | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-08-02 |
 |  |  |  |  |
 
 ### 2.3. General information on the data
@@ -150,7 +149,7 @@ MeteoSwiss operates a network of [land-based weather stations](https://www.meteo
 
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according metadata section.
 
-#### 2.2.1. Automatic weather stations (smn, smn-precip, smn-tower)
+#### 2.4.1. Automatic weather stations (smn, smn-precip, smn-tower)
 SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program (type "smn"). These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by around 100 automatic precipitation stations (type "smn-precip"). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three tower stations at 150m to 230m above ground for boundry layer measurements (type "smn-tower").
 
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
@@ -164,7 +163,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 >*Parameter metadata:* To be defined <br>
 >*Additional remarks*: One file per station! <br>
 
-#### 2.2.2. Manual precipitation stations (nime, tot)
+#### 2.4.2. Manual precipitation stations (nime, tot)
 In addition to its automatic precipitation measurements, MeteoSwiss also operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html). Measurements are taken here once a day and transmitted to MeteoSwiss via SMS. The network comprises 243 locations, 190 stations measure rainfall and snowfall and 53 stations measure snowfall only (nime). Due to their long-series measurements, they are of great climatological significance. In mountainous areas that are difficult to access, around 57 totalisers are used which record the volume of precipitation for an entire year (tot).
 
 >*Open Data Product (Title):* **Measurement data from manual precipitation stations** <br>
@@ -178,7 +177,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss also operate
 >*Parameter metadata:* To be defined <br>
 >*Additional remarks*: One file per station! <br>
 
-#### 2.2.3. Visual observations (obs)
+#### 2.4.3. Visual observations (obs)
 The information on current weather events is supplemented by [visual human observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html). The atmospheric conditions around the observation site are described in detail.
 
 >*Open Data Product (Title):* **Measurement data from visual observations** <br>
@@ -192,7 +191,7 @@ The information on current weather events is supplemented by [visual human obser
 >*Parameter metadata:* To be defined <br>
 >*Additional remarks*: One file per station! <br>
 
-#### 2.2.4. Climate stations "Swiss NBCN" (climate, climate-precip)
+#### 2.4.4. Climate stations "Swiss NBCN" (climate, climate-precip)
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of 29 climate monitoring stations and 46 precipitation stations. The measurement series available in digital form for temperature, precipitation and hours of sunshine date back, in some cases, to the mid-nineteenth century.
 
 >*Open Data Product (Title):* **Measurement data from the Swiss National Basic Climatological Network** <br>
