@@ -6,8 +6,8 @@
 # OGD@MeteoSwiss - Open Government Data
 
 > **This is work in progress.** <br>
-> - Jump directly to the [overview of which data types are to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data).
-> - Jump directly to the [questions on which we are asking the Open Data user community for feedback](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-questions-to-the-open-data-user-community).
+> Jump directly to the [overview of which data types are to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data).
+> Jump directly to the [questions on which we are asking the Open Data user community for feedback](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-questions-to-the-open-data-user-community).
 
 ## Table of contents
 
@@ -98,7 +98,7 @@ These are the **current questions to the Open Data user community** on which we 
 | Surface | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-08-02 |
 | Surface | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
 | Surface | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-08-02 |
-|  |  |  |  |
+| ... |  |  |  |
 
 ### 2.3. General information on the data
 
