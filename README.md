@@ -33,6 +33,7 @@
     - 2.4. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-model-data)
         - 2.4.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-inca-data-nowcasting)
         - 2.4.2. COSMO/ICON data (forecasting)
+        - 2.4.3. Postprocessed data (data4web)
     - 2.5. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-grid-data)
         - 2.5.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data)
         - 2.5.2. [Radar and combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-and-combiprecip-data)
@@ -81,8 +82,9 @@ This is the **current status of the clarifications** as to which data types can 
 |  | [Microwave radiometry](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/microwave-radiometry.html) |  | [Lightning detection network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lightning-detection-network.html) - Data does not belong to MeteoSwiss |
 |  | [Ozone measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/ozone-measurements.html) |  |  |
 |  | [Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html) |  |  |
-| **Model** | Postprocessed data (Data4Web) | [Nowcasting data (INCA)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-inca-data-nowcasting) |  |
-|  |  | Forecasting data (COSMO/ICON) |  |
+| **Model** |  | [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-inca-data-nowcasting) |  |
+|  |  | COSMO/ICON data (forecasting) |  |
+|  |  | Postprocessed data (data4web) |  |
 | **Grid** |  | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-Spatial-climate-data) |  |
 |  |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-Radar-and-combiprecip-data) |  |
 
