@@ -38,12 +38,12 @@
         - 2.5.3. [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web)
     - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
         - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
-            - 2.6.1.1. [Surface derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-spatial-climate-data)
-            - 2.6.1.2. [Satellite derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2612-spatial-climate-data)
+            - 2.6.1.1. [Surface derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
+            - 2.6.1.2. [Satellite derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2612-satellite-derived-grid-data)
         - 2.6.2. [Radar and combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data)
-            - 2.6.2.1. [Basic radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2621-Radar-and-combiprecip-data)
-            - 2.6.2.2. [Advanced radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2622-Radar-and-combiprecip-data)
-            - 2.6.2.3. [Combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-Radar-and-combiprecip-data)
+            - 2.6.2.1. [Basic radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2621-basic-radar-data)
+            - 2.6.2.2. [Advanced radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2622-advanced-radar-data)
+            - 2.6.2.3. [Combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-combiprecip-data)
 
 ## 1. Context and mission of the project
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
@@ -507,7 +507,7 @@ The spatial climate data, which contain radiation and cloud cover parameters are
 See the linked description files for each product for further information. 
 For more information see also the metadata in each NetCDF-File.
 
-##### 2.6.1.1. Surface derived gridded data
+##### 2.6.1.1. Surface derived grid data
 
 >*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY)** <br>
 >*Detailed product document(s):* *[RprelimD](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf),  [RhiresD](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [RhiresM,RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
@@ -536,7 +536,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
-##### 2.6.1.2. Satellite derived gridded data
+##### 2.6.1.2. Satellite derived grid data
 
 >*Open Data Product (Title):* **Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y)** <br>
 >*Detailed product document(s):* *[MSG.SIS.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
