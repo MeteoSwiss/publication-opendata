@@ -56,8 +56,8 @@ In the current year (2023) the necessary technical and organizational measures f
 ### 1.1. Purpose of this repository
 This repository is used by MeteoSwiss' project team to inform potential users interested in Open Data about the plans and to receive specific feedback from them on proposals.
 1. [We describe the various 'Open Data products'](https://github.com/MeteoSwiss/publication-opendata/tree/main#2-open-data-products) being designed by MeteoSwiss' specialist data teams. That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics**.
-2. We are looking for your feedback on our proposals. To this end, **[we ask you specific questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#22-questions-to-the-open-data-user-community)**.
-3. Furthermore we are open to your questions. **Please [share them with us and the community by creating a public issue](https://github.com/MeteoSwiss/publication-opendata/issues/new)**, or [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-general-contact-point). You can find all issues - open and closed - sorted by update date [here](https://github.com/MeteoSwiss/publication-opendata/issues?q=is%3Aissue+sort%3Aupdated-desc).
+2. We are looking for your feedback on our proposals. To this end, **[we ask you specific questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-questions-to-the-open-data-user-community)**.
+3. Furthermore we are open to your questions. **Please [share them with us and the community by creating a public issue](https://github.com/MeteoSwiss/publication-opendata/issues/new)**, or [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#13-general-contact-point). You can find all issues - open and closed - sorted by update date [here](https://github.com/MeteoSwiss/publication-opendata/issues?q=is%3Aissue+sort%3Aupdated-desc).
 4. MeteoSwiss' Open Data teams usually meet every second week to review and clarify the questions and feedback received, and ask questions back when necessary.
 
 **Important note:**
@@ -88,22 +88,22 @@ This is the **current status of the clarifications** as to which data types can 
 
 | Data category | in clarification if/what | can be made available as Open Data | cannot be made available as Open Data - with reasons | 
 | :------------ | :----------------------- | :--------------------------------- | :--------------------------------------------------- |
-| **Surface** | [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
-|  |  | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-manual-precipitation-stations-nime-tot) |  |
-|  |  | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#243-visual-observations-obs) |  |
-|  |  | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#244-climate-stations-swiss-nbcn-climate-climate-precip) |  |
-|  |  | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#245-swiss-pollen-monitoring-stations-pollen) |  |
-|  |  | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#246-phenological-observations-phenology) |  |
-| **Atmosphere** | [Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html) | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-radio-soundings-radiosounding) | [Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html) - Data does not belong to MeteoSwiss |
-|  | [LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html) | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-weather-radar-network-remotesensing) | [Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) - Data does not belong to MeteoSwiss |
+| **Surface** | [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-automatic-weather-stations-smn-smn-precip-smn-tower) | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
+|  |  | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-manual-precipitation-stations-nime-tot) |  |
+|  |  | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#233-visual-observations-obs) |  |
+|  |  | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-climate-stations-swiss-nbcn-climate-climate-precip) |  |
+|  |  | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#235-swiss-pollen-monitoring-stations-pollen) |  |
+|  |  | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#236-phenological-observations-phenology) |  |
+| **Atmosphere** | [Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html) | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-radio-soundings-radiosounding) | [Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html) - Data does not belong to MeteoSwiss |
+|  | [LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html) | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-weather-radar-network-remotesensing) | [Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) - Data does not belong to MeteoSwiss |
 |  | [Microwave radiometry](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/microwave-radiometry.html) |  | [Lightning detection network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lightning-detection-network.html) - Data does not belong to MeteoSwiss |
 |  | [Ozone measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/ozone-measurements.html) |  |  |
 |  | [Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html) |  |  |
-| **Model** |  | [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-inca-data-nowcasting) |  |
-|  |  | COSMO/ICON data (forecasting) |  |
-|  |  | Postprocessed data (data4web) |  |
-| **Grid** |  | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#271-Spatial-climate-data) |  |
-|  |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#272-Radar-and-combiprecip-data) |  |
+| **Model** |  | [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting) |  |
+|  |  | [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting) |  |
+|  |  | [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web) |  |
+| **Grid** |  | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-Spatial-climate-data) |  |
+|  |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data) |  |
 
 ### 2.2. General information on the data
 
