@@ -129,10 +129,10 @@ This is the overview:
 
 | Type | Description | Update cycle | Used for |
 | ---- | ----------- | ------------ | -------- |
-| historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) M, D, H, T |
-| recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) M, D, H, T |
-| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) H, T |
-| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) Y) |
+| historical | From the start of the measurement until December 31st of last year | Once a year | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) M, D, H, T |
+| recent | From January 1st of this year until yesterday | Daily at 12UTC | [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) M, D, H, T |
+| now | The most recent realtime data from yesterday 12UTC to now | Every 10min | Only [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) H, T |
+| `no type` | For certain data types this concept does not apply | varies | varies (e.g. [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) Y) |
 
 #### 2.2.3. Time stamps and time intervals
 All reference time stamps at MeteoSwiss are in [UTC](https://www.utctime.net)! Depending on the granularity the time stamp does define different intervals:
@@ -157,10 +157,13 @@ All MeteoSwiss surface stations have a name and an identfier consisting of three
 #### 2.3.1. Automatic weather stations (smn, smn-precip, smn-tower)
 SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) of MeteoSwiss, comprises about 160 automatic stations with a full measurement program (type "smn"). These stations deliver a multitude of current data on weather and climate in Switzerland every ten minutes. The network is supplemented by around 100 automatic precipitation stations (type "smn-precip"). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three tower stations at 150m to 230m above ground for boundry layer measurements (type "smn-tower").
 
-<!-- check von hier nach unten: alle Links/Referenzen, "Open Data" grossgeschrieben .. -->
+<!-- check von hier nach unten: alle Links/Referenzen .. -->
 
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
->*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
+>*Data structure (Example files):*
+> - smn: [https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn)<br>
+> - smn-precip: [https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip)<br>
+> - smn-tower: [https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower)<br>
 >*Granularity:* T, H, D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
