@@ -160,10 +160,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 <!-- check von hier nach unten: alle Links/Referenzen .. -->
 
 >*Open Data Product (Title):* **Measurement data from automatic weather stations** <br>
->*Data structure (Example files):*
-> - smn: [https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn)<br>
-> - smn-precip: [https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip)<br>
-> - smn-tower: [https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower)<br>
+>*Data structure (Example files):* [smn](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn), [smn-precip](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip), [smn-tower](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower)<br>
 >*Granularity:* T, H, D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
 >*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
 >*Format:* CSV <br>
