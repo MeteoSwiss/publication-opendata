@@ -72,9 +72,9 @@ These are the **current questions to the Open Data user community** on which we 
 | **Surface** | S2 | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-08-02 |
 | **Surface** | S3 | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
 | **Surface** | S4 | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-08-02 |
-| **Atmosphere** | A- | [no question yet](...) | ... | ... |
-| **Model** | M- | [no question yet](...) | ... | ... |
-| **Grid** | G-| [no question yet](...) | ... | ... |
+| **Atmosphere** | A0 | no question yet | ... | ... |
+| **Model** | M0 | no question yet | ... | ... |
+| **Grid** | G0 | no question yet | ... | ... |
 
 ### 1.3. General contact point
 If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
