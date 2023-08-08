@@ -176,7 +176,7 @@ Additionally MeteoSwiss operates three tower stations at 150m to 230m above grou
 | *Dataset title*                | Measurement data from automatic weather stations |
 | :----------------------------- | :----------------------------------------------- |
 | *Data structure*               | see example file per type: [`smn`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn), [`smn-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip), [`smn-tower`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower) |
-| *Granularity*                  | T, H, D, M and Y (see [Granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) for more details) |
+| [*Granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | T, H, D, M and Y |
 |                                |   |
 
 >
