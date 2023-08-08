@@ -163,10 +163,7 @@ Additionally MeteoSwiss operates three tower stations at 150m to 230m above grou
 
 > *Open Data Product (Title):* **Measurement data from automatic weather stations**
 >
-> *Data structure (Example files):*
-> - [`smn`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn)
-> - [`smn-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip)
-> - [`smn-tower`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower)
+> *Data structure (Example files):* [`smn`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn) | [`smn-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip) | [`smn-tower`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower)
 >
 >  *Granularity:* T, H, D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details)
 >  *Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
