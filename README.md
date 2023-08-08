@@ -176,12 +176,10 @@ Additionally MeteoSwiss operates three tower stations at 150m to 230m above grou
 | *Dataset title*                | Measurement data from automatic weather stations |
 | :----------------------------- | :----------------------------------------------- |
 | *Data structure*               | see example file per type: [`smn`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn), [`smn-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip), [`smn-tower`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower) |
-| [*Granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | T, H, D, M and Y |
-|                                |   |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T`, `H`, `D`, `M` and `Y` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | Yearly (`historical`), daily ( `recent`) or hourly (`now`) |
 
->
->  
->  *Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
+
 >  *Format:* CSV <br>
 >  *Volume (MB/GB/TB):* ... <br>
 >  *Network map:* [SwissMetNet](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) <br>
