@@ -174,7 +174,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss operates a [
 
 | *Dataset title*                | Measurement data from manual precipitation stations |
 | :----------------------------- | :-------------------------------------------------- |
-| *Data structure*               | see example files: [`nime`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn), [`tot`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip) |
+| *Data structure*               | see example files: [`nime`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-nime)), [`tot`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-tot) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily ( `recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
