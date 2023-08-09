@@ -161,7 +161,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 | :----------------------------- | :----------------------------------------------- |
 | *Data structure*               | see example files: [`smn`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn), [`smn-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip), [`smn-tower`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T`, `H`, `D`, `M` and `Y` |
-| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily ( `recent`) or hourly (`now`) |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) |
@@ -174,9 +174,9 @@ In addition to its automatic precipitation measurements, MeteoSwiss operates a [
 
 | *Dataset title*                | Measurement data from manual precipitation stations |
 | :----------------------------- | :-------------------------------------------------- |
-| *Data structure*               | see example files: [`nime`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-nime)), [`tot`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-tot) |
+| *Data structure*               | see example files: [`nime`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-nime), [`tot`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-tot) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
-| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily ( `recent`) or hourly (`now`) |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [NIME and TOT network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
@@ -184,21 +184,22 @@ In addition to its automatic precipitation measurements, MeteoSwiss operates a [
 | *Parameter metadata*           | see ... |
 | *Additional remarks*           | One file per station. |
 
-<!-- check von hier nach unten: alle Links/Referenzen .. -->
-
-#### 2.3.3. Visual observations (obs)
+#### 2.3.3. Visual observations (`obs`)
 The information on current weather events is supplemented by [visual human observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html). The atmospheric conditions around the observation site are described in detail.
 
->*Open Data Product (Title):* **Measurement data from visual observations** <br>
->*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* T (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* CSV <br>
->*Volume (MB/GB/TB):* ... <br>
->*Network map:* [OBS](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-beobachtungen&lang=en&table=false) <br>
->*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) <br>
->*Parameter metadata:* To be defined <br>
->*Additional remarks*: One file per station! <br>
+| *Dataset title*                | Measurement data from visual observations |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | see example file: [`obs`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/visual-observations-obs) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
+| *Format*                       | `CSV` |
+| *Volume*                       | ... (MB/GB/TB) |
+| *Visualisation*                | [OBS network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
+| *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) |
+| *Parameter metadata*           | see ... |
+| *Additional remarks*           | One file per station. |
+
+<!-- check von hier nach unten: alle Links/Referenzen .. -->
 
 #### 2.3.4. Climate stations "Swiss NBCN" (climate, climate-precip)
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of 29 climate monitoring stations and 46 precipitation stations. The measurement series available in digital form for temperature, precipitation and hours of sunshine date back, in some cases, to the mid-nineteenth century.
