@@ -27,6 +27,7 @@
         - 2.3.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-manual-precipitation-stations-nime-tot)
         - 2.3.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#233-visual-observations-obs)
         - 2.3.4. [Climate stations "Swiss NBCN" (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-climate-stations-swiss-nbcn-climate-climate-precip)
+            - 2.3.4.1. [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2341-records-and-extremes)
         - 2.3.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#235-swiss-pollen-monitoring-stations-pollen)
         - 2.3.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#236-phenological-observations-phenology)
     - 2.4. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-atmosphere-data)
@@ -189,7 +190,7 @@ The information on current weather events is supplemented by [visual human obser
 
 | *Dataset title*                | Measurement data from visual observations |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see example file: [`obs`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/visual-observations-obs) |
+| *Data structure*               | see example files: [`obs`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/visual-observations-obs) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
@@ -199,54 +200,65 @@ The information on current weather events is supplemented by [visual human obser
 | *Parameter metadata*           | see ... |
 | *Additional remarks*           | One file per station. |
 
-<!-- check von hier nach unten: alle Links/Referenzen .. -->
-
-#### 2.3.4. Climate stations "Swiss NBCN" (climate, climate-precip)
+#### 2.3.4. Climate stations "Swiss NBCN" (`climate`, `climate-precip`)
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of 29 climate monitoring stations and 46 precipitation stations. The measurement series available in digital form for temperature, precipitation and hours of sunshine date back, in some cases, to the mid-nineteenth century.
 
->*Open Data Product (Title):* **Measurement data from the Swiss National Basic Climatological Network** <br>
->*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* CSV <br>
->*Volume (MB/GB/TB):* ... <br>
->*Network map:* [CLIMATE](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&table=false) <br>
->*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) <br>
->*Parameter metadata:* To be defined <br>
->*Additional remarks*: One file per station! <br>
+| *Dataset title*                | Measurement data from the Swiss National Basic Climatological Network |
+| :----------------------------- | :-------------------------------------------------------------------- |
+| *Data structure*               | see example files: [`climate`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/climate-stations-swiss-nbcn-climate), [`climate-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/climate-stations-swiss-nbcn-climate-precip) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
+| *Format*                       | `CSV` |
+| *Volume*                       | ... (MB/GB/TB) |
+| *Visualisation*                | [CLIMATE network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en) |
+| *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) |
+| *Parameter metadata*           | see ... |
+| *Additional remarks*           | One file per station. |
 
-<!-- ##### 2.3.4.1 Records and extremes
+##### 2.3.4.1 Records and extremes
 Additionally the top 10 records of every climate station and the overall records can be downloaded per parameter separately.
 
-((TBD ..)) -->
+| *Dataset title*                | ... |
+| :----------------------------- | :----------------------------- |
+| *Data structure*               | see example file: [`...`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/...) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `Y` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`) |
+| *Format*                       | `CSV` |
+| *Volume*                       | ... (MB/GB/TB) |
+| *Visualisation*                | [...](...) |
+| *Station metadata*             | see [station list (CSV)](...) |
+| *Parameter metadata*           | see ... |
+| *Additional remarks*           | One file per station. |
 
-#### 2.3.5. Swiss pollen monitoring stations (pollen)
-MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). This consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is now operational: for the first time in the world, instead of daily averages being available after a week, information is available in real time at an hourly resolution.
+#### 2.3.5. Swiss pollen monitoring stations (`pollen`)
+MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). This consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is operational: for the first time in the world, instead of daily averages being available after a week, information is available in real time at an hourly resolution.
 
->*Open Data Product (Title):* **Measurement data from the Swiss pollen monitoring network** <br>
->*Data structure (Example file):* [main/data-surface/...](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface) <br>
->*Granularity:* H, D, M and Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") or hourly (directory "now") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* CSV <br>
->*Volume (MB/GB/TB):* ... <br>
->*Network map:* [Pollen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false) <br>
->*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) <br>
->*Parameter metadata:* To be defined <br>
->*Additional remarks*: One file per station! <br>
+| *Dataset title*                | Measurement data from the Swiss Pollen Monitoring Network |
+| :----------------------------- | :-------------------------------------------------------- |
+| *Data structure*               | see example files: [`pollen`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `H`, `D`, `M` and `Y` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
+| *Format*                       | `CSV` |
+| *Volume*                       | ... (MB/GB/TB) |
+| *Visualisation*                | [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en) |
+| *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) |
+| *Parameter metadata*           | see ... |
+| *Additional remarks*           | One file per station. |
 
 #### 2.3.6. Phenological observations (phenology)
 The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
->*Open Data Product (Title):* **Measurement data from the Swiss phenology network** <br>
->*Data structure (Example files):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-historical](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-historical), [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-recent](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-recent) <br>
->*Granularity:* Y (see [2.3.1. Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-data-granularity) for more details) <br>
->*Update frequency:* Yearly (directory "historical"), daily (directory "recent") - see [chapter 2.1.2.](#212-data-structure-and-update-cycle) for more details <br>
->*Format:* CSV <br>
->*Volume (MB):* 7.08 <br>
->*Network map:* [Phenology](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false) <br>
->*Station metadata:* [station list as CSV](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) <br>
->*Parameter metadata:* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-metadata](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/phenology/phenology-metadata) <br>
->*Additional remarks*: One file for all stattions! <br>
+| *Dataset title*                | Measurement data from the Swiss Phenology NBetwork |
+| :----------------------------- | :-------------------------------------------------------- |
+| *Data structure*               | see example files: [`phenology`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/phenology) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `Y` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`) or daily (`recent`) |
+| *Format*                       | `CSV` |
+| *Volume*                       | 7.08 MB |
+| *Visualisation*                | [PHENOLOGY network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en) |
+| *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) |
+| *Parameter metadata*           | see [parameter list (CSV)](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv) |
+| *Additional remarks*           | One file for all stations. |
 
 ### 2.4. Atmosphere data
 MeteoSwiss obtains relevant data for weather forecasting and climate analysis from the [atmosphere](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere.html). The properties and composition of the atmosphere are studied using various instruments and methods, including weather balloons, satellites and laser equipment. Weather radar stations play an important role, as they record precipitation and thunderstorms throughout Switzerland in real time.
