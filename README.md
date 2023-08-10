@@ -197,7 +197,7 @@ The information on current weather events is supplemented by [visual human obser
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [OBS network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) |
-| *Parameter metadata*           | see ... |
+| *Parameter metadata*           | see parameter files: [`obs-T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv) |
 | *Additional remarks*           | One file per station. |
 
 #### 2.3.4. Climate stations "Swiss NBCN" (`climate`, `climate-precip`)
@@ -212,7 +212,7 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [CLIMATE network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) |
-| *Parameter metadata*           | see ... |
+| *Parameter metadata*           | see parameter files: [`climate-D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-climate-D.csv), [`climate-M`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-climate-M.csv) and [`climate-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-climate-Y.csv) |
 | *Additional remarks*           | One file per station. |
 
 ##### 2.3.4.1 Records and extremes
@@ -227,7 +227,7 @@ Additionally the top 10 records of every climate station and the overall records
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [...](...) |
 | *Station metadata*             | see [station list (CSV)](...) |
-| *Parameter metadata*           | see ... |
+| *Parameter metadata*           | see parameter files: [`...-Y`]() |
 | *Additional remarks*           | One file per station. |
 
 #### 2.3.5. Swiss pollen monitoring stations (`pollen`)
@@ -242,7 +242,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) |
-| *Parameter metadata*           | see ... |
+| *Parameter metadata*           | see parameter files: [`pollen-H`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-H.csv) and [`pollen-D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-D.csv) |
 | *Additional remarks*           | One file per station. |
 
 #### 2.3.6. Phenological observations (phenology)
@@ -257,8 +257,12 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 | *Volume*                       | 7.08 MB |
 | *Visualisation*                | [PHENOLOGY network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) |
-| *Parameter metadata*           | see parameter file: [`Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv) |
+| *Parameter metadata*           | see parameter file: [`phenology-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv) |
 | *Additional remarks*           | One file for all stations. |
+
+
+
+
 
 ### 2.4. Atmosphere data
 MeteoSwiss obtains relevant data for weather forecasting and climate analysis from the [atmosphere](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere.html). The properties and composition of the atmosphere are studied using various instruments and methods, including weather balloons, satellites and laser equipment. Weather radar stations play an important role, as they record precipitation and thunderstorms throughout Switzerland in real time.
