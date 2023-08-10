@@ -197,7 +197,7 @@ The information on current weather events is supplemented by [visual human obser
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [OBS network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) |
-| *Parameter metadata*           | see parameter files: [`obs-T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv) |
+| *Parameter metadata*           | see parameter file: [`obs-T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv) |
 | *Additional remarks*           | One file per station. |
 
 #### 2.3.4. Climate stations "Swiss NBCN" (`climate`, `climate-precip`)
@@ -227,7 +227,7 @@ Additionally the top 10 records of every climate station and the overall records
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [...](...) |
 | *Station metadata*             | see [station list (CSV)](...) |
-| *Parameter metadata*           | see parameter files: [`...-Y`]() |
+| *Parameter metadata*           | see parameter file: [`...-Y`]() |
 | *Additional remarks*           | One file per station. |
 
 #### 2.3.5. Swiss pollen monitoring stations (`pollen`)
