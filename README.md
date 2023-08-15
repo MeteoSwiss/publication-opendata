@@ -304,7 +304,7 @@ The sites are
 >*Parameter metadata:* [...](...) <br>
 >*Additional remarks*: ... <br>
 
-#### 2.5. Model data
+### 2.5. Model data
 
 #### 2.5.1. INCA data (nowcasting)
 The INCA [nowcasting](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/nowcasting.html) forecasts come in 2 versions for most parameters a) a short 0h- +6h version and an b) an extended 6h-+28/33h version.
@@ -517,7 +517,7 @@ Proposal in preparation ...
 #### 2.5.3. Postprocessed data (data4web)
 Proposal in preparation ... 
 
-#### 2.6. Grid data
+### 2.6. Grid data
 
 #### 2.6.1. Spatial climate data  
 [Overview of spatial climate products](https://www.meteoschweiz.admin.ch/dam/jcr:215c313a-dc13-4b67-bca0-dbd966597f9a/ProdDoc_Cover-dfie.pdf) <br>
