@@ -268,15 +268,15 @@ MeteoSwiss performs soundings twice a day using weather balloon radiosondes. Thi
 
 The radiosondes measure air pressure, temperature and humidity. Attached to a [weather balloon](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-balloon.html) and carried high into the atmosphere, the radiosonde also records the exact position, allowing altitude, wind speed and direction to be determined. The data obtained in this way are of great importance for weather forecasts and climate research. MeteoSwiss launches a weather balloon twice a day from the sounding station in Payerne. Special soundings are also carried out to determine other parameters such as ozone or aerosol concentrations. In addition, MeteoSwiss operators launch research flights, for which several radiosondes are attached to the same balloon. This allows the readings to be compared with each other, checked for quality and verified.
 
-| *Dataset title*                | Atmosphere data from radio sounding ( |
+| *Dataset title*                | Atmosphere data from radio sounding (PAY) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see example file: [`radiosounding`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-atmosphere/radiosounding) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
-| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | Every 12h (`now`) |
+| *Update frequency*             | 12h (00h, 12h UTC) |
 | *Format*                       | `CSV` |
 | *Volume*                       | ... (MB/GB/TB) |
-| *Visualisation*                | [...](...) |
-| *Station metadata*             | see [... (CSV)](...) |
+| *Visualisation*                | [Emagram](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram) |
+| *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-atmosphaere/ch.meteoschweiz.messnetz-atmosphaere_en.csv) |
 | *Parameter metadata*           | see [parameter file](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata) |
 | *Additional remarks*           | One file per station. |
 
