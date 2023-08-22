@@ -260,10 +260,6 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 | *Parameter metadata*           | see parameter file: [`phenology-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv) |
 | *Additional remarks*           | One file for all stations. |
 
-
-
-
-
 ### 2.4. Atmosphere data
 MeteoSwiss obtains relevant data for weather forecasting and climate analysis from the [atmosphere](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere.html). The properties and composition of the atmosphere are studied using various instruments and methods, including weather balloons, satellites and laser equipment. Weather radar stations play an important role, as they record precipitation and thunderstorms throughout Switzerland in real time.
 
@@ -479,38 +475,6 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 6.4 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
->*Open Data Product (Title):* **INCA ** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* 10min <br>
->*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
->*Volume (MB):* ?? <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
-
->*Open Data Product (Title):* **INCA ** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* 10min <br>
->*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 20 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
-
->*Open Data Product (Title):* **INCA ** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* 10min <br>
->*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 20 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
-
->*Open Data Product (Title):* **INCA ** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv](https://github.com/MeteoSwiss/publication-opendata/blob/main/....csv) <br>
->*Granularity:* 10min <br>
->*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 20 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
-
 #### 2.5.2. COSMO/ICON data (forecasting)
 Proposal in preparation ... 
 
@@ -608,14 +572,6 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 >*Volume (MB):* 0.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
->*Open Data Product (Title):** **<br>
->*Data structure (Example file):* []() <br>
->*Granularity:* 5min <br>
->*Update frequency:* according to granularity <br>
->*Format:* HDF5 <br>
->*Volume (MB):* 0.2 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
-
 >*Open Data Product (Title):* **MAX-ECHO (CZC)** <br>
 >*Data structure (Example file):* [MAX_ECHO_CZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/MAX_ECHO_CZC.h5) <br>
 >*Granularity:* 5min <br>
@@ -630,14 +586,6 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 >*Update frequency:* according to granularity <br>
 >*Format:* HDF5 <br>
 >*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
-
->*Open Data Product (Title):** ** <br>
->*Data structure (Example file):* []() <br>
->*Granularity:* 5min <br>
->*Update frequency:* according to granularity <br>
->*Format:* HDF5 <br>
->*Volume (MB):* 0.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 ##### 2.6.2.2. Advanced radar data
