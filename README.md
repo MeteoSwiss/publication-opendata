@@ -245,7 +245,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 | *Parameter metadata*           | see parameter files: [`pollen-H`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-H.csv) and [`pollen-D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-D.csv) |
 | *Additional remarks*           | One file per station. |
 
-#### 2.3.6. Phenological observations (phenology)
+#### 2.3.6. Phenological observations (`phenology`)
 The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
 | *Dataset title*                | Measurement data from the Swiss Phenology NBetwork |
@@ -263,21 +263,22 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 ### 2.4. Atmosphere data
 MeteoSwiss obtains relevant data for weather forecasting and climate analysis from the [atmosphere](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere.html). The properties and composition of the atmosphere are studied using various instruments and methods, including weather balloons, satellites and laser equipment. Weather radar stations play an important role, as they record precipitation and thunderstorms throughout Switzerland in real time.
 
-#### 2.4.1. Radio soundings (radiosounding)
+#### 2.4.1. Radio soundings (`radiosounding`)
 MeteoSwiss performs soundings twice a day using weather balloon radiosondes. This allows important meteorology-related atmospheric values to be measured at high altitudes. The results of the latest [radio soundings](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radio-soundings.html) are made available in the form of data files ([decoded data](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-decoded)) and graphs ([emagrams](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram)).
 
 The radiosondes measure air pressure, temperature and humidity. Attached to a [weather balloon](https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/weather-balloon.html) and carried high into the atmosphere, the radiosonde also records the exact position, allowing altitude, wind speed and direction to be determined. The data obtained in this way are of great importance for weather forecasts and climate research. MeteoSwiss launches a weather balloon twice a day from the sounding station in Payerne. Special soundings are also carried out to determine other parameters such as ozone or aerosol concentrations. In addition, MeteoSwiss operators launch research flights, for which several radiosondes are attached to the same balloon. This allows the readings to be compared with each other, checked for quality and verified.
 
->*Open Data Product (Title):* **Atmosphere data from radio sounding station Payerne** <br>
->*Data structure (Example file):* [https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-atmosphere/radiosounding-PAY) <br>
->*Granularity:* ... (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
->*Update frequency:* ... - see [chapter 2.1.2.](#212-structure-and-update-cycle) for more details! <br>
->*Format:* CSV <br>
->*Volume (MB/GB/TB):* ... <br>
->*Network map:* ... <br>
->*Station metadata:* ... <br>
->*Parameter metadata:* [https://github.com/MeteoSwiss/publication-opendata/blob/main/data-atmosphere/radiosounding-PAY-metadata](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata) <br>
->*Additional remarks*: ... <br>
+| *Dataset title*                | Atmosphere data from radio soundings |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | see example file: [`radiosounding`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-atmosphere/radiosounding) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `...` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | ... (`...`), ... (`...`) or ... (`...`) |
+| *Format*                       | `CSV` |
+| *Volume*                       | ... (MB/GB/TB) |
+| *Visualisation*                | [...](...) |
+| *Station metadata*             | see [... (CSV)](...) |
+| *Parameter metadata*           | see [parameter file](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata) |
+| *Additional remarks*           | One file per station. |
 
 #### 2.4.2. Weather radar network (remotesensing)
 Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
