@@ -32,7 +32,6 @@
         - 2.3.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#236-phenological-observations-phenology)
     - 2.4. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-atmosphere-data)
         - 2.4.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-radio-soundings-radiosounding)
-        - 2.4.2. [Weather radar network (remotesensing)](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-weather-radar-network-remotesensing)
     - 2.5. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-model-data)
         - 2.5.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting)
         - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
@@ -97,7 +96,7 @@ This is the **current status of the clarifications** as to which data types can 
 |  | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#235-swiss-pollen-monitoring-stations-pollen) |  |  |
 |  | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#236-phenological-observations-phenology) |  |  |
 | [**Atmosphere**](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-atmosphere-data) | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-radio-soundings-radiosounding) | [Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html) | [Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html) - Data does not belong to MeteoSwiss |
-|  | [Weather radar network](https://github.com/MeteoSwiss/publication-opendata/tree/main#242-weather-radar-network-remotesensing) | [LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html) | [Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) - Data does not belong to MeteoSwiss |
+|  |  | [LIDAR and ceilometers](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lidar-and-ceilometers.html) | [Satellite observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/satellite-observations.html) - Data does not belong to MeteoSwiss |
 |  |  | [Microwave radiometry](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/microwave-radiometry.html) | [Lightning detection network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/lightning-detection-network.html) - Data does not belong to MeteoSwiss |
 |  |  | [Ozone measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/ozone-measurements.html) |  |
 |  |  | [Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html) |  |
@@ -280,27 +279,6 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-atmosphaere/ch.meteoschweiz.messnetz-atmosphaere_en.csv) |
 | *Parameter metadata*           | see [parameter file](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata) |
 | *Additional remarks*           | One file per station. |
-
-#### 2.4.2. Weather radar network (remotesensing)
-Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
-
-The sites are
-- Albis near Zurich (equipped with the latest technology (dual polarisation) in 2012, monitors the atmosphere of the whole of northern Switzerland)
-- Monte Lema in the Canton of Ticino (equipped with the latest technology (dual polarisation) in 2011, monitors the atmosphere of the whole of southern Switzerland)
-- La Dôle near Geneva (equipped with the latest technology (dual polarisation) in 2011)
-- Pointe de la Plaine Morte in the Canton of Valais (equipped with the latest technology (dual polarisation), commenced operation in 2014 and monitors the atmosphere in the inner Alpine region)
-- the Weissfluhgipfel in the Canton of Graubünden (equipped with the latest technology (dual polarisation), commenced operation in 2016, and monitors the atmosphere in the inner Alpine region)
-
->*Open Data Product (Title):* **...** <br>
->*Data structure (Example file):* [...](...) <br>
->*Granularity:* ... (see [chapter 2.1.1.](#211-data-of-meteoswiss-data-granularity) for more details) <br>
->*Update frequency:* ... - see [chapter 2.1.2.](#212-structure-and-update-cycle) for more details! <br>
->*Format:* ... <br>
->*Volume (MB/GB/TB):* ... <br>
->*Network map:* ... <br>
->*Station metadata:* ... <br>
->*Parameter metadata:* [...](...) <br>
->*Additional remarks*: ... <br>
 
 ### 2.5. Model data
 
@@ -560,6 +538,15 @@ For more information see also the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
 #### 2.6.2. Radar and combiprecip data
+Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
+
+The sites are
+- Albis near Zurich (equipped with the latest technology (dual polarisation) in 2012, monitors the atmosphere of the whole of northern Switzerland)
+- Monte Lema in the Canton of Ticino (equipped with the latest technology (dual polarisation) in 2011, monitors the atmosphere of the whole of southern Switzerland)
+- La Dôle near Geneva (equipped with the latest technology (dual polarisation) in 2011)
+- Pointe de la Plaine Morte in the Canton of Valais (equipped with the latest technology (dual polarisation), commenced operation in 2014 and monitors the atmosphere in the inner Alpine region)
+- the Weissfluhgipfel in the Canton of Graubünden (equipped with the latest technology (dual polarisation), commenced operation in 2016, and monitors the atmosphere in the inner Alpine region)
+
 Radar data is beeing provided in the HDF5-Format which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
 The radar data are divided into [basic radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/basic-radar-products.html), [advanced radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) and [combiprecip](https://www.meteoswiss.admin.ch/dam/jcr:2691db4e-7253-41c6-a413-2c75c9de11e3/ProdDoc_CPC.pdf).
