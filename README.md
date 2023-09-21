@@ -105,7 +105,7 @@ This is the **current status of the clarifications** as to which data types can 
 |  |  | [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web) |  |
 | [**Grid**](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data) | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-Spatial-climate-data) |  |  |
 |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data) |  |  |
-| [**Warning**](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) |  |[Warning data|  |
+| [**Warning**](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) |  |Warning data|  |
 
 
 ### 2.2. General information on the data
