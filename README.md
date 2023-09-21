@@ -8,6 +8,7 @@
 > **This is work in progress.** <br>
 > Jump directly to the [overview of which data types are to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data). <br>
 > Jump directly to the [questions on which we are asking the Open Data user community for feedback](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-questions-to-the-open-data-user-community).
+> Jump directly to the [roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service)
 
 ## Table of contents
 
@@ -44,7 +45,8 @@
             - 2.6.2.1. [Basic radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2621-basic-radar-data)
             - 2.6.2.2. [Advanced radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2622-advanced-radar-data)
             - 2.6.2.3. [Combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-combiprecip-data)
-    - 2.7. [Warning data]()
+    - 2.7. [Warning data](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data)
+- 3. [Roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service)
 
 ## 1. Context and mission of the project
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
@@ -105,7 +107,7 @@ This is the **current status of the clarifications** as to which data types can 
 |  |  | [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web) |  |
 | [**Grid**](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data) | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-Spatial-climate-data) |  |  |
 |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data) |  |  |
-| [**Warning**](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) |  |Warning data|  |
+| [**Warning**](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) |  | Warning data |  |
 
 
 ### 2.2. General information on the data
@@ -591,3 +593,11 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 ##### 2.6.2.3. Combiprecip data
 Proposal in preparation ... 
+
+### 2.7. Warning data
+In clarification if/how can be made available as open data.
+
+## 3. Roadmap of MeteoSwiss' OGD service
+In preparation ...
+
+<!-- https://app.productplan.com/G_PR7ExN/views/1164487/?layout=timeline -->
