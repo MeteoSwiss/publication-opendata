@@ -471,8 +471,65 @@ For more information see the metadata in each NetCDF-File.
 #### 2.5.2. COSMO/ICON data (forecasting)
 Proposal in preparation ... 
 
-#### 2.5.3. Postprocessed data (data4web)
-Proposal in preparation ... 
+
+#### 2.5.3. Postprocessed data (data4web) local forecast 
+
+The postprocessed forecast data is based on a mix of different models (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-Codes, SMN-Stations and selected POI in the mountains as punctual data. 
+The forecast ist available for the time period of +0h - +192h and is beeing updated hourly. 
+This is the same forecast we provide in our MeteoSwiss-App and on our website for each ZIP-code. 
+
+For each parameter there is a single file. 
+Here we provide only a few parameters for review. 
+
+As for the geolocation of the data, the following metadata-files are beeing provided for mapping of the data: 
+
+a) ZIP-code locations [Data4Web_legend_PLZ.txt] <br>
+b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
+
+>*Open Data Product (Title):* **Hourly Temperature** <br>
+>*Data structure (Example file):* [VNUT36.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
+>*Granularity:* hourly<br>
+>*Update frequency:* hourly <br>
+>*Format:* CSV <br>
+>*Volume (MB):* 30 <br>
+>*Additional remarks*: Unit: °C < <br>
+
+
+>*Open Data Product (Title):* **Hourly sunshine duration** <br>
+>*Data structure (Example file):* [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
+>*Granularity:* hourly<br>
+>*Update frequency:* hourly <br>
+>*Format:* CSV <br>
+>*Volume (MB):* 30 <br>
+>*Additional remarks*: Unit: Minutes < <br>
+
+
+>*Open Data Product (Title):* **Hourly precipitation sum** <br>
+>*Data structure (Example file):* [VNUT35.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
+>*Granularity:* hourly<br>
+>*Update frequency:* hourly <br>
+>*Format:* CSV <br>
+>*Volume (MB):* 30 <br>
+>*Additional remarks*: mm or l/m2 < <br>
+
+
+>*Open Data Product (Title):* **Daily Temperature minimum** <br>
+>*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
+>*Granularity:* hourly<br>
+>*Update frequency:* hourly <br>
+>*Format:* CSV <br>
+>*Volume (MB):* 30 <br>
+>*Additional remarks*: Unit: °C < <br>
+
+>*Open Data Product (Title):* **Daily temperature maximum** <br>
+>*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200dx.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
+>*Granularity:* hourly<br>
+>*Update frequency:* hourly <br>
+>*Format:* CSV <br>
+>*Volume (MB):* 30 <br>
+>*Additional remarks*: Unit: °C < <br>
+
+
 
 ### 2.6. Grid data
 
