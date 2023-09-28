@@ -472,7 +472,7 @@ For more information see the metadata in each NetCDF-File.
 Proposal in preparation ... 
 
 
-#### 2.5.3. Postprocessed data (data4web) local forecast 
+#### 2.5.3. Postprocessed data (data4web) local forecast
 
 The postprocessed forecast data is based on a mix of different models (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-Codes, SMN-Stations and selected POI in the mountains as punctual data. 
 The forecast ist available for the time period of +0h - +192h and is beeing updated hourly. 
