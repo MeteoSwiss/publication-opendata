@@ -36,7 +36,7 @@
     - 2.5. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-model-data)
         - 2.5.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting)
         - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
-        - 2.5.3. [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web)
+        - 2.5.3. [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web-local-forecast)
     - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
         - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
             - 2.6.1.1. [Surface derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
@@ -486,7 +486,7 @@ As for the geolocation of the data, the following metadata-files are beeing prov
 a) ZIP-code locations [Data4Web_legend_PLZ.txt] <br>
 b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 
->*Open Data Product (Title):* **Hourly Temperature** <br>
+>*Open Data Product (Title):* **Hourly average temperature** <br>
 >*Data structure (Example file):* [VNUT36.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
@@ -518,7 +518,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
 >*Format:* CSV <br>
->*Volume (MB):* 30 <br>
+>*Volume (MB):* 0.3 <br>
 >*Additional remarks*: Unit: °C < <br>
 
 >*Open Data Product (Title):* **Daily temperature maximum** <br>
@@ -526,7 +526,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
 >*Format:* CSV <br>
->*Volume (MB):* 30 <br>
+>*Volume (MB):* 0.3 <br>
 >*Additional remarks*: Unit: °C < <br>
 
 
