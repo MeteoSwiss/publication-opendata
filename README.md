@@ -36,7 +36,7 @@
     - 2.5. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-model-data)
         - 2.5.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting)
         - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
-        - 2.5.3. [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web-local-forecast)
+        - 2.5.3. [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#253-postprocessed-data-data4web-local-forecast)
     - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
         - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
             - 2.6.1.1. [Surface derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
