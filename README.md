@@ -487,7 +487,7 @@ a) ZIP-code locations [Data4Web_legend_PLZ.txt] <br>
 b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 
 >*Open Data Product (Title):* **Hourly average temperature** <br>
->*Data structure (Example file):* [VNUT36.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
+>*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
 >*Format:* CSV <br>
@@ -505,7 +505,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 
 
 >*Open Data Product (Title):* **Hourly precipitation sum** <br>
->*Data structure (Example file):* [VNUT35.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
+>*Data structure (Example file):* [VNUT12.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
 >*Format:* CSV <br>
