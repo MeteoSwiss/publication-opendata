@@ -57,6 +57,8 @@ In the current year (2023) the necessary technical and organizational measures f
 > **Finding out, collecting, analysing and weighting user needs** is the central way for the project team to be able to offer good 'Open Data products'.
 > Thank you very much for your attention and your openness to enter into an exchange with us on this matter.
 
+According to the current schedule the implementation of OGD at MeteoSwiss may be expected during early 2025.
+
 ### 1.1. Purpose of this repository
 This repository is used by MeteoSwiss' project team to inform potential users interested in Open Data about the plans and to receive specific feedback from them on proposals.
 1. [We describe the various 'Open Data products'](https://github.com/MeteoSwiss/publication-opendata/tree/main#2-open-data-products) being designed by MeteoSwiss' specialist data teams. That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics**.
