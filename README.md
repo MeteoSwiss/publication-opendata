@@ -16,6 +16,7 @@
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     - 1.2. [Questions to the Open Data user community](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-questions-to-the-open-data-user-community)
     - 1.3. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#13-general-contact-point)
+    <!-- - 1.4. [OGD Newsletter](https://github.com/MeteoSwiss/publication-opendata/tree/master#14-ogd-newsletter) -->
 2. [Open Data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products)
     - 2.1. [Overview of data types to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data)  
     - 2.2. [General information on the data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-general-information-on-the-data)
@@ -84,6 +85,9 @@ These are the **current questions to the Open Data user community** on which we 
 
 ### 1.3. General contact point
 If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
+
+<!-- ### 1.4. OGD newsletter
+Don't miss any updates on Open Government Data from MeteoSwiss. [Subscribe] to the OGD newsletter. Or send an email to: [ogd-news(at)news.meteoswiss.ch](ogd-news@news.meteoswiss.ch) with the subject: JOIN ogd_list -->
 
 ## 2. Open Data products
 
