@@ -36,6 +36,12 @@
         - 2.4.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-radio-soundings-radiosounding)
     - 2.5. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-model-data)
         - 2.5.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting)
+            - [2.5.1.1. INCA precipitation - quantitative/qualitative](https://github.com/MeteoSwiss/publication-opendata/tree/main#2511-inca-precipitation---quantitativequalitative)
+            - [2.5.1.2. INCA precipitation type - rain, snow, snow-rain, freezing rain, rain&hail](https://github.com/MeteoSwiss/publication-opendata/tree/main#2512-inca-precipitation-type---rain-snow-snow-rain-freezing-rain-rainhail)
+            - [2.5.1.3. INCA snowfall - quantitative/qualitative](https://github.com/MeteoSwiss/publication-opendata/tree/main#2513-inca-snowfall---quantitativequalitative)
+            - [2.5.1.4. INCA snow accumulation & snowfall line](https://github.com/MeteoSwiss/publication-opendata/tree/main#2514-inca-snow-accumulation--snowfall-line)
+            - [2.5.1.5. INCA temperature](https://github.com/MeteoSwiss/publication-opendata/tree/main#2515-inca-temperature)
+            - [2.5.1.6. INCA relative sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2516-inca-relative-sunshine-duration)
         - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
         - 2.5.3. [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#253-postprocessed-data-data4web-local-forecast)
     - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
@@ -501,7 +507,7 @@ For more information see the metadata in each NetCDF-File.
 >*Volume (MB):* 12.5 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
-##### 2.5.1.5. INCA relative sunshine duration
+##### 2.5.1.6. INCA relative sunshine duration
 
 >*Open Data Product (Title):* **INCA Relative sunshine duration (SU)** <br>
 >*Data structure (Example file):* [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/SU_INCA_202106280700.nc) <br>
