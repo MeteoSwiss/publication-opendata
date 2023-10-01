@@ -453,13 +453,17 @@ For more information see the metadata in each NetCDF-File.
 
 ##### 2.5.1.4. INCA snow accumulation & snowfall line
 
->*Open Data Product (Title):* **INCA New Snow Accumulation 24h (SH_BK_24)** <br>
->*Data structure (Example file):* [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/SH_BK_24_INCA_202106280700.nc) <br>
->*Granularity:* 24h <br>
->*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
->*Volume (MB):* 20 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA New Snow Accumulation 24h (SH_BK_24) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/SH_BK_24_INCA_202106280700.nc) |
+| *Data granularity*             | 24h |
+| *Update frequency*             | 10min |
+| *Format*                       | `NetCDF` |
+| *Volume*                       | 20 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 >*Open Data Product (Title):* **INCA Snowfall line (ZS)** <br>
 >*Data structure (Example file):* [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/ZS_INCA_202106280700.nc) <br>
