@@ -307,6 +307,13 @@ The INCA [nowcasting](https://www.meteoswiss.admin.ch/weather/warning-and-foreca
 Please be aware, that in the extended versions, the part after the first 6h comes from the COSMO-1E model, which means, that it is beeing updated only every 3h (00h, 03h, 06h, 09h etc. UTC). Only the first +6h are beeing updated according to the respective update frequency. 
 For more information see the metadata in each NetCDF-File.
 
+> Jump directly 2.5.1.1. [INCA precipitation - quantitative/qualitative](https://github.com/MeteoSwiss/publication-opendata/tree/main#2511-inca-precipitation---quantitativequalitative). <br>
+> Jump directly 2.5.1.2. [INCA precipitation type - rain, snow, snow-rain, freezing rain, rain&hail](https://github.com/MeteoSwiss/publication-opendata/tree/main#2512-inca-precipitation-type---rain-snow-snow-rain-freezing-rain-rainhail). <br>
+> Jump directly 2.5.1.3. [INCA snowfall - quantitative/qualitative](https://github.com/MeteoSwiss/publication-opendata/tree/main#2513-inca-snowfall---quantitativequalitative). <br>
+> Jump directly 2.5.1.4. [INCA snow accumulation & snowfall line](https://github.com/MeteoSwiss/publication-opendata/tree/main#2514-inca-snow-accumulation--snowfall-line). <br>
+> Jump directly 2.5.1.5. [INCA temperature](https://github.com/MeteoSwiss/publication-opendata/tree/main#2515-inca-temperature). <br>
+> Jump directly 2.5.1.6. [INCA relative sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2516-inca-relative-sunshine-duration). <br>
+
 ##### 2.5.1.1. INCA precipitation - quantitative/qualitative
 | *Dataset title*                | INCA Precipitation quantitative (based on CombiPrecip, RR) |
 | :----------------------------- | :---------------------------------------- |
