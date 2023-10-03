@@ -472,7 +472,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/ZS_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -482,7 +482,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* [Z0_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/Z0_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -490,7 +490,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -498,7 +498,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* see short forecast version  <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 42 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -506,7 +506,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -514,7 +514,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* see short forecast version  <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* ?? <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -522,7 +522,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* [TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 12.5 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -532,7 +532,7 @@ For more information see the metadata in each NetCDF-File.
 >*Data structure (Example file):* [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) <br>
 >*Granularity:* 10min <br>
 >*Update frequency:* 10min <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 6.4 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -614,7 +614,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Data structure (Example file):* [RhiresD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc), [RhiresM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc), [RhiresY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) <br>
 >*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -623,7 +623,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Data structure (Example file):* [TabsD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TabsD_ch01r.swiss.lv95_202305010000_202305310000.nc), [TabsM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TabsM_ch01r.swiss.lv95_202305010000_202305010000.nc), [TmaxM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TmaxM_ch01r.swiss.lv95_202305010000_202305010000.nc), [TminY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TminY_ch01r.swiss.lv95_202201010000_202201010000.nc)<br>
 >*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB<br>
 >*Additional remarks*: Coordinate System : Swiss LV95 EPSG:2056< <br>
 
@@ -632,7 +632,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Data structure (Example file):* [SrelD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelD_ch01r.swiss.lv95_202305010000_202305310000.nc), [SrelM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelM_ch01r.swiss.lv95_202305010000_202305010000.nc), [SrelY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelY_ch01r.swiss.lv95_202201010000_202201010000.nc) <br>
 >*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
@@ -643,7 +643,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Data structure (Example file):* [MSG.SIS.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc), [MSG.SIS.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
 >*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
@@ -652,7 +652,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Data structure (Example file):* [MSG.SIS.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc), [MSG.SIS.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
 >*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326< <br>
 
@@ -661,7 +661,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Data structure (Example file):* [MSG.SISDIR.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc), [MSG.SISDIR.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc), [MSG.SISDIR.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc) <br>
 >*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
@@ -670,7 +670,7 @@ For more information see also the metadata in each NetCDF-File.
 >*Data structure (Example file):* [MSG.CFC.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc), [MSG.CFC.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc), [MSG.CFC.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc) <br>
 >*Granularity:* daily, monthly, yearly <br>
 >*Update frequency:* according to granularity <br>
->*Format:* NetCDF <br>
+>*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
 
@@ -684,7 +684,7 @@ The sites are
 - Pointe de la Plaine Morte in the Canton of Valais (equipped with the latest technology (dual polarisation), commenced operation in 2014 and monitors the atmosphere in the inner Alpine region)
 - the Weissfluhgipfel in the Canton of Graubünden (equipped with the latest technology (dual polarisation), commenced operation in 2016, and monitors the atmosphere in the inner Alpine region)
 
-Radar data is beeing provided in the HDF5-Format which is the common exchange format for radar data.
+Radar data is beeing provided in the [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
 The radar data are divided into [basic radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/basic-radar-products.html), [advanced radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) and [combiprecip](https://www.meteoswiss.admin.ch/dam/jcr:2691db4e-7253-41c6-a413-2c75c9de11e3/ProdDoc_CPC.pdf).
 
@@ -694,7 +694,7 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 >*Data structure (Example file):* [Precip_RZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Precip_RZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
->*Format:* HDF5 <br>
+>*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
 >*Volume (MB):* 0.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
@@ -702,7 +702,7 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 >*Data structure (Example file):* [MAX_ECHO_CZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/MAX_ECHO_CZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
->*Format:* HDF5 <br>
+>*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
 >*Volume (MB):* 0.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
@@ -710,7 +710,7 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 >*Data structure (Example file):* [ECHO_TOP_45dBZ](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Echo_TOP_45dBZ_EZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
->*Format:* HDF5 <br>
+>*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
 >*Volume (MB):* 0.1 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
@@ -720,7 +720,7 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 >*Data structure (Example file):* [POH_BZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/POH_BZC.h5) <br>
 >*Granularity:* 5min <br>
 >*Update frequency:* according to granularity <br>
->*Format:* HDF5 <br>
+>*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
 >*Volume (MB):* 0.2 <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
