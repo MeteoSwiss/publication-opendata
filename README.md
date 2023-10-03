@@ -43,7 +43,7 @@
             - 2.5.1.5. [INCA temperature](https://github.com/MeteoSwiss/publication-opendata/tree/main#2515-inca-temperature)
             - 2.5.1.6. [INCA relative sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2516-inca-relative-sunshine-duration)
         - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
-        - 2.5.3. [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#253-postprocessed-data-data4web-local-forecast)
+        - 2.5.3. [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web)
     - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
         - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
             - 2.6.1.1. [Surface derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
@@ -117,7 +117,7 @@ This is the **current status of the clarifications** as to which data types can 
 |  |  | [Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html) |  |
 | [**Model**](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-model-data) | [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting) |  |  |
 |  |  | [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting) |  |
-|  |  | [Postprocessed data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-data-data4web) |  |
+|  | [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web) |  |  |
 | [**Grid**](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data) | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-Spatial-climate-data) |  |  |
 |  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data) |  |  |
 | [**Warning**](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) |  | Weather hazard data |  |
@@ -298,6 +298,9 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 | *Additional remarks*           | One file per station. |
 
 ### 2.5. Model data
+
+> Jump directly to 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting). <br>
+> Jump directly to 2.5.3. [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web). <br>
 
 #### 2.5.1. INCA data (nowcasting)
 The INCA [nowcasting](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/nowcasting.html) forecasts come in 2 versions for most parameters a) a short 0h- +6h version and an b) an extended 6h-+28/33h version.
@@ -537,11 +540,10 @@ For more information see the metadata in each NetCDF-File.
 Proposal in preparation ... 
 
 
-#### 2.5.3. Postprocessed data (data4web) local forecast
-
+#### 2.5.3. Postprocessed local forecast data (data4web)
 The postprocessed forecast data is based on a mix of different models (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-Codes, SMN-Stations and selected POI in the mountains as punctual data. 
-The forecast ist available for the time period of +0h - +192h and is beeing updated hourly. 
-This is the same forecast we provide in our MeteoSwiss-App and on our website for each ZIP-code. 
+The forecast ist available for the time period of +0h - +192h and is being updated hourly. 
+This is the same forecast we provide in the MeteoSwiss-App and on our website for each ZIP-code. 
 
 For each parameter there is a single file. 
 Here we provide only a few parameters for review. 
