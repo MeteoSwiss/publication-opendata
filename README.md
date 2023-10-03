@@ -44,9 +44,9 @@
             - 2.5.1.6. [INCA relative sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2516-inca-relative-sunshine-duration)
         - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
         - 2.5.3. [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web)
-            - 2.5.3.1. Local forecast precipitation
-            - 2.5.3.2. Local forecast temperature
-            - 2.5.3.3. Local forecast sunshine
+            - 2.5.3.1. [Local forecast precipitation](https://github.com/MeteoSwiss/publication-opendata/tree/main#2531-local-forecast-precipitation)
+            - 2.5.3.2. [Local forecast temperature](https://github.com/MeteoSwiss/publication-opendata/tree/main#2532-local-forecast-temperature)
+            - 2.5.3.3. [Local forecast sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2532-local-forecast-sunshine-duration)
     - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
         - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
             - 2.6.1.1. [Surface derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
