@@ -575,7 +575,7 @@ Proposal in preparation ...
 
 
 #### 2.5.3. Postprocessed local forecast data (data4web)
-The postprocessed forecast data is based on a [mix of different models](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/weather-forecasts.html) (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-codes, [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html)-stations and selected POI in the mountains as punctual data. 
+The postprocessed forecast data is based on a [mix of different models](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/weather-forecasts.html) (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-codes, [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html)-stations and selected POI in the mountains as point data. 
 The forecast is available for the time period from +0h to +192h and is being updated hourly. 
 It is the same forecast data used in the MeteoSwiss app and on the website for each ZIP-code. 
 
