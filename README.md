@@ -299,7 +299,7 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 
 ### 2.5. Model data
 
-> Jump directly to 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting). <br>
+<!-- Jump directly to 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting). <br> -->
 > Jump directly to 2.5.3. [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web). <br>
 
 #### 2.5.1. INCA data (nowcasting)
@@ -322,7 +322,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | Every 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 1.7 MB |
-| *Parameter metadata*           | see example file  |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Precipitation quantitative extended forecast (based on CombiPrecip, RR_ext) |
@@ -332,9 +332,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 20 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Precipitation qualitative (based on radar only, RP) |
@@ -344,9 +342,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | Every 5min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 3.1 MB |
-| *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Precipitation qualitative extended forecast (based on radar only, RP_ext) |
@@ -356,9 +352,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 37 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.2. INCA precipitation type - rain, snow, snow-rain, freezing rain, rain&hail
@@ -369,9 +363,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | Every 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.7 MB |
-| *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Precipitation type for RR_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, PT_ext) |
@@ -381,9 +373,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 4.5 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Precipitation type for RP in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT) |
@@ -393,9 +383,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | Every 5min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 1.4 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Precipitation type for RP_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT_ext) |
@@ -405,9 +393,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 8.5 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.3. INCA snowfall - quantitative/qualitative
@@ -418,9 +404,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | Every 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.4 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Snowfall quantitative extended forecast (based on CombiPrecip, RS_ext) |
@@ -430,9 +414,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 1.5 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Snowfall qualitative (based on radar only, PN) |
@@ -442,9 +424,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | Every 5min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.6 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Snowfall qualitative extended forecast (based on radar only, PN_ext) |
@@ -454,9 +434,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 2.9 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.4. INCA snow accumulation & snowfall line
@@ -467,9 +445,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.04 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Snowfall line (ZS) |
@@ -479,9 +455,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 12.2 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.5. INCA temperature
@@ -492,9 +466,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 12.2 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA temperature (TT) |
@@ -504,9 +476,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 12.2 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Temperature extended (TT_ext) |
@@ -516,9 +486,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 42 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Dewpoint temperature (TD) |
@@ -528,9 +496,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 12.2 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Dewpoint temperature Extended (TD_Ext) |
@@ -540,9 +506,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | ... |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Soil surface temperature (TG) |
@@ -552,9 +516,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 12.5 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.6. INCA relative sunshine duration
@@ -565,13 +527,11 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 6.4 MB |
-| *Visualisation*                | ... |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 #### 2.5.2. COSMO/ICON data (forecasting)
-Proposal in preparation ... 
+Proposal in preparation. 
 
 
 #### 2.5.3. Postprocessed local forecast data (data4web)
@@ -760,7 +720,8 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
 
 ##### 2.6.2.3. Combiprecip data
-Proposal in preparation ... 
+Proposal in preparation.
+
 
 ### 2.7. Warning data
 In clarification if/how can be made available as open data.
