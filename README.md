@@ -313,7 +313,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see example file: [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RR_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | Every 10min |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 1.7 MB |
 | *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
 | *Station metadata*             | ... |
@@ -325,7 +325,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 20 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -337,7 +337,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see example file: [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | Every 5min |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 3.1 MB |
 | *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
 | *Station metadata*             | ... |
@@ -349,7 +349,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 37 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -362,7 +362,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see example file: [PT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | Every 10min |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.7 MB |
 | *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
 | *Station metadata*             | ... |
@@ -374,7 +374,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 4.5 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -386,7 +386,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | Every 5min |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 1.4 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -398,7 +398,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 8.5 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -411,7 +411,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see example file: [RS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RS_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | Every 10min |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.4 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -423,7 +423,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 1.5 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -435,7 +435,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see example file: [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | Every 5min |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.6 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -447,7 +447,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 2.9 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
@@ -461,7 +461,7 @@ For more information see the metadata in each NetCDF-File.
 | *Data structure*               | [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SH_BK_24_INCA_202106280700.nc) |
 | *Data granularity*             | 24h |
 | *Update frequency*             | 10min |
-| *Format*                       | `NetCDF` |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 0.04 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
