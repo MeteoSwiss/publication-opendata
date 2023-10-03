@@ -575,23 +575,35 @@ As for the geolocation of the data, the following metadata-files are being provi
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | unit: `mm` or `l/m2` |
 
+| *Dataset title*                | Daily Temperature minimum |
+| :----------------------------- | :------------------------- |
+| *Data structure*               | [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dn.csv) |
+| *Data granularity*             | hourly |
+| *Update frequency*             | hourly |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | 0.2 MB (unzipped) |
+| *Parameter metadata*           | see example file |
+| *Additional remarks*           | unit: `°C` |
 
->*Open Data Product (Title):* **Daily Temperature minimum** <br>
->*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
->*Granularity:* hourly<br>
->*Update frequency:* hourly <br>
->*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
->*Volume (MB):* 0.3 <br>
->*Additional remarks*: Unit: °C < <br>
+| *Dataset title*                | Daily Temperature minimum |
+| :----------------------------- | :------------------------- |
+| *Data structure*               | [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dn.csv) |
+| *Data granularity*             | hourly |
+| *Update frequency*             | hourly |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | 0.2 MB |
+| *Parameter metadata*           | see example file |
+| *Additional remarks*           | unit: `°C` |
 
->*Open Data Product (Title):* **Daily temperature maximum** <br>
->*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200dx.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
->*Granularity:* hourly<br>
->*Update frequency:* hourly <br>
->*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
->*Volume (MB):* 0.3 <br>
->*Additional remarks*: Unit: °C < <br>
-
+| *Dataset title*                | Daily temperature maximum |
+| :----------------------------- | :------------------------- |
+| *Data structure*               | [VNUT12.LSSX.202309271300.tre200dx.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dx.csv) |
+| *Data granularity*             | hourly |
+| *Update frequency*             | hourly |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | 0.2 MB |
+| *Parameter metadata*           | see example file |
+| *Additional remarks*           | unit: `°C` |
 
 ### 2.6. Grid data
 
