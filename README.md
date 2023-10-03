@@ -81,10 +81,10 @@ These are the **current questions to the Open Data user community** on which we 
 
 | Data category | ID | Question | Status | Since date |
 | :------------ | :- | :------- | :----- | :--------- |
-| **Surface** | S1 | [Aggregated (calculated) maximum and minimum?](https://github.com/MeteoSwiss/publication-opendata/discussions/1) | Open for feedback | 2023-08-02 |
-| **Surface** | S2 | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-08-02 |
+| **Surface** | S1 | [Aggregated (calculated) maximum and minimum?](https://github.com/MeteoSwiss/publication-opendata/discussions/1) | Open for feedback | 2023-10-02 |
+| **Surface** | S2 | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-10-02 |
 | **Surface** | S3 | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
-| **Surface** | S4 | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-08-02 |
+| **Surface** | S4 | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-10-02 |
 | **Atmosphere** | A0 | no question yet | ... | ... |
 | **Model** | M0 | no question yet | ... | ... |
 | **Grid** | G0 | no question yet | ... | ... |
@@ -181,7 +181,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T`, `H`, `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
-| *Volume*                       | ... (MB/GB/TB) |
+| *Volume*                       | ≤5.3 MB |
 | *Visualisation*                | [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) |
 | *Parameter metadata*           | see parameter files: [`smn-T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-T.csv), [`smn-H`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-H.csv), [`smn-D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-D.csv), [`smn-M`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-M.csv) and [`smn-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-smn-Y.csv)
@@ -196,7 +196,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss operates a [
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
-| *Volume*                       | ... (MB/GB/TB) |
+| *Volume*                       | ≤0.6 MB |
 | *Visualisation*                | [NIME and TOT network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-manuell/ch.meteoschweiz.messnetz-manuell_en.csv) |
 | *Parameter metadata*           | see parameter files: [`nime-D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-nime-D.csv), [`nime-M`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-nime-M.csv), [`nime-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-nime-Y.csv) and [`tot-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-tot-Y.csv) |
@@ -211,7 +211,7 @@ The information on current weather events is supplemented by [visual human obser
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
-| *Volume*                       | ... (MB/GB/TB) |
+| *Volume*                       | ≤0.04 MB |
 | *Visualisation*                | [OBS network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) |
 | *Parameter metadata*           | see parameter file: [`obs-T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv) |
@@ -226,13 +226,13 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
-| *Volume*                       | ... (MB/GB/TB) |
+| *Volume*                       | ≤0.9 MB |
 | *Visualisation*                | [CLIMATE network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) |
 | *Parameter metadata*           | see parameter files: [`climate-D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-climate-D.csv), [`climate-M`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-climate-M.csv) and [`climate-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-climate-Y.csv) |
 | *Additional remarks*           | One file per station. |
 
-##### 2.3.4.1 Records and extremes
+<!-- ##### 2.3.4.1 Records and extremes
 Additionally the top 10 records of every climate station and the overall records can be downloaded per parameter separately.
 
 | *Dataset title*                | ... |
@@ -245,7 +245,7 @@ Additionally the top 10 records of every climate station and the overall records
 | *Visualisation*                | [...](...) |
 | *Station metadata*             | see [station list (CSV)](...) |
 | *Parameter metadata*           | see parameter file: [`...-Y`]() |
-| *Additional remarks*           | One file per station. |
+| *Additional remarks*           | One file per station. | -->
 
 #### 2.3.5. Swiss pollen monitoring stations (`pollen`)
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). This consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is operational: for the first time in the world, instead of daily averages being available after a week, information is available in real time at an hourly resolution.
@@ -256,7 +256,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `H`, `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
 | *Format*                       | `CSV` |
-| *Volume*                       | ... (MB/GB/TB) |
+| *Volume*                       | 0.6 MB |
 | *Visualisation*                | [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) |
 | *Parameter metadata*           | see parameter files: [`pollen-H`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-H.csv) and [`pollen-D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-D.csv) |
@@ -271,7 +271,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`) or daily (`recent`) |
 | *Format*                       | `CSV` |
-| *Volume*                       | 7.08 MB |
+| *Volume*                       | ≤7.1 MB |
 | *Visualisation*                | [PHENOLOGY network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) |
 | *Parameter metadata*           | see parameter file: [`phenology-Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv) |
@@ -291,7 +291,7 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
 | *Update frequency*             | 12h (00h, 12h UTC) |
 | *Format*                       | `CSV` |
-| *Volume*                       | ... (MB/GB/TB) |
+| *Volume*                       | 0.02 MB |
 | *Visualisation*                | [Emagram](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-atmosphaere/ch.meteoschweiz.messnetz-atmosphaere_en.csv) |
 | *Parameter metadata*           | see [parameter file](https://github.com/MeteoSwiss/publication-opendata/blob/main/atmosphere/radiosounding-PAY-metadata) |
