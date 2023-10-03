@@ -53,7 +53,7 @@
             - 2.6.2.2. [Advanced radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2622-advanced-radar-data)
             - 2.6.2.3. [Combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-combiprecip-data)
     - 2.7. [Warning data](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data)
-3. [Roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service)
+<!-- 3. [Roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service) -->
 
 
 ## 1. Context and mission of the project
@@ -85,9 +85,9 @@ These are the **current questions to the Open Data user community** on which we 
 | **Surface** | S2 | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-10-02 |
 | **Surface** | S3 | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-10-02 |
 | **Surface** | S4 | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-10-02 |
-| **Atmosphere** | A0 | no question yet | ... | ... |
-| **Model** | M0 | no question yet | ... | ... |
-| **Grid** | G0 | no question yet | ... | ... |
+| **Atmosphere** | A0 | no specific question yet | ... | ... |
+| **Model** | M0 | no specific question yet | ... | ... |
+| **Grid** | G0 | no specific question yet | ... | ... |
 
 ### 1.3. General contact point
 If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
@@ -765,7 +765,7 @@ Proposal in preparation ...
 ### 2.7. Warning data
 In clarification if/how can be made available as open data.
 
-## 3. Roadmap of MeteoSwiss' OGD service
+<!-- ## 3. Roadmap of MeteoSwiss' OGD service
 In preparation ...
 
-<!-- https://app.productplan.com/G_PR7ExN/views/1164487/?layout=timeline -->
+https://app.productplan.com/G_PR7ExN/views/1164487/?layout=timeline -->
