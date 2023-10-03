@@ -455,7 +455,6 @@ For more information see the metadata in each NetCDF-File.
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.4. INCA snow accumulation & snowfall line
-
 | *Dataset title*                | INCA New Snow Accumulation 24h (SH_BK_24) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SH_BK_24_INCA_202106280700.nc) |
@@ -468,73 +467,103 @@ For more information see the metadata in each NetCDF-File.
 | *Parameter metadata*           | ... |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **INCA Snowfall line (ZS)** <br>
->*Data structure (Example file):* [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/ZS_INCA_202106280700.nc) <br>
->*Granularity:* 60min <br>
->*Update frequency:* 10min <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 12.2 MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA Snowfall line (ZS) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/ZS_INCA_202106280700.nc) |
+| *Data granularity*             | 60min |
+| *Update frequency*             | 10min |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 12.2 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.5. INCA temperature
+| *Dataset title*                | INCA Zero degree isotherm (Z0) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | [Z0_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/Z0_INCA_202106280700.nc) |
+| *Data granularity*             | 60min |
+| *Update frequency*             | 10min |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 12.2 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **INCA Zero degree isotherm (Z0)** <br>
->*Data structure (Example file):* [Z0_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/Z0_INCA_202106280700.nc) <br>
->*Granularity:* 60min <br>
->*Update frequency:* 10min <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 12.2 MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA temperature (TT) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) |
+| *Data granularity*             | 60min |
+| *Update frequency*             | 10min |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 12.2 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **INCA temperature (TT)** <br>
->*Data structure (Example file):* [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) <br>
->*Granularity:* 60min <br>
->*Update frequency:* 10min <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 12.2 MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA Temperature extended (TT_ext) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | see short forecast version |
+| *Data granularity*             | 60min |
+| *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 42 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **INCA Temperature extended (TT_ext)** <br>
->*Data structure (Example file):* see short forecast version  <br>
->*Granularity:* 60min <br>
->*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 42 MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA Dewpoint temperature (TD) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) |
+| *Data granularity*             | 60min |
+| *Update frequency*             | 10min |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 12.2 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **INCA Dewpoint temperature (TD)** <br>
->*Data structure (Example file):* [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) <br>
->*Granularity:* 60min <br>
->*Update frequency:* 10min <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 12.2 MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA Dewpoint temperature Extended (TD_Ext) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | see short forecast version |
+| *Data granularity*             | 60min |
+| *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | ... |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **INCA Dewpoint temperature Extended (TD_Ext)** <br>
->*Data structure (Example file):* see short forecast version  <br>
->*Granularity:* 60min <br>
->*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* ?? <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
-
->*Open Data Product (Title):* **INCA Soil surface temperature (TG)** <br>
->*Data structure (Example file):* [TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) <br>
->*Granularity:* 60min <br>
->*Update frequency:* 10min <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 12.5 MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA Soil surface temperature (TG) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | [TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) |
+| *Data granularity*             | 60min |
+| *Update frequency*             | 10min |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 12.5 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.6. INCA relative sunshine duration
-
->*Open Data Product (Title):* **INCA Relative sunshine duration (SU)** <br>
->*Data structure (Example file):* [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) <br>
->*Granularity:* 10min <br>
->*Update frequency:* 10min <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 6.4 MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | INCA Relative sunshine duration (SU) |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) |
+| *Data granularity*             | 10min |
+| *Update frequency*             | 10min |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 6.4 MB |
+| *Visualisation*                | ... |
+| *Station metadata*             | ... |
+| *Parameter metadata*           | ... |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 #### 2.5.2. COSMO/ICON data (forecasting)
 Proposal in preparation ... 
