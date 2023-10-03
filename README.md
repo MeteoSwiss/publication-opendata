@@ -661,7 +661,7 @@ Spatial climate data are statistically derived from surface data. Those spatial 
 
 | *Dataset title*                | Gridded direct radiation (MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y) |
 | :----------------------------- | :----------------------------------------------- |
-| *Detailed product documents*   | MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y: [...](MSG.SISDIR.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br> |
+| *Detailed product documents*   | MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y: [...](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br> |
 | *Data structure*               | see example files: [MSG.SISDIR.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc), [MSG.SISDIR.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc), [MSG.SISDIR.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | *Update frequency*             | according to granularity |
@@ -695,43 +695,46 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 ##### 2.6.2.1. Basic radar data
 
->*Open Data Product (Title):* **Precip RZC** <br>
->*Data structure (Example file):* [Precip_RZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Precip_RZC.h5) <br>
->*Granularity:* 5min <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
->*Volume (MB):* 0.2 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
+| *Dataset title*                | Precip RZC |
+| :----------------------------- | :----------------------------------------------- |
+| *Data structure*               | see example file: [Precip_RZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Precip_RZC.h5) |
+| *Data granularity*             | 5min |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
+| *Volume*                       | 0.2 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **MAX-ECHO (CZC)** <br>
->*Data structure (Example file):* [MAX_ECHO_CZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/MAX_ECHO_CZC.h5) <br>
->*Granularity:* 5min <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
->*Volume (MB):* 0.2 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
+| *Dataset title*                | MAX-ECHO (CZC) |
+| :----------------------------- | :----------------------------------------------- |
+| *Data structure*               | see example file: [MAX_ECHO_CZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/MAX_ECHO_CZC.h5) |
+| *Data granularity*             | 5min |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
+| *Volume*                       | 0.2 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **ECHO TOP 45dBZ (EZC)** <br>
->*Data structure (Example file):* [ECHO_TOP_45dBZ](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Echo_TOP_45dBZ_EZC.h5) <br>
->*Granularity:* 5min <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
+| *Dataset title*                | ECHO TOP 45dBZ (EZC) |
+| :----------------------------- | :----------------------------------------------- |
+| *Data structure*               | see example file: [ECHO_TOP_45dBZ](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Echo_TOP_45dBZ_EZC.h5) |
+| *Data granularity*             | 5min |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
+| *Volume*                       | 0.1 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.6.2.2. Advanced radar data
 
->*Open Data Product (Title):* **Probability of hail (POH)** <br>
->*Data structure (Example file):* [POH_BZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/POH_BZC.h5) <br>
->*Granularity:* 5min <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) <br>
->*Volume (MB):* 0.2 <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056  < <br>
+| *Dataset title*                | Probability of hail (POH) |
+| :----------------------------- | :----------------------------------------------- |
+| *Data structure*               | see example file: [[POH_BZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/POH_BZC.h5) |
+| *Data granularity*             | 5min |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
+| *Volume*                       | 0.2 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.6.2.3. Combiprecip data
 Proposal in preparation.
-
 
 ### 2.7. Warning data
 In clarification if/how can be made available as open data.
