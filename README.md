@@ -604,11 +604,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 ### 2.6. Grid data
 
 #### 2.6.1. Spatial climate data  
-[Overview of spatial climate products](https://www.meteoschweiz.admin.ch/dam/jcr:215c313a-dc13-4b67-bca0-dbd966597f9a/ProdDoc_Cover-dfie.pdf) <br>
-The spatial climate data are statistically derived from surface data. 
-The spatial climate data, which contain radiation and cloud cover parameters are derived from MeteoSat satellite data together with surface data. 
-See the linked description files for each product for further information. 
-For more information see also the metadata in each NetCDF-File.
+Spatial climate data are statistically derived from surface data. Those spatial climate data, which contain radiation and cloud cover parameters, are derived from MeteoSat satellite data together with surface data. See the [overview of spatial climate products (PDF)](https://www.meteoschweiz.admin.ch/dam/jcr:215c313a-dc13-4b67-bca0-dbd966597f9a/ProdDoc_Cover-dfie.pdf). See the "detailed product document(s)" below for each product for further information, and the parameter metadata in each example file.
 
 ##### 2.6.1.1. Surface derived grid data
 
