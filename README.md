@@ -188,7 +188,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 | *Additional remarks*           | One file per station. |
 
 #### 2.3.2. Manual precipitation stations (`nime`, `tot`)
-In addition to its automatic precipitation measurements, MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html). Measurements are taken once a day and transmitted to MeteoSwiss via SMS. The network comprises 243 locations, 190 stations measure rainfall and snowfall and 53 stations measure snowfall only (`nime`). Due to their long-series measurements, they are of great climatological significance. In mountainous areas that are difficult to access, around 57 totalisers are used which record the volume of precipitation for an entire year (`tot`).
+In addition to its automatic precipitation measurements, MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html). Measurements are taken once a day and transmitted to MeteoSwiss via SMS. The network comprises 243 locations, 190 stations measure rainfall and  and 53 stations measure  only (`nime`). Due to their long-series measurements, they are of great climatological significance. In mountainous areas that are difficult to access, around 57 totalisers are used which record the volume of precipitation for an entire year (`tot`).
 
 | *Dataset title*                | Measurement data from manual precipitation stations |
 | :----------------------------- | :-------------------------------------------------- |
@@ -310,11 +310,11 @@ For more information see the metadata in each NetCDF-File.
 ##### 2.5.1.1. INCA precipitation - quantitative/qualitative
 | *Dataset title*                | INCA Precipitation quantitative (based on CombiPrecip, RR) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see example file: [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/RR_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RR_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | Every 10min |
 | *Format*                       | `NetCDF` |
-| *Volume*                       | 1.8 MB |
+| *Volume*                       | 1.7 MB |
 | *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
 | *Station metadata*             | ... |
 | *Parameter metadata*           | ... |
@@ -334,11 +334,11 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Precipitation qualitative (based on radar only, RP) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see example file: [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/RP_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | Every 5min |
 | *Format*                       | `NetCDF` |
-| *Volume*                       | 3.5 MB |
+| *Volume*                       | 3.1 MB |
 | *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
 | *Station metadata*             | ... |
 | *Parameter metadata*           | ... |
@@ -359,7 +359,7 @@ For more information see the metadata in each NetCDF-File.
 ##### 2.5.1.2. INCA precipitation type - rain, snow, snow-rain, freezing rain, rain&hail
 | *Dataset title*                | INCA Precipitation type for RR in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, PT) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see example file: [PT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/PT_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [PT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | Every 10min |
 | *Format*                       | `NetCDF` |
@@ -383,11 +383,11 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Precipitation type for RP in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/NT_INCA_202106280700.nc) |
+| *Data structure*               | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | Every 5min |
 | *Format*                       | `NetCDF` |
-| *Volume*                       | 1.5 MB |
+| *Volume*                       | 1.4 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
 | *Parameter metadata*           | ... |
@@ -408,11 +408,11 @@ For more information see the metadata in each NetCDF-File.
 ##### 2.5.1.3. INCA snowfall - quantitative/qualitative
 | *Dataset title*                | INCA Snowfall quantitative (based on CombiPrecip, RS) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see example file: [RS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/RS_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [RS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RS_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | Every 10min |
 | *Format*                       | `NetCDF` |
-| *Volume*                       | 0.5 MB |
+| *Volume*                       | 0.4 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
 | *Parameter metadata*           | ... |
@@ -432,11 +432,11 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Snowfall qualitative (based on radar only, PN) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see example file: [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/PN_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | Every 5min |
 | *Format*                       | `NetCDF` |
-| *Volume*                       | 0.7 MB |
+| *Volume*                       | 0.6 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
 | *Parameter metadata*           | ... |
@@ -458,40 +458,40 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA New Snow Accumulation 24h (SH_BK_24) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/SH_BK_24_INCA_202106280700.nc) |
+| *Data structure*               | [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SH_BK_24_INCA_202106280700.nc) |
 | *Data granularity*             | 24h |
 | *Update frequency*             | 10min |
 | *Format*                       | `NetCDF` |
-| *Volume*                       | 20 MB |
+| *Volume*                       | 0.04 MB |
 | *Visualisation*                | ... |
 | *Station metadata*             | ... |
 | *Parameter metadata*           | ... |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 >*Open Data Product (Title):* **INCA Snowfall line (ZS)** <br>
->*Data structure (Example file):* [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/ZS_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/ZS_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 12.2 <br>
+>*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 ##### 2.5.1.5. INCA temperature
 
 >*Open Data Product (Title):* **INCA Zero degree isotherm (Z0)** <br>
->*Data structure (Example file):* [Z0_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/Z0_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [Z0_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/Z0_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 12.2 <br>
+>*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA temperature (TT)** <br>
->*Data structure (Example file):* [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/TT_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 12.5 <br>
+>*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Temperature extended (TT_ext)** <br>
@@ -499,15 +499,15 @@ For more information see the metadata in each NetCDF-File.
 >*Granularity:* 60min <br>
 >*Update frequency:* 3h (00h, 03h, 06h, 09h etc. UTC) <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 42 <br>
+>*Volume (MB):* 42 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Dewpoint temperature (TD)** <br>
->*Data structure (Example file):* [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/TD_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 12.5 <br>
+>*Volume (MB):* 12.2 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Dewpoint temperature Extended (TD_Ext)** <br>
@@ -519,21 +519,21 @@ For more information see the metadata in each NetCDF-File.
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **INCA Soil surface temperature (TG)** <br>
->*Data structure (Example file):* [TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/TG_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) <br>
 >*Granularity:* 60min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 12.5 <br>
+>*Volume (MB):* 12.5 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 ##### 2.5.1.6. INCA relative sunshine duration
 
 >*Open Data Product (Title):* **INCA Relative sunshine duration (SU)** <br>
->*Data structure (Example file):* [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/SU_INCA_202106280700.nc) <br>
+>*Data structure (Example file):* [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) <br>
 >*Granularity:* 10min <br>
 >*Update frequency:* 10min <br>
 >*Format:* NetCDF <br>
->*Volume (MB):* 6.4 <br>
+>*Volume (MB):* 6.4 MB <br>
 >*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 #### 2.5.2. COSMO/ICON data (forecasting)
