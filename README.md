@@ -697,7 +697,7 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 | *Dataset title*                | Precip RZC |
 | :----------------------------- | :----------------------------------------------- |
-| *Data structure*               | see example file: [Precip_RZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Precip_RZC.h5) |
+| *Data structure*               | see example file: [RZC232371930VL.001.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/RZC232371930VL.001.h5) |
 | *Data granularity*             | 5min |
 | *Update frequency*             | according to granularity |
 | *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
@@ -706,16 +706,25 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 | *Dataset title*                | MAX-ECHO (CZC) |
 | :----------------------------- | :----------------------------------------------- |
-| *Data structure*               | see example file: [MAX_ECHO_CZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/MAX_ECHO_CZC.h5) |
+| *Data structure*               | see example file: [CZC232371930VL.801.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/CZC232371930VL.801.h5) |
 | *Data granularity*             | 5min |
 | *Update frequency*             | according to granularity |
 | *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
 | *Volume*                       | 0.2 MB |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
+| *Dataset title*                | ECHO TOP 15dBZ (EZC) |
+| :----------------------------- | :----------------------------------------------- |
+| *Data structure*               | see example file: [EZC232371930VL.815.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/EZC232371930VL.815.h5) |
+| *Data granularity*             | 5min |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
+| *Volume*                       | 0.1 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
+
 | *Dataset title*                | ECHO TOP 45dBZ (EZC) |
 | :----------------------------- | :----------------------------------------------- |
-| *Data structure*               | see example file: [ECHO_TOP_45dBZ](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/Echo_TOP_45dBZ_EZC.h5) |
+| *Data structure*               | see example file: [EZC232371930VL.845.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/EZC232371930VL.845.h5) |
 | *Data granularity*             | 5min |
 | *Update frequency*             | according to granularity |
 | *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
@@ -726,7 +735,16 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 | *Dataset title*                | Probability of hail (POH) |
 | :----------------------------- | :----------------------------------------------- |
-| *Data structure*               | see example file: [[POH_BZC.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/POH_BZC.h5) |
+| *Data structure*               | see example file: [BZC232371930VL.845.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/BZC232371930VL.845.h5) |
+| *Data granularity*             | 5min |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
+| *Volume*                       | 0.2 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
+
+| *Dataset title*                | Maximum Expected Severe Hail Size (MESHS) |
+| :----------------------------- | :----------------------------------------------- |
+| *Data structure*               | see example file: [MZC232371930VL.850.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/MZC232371930VL.850.h5) |
 | *Data granularity*             | 5min |
 | *Update frequency*             | according to granularity |
 | *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
