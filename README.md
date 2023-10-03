@@ -44,6 +44,9 @@
             - 2.5.1.6. [INCA relative sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2516-inca-relative-sunshine-duration)
         - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
         - 2.5.3. [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web)
+            - 2.5.3.1. Local forecast precipitation
+            - 2.5.3.2. Local forecast temperature
+            - 2.5.3.3. Local forecast sunshine
     - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
         - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
             - 2.6.1.1. [Surface derived gridded data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
@@ -315,7 +318,7 @@ For more information see the metadata in each NetCDF-File.
 > Jump directly 2.5.1.6. [INCA relative sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2516-inca-relative-sunshine-duration). <br>
 
 ##### 2.5.1.1. INCA precipitation - quantitative/qualitative
-| *Dataset title*                | INCA Precipitation quantitative (based on CombiPrecip, RR) |
+| *Dataset title*                | INCA precipitation quantitative (based on CombiPrecip, RR) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see example file: [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RR_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
@@ -325,7 +328,7 @@ For more information see the metadata in each NetCDF-File.
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-| *Dataset title*                | INCA Precipitation quantitative extended forecast (based on CombiPrecip, RR_ext) |
+| *Dataset title*                | INCA precipitation quantitative extended forecast (based on CombiPrecip, RR_ext) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 10min |
@@ -335,7 +338,7 @@ For more information see the metadata in each NetCDF-File.
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-| *Dataset title*                | INCA Precipitation qualitative (based on radar only, RP) |
+| *Dataset title*                | INCA precipitation qualitative (based on radar only, RP) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see example file: [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
@@ -345,7 +348,7 @@ For more information see the metadata in each NetCDF-File.
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-| *Dataset title*                | INCA Precipitation qualitative extended forecast (based on radar only, RP_ext) |
+| *Dataset title*                | INCA precipitation qualitative extended forecast (based on radar only, RP_ext) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 5min |
@@ -356,7 +359,7 @@ For more information see the metadata in each NetCDF-File.
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.5.1.2. INCA precipitation type - rain, snow, snow-rain, freezing rain, rain&hail
-| *Dataset title*                | INCA Precipitation type for RR in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, PT) |
+| *Dataset title*                | INCA precipitation type for RR in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, PT) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see example file: [PT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
@@ -366,7 +369,7 @@ For more information see the metadata in each NetCDF-File.
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-| *Dataset title*                | INCA Precipitation type for RR_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, PT_ext) |
+| *Dataset title*                | INCA precipitation type for RR_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, PT_ext) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 10min |
@@ -376,7 +379,7 @@ For more information see the metadata in each NetCDF-File.
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-| *Dataset title*                | INCA Precipitation type for RP in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT) |
+| *Dataset title*                | INCA precipitation type for RP in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
@@ -386,7 +389,7 @@ For more information see the metadata in each NetCDF-File.
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-| *Dataset title*                | INCA Precipitation type for RP_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT_ext) |
+| *Dataset title*                | INCA precipitation type for RP_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT_ext) |
 | :----------------------------- | :---------------------------------------- |
 | *Data structure*               | see short forecast version |
 | *Data granularity*             | Every 5min |
@@ -545,26 +548,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 - ZIP-code locations [Data4Web_legend_PLZ.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/Data4Web_Legend_PLZ.csv)
 - SMN-stations and POI locations [Data4Web_legend_POI_Stations.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/Data4Web_Legend_POI_Stations.csv)
 
-| *Dataset title*                | Hourly average temperature |
-| :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200b0.zip) |
-| *Data granularity*             | hourly |
-| *Update frequency*             | hourly |
-| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
-| *Volume*                       | 31.6 MB (unzipped) |
-| *Parameter metadata*           | see example file |
-| *Additional remarks*           | unit: `°C` |
-
-| *Dataset title*                | Hourly sunshine duration |
-| :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.spr100h0.zip) |
-| *Data granularity*             | hourly |
-| *Update frequency*             | hourly |
-| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
-| *Volume*                       | 30.9 MB (unzipped) |
-| *Parameter metadata*           | see example file |
-| *Additional remarks*           | unit: `minutes` |
-
+##### 2.5.3.1. Local forecast precipitation
 | *Dataset title*                | Hourly precipitation sum |
 | :----------------------------- | :------------------------- |
 | *Data structure*               | [VNUT12.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.rre150b0.zip) |
@@ -575,13 +559,14 @@ As for the geolocation of the data, the following metadata-files are being provi
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | unit: `mm` or `l/m2` |
 
-| *Dataset title*                | Daily Temperature minimum |
+##### 2.5.3.2. Local forecast temperature
+| *Dataset title*                | Hourly average temperature |
 | :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dn.csv) |
+| *Data structure*               | [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200b0.zip) |
 | *Data granularity*             | hourly |
 | *Update frequency*             | hourly |
 | *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
-| *Volume*                       | 0.2 MB (unzipped) |
+| *Volume*                       | 31.6 MB (unzipped) |
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | unit: `°C` |
 
@@ -591,7 +576,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 | *Data granularity*             | hourly |
 | *Update frequency*             | hourly |
 | *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
-| *Volume*                       | 0.2 MB |
+| *Volume*                       | 0.2 MB (unzipped) |
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | unit: `°C` |
 
@@ -604,6 +589,17 @@ As for the geolocation of the data, the following metadata-files are being provi
 | *Volume*                       | 0.2 MB |
 | *Parameter metadata*           | see example file |
 | *Additional remarks*           | unit: `°C` |
+
+##### 2.5.3.2. Local forecast sunshine duration
+| *Dataset title*                | Hourly sunshine duration |
+| :----------------------------- | :------------------------- |
+| *Data structure*               | [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.spr100h0.zip) |
+| *Data granularity*             | hourly |
+| *Update frequency*             | hourly |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | 30.9 MB (unzipped) |
+| *Parameter metadata*           | see example file |
+| *Additional remarks*           | unit: `minutes` |
 
 ### 2.6. Grid data
 
