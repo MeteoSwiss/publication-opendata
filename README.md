@@ -604,18 +604,19 @@ As for the geolocation of the data, the following metadata-files are being provi
 ### 2.6. Grid data
 
 #### 2.6.1. Spatial climate data  
-Spatial climate data are statistically derived from surface data. Those spatial climate data, which contain radiation and cloud cover parameters, are derived from MeteoSat satellite data together with surface data. See the [overview of spatial climate products (PDF)](https://www.meteoschweiz.admin.ch/dam/jcr:215c313a-dc13-4b67-bca0-dbd966597f9a/ProdDoc_Cover-dfie.pdf). See the "detailed product document(s)" below for each product for further information, and the parameter metadata in each example file.
+Spatial climate data are statistically derived from surface data. Those spatial climate data, which contain radiation and cloud cover parameters, are derived from MeteoSat satellite data together with surface data. See the [overview of spatial climate products (PDF)](https://www.meteoschweiz.admin.ch/dam/jcr:215c313a-dc13-4b67-bca0-dbd966597f9a/ProdDoc_Cover-dfie.pdf). Frr each product see the "detailed product document(s)" below for further information, and the parameter metadata in each example file.
 
 ##### 2.6.1.1. Surface derived grid data
+| *Dataset title*                | Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY) |
+| :----------------------------- | :----------------------------------------------- |
+| *Detailed product documents*   | *[ProdDoc_RprelimD.pdf](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf), [ProdDoc_RhiresD.pdf](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [ProdDoc_RhiresM.pdf & ProdDoc_RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf)
+| *Data structure*               | see example files: [RhiresD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc), [RhiresM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc), [RhiresY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) |`D`, `M` and `Y` |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 1.1 MB for individual files, monthly files with daily data 13 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
->*Open Data Product (Title):* **Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY)** <br>
->*Detailed product document(s):* *[RprelimD](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf),  [RhiresD](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf), [RhiresM,RhiresY](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
->*Data structure (Example file):* [RhiresD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc), [RhiresM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc), [RhiresY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) <br>
->*Granularity:* daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
 
 >*Open Data Product (Title):* **Gridded temperature data (TabsD,TminD,TmaxD,TabsM,TminM,TmaxM,TabsY,TminY,TmaxY)** <br>
 >*Detailed product document(s):* *[TabsD,TminD,TmaxD](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf), [TabsM, TabsY](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf) <br>
