@@ -577,17 +577,18 @@ Proposal in preparation ...
 
 
 #### 2.5.3. Postprocessed local forecast data (data4web)
-The postprocessed forecast data is based on a mix of different models (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-Codes, SMN-Stations and selected POI in the mountains as punctual data. 
-The forecast ist available for the time period of +0h - +192h and is being updated hourly. 
-This is the same forecast we provide in the MeteoSwiss-App and on our website for each ZIP-code. 
+The postprocessed forecast data is based on a [mix of different models](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/weather-forecasts.html) (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-codes, [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html)-stations and selected POI in the mountains as punctual data. 
+The forecast is available for the time period from +0h to +192h and is being updated hourly. 
+It is the same forecast data used in the MeteoSwiss app and on the website for each ZIP-code. 
 
-For each parameter there is a single file. 
-Here we provide only a few parameters for review. 
+For each parameter there is a single file. Here we provide only a few parameters for review. 
 
-As for the geolocation of the data, the following metadata-files are beeing provided for mapping of the data: 
+As for the geolocation of the data, the following metadata-files are being provided for mapping of the data: 
+- ZIP-code locations [Data4Web_legend_PLZ.txt]()
+- SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt]()
 
-a) ZIP-code locations [Data4Web_legend_PLZ.txt] <br>
-b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
+
+
 
 >*Open Data Product (Title):* **Hourly average temperature** <br>
 >*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
