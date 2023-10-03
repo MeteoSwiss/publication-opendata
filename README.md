@@ -1,11 +1,11 @@
-*Version, status:* v1.0, DRAFT <br>
-*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss Project Team](mailto:opendata@meteoswiss.ch)
+*Version, status:* v1.0, draft <br>
+*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss project team](mailto:opendata@meteoswiss.ch)
 
 [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master)
 
 # OGD@MeteoSwiss - Open Government Data
 
-> **This is work in progress.** <br>
+> TL;DR <br>
 > Jump directly to the [overview of which data types are to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data). <br>
 > Jump directly to the [questions on which we are asking the Open Data user community for feedback](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-questions-to-the-open-data-user-community). <br>
 <!-- > Jump directly to the [roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service). -->
