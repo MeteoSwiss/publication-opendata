@@ -542,37 +542,38 @@ It is the same forecast data used in the MeteoSwiss app and on the website for e
 For each parameter there is a single file. Here we provide only a few parameters for review. 
 
 As for the geolocation of the data, the following metadata-files are being provided for mapping of the data: 
-- ZIP-code locations [Data4Web_legend_PLZ.txt]()
-- SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt]()
+- ZIP-code locations [Data4Web_legend_PLZ.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/Data4Web_Legend_PLZ.csv)
+- SMN-stations and POI locations [Data4Web_legend_POI_Stations.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/Data4Web_Legend_POI_Stations.csv)
 
+| *Dataset title*                | Hourly average temperature |
+| :----------------------------- | :------------------------- |
+| *Data structure*               | [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200b0.zip) |
+| *Data granularity*             | hourly |
+| *Update frequency*             | hourly |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | 31.6 MB (unzipped) |
+| *Parameter metadata*           | see example file |
+| *Additional remarks*           | unit: `°C` |
 
+| *Dataset title*                | Hourly sunshine duration |
+| :----------------------------- | :------------------------- |
+| *Data structure*               | [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.spr100h0.zip) |
+| *Data granularity*             | hourly |
+| *Update frequency*             | hourly |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | 30.9 MB (unzipped) |
+| *Parameter metadata*           | see example file |
+| *Additional remarks*           | unit: `minutes` |
 
-
->*Open Data Product (Title):* **Hourly average temperature** <br>
->*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
->*Granularity:* hourly<br>
->*Update frequency:* hourly <br>
->*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
->*Volume (MB):* 30 <br>
->*Additional remarks*: Unit: °C < <br>
-
-
->*Open Data Product (Title):* **Hourly sunshine duration** <br>
->*Data structure (Example file):* [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
->*Granularity:* hourly<br>
->*Update frequency:* hourly <br>
->*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
->*Volume (MB):* 30 <br>
->*Additional remarks*: Unit: Minutes < <br>
-
-
->*Open Data Product (Title):* **Hourly precipitation sum** <br>
->*Data structure (Example file):* [VNUT12.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
->*Granularity:* hourly<br>
->*Update frequency:* hourly <br>
->*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
->*Volume (MB):* 30 <br>
->*Additional remarks*: mm or l/m2 < <br>
+| *Dataset title*                | Hourly precipitation sum |
+| :----------------------------- | :------------------------- |
+| *Data structure*               | [VNUT12.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.rre150b0.zip) |
+| *Data granularity*             | hourly |
+| *Update frequency*             | hourly |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | 29.9 MB (unzipped) |
+| *Parameter metadata*           | see example file |
+| *Additional remarks*           | unit: `mm` or `l/m2` |
 
 
 >*Open Data Product (Title):* **Daily Temperature minimum** <br>
@@ -590,7 +591,6 @@ As for the geolocation of the data, the following metadata-files are being provi
 >*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
 >*Volume (MB):* 0.3 <br>
 >*Additional remarks*: Unit: °C < <br>
-
 
 
 ### 2.6. Grid data
