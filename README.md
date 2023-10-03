@@ -322,9 +322,7 @@ For more information see the metadata in each NetCDF-File.
 | *Update frequency*             | Every 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
 | *Volume*                       | 1.7 MB |
-| *Visualisation*                | [Precipitation](https://www.meteoswiss.admin.ch/services-and-publications/applications/precipitation.html) |
-| *Station metadata*             | ... |
-| *Parameter metadata*           | ... |
+| *Parameter metadata*           | see example file  |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 | *Dataset title*                | INCA Precipitation quantitative extended forecast (based on CombiPrecip, RR_ext) |
