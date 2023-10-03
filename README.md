@@ -180,7 +180,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 | *Data structure*               | see example files: [`smn`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn), [`smn-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip), [`smn-tower`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T`, `H`, `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | ≤5.3 MB |
 | *Visualisation*                | [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv) |
@@ -195,7 +195,7 @@ In addition to its automatic precipitation measurements, MeteoSwiss operates a [
 | *Data structure*               | see example files: [`nime`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-nime), [`tot`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/manual-precipitation-stations-tot) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | ≤0.6 MB |
 | *Visualisation*                | [NIME and TOT network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-manuell/ch.meteoschweiz.messnetz-manuell_en.csv) |
@@ -210,7 +210,7 @@ The information on current weather events is supplemented by [visual human obser
 | *Data structure*               | see example files: [`obs`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/visual-observations-obs) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | ≤0.04 MB |
 | *Visualisation*                | [OBS network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) |
@@ -225,7 +225,7 @@ The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteo
 | *Data structure*               | see example files: [`climate`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/climate-stations-swiss-nbcn-climate), [`climate-precip`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/climate-stations-swiss-nbcn-climate-precip) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | ≤0.9 MB |
 | *Visualisation*                | [CLIMATE network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-klima/ch.meteoschweiz.messnetz-klima_en.csv) |
@@ -240,7 +240,7 @@ Additionally the top 10 records of every climate station and the overall records
 | *Data structure*               | see example file: [`...`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/...) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | ... (MB/GB/TB) |
 | *Visualisation*                | [...](...) |
 | *Station metadata*             | see [station list (CSV)](...) |
@@ -255,7 +255,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 | *Data structure*               | see example files: [`pollen`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `H`, `D`, `M` and `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | 0.6 MB |
 | *Visualisation*                | [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv) |
@@ -270,7 +270,7 @@ The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measuremen
 | *Data structure*               | see example files: [`phenology`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/phenology) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `Y` |
 | [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`) or daily (`recent`) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | ≤7.1 MB |
 | *Visualisation*                | [PHENOLOGY network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv) |
@@ -290,7 +290,7 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 | *Data structure*               | see example file: [`radiosounding`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-atmosphere/radiosounding) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
 | *Update frequency*             | 12h (00h, 12h UTC) |
-| *Format*                       | `CSV` |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
 | *Volume*                       | 0.02 MB |
 | *Visualisation*                | [Emagram](https://www.meteoswiss.admin.ch/services-and-publications/applications/radio-soundings.html#tab=radio-soundings-emagram) |
 | *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-atmosphaere/ch.meteoschweiz.messnetz-atmosphaere_en.csv) |
@@ -557,7 +557,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 >*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
->*Format:* CSV <br>
+>*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
 >*Volume (MB):* 30 <br>
 >*Additional remarks*: Unit: °C < <br>
 
@@ -566,7 +566,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 >*Data structure (Example file):* [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
->*Format:* CSV <br>
+>*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
 >*Volume (MB):* 30 <br>
 >*Additional remarks*: Unit: Minutes < <br>
 
@@ -575,7 +575,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 >*Data structure (Example file):* [VNUT12.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
->*Format:* CSV <br>
+>*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
 >*Volume (MB):* 30 <br>
 >*Additional remarks*: mm or l/m2 < <br>
 
@@ -584,7 +584,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 >*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
->*Format:* CSV <br>
+>*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
 >*Volume (MB):* 0.3 <br>
 >*Additional remarks*: Unit: °C < <br>
 
@@ -592,7 +592,7 @@ b) SMN-Stations and POI locations [Data4Web_legend_POI_Stations.txt] <br>
 >*Data structure (Example file):* [VNUT12.LSSX.202309271300.tre200dx.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessing\) <br>
 >*Granularity:* hourly<br>
 >*Update frequency:* hourly <br>
->*Format:* CSV <br>
+>*Format:* [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) <br>
 >*Volume (MB):* 0.3 <br>
 >*Additional remarks*: Unit: °C < <br>
 
