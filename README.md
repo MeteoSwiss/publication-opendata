@@ -609,7 +609,7 @@ Spatial climate data are statistically derived from surface data. Those spatial 
 ##### 2.6.1.1. Surface derived grid data
 | *Dataset title*                | Gridded precipitation data (RprelimD, RhiresD, RhiresM, RhiresY) |
 | :----------------------------- | :----------------------------------------------- |
-| *Detailed product documents*   | RprelimD: [Daily Precipitation (preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf) <br> RhiresD: [Daily Precipitation (final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf) <br> RhiresM & RhiresY: [Monthly and Yearly Precipitation](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br>
+| *Detailed product documents*   | RprelimD: [Daily Precipitation (preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf) <br> RhiresD: [Daily Precipitation (final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf) <br> RhiresM, RhiresY: [Monthly and Yearly Precipitation](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf) <br> |
 | *Data structure*               | see example files: [RhiresD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc), [RhiresM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc), [RhiresY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | *Update frequency*             | according to granularity |
@@ -619,7 +619,7 @@ Spatial climate data are statistically derived from surface data. Those spatial 
 
 | *Dataset title*                | Gridded temperature data (TabsD, TminD, TmaxD, TabsM, TminM, TmaxM, TabsY, TminY, TmaxY) |
 | :----------------------------- | :----------------------------------------------- |
-| *Detailed product documents*   | TabsD, TminD, TmaxD: [Daily Mean, Minimum and Maximum Temperature](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf) <br> TabsM, TabsY: [Monthly and Yearly Mean Temperature](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf) <br>
+| *Detailed product documents*   | TabsD, TminD, TmaxD: [Daily Mean, Minimum and Maximum Temperature](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf) <br> TabsM, TabsY: [Monthly and Yearly Mean Temperature](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf) <br> |
 | *Data structure*               | see example files: [TabsD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TabsD_ch01r.swiss.lv95_202305010000_202305310000.nc), [TabsM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TabsM_ch01r.swiss.lv95_202305010000_202305010000.nc), [TmaxM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TmaxM_ch01r.swiss.lv95_202305010000_202305010000.nc), [TminY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/TminY_ch01r.swiss.lv95_202201010000_202201010000.nc) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | *Update frequency*             | according to granularity |
@@ -627,53 +627,57 @@ Spatial climate data are statistically derived from surface data. Those spatial 
 | *Volume*                       | 1.1 MB for individual files, monthly files with daily data 13 MB |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-
->*Open Data Product (Title):* **Gridded relative sunshine duration data (SreldD,SrelM,SrelY)** <br>
->*Detailed product document(s):* *[SrelD](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf), [SrelM,SrelY](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf) <br>
->*Data structure (Example file):* [SrelD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelD_ch01r.swiss.lv95_202305010000_202305310000.nc), [SrelM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelM_ch01r.swiss.lv95_202305010000_202305010000.nc), [SrelY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelY_ch01r.swiss.lv95_202201010000_202201010000.nc) <br>
->*Granularity:* daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 1.1 for individual files, monthly files with daily data 13MB <br>
->*Additional remarks*: Coordinate System :Swiss LV95 EPSG:2056 < <br>
+| *Dataset title*                | Gridded relative sunshine duration data (SreldD, SrelM, SrelY) |
+| :----------------------------- | :----------------------------------------------- |
+| *Detailed product documents*   | SrelD: [Daily Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf) <br> SrelM, SrelY: [Monthly and Yearly Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf) <br> |
+| *Data structure*               | see example files: [SrelD.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelD_ch01r.swiss.lv95_202305010000_202305310000.nc), [SrelM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelM_ch01r.swiss.lv95_202305010000_202305010000.nc), [SrelY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/SrelY_ch01r.swiss.lv95_202201010000_202201010000.nc) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 1.1 MB for individual files, monthly files with daily data 13 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ##### 2.6.1.2. Satellite derived grid data
 
->*Open Data Product (Title):* **Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y)** <br>
->*Detailed product document(s):* *[MSG.SIS.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)<br>
->*Data structure (Example file):* [MSG.SIS.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc), [MSG.SIS.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:* daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+| *Dataset title*                | Gridded global radiation (MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y) |
+| :----------------------------- | :----------------------------------------------- |
+| *Detailed product documents*   | MSG.SIS.D, MSG.SIS.M, MSG.SIS.Y: [Daily, monthly and yearly satellite-based global radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br> |
+| *Data structure*               | see example files: [MSG.SIS.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc), [MSG.SIS.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 0.1 MB |
+| *Additional remarks*           | Coordinate System: WGS84 lat/lon EPSG:4326 |
 
->*Open Data Product (Title):* **Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y)** <br>
->*Detailed product document(s):* *[MSG.SISDIF.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)<br>
->*Data structure (Example file):* [MSG.SIS.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc), [MSG.SIS.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:* daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326< <br>
+| *Dataset title*                | Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y) |
+| :----------------------------- | :----------------------------------------------- |
+| *Detailed product documents*   | MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y: [Daily, monthly and yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf) <br> |
+| *Data structure*               | see example files: [MSG.SIS.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc), [MSG.SIS.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 0.1 MB |
+| *Additional remarks*           | Coordinate System: WGS84 lat/lon EPSG:4326 |
 
->*Open Data Product (Title):* **Gridded direct radiation (MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y)** <br>
->*Detailed product document(s):* *[MSG.SISDIR.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br>
->*Data structure (Example file):* [MSG.SISDIR.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc), [MSG.SISDIR.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc), [MSG.SISDIR.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:* daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+| *Dataset title*                | Gridded direct radiation (MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y) |
+| :----------------------------- | :----------------------------------------------- |
+| *Detailed product documents*   | MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y: [...](MSG.SISDIR.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br> |
+| *Data structure*               | see example files: [MSG.SISDIR.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc), [MSG.SISDIR.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc), [MSG.SISDIR.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 0.1 MB |
+| *Additional remarks*           | Coordinate System: WGS84 lat/lon EPSG:4326 |
 
->*Open Data Product (Title):* **Gridded cloud fractional cover (MSG.CFC.D, MSG.CFC.M, MSG.CFC.Y)** <br>
->*Detailed product document(s):* *[MSG.CFC.D,M,Y](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf) <br>
->*Data structure (Example file):* [MSG.CFC.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc), [MSG.CFC.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc), [MSG.CFC.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc) <br>
->*Granularity:* daily, monthly, yearly <br>
->*Update frequency:* according to granularity <br>
->*Format:* [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) <br>
->*Volume (MB):* 0.1 <br>
->*Additional remarks*: Coordinate System :WGS84 lat/lon EPSG:4326 < <br>
+| *Dataset title*                | Gridded cloud fractional cover (MSG.CFC.D, MSG.CFC.M, MSG.CFC.Y) |
+| :----------------------------- | :----------------------------------------------- |
+| *Detailed product documents*   | MSG.CFC.D, MSG.CFC.M, MSG.CFC.Y: [Daily, monthly and yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf) <br> |
+| *Data structure*               | see example files: [MSG.CFC.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.D_ch02.lonlat_20201206000000.nc), [MSG.CFC.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.M_ch02.lonlat_20210401000000.nc), [MSG.CFC.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.CFC.Y_ch02.lonlat_20210101000000.nc) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
+| *Update frequency*             | according to granularity |
+| *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
+| *Volume*                       | 0.1 MB |
+| *Additional remarks*           | Coordinate System: WGS84 lat/lon EPSG:4326 |
 
 #### 2.6.2. Radar and combiprecip data
 Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
