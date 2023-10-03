@@ -83,7 +83,7 @@ These are the **current questions to the Open Data user community** on which we 
 | :------------ | :- | :------- | :----- | :--------- |
 | **Surface** | S1 | [Aggregated (calculated) maximum and minimum?](https://github.com/MeteoSwiss/publication-opendata/discussions/1) | Open for feedback | 2023-10-02 |
 | **Surface** | S2 | [Multi-hour or multi-day aggregated sums?](https://github.com/MeteoSwiss/publication-opendata/discussions/22) | Open for feedback | 2023-10-02 |
-| **Surface** | S3 | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-08-02 |
+| **Surface** | S3 | [Mutation information?](https://github.com/MeteoSwiss/publication-opendata/discussions/24) | Open for feedback | 2023-10-02 |
 | **Surface** | S4 | [Metadata for stations and parameters?](https://github.com/MeteoSwiss/publication-opendata/discussions/27) | Open for feedback | 2023-10-02 |
 | **Atmosphere** | A0 | no question yet | ... | ... |
 | **Model** | M0 | no question yet | ... | ... |
