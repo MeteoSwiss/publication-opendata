@@ -1,7 +1,7 @@
-*Version, status:* v1.0, draft <br>
+*Version, status:* v1.0, draft / [change log](https://github.com/MeteoSwiss/publication-opendata/commits/main) <br>
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss project team](mailto:opendata@meteoswiss.ch)
 
-[![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master)
+<!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master) -->
 
 # OGD@MeteoSwiss - Open Government Data
 
