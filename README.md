@@ -330,7 +330,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA precipitation quantitative extended forecast (based on CombiPrecip, RR_ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version example file: [RR_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RR_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -350,7 +350,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA precipitation qualitative extended forecast (based on radar only, RP_ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version example file: [RP_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RP_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -371,7 +371,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA precipitation type for RR_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, PT_ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version example file: [PT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -381,7 +381,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA precipitation type for RP in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | Every 5min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -391,7 +391,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA precipitation type for RP_ext extended forecast in 5 classes rain, snow, snow-rain, freezing rain, rain&hail (hail first 30min only, NT_ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version see example file: [NT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/NT_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -412,7 +412,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Snowfall quantitative extended forecast (based on CombiPrecip, RS_ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version example file: [RS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/RS_INCA_202106280700.nc) |
 | *Data granularity*             | Every 10min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -432,7 +432,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Snowfall qualitative extended forecast (based on radar only, PN_ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version example file: [PN_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/PN_INCA_202106280700.nc) |
 | *Data granularity*             | Every 5min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -443,7 +443,7 @@ For more information see the metadata in each NetCDF-File.
 ##### 2.5.1.4. INCA snow accumulation & snowfall line
 | *Dataset title*                | INCA New Snow Accumulation 24h (SH_BK_24) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SH_BK_24_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [SH_BK_24_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SH_BK_24_INCA_202106280700.nc) |
 | *Data granularity*             | 24h |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -453,7 +453,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Snowfall line (ZS) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/ZS_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [ZS_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/ZS_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -464,7 +464,7 @@ For more information see the metadata in each NetCDF-File.
 ##### 2.5.1.5. INCA temperature
 | *Dataset title*                | INCA Zero degree isotherm (Z0) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [Z0_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/Z0_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [Z0_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/Z0_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -474,7 +474,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA temperature (TT) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -484,7 +484,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Temperature extended (TT_ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version example file: [TT_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TT_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -494,7 +494,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Dewpoint temperature (TD) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -504,7 +504,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Dewpoint temperature Extended (TD_Ext) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | see short forecast version |
+| *Data structure*               | see short forecast version example file: [TD_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TD_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 3h (00h, 03h, 06h, 09h etc. UTC) |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -514,7 +514,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Soil surface temperature (TG) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) |
+| *Data structure*               | [see example file: TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -525,7 +525,7 @@ For more information see the metadata in each NetCDF-File.
 ##### 2.5.1.6. INCA relative sunshine duration
 | *Dataset title*                | INCA Relative sunshine duration (SU) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [SU_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/SU_INCA_202106280700.nc) |
 | *Data granularity*             | 10min |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
