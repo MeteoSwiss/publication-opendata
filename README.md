@@ -514,7 +514,7 @@ For more information see the metadata in each NetCDF-File.
 
 | *Dataset title*                | INCA Soil surface temperature (TG) |
 | :----------------------------- | :---------------------------------------- |
-| *Data structure*               | [see example file: TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) |
+| *Data structure*               | see example file: [TG_INCA_202106280700.nc](https://github.com/MeteoSwiss/publication-opendata-inca-data-nowcasting/blob/main/TG_INCA_202106280700.nc) |
 | *Data granularity*             | 60min |
 | *Update frequency*             | 10min |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -551,7 +551,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 ##### 2.5.3.1. Local forecast precipitation
 | *Dataset title*                | Hourly precipitation sum |
 | :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.rre150b0.zip) |
+| *Data structure*               | see example file (zipped CSV): [VNUT12.LSSX.202309271300.rre150b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.rre150b0.zip) |
 | *Data granularity*             | hourly |
 | *Update frequency*             | hourly |
 | *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
@@ -562,7 +562,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 ##### 2.5.3.2. Local forecast temperature
 | *Dataset title*                | Hourly average temperature |
 | :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200b0.zip) |
+| *Data structure*               | see example file (zipped CSV): [VNUT12.LSSX.202309271300.tre200b0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200b0.zip) |
 | *Data granularity*             | hourly |
 | *Update frequency*             | hourly |
 | *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
@@ -572,7 +572,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 
 | *Dataset title*                | Daily Temperature minimum |
 | :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dn.csv) |
+| *Data structure*               | see example file: [VNUT12.LSSX.202309271300.tre200dn.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dn.csv) |
 | *Data granularity*             | hourly |
 | *Update frequency*             | hourly |
 | *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
@@ -582,7 +582,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 
 | *Dataset title*                | Daily temperature maximum |
 | :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.tre200dx.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dx.csv) |
+| *Data structure*               | see example file: [VNUT12.LSSX.202309271300.tre200dx.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.tre200dx.csv) |
 | *Data granularity*             | hourly |
 | *Update frequency*             | hourly |
 | *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
@@ -593,7 +593,7 @@ As for the geolocation of the data, the following metadata-files are being provi
 ##### 2.5.3.2. Local forecast sunshine duration
 | *Dataset title*                | Hourly sunshine duration |
 | :----------------------------- | :------------------------- |
-| *Data structure*               | [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.spr100h0.zip) |
+| *Data structure*               | see example file (zipped CSV): [VNUT12.LSSX.202309271300.spr100h0.csv](https://github.com/MeteoSwiss/publication-opendata-postprocessed-local-forecast-data-data4web/blob/main/VNUT12.LSSX.202309271300.spr100h0.zip) |
 | *Data granularity*             | hourly |
 | *Update frequency*             | hourly |
 | *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
