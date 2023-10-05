@@ -651,8 +651,8 @@ Spatial climate data are statistically derived from surface data. Those spatial 
 
 | *Dataset title*                | Gridded diffuse radiation (MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y) |
 | :----------------------------- | :----------------------------------------------- |
-| *Detailed product documents*   | MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y: [Daily, monthly and yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf) <br> |
-| *Data structure*               | see example files: [MSG.SIS.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc), [MSG.SIS.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc), [MSG.SIS.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc) |
+| *Detailed product documents*   | MSG.SISDIF.D, MSG.SISDIF.M, MSG.SISDIF.Y: [Daily, monthly and yearly satellite-based global radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br> |
+| *Data structure*               | see example files: [MSG.SISDIF.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.D_ch02.lonlat_20201206000000.nc), [MSG.SISDIF.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.M_ch02.lonlat_20200401000000.nc), [MSG.SISDIF.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.Y_ch02.lonlat_20200101000000.nc) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | *Update frequency*             | according to granularity |
 | *Format*                       | [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) |
@@ -661,7 +661,7 @@ Spatial climate data are statistically derived from surface data. Those spatial 
 
 | *Dataset title*                | Gridded direct radiation (MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y) |
 | :----------------------------- | :----------------------------------------------- |
-| *Detailed product documents*   | MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y: [...](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br> |
+| *Detailed product documents*   | MSG.SISDIR.D, MSG.SISDIR.M, MSG.SISDIR.Y: [[Daily, monthly and yearly satellite-based global radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf) <br> |
 | *Data structure*               | see example files: [MSG.SISDIR.D.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.D_ch02.lonlat_20201206000000.nc), [MSG.SISDIR.M.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.M_ch02.lonlat_20210401000000.nc), [MSG.SISDIR.Y.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIR.Y_ch02.lonlat_20210101000000.nc) |
 | [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `D`, `M` and `Y` |
 | *Update frequency*             | according to granularity |
