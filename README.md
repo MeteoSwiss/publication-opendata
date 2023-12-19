@@ -534,8 +534,24 @@ For more information see the metadata in each NetCDF-File.
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 #### 2.5.2. COSMO/ICON data (forecasting)
-Proposal in preparation. 
+The COSMO/ICON [forecasting](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/nowcasting.html) systems calculate future atmospheric conditions. MeteoSwiss uses the COSMO (Consortium for Small-scale Modeling) numerical weather forecasting model for the production of regional and local forecast products in the topographically challenging Alpine region. In order to be able to provide optimal probability forecasts for as many uses as possible, MeteoSwiss deploys two different ensemble configurations of COSMO: COSMO-1E and COSMO-2E. Together with the [ECMWF forecasts](https://www.ecmwf.int/en/forecasts), these form the basis for the daily weather forecasts produced by MeteoSwiss, as well as warnings of extreme weather conditions such as storms and precipitation events.
 
+Several times a day, COSMO-1E and COSMO-2E calculate different forecasts respectively (known as “members”), each with slightly different initial conditions: 
+- COSMO-1E comprises an ensemble of 11 forecasts at a resolution of 1.1 km, calculated eight times a day for central and southern Europe.
+- COSMO-2E is calculated four times a day from 21 realisations at a resolution of 2.2 km. 
+
+From this collection of forecasts, the “ensemble”, the probability of a certain weather event occurring can be calculated. The ensemble also provides a measure of the predictability of the expected weather situation and thus also an estimate for the forecast reliability. **The data are available from these individual forecasts. In addition, derived values such as quantiles can also be ordered.**
+
+**Using the numerical weather forecast models COSMO-1E and COSMO-2E, MeteoSwiss offers direct model outputs for the entire Alpine region in the form of hourly analyses or forecasts for up to five days ahead. Forecasts for the whole of Switzerland or the entire Alpine region are available for a wide range of parameters.**
+
+The MeteoSwiss forecast data (e.g. for parameters such as temperature, humidity, precipitation, wind, air pressure, geopotential, evaporation and radiation) can be obtained in numerous formats:
+- **Horizontal fields: Data and graphics for the whole model domain or for a section that covers the whole of Switzerland.**
+- **Tables with all the main weather variables at any number of locations within the model domain. Supplied in CSV format, the data can be integrated into the customer’s own data processing systems.
+Meteograms with graphs of the main parameters for a particular location.**
+
+**In principle, all of the parameters used in the local forecast on the website and in the MeteoSwiss App are available.** Supplied in CSV format, the data can be integrated into the customer’s own data processing systems:
+- [Example of data (**other formats available on request**) (ZIP, 2.5 MB)](https://www.meteoswiss.admin.ch/dam/jcr:2e18893b-49dc-418c-ba51-9a2b6d81f739/Datenbeispiel-cosmo-2e.zip)
+- [**Examples of probabilistic products**](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/cosmo-forecasting-system/examples-of-probabilistic-products.html)
 
 #### 2.5.3. Postprocessed local forecast data (data4web)
 The postprocessed forecast data is based on a [mix of different models](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/weather-forecasts.html) (INCA, COSMO-1E, COSMO-E2, ECMWF) and is available for all ZIP-codes, [SMN](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html)-stations and selected POI in the mountains as point data. 
