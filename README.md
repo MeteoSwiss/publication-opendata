@@ -711,7 +711,7 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 ##### 2.6.2.1. Basic radar data
 
-| *Dataset title*                | Precip RZC |
+| *Dataset title*                | Precip (RZC) |
 | :----------------------------- | :----------------------------------------------- |
 | *Data structure*               | see example file: [RZC232371930VL.001.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/RZC232371930VL.001.h5) |
 | *Data granularity*             | 5min |
@@ -749,7 +749,7 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 
 ##### 2.6.2.2. Advanced radar data
 
-| *Dataset title*                | Probability of hail (POH) |
+| *Dataset title*                | Probability of Hail (POH) |
 | :----------------------------- | :----------------------------------------------- |
 | *Data structure*               | see example file: [BZC232371930VL.845.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/BZC232371930VL.845.h5) |
 | *Data granularity*             | 5min |
