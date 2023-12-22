@@ -707,7 +707,7 @@ The sites are
 
 Radar data is beeing provided in the [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
-The radar data are divided into [basic radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/basic-radar-products.html), [advanced radar data](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) and [combiprecip](https://www.meteoswiss.admin.ch/dam/jcr:2691db4e-7253-41c6-a413-2c75c9de11e3/ProdDoc_CPC.pdf).
+The radar data are divided into [Basic radar](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/basic-radar-products.html), [Advanced radar](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) and [CombiPrecip](https://www.meteoswiss.admin.ch/dam/jcr:2691db4e-7253-41c6-a413-2c75c9de11e3/ProdDoc_CPC.pdf).
 
 ##### 2.6.2.1. Basic radar data
 
