@@ -51,10 +51,10 @@
         - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
             - 2.6.1.1. [Surface derived grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
             - 2.6.1.2. [Satellite derived grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2612-satellite-derived-grid-data)
-        - 2.6.2. [Radar and combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data)
+        - 2.6.2. [Radar and CombiPrecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data)
             - 2.6.2.1. [Basic radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2621-basic-radar-data)
             - 2.6.2.2. [Advanced radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2622-advanced-radar-data)
-            - 2.6.2.3. [Combiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-combiprecip-data)
+            - 2.6.2.3. [CombiPrecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-combiprecip-data)
     - 2.7. [Warning data](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data)
 <!-- 3. [Roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service) -->
 
@@ -122,7 +122,7 @@ This is the **current status of the clarifications** as to which data types can 
 |  |  | [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting) |  |
 |  | [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web) |  |  |
 | [**Grid**](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data) | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-Spatial-climate-data) |  |  |
-|  | [Radar and compiprecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data) |  |  |
+|  | [Radar and CompiPrecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data) |  |  |
 | [**Warning**](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) |  | [Weather hazard data](https://www.meteoswiss.admin.ch/weather/hazards/hazard-map.html) - Warnings for severe weather (wind, thunderstorm, rain, snow, heat, frost, slippery roads) |  |
 
 
@@ -695,7 +695,7 @@ Spatial climate data are statistically derived from surface data. Those spatial 
 | *Volume*                       | 0.1 MB |
 | *Additional remarks*           | Coordinate System: WGS84 lat/lon EPSG:4326 |
 
-#### 2.6.2. Radar and combiprecip data
+#### 2.6.2. Radar and CombiPrecip data
 Supplementing the conventional precipitation measurements taken at ground level meteorological stations, MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
 
 The sites are
@@ -767,8 +767,16 @@ The radar data are divided into [basic radar data](https://www.meteoswiss.admin.
 | *Volume*                       | 0.2 MB |
 | *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
-##### 2.6.2.3. Combiprecip data
-Proposal in preparation.
+##### 2.6.2.3. CombiPrecip data
+
+| *Dataset title*                | CombiPrecip (CPC) |
+| :----------------------------- | :----------------------------------------------- |
+| *Data structure*               | see example file: [CPC2335513304_00060.001.h5](https://github.com/MeteoSwiss/publication-opendata-radar-and-combiprecip-data/blob/main/CPC2335513304_00060.001.h5) |
+| *Data granularity*             | 60min (1h accumulation) |
+| *Update frequency*             | 10min |
+| *Format*                       | [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) |
+| *Volume*                       | 0.3 MB |
+| *Additional remarks*           | Coordinate System: Swiss LV95 EPSG:2056 |
 
 ### 2.7. Warning data
 In clarification if/how can be made available as open data.
