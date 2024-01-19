@@ -705,7 +705,7 @@ The sites are
 - Pointe de la Plaine Morte in the Canton of Valais (equipped with the latest technology (dual polarisation), commenced operation in 2014 and monitors the atmosphere in the inner Alpine region)
 - the Weissfluhgipfel in the Canton of Graubünden (equipped with the latest technology (dual polarisation), commenced operation in 2016, and monitors the atmosphere in the inner Alpine region)
 
-Radar data is beeing provided in the [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) which is the common exchange format for radar data.
+Radar and CombiPrecip data is being provided as [`HDF5`](https://hdfgroup.github.io/hdf5/_getting_started.html) which is the common exchange format for radar data.
 See the metadata in each HDF5-File for further information. 
 The radar data are divided into [Basic radar](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/basic-radar-products.html), [Advanced radar](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) and [CombiPrecip](https://www.meteoswiss.admin.ch/dam/jcr:2691db4e-7253-41c6-a413-2c75c9de11e3/ProdDoc_CPC.pdf).
 
