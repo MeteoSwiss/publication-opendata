@@ -191,7 +191,7 @@ SwissMetNet, the [automatic measurement network](https://www.meteoswiss.admin.ch
 | *Additional remarks*           | One file per station. |
 
 #### 2.3.2. Manual precipitation stations (`nime`, `tot`)
-In addition to its automatic precipitation measurements, MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html). Measurements are taken once a day and transmitted to MeteoSwiss via SMS. The network comprises 243 locations, 190 stations measure rainfall and 53 stations measure snow only (`nime`). Due to their long-series measurements, they are of great climatological significance. In mountainous areas that are difficult to access, around 57 totalisers are used which record the volume of precipitation for an entire year (`tot`).
+In addition to its automatic precipitation measurements, MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html). Measurements are taken once a day and transmitted to MeteoSwiss via SMS. The network comprises 243 locations, 190 stations measure rainfall and snow, and 53 stations measure snow only (`nime`). Due to their long-series measurements, they are of great climatological significance. In mountainous areas that are difficult to access, around 57 totalisers are used which record the volume of precipitation for an entire year (`tot`).
 
 | *Dataset title*                | Measurement data from manual precipitation stations |
 | :----------------------------- | :-------------------------------------------------- |
