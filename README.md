@@ -28,7 +28,7 @@
         - 2.3.1. [Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-automatic-weather-stations-smn-smn-precip-smn-tower)
         - 2.3.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-manual-precipitation-stations-nime-tot)
         - 2.3.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#233-visual-observations-obs)
-        - 2.3.4. [Climate stations "Swiss NBCN" (climate, climate-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-climate-stations-swiss-nbcn-climate-climate-precip)
+        - 2.3.4. [Climate stations "Swiss NBCN" (nbcn, nbcn-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-climate-stations-swiss-nbcn-climate-climate-precip)
             - 2.3.4.1. [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2341-records-and-extremes)
         - 2.3.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#235-swiss-pollen-monitoring-stations-pollen)
         - 2.3.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#236-phenological-observations-phenology)
@@ -110,7 +110,7 @@ This is the **current status of the clarifications** as to which data types can 
 | [**Surface**](https://github.com/MeteoSwiss/publication-opendata/tree/main#23-surface-data) | [Automatic weather stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-automatic-weather-stations-smn-smn-precip-smn-tower) | <!-- [Aerosol measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/aerosol-measurements.html) --> | [Aviation weather](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/aviation-weather.html) - These data are collected on behalf of and financed by professional aviation |
 |  | [Manual precipitation stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-manual-precipitation-stations-nime-tot) |  |  |
 |  | [Visual observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#233-visual-observations-obs) |  |  |
-|  | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-climate-stations-swiss-nbcn-climate-climate-precip) | [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2341-records-and-extremes) |  |
+|  | [Climate stations "Swiss NBCN"](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) | [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2341-records-and-extremes) |  |
 |  | [Swiss pollen monitoring stations](https://github.com/MeteoSwiss/publication-opendata/tree/main#235-swiss-pollen-monitoring-stations-pollen) |  |  |
 |  | [Phenological observations](https://github.com/MeteoSwiss/publication-opendata/tree/main#236-phenological-observations-phenology) |  |  |
 | [**Atmosphere**](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-atmosphere-data) | [Radio soundings](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-radio-soundings-radiosounding) | [Windprofiler](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/windprofiler.html) | [Observations from aircraft](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/observations-from-aircraft.html) - Data does not belong to MeteoSwiss |
@@ -220,7 +220,7 @@ The information on current weather events is supplemented by [visual human obser
 | *Parameter metadata*           | see parameter file: [`obs-T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv) |
 | *Additional remarks*           | One file per station. |
 
-#### 2.3.4. Climate stations "Swiss NBCN" (`climate`, `climate-precip`)
+#### 2.3.4. Climate stations "Swiss NBCN" (`nbcn`, `nbcn-precip`)
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of 29 climate monitoring stations and 46 precipitation stations. The measurement series available in digital form for temperature, precipitation and hours of sunshine date back, in some cases, to the mid-nineteenth century. The measurement series are [homogenised](https://www.meteoschweiz.admin.ch/klima/klimawandel/entwicklung-temperatur-niederschlag-sonnenschein/homogene-messreihen-ab-1864.html).
 
 | *Dataset title*                | Measurement data from the Swiss National Basic Climatological Network |
