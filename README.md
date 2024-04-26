@@ -3,7 +3,7 @@
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master) -->
 
-[Passer à l'introduction en français](..) | [Passare all'introduzione in italiano](..) | [Go to the introduction in English](..)
+[Passer à l'introduction en français](#bienvenue-au-service-open-government-data-OGD-de-meteosuisse) | [Passare all'introduzione in italiano](..) | [Go to the introduction in English](..)
 
 # Willkommen beim 'Open Government Data (OGD)'-Service von MeteoSchweiz
 
