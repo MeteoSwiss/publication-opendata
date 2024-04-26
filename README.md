@@ -65,28 +65,24 @@ Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OG
 |              | **Punktdaten:** <br> [Lokalprognosedaten](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#253-postprocessed-local-forecast-data-data4web) (15) |              |        | 
 
 > [!NOTE]
-> Die Planung wird laufend aktualisiert und kann sich entsprechend ändern. Ab Juli 2024 wird sie für die [OGD-Produkte](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#21-overview-of-data-types-to-be-made-available-as-open-data) etappiert vorliegen und hier entsprechend kommuniziert.
+> Die Planung wird laufend aktualisiert und kann sich entsprechend ändern. Ab Juli 2024 wird sie für die [Datenprodukte](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#21-overview-of-data-types-to-be-made-available-as-open-data) etappiert vorliegen und hier entsprechend kommuniziert.
 
 ## Kontakt zum Projekt
 
 Für alle Fragen zum Projekt, wenden Sie sich bitte an: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
 
+Bleiben Sie auf dem Laufenden und [abonnieren](..) Sie unseren OGD-Newsletter, indem sie auf den Link klicken. Oder indem sie ein E-Mail senden an [ogd-news(at)news.meteoswiss.ch](ogd-news@news.meteoswiss.ch) mit dem Betreff 'JOIN ogd_list'.
+
 ---
 
-# OGD@MeteoSwiss - Open Government Data
-
-> **TL;DR** <br>
-> Jump directly to the [overview of which data types are to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data). <br>
-> Jump directly to the [questions on which we are asking the Open Data user community for feedback](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-questions-to-the-open-data-user-community). <br>
-<!-- > Jump directly to the [roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service). -->
+# Specification of OGD data products and sample data
 
 ## Table of contents
 
-1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-the-project)
+<!-- 1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-the-project) -->
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     - 1.2. [Questions to the Open Data user community](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-questions-to-the-open-data-user-community)
     - 1.3. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#13-general-contact-point)
-    <!-- - 1.4. [OGD Newsletter](https://github.com/MeteoSwiss/publication-opendata/tree/master#14-ogd-newsletter) -->
 2. [Open Data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products)
     - 2.1. [Overview of data types to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data)  
     - 2.2. [General information on the data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-general-information-on-the-data)
@@ -129,7 +125,7 @@ Für alle Fragen zum Projekt, wenden Sie sich bitte an: [opendata(at)meteoswiss.
 <!-- 3. [Roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service) -->
 
 
-## 1. Context and mission of the project
+<!-- ## 1. Context and mission of the project
 In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
 
 In the current year (2023) the necessary technical and organizational measures for the implementation of Open Government Data (OGD) at [MeteoSwiss](https://www.meteoswiss.admin.ch/about-us/portrait.html) are being tackled within the scope of a project.
@@ -137,7 +133,7 @@ In the current year (2023) the necessary technical and organizational measures f
 > **Finding out, collecting, analysing and weighting user needs** is the central way for the project team to be able to offer good 'Open Data products'.
 > Thank you very much for your attention and your openness to enter into an exchange with us on this matter.
 
-According to the current schedule the implementation may be expected during early 2025.
+According to the current schedule the implementation may be expected during early 2025. -->
 
 ### 1.1. Purpose of this repository
 This repository is used by MeteoSwiss' project team to inform potential users interested in Open Data about the plans and to receive specific feedback from them on proposals.
