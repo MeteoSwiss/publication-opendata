@@ -79,75 +79,24 @@ Ab hier weiter auf Englisch | A partir d'ici, en anglais | Da qui in poi in ingl
 
 # Specification of OGD data products and sample data
 
-<!-- ## Table of contents
-
-1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-the-project) -->
-    - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
-    - 1.2. [Questions to the Open Data user community](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-questions-to-the-open-data-user-community)
-    - 1.3. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#13-general-contact-point)
-2. [Open Data products](https://github.com/MeteoSwiss/publication-opendata/tree/master#2-open-data-products)
-    - 2.1. [Overview of data types to be made available as Open Data](https://github.com/MeteoSwiss/publication-opendata/tree/master#21-overview-of-data-types-to-be-made-available-as-open-data)  
-    - 2.2. [General information on the data](https://github.com/MeteoSwiss/publication-opendata/tree/master#22-general-information-on-the-data)
-        - 2.2.1. [Data granularity](https://github.com/MeteoSwiss/publication-opendata/tree/master#221-data-granularity)
-        - 2.2.2. [Data structure and update cycle](https://github.com/MeteoSwiss/publication-opendata/tree/master#222-data-structure-and-update-cycle)
-        - 2.2.3. [Time stamps and time intervals](https://github.com/MeteoSwiss/publication-opendata/tree/main#223-time-stamps-and-time-intervals)
-        - 2.2.4. [Column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values)
-    - 2.3. [Surface data](https://github.com/MeteoSwiss/publication-opendata/tree/master#23-surface-data)
-        - 2.3.1. [Automatic weather stations (smn, smn-precip, smn-tower)](https://github.com/MeteoSwiss/publication-opendata/tree/main#231-automatic-weather-stations-smn-smn-precip-smn-tower)
-        - 2.3.2. [Manual precipitation stations (nime, tot)](https://github.com/MeteoSwiss/publication-opendata/tree/main#232-manual-precipitation-stations-nime-tot)
-        - 2.3.3. [Visual observations (obs)](https://github.com/MeteoSwiss/publication-opendata/tree/main#233-visual-observations-obs)
-        - 2.3.4. [Climate stations "Swiss NBCN" (nbcn, nbcn-precip)](https://github.com/MeteoSwiss/publication-opendata/tree/main#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip)
-            - 2.3.4.1. [Records and extremes](https://github.com/MeteoSwiss/publication-opendata/tree/main#2341-records-and-extremes)
-        - 2.3.5. [Swiss pollen monitoring stations (pollen)](https://github.com/MeteoSwiss/publication-opendata/tree/main#235-swiss-pollen-monitoring-stations-pollen)
-        - 2.3.6. [Phenological observations (phenology)](https://github.com/MeteoSwiss/publication-opendata/tree/main#236-phenological-observations-phenology)
-    - 2.4. [Atmosphere data](https://github.com/MeteoSwiss/publication-opendata/tree/main#24-atmosphere-data)
-        - 2.4.1. [Radio soundings (radiosounding)](https://github.com/MeteoSwiss/publication-opendata/tree/main#241-radio-soundings-radiosounding)
-    - 2.5. [Model data](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-model-data)
-        - 2.5.1. [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting)
-            - 2.5.1.1. [INCA precipitation - quantitative/qualitative](https://github.com/MeteoSwiss/publication-opendata/tree/main#2511-inca-precipitation---quantitativequalitative)
-            - 2.5.1.2. [INCA precipitation type - rain, snow, snow-rain, freezing rain, rain&hail](https://github.com/MeteoSwiss/publication-opendata/tree/main#2512-inca-precipitation-type---rain-snow-snow-rain-freezing-rain-rainhail)
-            - 2.5.1.3. [INCA snowfall - quantitative/qualitative](https://github.com/MeteoSwiss/publication-opendata/tree/main#2513-inca-snowfall---quantitativequalitative)
-            - 2.5.1.4. [INCA snow accumulation & snowfall line](https://github.com/MeteoSwiss/publication-opendata/tree/main#2514-inca-snow-accumulation--snowfall-line)
-            - 2.5.1.5. [INCA temperature](https://github.com/MeteoSwiss/publication-opendata/tree/main#2515-inca-temperature)
-            - 2.5.1.6. [INCA relative sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2516-inca-relative-sunshine-duration)
-        - 2.5.2. [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting)
-        - 2.5.3. [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web)
-            - 2.5.3.1. [Local forecast precipitation](https://github.com/MeteoSwiss/publication-opendata/tree/main#2531-local-forecast-precipitation)
-            - 2.5.3.2. [Local forecast temperature](https://github.com/MeteoSwiss/publication-opendata/tree/main#2532-local-forecast-temperature)
-            - 2.5.3.3. [Local forecast sunshine duration](https://github.com/MeteoSwiss/publication-opendata/tree/main#2532-local-forecast-sunshine-duration)
-    - 2.6. [Grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data)
-        - 2.6.1. [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-spatial-climate-data)
-            - 2.6.1.1. [Surface derived grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2611-surface-derived-grid-data)
-            - 2.6.1.2. [Satellite derived grid data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2612-satellite-derived-grid-data)
-        - 2.6.2. [Radar and CombiPrecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data)
-            - 2.6.2.1. [Basic radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2621-basic-radar-data)
-            - 2.6.2.2. [Advanced radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2622-advanced-radar-data)
-            - 2.6.2.3. [CombiPrecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-combiprecip-data)
-    - 2.7. [Warning data](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) -->
-<!-- 3. [Roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service) -->
-
-
 ## 1. Context and mission of the project
 Jump to the [introduction in English above]().
 
-<!-- In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
-
-In the current year (2023) the necessary technical and organizational measures for the implementation of Open Government Data (OGD) at [MeteoSwiss](https://www.meteoswiss.admin.ch/about-us/portrait.html) are being tackled within the scope of a project.
-
+<--
 > **Finding out, collecting, analysing and weighting user needs** is the central way for the project team to be able to offer good 'Open Data products'.
 > Thank you very much for your attention and your openness to enter into an exchange with us on this matter.
 
-According to the current schedule the implementation may be expected during early 2025. -->
+According to the current schedule the implementation may be expected during early 2025.
+-->
 
 ### 1.1. Purpose of this repository
 This repository is used by MeteoSwiss' project team to inform potential users interested in Open Data about the plans and to receive specific feedback from them on proposals.
 1. [We describe the various 'Open Data products'](https://github.com/MeteoSwiss/publication-opendata/tree/main#2-open-data-products) being designed by MeteoSwiss' specialist data teams. That is: the **data structures, formats, denominations, update frequencies, volumes and other specifics**.
 2. We are looking for your feedback on our proposals. To this end, **[we ask you specific questions](https://github.com/MeteoSwiss/publication-opendata/tree/main#12-questions-to-the-open-data-user-community)**.
 3. Furthermore we are open to your questions. **Please [share them with us and the community by creating a public issue](https://github.com/MeteoSwiss/publication-opendata/issues/new)**, or [write us an email](https://github.com/MeteoSwiss/publication-opendata/tree/main#13-general-contact-point). You can find all issues - open and closed - sorted by update date [here](https://github.com/MeteoSwiss/publication-opendata/issues?q=is%3Aissue+sort%3Aupdated-desc).
-4. MeteoSwiss' Open Data teams usually meet every second week to review and clarify the questions and feedback received, and ask questions back when necessary.
 
-**Important note:**
-- All information in this repository reflects the current state of work and is subject to change.
+> [!NOTE]
+> All information in this repository reflects the current state of work and is subject to change.
 
 ### 1.2. Questions to the Open Data user community
 These are the **current questions to the Open Data user community** on which we are asking for feedback:
@@ -163,10 +112,7 @@ These are the **current questions to the Open Data user community** on which we 
 | **Grid** | G0 | no specific question yet | ... | ... |
 
 ### 1.3. General contact point
-If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch) -->
-
-<!-- ### 1.4. OGD newsletter
-Don't miss any updates on Open Government Data from MeteoSwiss. [Subscribe] to the OGD newsletter. Or send an email to: [ogd-news(at)news.meteoswiss.ch](ogd-news@news.meteoswiss.ch) with the subject: JOIN ogd_list -->
+If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
 
 ## 2. Open Data products
 
