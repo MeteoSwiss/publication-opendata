@@ -200,7 +200,7 @@ Sono elencate le principali funzionalità per gli utenti e i prodotti OGD (con i
 | Ottenere automaticamente file singoli o multipli tramite l'API STAC del BGDI |  |  |  |
 | | **Valori misurati:** <br> [Stazioni meteorologiche automatiche, pluviometriche automatiche e dello strato limite automatiche](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Stazioni pluviometriche manuali e di precipitazione totalizzatori](#232-stazioni-manuali-di-precipitazione-nime-tot) (04, 05) <br> [Stazioni pollini](#235-stazioni-svizzere-di-monitoraggio-polline) (10) <br> [Radiosondaggi](#241-radio-sondaggi-radiosondaggi) (12) | | | 
 | | **Osservazioni:** <br> [Osservazione visuale meteorologiche](#233-osservazioni-visive-obs) (06) <br> [Osservazioni fenologiche](#236-osservazioni-fenologia) (11) | | | 
-| | **Valori misurati omogeneizzati:** <br> [Stazioni climatologiche e climatologiche pluviometriche](#234-stazioni climatiche-swiss-nbcn-nbcn-nbcn-precip) (07, 08) | | |
+| | **Valori misurati omogeneizzati:** <br> [Stazioni climatologiche e climatologiche pluviometriche](#234-stazioni-climatiche-swiss-nbcn-nbcn-nbcn-precip) (07, 08) | | |
 | | **Dati a matrice:** <br> [Dati climatici spaziali da terra e da satellite](#261-spatial-climate-data) (16, 17) | | |
 | | **Dati a matrice:** <br> [Dati radar di base ed avanzati](#262-radar-e-combiprecip-data) (18, 19) <br> [Calcoli di precipitazione combinati](#2623-combiprecip-data) (20) | | |
 | | **Dati a matrice:** <br> [Dati di previsione a breve termine](#251-inca-data-nowcasting) (13) <br> [Dati di previsione](#252-cosmoicon-data-forecasting) (14) | | |
