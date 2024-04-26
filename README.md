@@ -1,4 +1,4 @@
-*Version, status:* v1.1, draft / [change log](https://github.com/MeteoSwiss/publication-opendata/commits/main) <br>
+*Version, status:* v1.1, Draft / [change log](https://github.com/MeteoSwiss/publication-opendata/commits/main) <br>
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss project team](mailto:opendata@meteoswiss.ch)
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master) -->
@@ -50,7 +50,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 4. Später - Weitere Funktionalitäten (u.a. Datenbezug via API) realisieren
 
 **Roadmap des OGD-Service** <br>
-Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (OGD-Produktnummer).
+Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (mit OGD-Produktnummern).
 
 | Beta-Version | Version 1.0 | Als nächstes | Später |
 | :----------- | :---------- | :----------- | :----- |
@@ -189,7 +189,7 @@ This is the **current status of the clarifications** as to which data types can 
 |  |  | [Ozone measurements](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/ozone-measurements.html) |  |
 |  |  | [Radiation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/radiation-monitoring-network.html) |  |
 | [**Model**](https://github.com/MeteoSwiss/publication-opendata/tree/main#25-model-data) | [INCA data (nowcasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#251-inca-data-nowcasting) |  |  |
-|  |  | [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting) |  |
+|  | [COSMO/ICON data (forecasting)](https://github.com/MeteoSwiss/publication-opendata/tree/main#252-cosmoicon-data-forecasting) |  |  |
 |  | [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web) |  |  |
 | [**Grid**](https://github.com/MeteoSwiss/publication-opendata/tree/main#26-grid-data) | [Spatial climate data](https://github.com/MeteoSwiss/publication-opendata/tree/main#261-Spatial-climate-data) |  |  |
 |  | [Radar and CompiPrecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#262-Radar-and-combiprecip-data) |  |  |
