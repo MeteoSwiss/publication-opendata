@@ -75,6 +75,8 @@ Für alle Fragen zum Projekt, wenden Sie sich bitte an: [opendata(at)meteoswiss.
 
 ---
 
+Ab hier weiter auf Englisch | A partir d'ici, en anglais | Da qui in poi in inglese
+
 # Specification of OGD data products and sample data
 
 ## Table of contents
@@ -159,7 +161,7 @@ These are the **current questions to the Open Data user community** on which we 
 | **Grid** | G0 | no specific question yet | ... | ... |
 
 ### 1.3. General contact point
-If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
+If you have any questions, please contact the project team: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch) -->
 
 <!-- ### 1.4. OGD newsletter
 Don't miss any updates on Open Government Data from MeteoSwiss. [Subscribe] to the OGD newsletter. Or send an email to: [ogd-news(at)news.meteoswiss.ch](ogd-news@news.meteoswiss.ch) with the subject: JOIN ogd_list -->
