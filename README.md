@@ -124,7 +124,7 @@ Les fonctionnalités principales pour les utilisateurs ainsi que les produits de
 
 | Version Beta | Version 1.0 | Ensuite | Plus tard |
 | :----------- | :---------- | :----------- | :----- |
-| Télécharger manuellement un ou plusieurs fichiers via 'WebGUI' | | Consulter des données sélectionnées par un 'API Features' |
+| Télécharger manuellement un ou plusieurs fichiers via 'WebGUI' | | | Consulter des données sélectionnées par un 'API Features' |
 | Obtenir un ou plusieurs fichiers de manière automatisée via l'API STAC de l'IFDG | | |
 | | **Valeurs mesurées:** <br> [Stations automatiques météorologiques, pluviométriques et de la couche limite](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Stations manuelles pluviométriques et totalisateur](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Stations pollen](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosondages](#241-radio-soundings-radiosounding) (12) | | 
 | | **Observations:** <br> [Observations visuelles météorologiques](#233-visual-observations-obs) (06) <br> [Observations phénologiques](#236-phenological-observations-phenology) (11) | | 
