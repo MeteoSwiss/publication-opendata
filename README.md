@@ -3,7 +3,7 @@
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master) -->
 
-[Passer à l'introduction en français](#contexte-et-principaux-défis) | [Passare all'introduzione in italiano](..) | [Go to the introduction in English](..)
+[En français](#contexte-et-principaux-défis) | [In italiano](..) | [In English](..)
 
 # Willkommen beim 'Open Government Data (OGD)'-Service von MeteoSchweiz
 
@@ -11,7 +11,7 @@
 
 Mit der Einführung der [Totalrevision der Verordnung über die Meteorologie und Klimatologie (MetV)](https://fedlex.data.admin.ch/eli/dl/proj/2022/77/cons_1) - voraussichtlich per 1. Januar 2025 - wird Meteoschweiz die im gesetzlichen Auftrag erhobenen Daten von den Gebühren befreien und damit den Zugang zu offenen Daten umsetzen, wie es das [Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG)](https://fedlex.data.admin.ch/eli/cc/2023/682) fordert. Die von MeteoSchweiz angestrebte Kompatibilität mit der ['High Value Datasets (HVD)'-Richtlinie der EU (s. Anhang, Kapitel 3. "Meteorologie")](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1) und die Forderungen des EMBAG führen zu einen Umstieg des Datenzugangs von 'Push' (d.h. auf Anfrage/Bestellung) zu 'Pull' (d.h. per Selbstbedienung).
 
-MeteoSchweiz stellt seit Jahrzehnten meteorologische und klimatologische Daten auf internationaler, europäischer und nationaler Ebene bereit. Seit 2012 hat MeteoSchweiz zudem [Erfahrungen mit der Bereitstellung offener Daten aufgebaut (s. Datensätze beginnend mit "ch.meteoschweiz...")](https://data.geo.admin.ch/). Dazu nutzt MeteoSchweiz die Bundes-Geodaten-Infrastruktur BGDI, die von swisstopo betrieben wird.
+MeteoSchweiz stellt seit Jahrzehnten meteorologische und klimatologische Daten auf internationaler, europäischer und nationaler Ebene bereit. Seit 2012 hat MeteoSchweiz zudem [Erfahrungen mit der Bereitstellung offener Daten aufgebaut (s. Datensätze beginnend mit "ch.meteoschweiz...")](https://data.geo.admin.ch/). Dazu nutzt MeteoSchweiz die [Bundes-Geodaten-Infrastruktur BGDI](https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi), die von [swisstopo](https://www.swisstopo.admin.ch/de) betrieben wird.
 
 Der Zugang zu offenen Daten soll überarbeitet und vereinfacht werden, so dass Menschen mit unterschiedlichen datentechnischen und meteorologischen Kenntnissen die gewünschten Daten ohne Mühe finden können. Anwendungsorientierte Beschreibungen und Kontextinformationen helfen ihnen einzuschätzen, ob bzw. unter welchen Bedingungen welche Daten für eine gewünschte Anwendung passen.
 
@@ -28,10 +28,10 @@ allen Nutzerinnen und Nutzern zu ermöglichen, offene Daten als Files via die ST
 Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der Anforderung der HVD-Richtlinie der EU, "Datensätze (...) über Massen-Download (...) zur Weiterverwendung zur Verfügung zu stellen" ([Anhang, Kapitel 3.2. a](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1)). Die Anforderung, Datensätze auch über APIs verfügbar zu machen, setzt MeteoSchweiz darauf in einer späteren Umsetzungsetappe um.
 
 **Unsere wichtigsten Ergebnisse** für die Version 1.0 sind:
-1. Aus den Quellsystemen der verschiedenen Datentypen (Bodenstationsdaten und Beobachtungen, Klimadaten, Radardaten, Prognosedaten, Atmosphärendaten) werden die zusammen mit den entsprechenden Fachspezialistinnen und -spezialisten [definierten OGD-Produkte](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#21-overview-of-data-types-to-be-made-available-as-open-data) und ihre 'File Metadata' laufend als Files generiert.
+1. Aus den Quellsystemen der verschiedenen Datentypen (Bodenstationsdaten und Beobachtungen, Klimadaten und räumliche Klimaanalysen, Radardaten, Prognosedaten, Atmosphärendaten) werden die zusammen mit den entsprechenden Fachspezialistinnen und -spezialisten [spezifizierten OGD-Produkte](#21-overview-of-data-types-to-be-made-available-as-open-data) und ihre 'File Metadata' laufend als Files generiert.
 2. Alle Files werden laufend auf die definierten 'Collections' in der STAC-API der BGDI übertragen und als 'Assets' zu den entsprechenden 'Items' abgelegt.
-3. Zu jeder 'Collection' ist ein entsprechender 'Discovery Metadata'-Datensatz im Geometadatenkatalog [geocat.ch](https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home) angelegt. Geocat.ch integriert die 'Discovery Metadata' in den OGD-Metadatenkatalog der Schweizer Behörden [opendata.swiss](https://opendata.swiss), und opendata.swiss in den europäischen OGD-Metadatenkatalog [data.europa.eu](https://data.europa.eu/).
-4. Die Nutzerinnen und Nutzer können einzelne und mehrere Files über ein WebGUI bei MeteoSchweiz manuell herunterladen oder über die STAC-API der BGDI automatisiert abfragen.
+3. Zu jeder 'Collection' ist ein entsprechender 'Discovery Metadata'-Datensatz im Geometadatenkatalog [geocat.ch](https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home) angelegt. Geocat.ch integriert die 'Discovery Metadata' in den OGD-Metadatenkatalog der Schweizer Behörden [opendata.swiss](https://opendata.swiss/de), und opendata.swiss in den europäischen OGD-Metadatenkatalog [data.europa.eu](https://data.europa.eu/de).
+4. Die Nutzerinnen und Nutzer können einzelne und mehrere Files über ein WebGUI bei MeteoSchweiz manuell herunterladen oder über die STAC-API der BGDI automatisiert beziehen.
 
 **Unsere wichtigsten Nutzendengruppen** für die Version 1.0 sind:
 1. Menschen mit wenig Meteo- und unterschiedlichen datentechnischen Kenntnissen,
@@ -47,7 +47,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 1. Beta-Version - Einzelne Komponenten als Prototyp entwickeln, um wichtige Entscheidungen zu treffen und Risiken zu bewerten
 2. Version 1.0 - **Für die Lancierung unbedingt notwendige** Funktionalitäten realisieren und OGD-Produkte bereitstellen
 3. Als nächstes - Weitere definierte OGD-Produkte bereitstellen
-4. Später - Weitere Funktionalitäten (u.a. Datenbezug via API) realisieren
+4. Später - Weitere Funktionalitäten (u.a. Daten abfragen via API-Features) realisieren
 
 **Roadmap des OGD-Service** <br>
 Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (mit OGD-Produktnummern).
@@ -55,17 +55,17 @@ Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OG
 | Beta-Version | Version 1.0 | Als nächstes | Später |
 | :----------- | :---------- | :----------- | :----- |
 | Einzelne oder mehrere Files über ein WebGUI manuell herunterladen |              |              | Ausgewählte Daten über ein API-Features abfragen |
-| Einzelne oder mehrere Files über die STAC-API der BGDI automatisiert abfragen |              |              |        |
-|              | **Messwerte:** <br> [Automatische Wetterstationen, Niederschlagsstationen, Grenzschichtstationen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manuelle und Totalisator-Niederschlagsstationen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollenstationen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosondierungen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#241-radio-soundings-radiosounding) (12) |              |        | 
-|              | **Beobachtungen:** <br> [Meteorologische Augenbeobachtungen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#233-visual-observations-obs) (06) <br> [Phänologische Beobachtungen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#236-phenological-observations-phenology) (11) |              |        | 
-|              | **Homogene Messwerte:** <br> [Klimastationen und Niederschlags-Klimastationen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) (07, 08) |              |        | 
-|              | **Gitterdaten:** <br> [Boden- und satellitengestützte räumliche Klimadaten](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#261-spatial-climate-data) (16, 17) |              |        |
-|              | **Gitterdaten:** <br> [Grundlegende und erweiterte Radardaten](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#262-radar-and-combiprecip-data) (18, 19) <br> [Kombinierte Niederschlagsberechnungen](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#2623-combiprecip-data) (20) |              |        | 
-|              | **Gitterdaten:** <br> [Kurzfristprognosedaten](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#251-inca-data-nowcasting) (13) <br> [Prognosedaten](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#252-cosmoicon-data-forecasting) (14) |              |        | 
-|              | **Punktdaten:** <br> [Lokalprognosedaten](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#253-postprocessed-local-forecast-data-data4web) (15) |              |        | 
+| Einzelne oder mehrere Files über die STAC-API der BGDI automatisiert beziehen |              |              |        |
+|              | **Messwerte:** <br> [Automatische Wetterstationen, Niederschlagsstationen, Grenzschichtstationen](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manuelle und Totalisator-Niederschlagsstationen](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollenstationen](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosondierungen](#241-radio-soundings-radiosounding) (12) |              |        | 
+|              | **Beobachtungen:** <br> [Meteorologische Augenbeobachtungen](#233-visual-observations-obs) (06) <br> [Phänologische Beobachtungen](#236-phenological-observations-phenology) (11) |              |        | 
+|              | **Homogene Messwerte:** <br> [Klimastationen und Niederschlags-Klimastationen](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) (07, 08) |              |        | 
+|              | **Gitterdaten:** <br> [Boden- und satellitengestützte räumliche Klimadaten](#261-spatial-climate-data) (16, 17) |              |        |
+|              | **Gitterdaten:** <br> [Grundlegende und erweiterte Radardaten](#262-radar-and-combiprecip-data) (18, 19) <br> [Kombinierte Niederschlagsberechnungen](#2623-combiprecip-data) (20) |              |        | 
+|              | **Gitterdaten:** <br> [Kurzfristprognosedaten](#251-inca-data-nowcasting) (13) <br> [Prognosedaten](#252-cosmoicon-data-forecasting) (14) |              |        | 
+|              | **Punktdaten:** <br> [Lokalprognosedaten](#253-postprocessed-local-forecast-data-data4web) (15) |              |        | 
 
 > [!NOTE]
-> Die Planung wird laufend aktualisiert und kann sich entsprechend ändern. Ab Juli 2024 wird sie für die [Datenprodukte](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#21-overview-of-data-types-to-be-made-available-as-open-data) etappiert vorliegen und hier entsprechend kommuniziert.
+> Die Planung wird laufend aktualisiert und kann sich entsprechend ändern. Ab Juli 2024 wird sie für die [Datenprodukte](#21-overview-of-data-types-to-be-made-available-as-open-data) etappiert vorliegen und hier entsprechend kommuniziert.
 
 ## Kontakt zum Projekt
 
@@ -79,9 +79,9 @@ Für alle Fragen zum Projekt, wenden Sie sich bitte an: [opendata(at)meteoswiss.
 
 ## Contexte et principaux défis
 
-Avec l'introduction de la [révision totale de l'ordonnance sur la météorologie et la climatologie (OMét)](https://fedlex.data.admin.ch/eli/dl/proj/2022/77/cons_1) - probablement au 1er janvier 2025 - MétéoSuisse exonérera des émoluments les données collectées sur mandat légal et mettra ainsi en œuvre l'accès aux données ouvertes, comme l'exige la [loi fédérale sur l'utilisation de moyens électroniques dans l'accomplissement des tâches des autorités (LEMO)](https://fedlex.data.admin.ch/eli/cc/2023/682). La compatibilité souhaitée par MétéoSuisse avec la directive de l'UE ['High Value Datasets (HVD)' (voir annexe, chapitre 3. « Météorologie »)](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1) et les exigences de l'EMBAG entraînent un passage de l'accès aux données de 'Push' (c'est-à-dire sur demande/commande) à 'Pull' (c'est-à-dire en libre-service).
+Avec l'introduction de la [révision totale de l’ordonnance sur la météorologie et la climatologie (OMét)](https://www.fedlex.admin.ch/fr/consultation-procedures/ended/2023#https://fedlex.data.admin.ch/eli/dl/proj/2022/77/cons_1) - probablement au 1er janvier 2025 - MétéoSuisse exonérera des émoluments les données collectées sur mandat légal et mettra ainsi en œuvre l'accès aux données ouvertes, comme l'exige la [loi fédérale sur l’utilisation de moyens électroniques pour l’exécution des tâches des autorités (LMETA)](https://www.fedlex.admin.ch/eli/cc/2023/682/fr). La compatibilité souhaitée par MétéoSuisse avec la directive de l'UE ['High Value Datasets (HVD)' (voir annexe, chapitre 3. «Météorologique»)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1) et les exigences de la LMETA entraînent un passage de l'accès aux données de 'Push' (c'est-à-dire sur demande/commande) à 'Pull' (c'est-à-dire en libre-service).
 
-Depuis des décennies, MétéoSuisse met à disposition des données météorologiques et climatologiques au niveau international, européen et national. Depuis 2012, MétéoSuisse a en outre [acquis de l'expérience dans la mise à disposition de données ouvertes (cf. jeux de données commençant par « ch.meteoschweiz... »)](https://data.geo.admin.ch/). Pour ce faire, MétéoSuisse utilise l'infrastructure fédérale de données géographiques IFDG, gérée par swisstopo.
+Depuis des décennies, MétéoSuisse met à disposition des données météorologiques et climatologiques au niveau international, européen et national. Depuis 2012, MétéoSuisse a en outre [acquis de l'expérience dans la mise à disposition de données ouvertes (cf. jeux de données commençant par «ch.meteoschweiz...»)](https://data.geo.admin.ch/). Pour ce faire, MétéoSuisse utilise l’[Infrastructure fédérale de données géographiques IFDG](https://www.geo.admin.ch/fr/conditions-generales-utilisation-ifdg), gérée par [swisstopo](https://www.swisstopo.admin.ch/fr).
 
 L'accès aux données ouvertes doit être revu et simplifié afin que les personnes ayant des connaissances différentes en matière de technique de données et de météorologie puissent trouver sans peine les données souhaitées. Des descriptions orientées vers les applications et des informations contextuelles les aident à évaluer si, et dans quelles conditions, quelles données conviennent à une application souhaitée.
 
@@ -95,13 +95,13 @@ de faire en sorte que la mise à disposition de toutes les données ouvertes ref
 **Notre stratégie** pour la version 1.0 est, 
 de permettre à tous les utilisateurs de télécharger des données ouvertes sous forme de fichiers via l'API STAC de l'IFDG.
 
-La mise à disposition OGD de MétéoSuisse dans la version 1.0 répond ainsi à l'exigence de la directive HVD de l'UE de « mettre à disposition des jeux de données (...) par téléchargement de masse (...) en vue de leur réutilisation » ([Annexe, chapitre 3.2. a](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1)). L'exigence de rendre les jeux de données également disponibles via des API sera mise en œuvre par MétéoSuisse au cours d'une étape ultérieure.
+La mise à disposition OGD de MétéoSuisse dans la version 1.0 répond ainsi à l'exigence de la directive HVD de l'UE de mettre à disposition des «ensembles de données en vue de leur réutilisation (...) sous la forme d’un téléchargement en masse» ([Annexe, chapitre 3.2. a](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1)). L'exigence de rendre les jeux de données également disponibles par l’intermédiaire d’API sera mise en œuvre par MétéoSuisse au cours d'une étape ultérieure.
 
 **Nos principaux résultats** pour la version 1.0 sont les suivants :
-1. à partir des systèmes sources des différents types de données (données des stations au sol et observations, données climatiques, données radar, données de prévision, données atmosphériques), les [produits OGD définis avec les spécialistes correspondants](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#21-overview-of-data-types-to-be-made-available-as-open-data) et leurs 'File Metadata' sont générés en permanence sous forme de fichiers.
-2. tous les fichiers sont transférés en permanence sur les 'collections' définies dans l'API STAC de l'IFDG et enregistrés comme 'assets' pour les 'items' correspondants.
-3. un jeu de données 'Discovery Metadata' correspondant est créé pour chaque 'Collection' dans le catalogue de géométadonnées [geocat.ch](https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home). Geocat.ch intègre les 'Discovery Metadata' dans le catalogue de métadonnées OGD des autorités suisses [opendata.swiss](https://opendata.swiss), et opendata.swiss dans le catalogue de métadonnées OGD européen [data.europa.eu](https://data.europa.eu/).
-4. les utilisateurs peuvent télécharger manuellement un ou plusieurs fichiers via une WebGUI auprès de MétéoSuisse ou les consulter de manière automatisée via l'API STAC de l'IFDG.
+1. A partir des systèmes sources des différents types de données (données de stations au sol et observations, données climatiques et analyses spatiales du climat, données radar, données en prévision, données atmosphériques), les [produits OGD spécifiés avec les spécialistes correspondants](#21-overview-of-data-types-to-be-made-available-as-open-data) et leurs 'File Metadata' sont générés en permanence sous forme de fichiers.
+2. Tous les fichiers sont transférés en permanence sur les 'collections' définies dans l'API STAC de l'IFDG et enregistrés comme 'assets' pour les 'items' correspondants.
+3. Un jeu de données 'Discovery Metadata' correspondant est créé pour chaque 'collection' dans le catalogue de géométadonnées [geocat.ch](https://www.geocat.ch/geonetwork/srv/fre/catalog.search#/home). Geocat.ch intègre les 'Discovery Metadata' dans le catalogue de métadonnées OGD de l’administration publique suisse [opendata.swiss](https://opendata.swiss/fr), et opendata.swiss dans le catalogue de métadonnées OGD européen [data.europa.eu](https://data.europa.eu/fr).
+4. Les utilisateurs peuvent télécharger manuellement un ou plusieurs fichiers via une WebGUI auprès de MétéoSuisse ou les obtenir de manière automatisée via l'API STAC de l'IFDG.
 
 **Nos principaux groupes d'utilisateurs** pour la version 1.0 sont :
 1. les personnes ayant peu de connaissances météorologiques et différentes connaissances techniques en matière de données,
@@ -117,25 +117,25 @@ La mise à disposition OGD de MétéoSuisse dans la version 1.0 répond ainsi à
 1. Version Beta - Développer des composants individuels en tant que prototype afin de prendre des décisions importantes et d'évaluer les risques.
 2. Version 1.0 - **Réaliser les fonctionnalités absolument nécessaires** pour le lancement et mettre à disposition des produits OGD.
 3. Ensuite - Mettre à disposition d'autres produits OGD définis.
-4. Plus tard - Réaliser d'autres fonctionnalités (notamment l'acquisition de données via API).
+4. Plus tard - Réaliser d'autres fonctionnalités (notamment consulter les données par un 'API features').
 
 **La feuille de route du service OGD** <br>.
 Les fonctionnalités principales pour les utilisateurs ainsi que les produits de données OGD (avec les numéros de produits OGD) sont indiqués.
 
 | Version Beta | Version 1.0 | Ensuite | Plus tard |
 | :----------- | :---------- | :----------- | :----- |
-| Télécharger manuellement un ou plusieurs fichiers via 'WebGUI' | | Obtenir des données sélectionnées via 'API Features' |
-| Relever un ou plusieurs fichiers de manière automatisée via l'API STAC de l'IFDG | | |
-| | **Valeurs mesurées:** <br> [Stations météorologiques automatiques, stations pluviométriques, stations de la couche limite](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Stations pluviométriques manuelles et à totalisateur](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Stations polliniques](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosondages](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#241-radio-soundings-radiosounding) (12) | | 
-| | **Observations:** <br> [Observations météorologiques oculaires](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#233-visual-observations-obs) (06) <br> [Observations phénologiques](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#236-phenological-observations-phenology) (11) | | 
-| | **Mesures homogènes:** <br> [Stations climatiques et stations climatiques de précipitations](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) (07, 08) | | 
-| | **Données de grille:** <br> [Données climatiques spatiales basées sur le sol et les satellites](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#261-spatial-climate-data) (16, 17) | |
-| | **Données de grille:** <br> [Données radar de base et avancées](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#262-radar-and-combiprecip-data) (18, 19) <br> [Calculs combinés des précipitations](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#2623-combiprecip-data) (20) | | 
-| | **Données de grille:** <br> [Données de prévision à court terme](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#251-inca-data-nowcasting) (13) <br> [Données de prévision](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#252-cosmoicon-data-forecasting) (14) | | 
-| | **Données ponctuelles:** <br> [Données de prévisions locales](https://github.com/MeteoSwiss/publication-opendata/tree/main?tab=readme-ov-file#253-postprocessed-local-forecast-data-data4web) (15) | | 
+| Télécharger manuellement un ou plusieurs fichiers via 'WebGUI' | | Consulter des données sélectionnées par un 'API Features' |
+| Obtenir un ou plusieurs fichiers de manière automatisée via l'API STAC de l'IFDG | | |
+| | **Valeurs mesurées:** <br> [Stations automatiques météorologiques, pluviométriques et de la couche limite](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Stations manuelles pluviométriques et totalisateur](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Stations pollen](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosondages](#241-radio-soundings-radiosounding) (12) | | 
+| | **Observations:** <br> [Observations visuelles météorologiques](#233-visual-observations-obs) (06) <br> [Observations phénologiques](#236-phenological-observations-phenology) (11) | | 
+| | **Valeurs mesurées homogénéisées:** <br> [Stations climatiques et stations climatiques de précipitations](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) (07, 08) | | 
+| | **Données matricielles:** <br> [Données climatiques spatiales basées sur le sol et les satellites](#261-spatial-climate-data) (16, 17) | |
+| | **Données matricielles:** <br> [Données radar de base et avancées](#262-radar-and-combiprecip-data) (18, 19) <br> [Calculs combinés des précipitations](#2623-combiprecip-data) (20) | | 
+| | **Données matricielles:** <br> [Données de prévisions à court terme](#251-inca-data-nowcasting) (13) <br> [Données de prévisions](#252-cosmoicon-data-forecasting) (14) | | 
+| | **Données ponctuelles:** <br> [Données de prévisions locales](#253-postprocessed-local-forecast-data-data4web) (15) | | 
 
 > [!NOTE]
-> La planification est actualisée en permanence et peut être modifiée en conséquence. A partir de juillet 2024, elle sera disponible par étapes pour les [produits de données](https://github.com/MeteoSwiss/publication-opendata/blob/main/README.md#21-overview-of-data-types-to-be-made-available-as-open-data) et sera communiquée ici en conséquence.
+> La planification est actualisée en permanence et peut être modifiée en conséquence. A partir de juillet 2024, elle sera disponible par étapes pour les [produits de données](#21-overview-of-data-types-to-be-made-available-as-open-data) et sera communiquée ici en conséquence.
 
 ## Contact avec le projet
 
