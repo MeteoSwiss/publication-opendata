@@ -71,7 +71,7 @@ Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OG
 
 Für alle Fragen zum Projekt, wenden Sie sich bitte an: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
 
-Bleiben Sie auf dem Laufenden und [abonnieren](..) Sie unseren OGD-Newsletter, indem sie auf den Link klicken. Oder senden Sie ein E-Mail an [ogd-news(at)news.meteoswiss.ch](mailto:ogd-news@news.meteoswiss.ch) mit dem Betreff 'JOIN ogd_list'.
+<!-- Bleiben Sie auf dem Laufenden und [abonnieren](..) Sie unseren OGD-Newsletter, indem sie auf den Link klicken. Oder senden Sie ein E-Mail an [ogd-news(at)news.meteoswiss.ch](mailto:ogd-news@news.meteoswiss.ch) mit dem Betreff 'JOIN ogd_list'. -->
 
 ---
 
