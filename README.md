@@ -82,12 +82,7 @@ Ab hier weiter auf Englisch | A partir d'ici, en anglais | Da qui in poi in ingl
 ## 1. Context and mission of the project
 Jump to the [introduction in English above]().
 
-<--
-> **Finding out, collecting, analysing and weighting user needs** is the central way for the project team to be able to offer good 'Open Data products'.
-> Thank you very much for your attention and your openness to enter into an exchange with us on this matter.
-
-According to the current schedule the implementation may be expected during early 2025.
--->
+<-- **Finding out, collecting, analysing and weighting user needs** is the central way for the project team to be able to offer good 'Open Data products'. Thank you very much for your attention and your openness to enter into an exchange with us on this matter. -->
 
 ### 1.1. Purpose of this repository
 This repository is used by MeteoSwiss' project team to inform potential users interested in Open Data about the plans and to receive specific feedback from them on proposals.
