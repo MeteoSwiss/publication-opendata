@@ -79,9 +79,9 @@ Ab hier weiter auf Englisch | A partir d'ici, en anglais | Da qui in poi in ingl
 
 # Specification of OGD data products and sample data
 
-## Table of contents
+<!-- ## Table of contents
 
-<!-- 1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-the-project) -->
+1. [Context and mission of the project](https://github.com/MeteoSwiss/publication-opendata/tree/master#1-context-and-mission-of-the-project) -->
     - 1.1. [Purpose of this repository](https://github.com/MeteoSwiss/publication-opendata/tree/master#11-purpose-of-this-repository)
     - 1.2. [Questions to the Open Data user community](https://github.com/MeteoSwiss/publication-opendata/tree/master#12-questions-to-the-open-data-user-community)
     - 1.3. [General contact point](https://github.com/MeteoSwiss/publication-opendata/tree/master#13-general-contact-point)
@@ -123,12 +123,14 @@ Ab hier weiter auf Englisch | A partir d'ici, en anglais | Da qui in poi in ingl
             - 2.6.2.1. [Basic radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2621-basic-radar-data)
             - 2.6.2.2. [Advanced radar data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2622-advanced-radar-data)
             - 2.6.2.3. [CombiPrecip data](https://github.com/MeteoSwiss/publication-opendata/tree/main#2623-combiprecip-data)
-    - 2.7. [Warning data](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data)
+    - 2.7. [Warning data](https://github.com/MeteoSwiss/publication-opendata/tree/main#27-warning-data) -->
 <!-- 3. [Roadmap of MeteoSwiss' OGD service](https://github.com/MeteoSwiss/publication-opendata/tree/master#3-roadmap-of-meteoswiss-ogd-service) -->
 
 
-<!-- ## 1. Context and mission of the project
-In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
+## 1. Context and mission of the project
+Jump to the [introduction in English above]().
+
+<!-- In order to legally implement the [Federal Act on the use of electronic means for the performance of official duties' (EMBAG)](https://www.meteoswiss.admin.ch/about-us/remit-and-legal-mandate.html) the overall revision of the Ordinance on Meteorology and Climatology (MetV; SR 429.11) is now pending.
 
 In the current year (2023) the necessary technical and organizational measures for the implementation of Open Government Data (OGD) at [MeteoSwiss](https://www.meteoswiss.admin.ch/about-us/portrait.html) are being tackled within the scope of a project.
 
