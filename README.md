@@ -259,7 +259,31 @@ The OGD provision of MeteoSwiss in version 1.0 thus fulfils the requirement of t
 1. Beta version - Develop individual components as prototypes to make important decisions and assess risks
 2. Version 1.0 - Realise functionalities and provide OGD products **absolutely necessary for the launch**
 3. Next - Provide further defined OGD products
-4. Later - Realise further functionalities (e.g. to query data via API features)
+4. Later - Realise further functionalities (including querying data via API features)
+
+**Roadmap of the OGD service** <br>
+Listed are the main functionalities for users and the OGD data products (with OGD product numbers).
+
+| Beta version | Version 1.0 | Next | Later |
+| :----------- | :---------- | :----------- | :----- |
+| Manually download single or multiple files via a WebGUI | | Query selected data via an API features | |
+| Obtain single or multiple files automatically via the STAC API of the FSDI | | | |
+| | **Measured values: ** <br> [Automatic weather stations, precipitation stations, boundary layer stations](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manual and totaliser precipitation stations](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollen stations](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosoundings](#241-radio-soundings-radiosounding) (12) | | | 
+**Observations:** <br> [Meteorological visual observations](#233-visual-observations-obs) (06) <br> [Phenological observations](#236-phenological-observations-phenology) (11) | | | | 
+**Homogeneous measured values:** <br> [Climate stations and precipitation-climate stations](#234-climate-stations-swiss-nbcn-nbcn-nbcn-nbcn-precip) (07, 08) | | | | 
+**Grid data:** <br> [Ground and satellite-based spatial climate data](#261-spatial-climate-data) (16, 17) | | | |
+| | **Grid data:** <br> [Basic and extended radar data](#262-radar-and-combiprecip-data) (18, 19) <br> [Combined precipitation calculations](#2623-combiprecip-data) (20) | | | | 
+**Grid data:** <br> [Short-term forecast data](#251-inca-data-nowcasting) (13) <br> [Forecast data](#252-cosmoicon-data-forecasting) (14) | | | | 
+| | **Point data:** <br> [Local forecast data](#253-postprocessed-local-forecast-data-data4web) (15) | | | 
+
+> [!NOTE]
+> The planning is continuously updated and may change accordingly. From July 2024, it will be available in stages for the [data products](#21-overview-of-data-types-to-be-made-available-as-open-data) and communicated here accordingly.
+
+## Contact for the project
+
+For all questions about the project, please contact: [opendata(at)meteoswiss.ch](mailto:opendata@meteoswiss.ch)
+
+<!-- Stay up to date and [subscribe](..) to our OGD newsletter by clicking on the link. Or send an e-mail to [ogd-news(at)news.meteoswiss.ch](mailto:ogd-news@news.meteoswiss.ch) with the subject 'JOIN ogd_list'. -->
 
 ---
 
