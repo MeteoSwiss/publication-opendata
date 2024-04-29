@@ -257,7 +257,7 @@ The OGD provision of MeteoSwiss in version 1.0 thus fulfils the requirement of t
 
 ---
 
-Ab hier weiter auf Englisch | A partir d'ici, en anglais | Da qui in poi in inglese
+Ab hier nur auf Englisch | A partir d'ici, uniquement en anglais | Da qui in poi solo in inglese
 
 # Specification of OGD data products and sample data
 
