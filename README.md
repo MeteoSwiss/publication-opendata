@@ -5,7 +5,7 @@
 
 [En français](#contexte-et-principaux-défis) | [In italiano](#contesto-e-sfide-principali) | [In English](#background-and-key-challenges)
 
-# Willkommen beim 'Open Government Data (OGD)'-Service von MeteoSchweiz
+# Willkommen bei der Bereitstellung von 'Open Government Data (OGD)' von MeteoSchweiz
 
 ## Hintergrund und zentrale Herausforderungen
 
@@ -49,7 +49,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 3. Als nächstes - Weitere definierte OGD-Produkte bereitstellen
 4. Später - Weitere Funktionalitäten (u.a. Daten abfragen via API-Features) realisieren
 
-**Roadmap des OGD-Service** <br>
+**Roadmap der OGD-Bereitstellung** <br>
 Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (mit OGD-Produktnummern).
 
 | Beta-Version | Version 1.0 | Als nächstes | Später |
@@ -75,7 +75,7 @@ Für alle Fragen zum Projekt, wenden Sie sich bitte an: [opendata(at)meteoswiss.
 
 ---
 
-# Bienvenue au service 'Open Government Data (OGD)' de MétéoSuisse
+# Bienvenue à la mise à disposition 'Open Government Data (OGD)' de MétéoSuisse
 
 ## Contexte et principaux défis
 
@@ -119,7 +119,7 @@ La mise à disposition OGD de MétéoSuisse dans la version 1.0 répond ainsi à
 3. Ensuite - Mettre à disposition d'autres produits OGD définis.
 4. Plus tard - Réaliser d'autres fonctionnalités (notamment consulter les données par un 'API features').
 
-**La feuille de route du service OGD** <br>.
+**La feuille de route de la mise à disposition OGD** <br>.
 Les fonctionnalités principales pour les utilisateurs ainsi que les produits de données OGD (avec les numéros de produits OGD) sont indiqués.
 
 | Version Beta | Version 1.0 | Ensuite | Plus tard |
@@ -145,7 +145,7 @@ Pour toute question concernant le projet, veuillez vous adresser à : [opendata(
 
 ---
 
-# Benvenuti al servizio “Open Government Data (OGD)” di MeteoSvizzera
+# Benvenuti nell'offerta “Open Government Data (OGD)” di MeteoSvizzera
 
 ## Contesto e sfide principali
 
@@ -191,7 +191,7 @@ La fornitura di OGD di MeteoSvizzera nella versione 1.0 soddisfa quindi il requi
 3. Successiva - Fornire prodotti OGD ulteriormente definiti
 4. Più tardi - Realizzare ulteriori funzionalità (compreso il reperimento dei dati tramite 'API Features')
 
-**Roadmap del servizio OGD** <br>
+**Roadmap dell'offerta OGD** <br>
 Sono elencate le principali funzionalità per gli utenti e i prodotti OGD (con i numeri dei prodotti OGD).
 
 | Versione Beta | Versione 1.0 | Successiva | Più tardi |
@@ -217,7 +217,7 @@ Per tutte le domande sul progetto, si prega di contattare: [opendata(at)meteoswi
 
 ---
 
-# Welcome to the 'Open Government Data (OGD)' service from MeteoSwiss
+# Welcome to the 'Open Government Data (OGD)' provision of MeteoSwiss
 
 ## Background and key challenges
 
@@ -261,7 +261,7 @@ The OGD provision of MeteoSwiss in version 1.0 thus fulfils the requirement of t
 3. Next - Provide further defined OGD products
 4. Later - Realise further functionalities (including querying data via API features)
 
-**Roadmap of the OGD service** <br>
+**Roadmap of the OGD provision** <br>
 Listed are the main functionalities for users and the OGD data products (with OGD product numbers).
 
 | Beta version | Version 1.0 | Next | Later |
