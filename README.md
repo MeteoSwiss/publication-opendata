@@ -269,15 +269,15 @@ Listed are the main functionalities for users and the OGD data products (with OG
 | Manually download single or multiple files via a WebGUI | | Query selected data via an API features | |
 | Obtain single or multiple files automatically via the STAC API of the FSDI | | | |
 | | **Measured values: ** <br> [Automatic weather stations, precipitation stations, boundary layer stations](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manual and totaliser precipitation stations](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollen stations](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosoundings](#241-radio-soundings-radiosounding) (12) | | | 
-**Observations:** <br> [Meteorological visual observations](#233-visual-observations-obs) (06) <br> [Phenological observations](#236-phenological-observations-phenology) (11) | | | | 
-**Homogeneous measured values:** <br> [Climate stations and precipitation-climate stations](#234-climate-stations-swiss-nbcn-nbcn-nbcn-nbcn-precip) (07, 08) | | | | 
-**Grid data:** <br> [Ground and satellite-based spatial climate data](#261-spatial-climate-data) (16, 17) | | | |
-| | **Grid data:** <br> [Basic and extended radar data](#262-radar-and-combiprecip-data) (18, 19) <br> [Combined precipitation calculations](#2623-combiprecip-data) (20) | | | | 
-**Grid data:** <br> [Short-term forecast data](#251-inca-data-nowcasting) (13) <br> [Forecast data](#252-cosmoicon-data-forecasting) (14) | | | | 
+| | **Observations:** <br> [Meteorological visual observations](#233-visual-observations-obs) (06) <br> [Phenological observations](#236-phenological-observations-phenology) (11) | | |
+| | **Homogeneous measured values:** <br> [Climate stations and precipitation-climate stations](#234-climate-stations-swiss-nbcn-nbcn-nbcn-nbcn-precip) (07, 08) | | | 
+| | **Grid data:** <br> [Ground and satellite-based spatial climate data](#261-spatial-climate-data) (16, 17) | | | |
+| | **Grid data:** <br> [Basic and extended radar data](#262-radar-and-combiprecip-data) (18, 19) <br> [Combined precipitation calculations](#2623-combiprecip-data) (20) | | |
+| | **Grid data:** <br> [Short-term forecast data](#251-inca-data-nowcasting) (13) <br> [Forecast data](#252-cosmoicon-data-forecasting) (14) | | | 
 | | **Point data:** <br> [Local forecast data](#253-postprocessed-local-forecast-data-data4web) (15) | | | 
 
 > [!NOTE]
-> The planning is continuously updated and may change accordingly. From July 2024, it will be available in stages for the [data products](#21-overview-of-data-types-to-be-made-available-as-open-data) and communicated here accordingly.
+> The planning is continuously updated and may change accordingly. From July 2024, it will be available on a staged basis for the [data products](#21-overview-of-data-types-to-be-made-available-as-open-data) and communicated here accordingly.
 
 ## Contact for the project
 
