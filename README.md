@@ -253,7 +253,16 @@ The OGD provision of MeteoSwiss in version 1.0 thus fulfils the requirement of t
 > [!NOTE]
 > Our user base is very broad and diverse. We have chosen this rough grouping to prioritise the functionalities as well as the application-oriented descriptions and context information of the data. The groups are listed from top to bottom according to their number (many > few).
 
+## Strategy and release planning
 
+**Strategy for prioritisation**
+1. Beta version - Develop individual components as prototypes to make important decisions and assess risks
+2. Version 1.0 - Realise functionalities and provide OGD products **absolutely necessary for the launch**
+3. Next - Provide further defined OGD products
+4. Later - Realise further functionalities (e.g. to query data via API features)
+
+**Roadmap des OGD-Service** <br>
+Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (mit OGD-Produktnummern).
 
 ---
 
