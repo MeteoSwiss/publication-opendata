@@ -261,9 +261,6 @@ The OGD provision of MeteoSwiss in version 1.0 thus fulfils the requirement of t
 3. Next - Provide further defined OGD products
 4. Later - Realise further functionalities (e.g. to query data via API features)
 
-**Roadmap des OGD-Service** <br>
-Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (mit OGD-Produktnummern).
-
 ---
 
 Ab hier nur auf Englisch | A partir d'ici, uniquement en anglais | Da qui in poi solo in inglese
