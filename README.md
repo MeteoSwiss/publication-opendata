@@ -20,7 +20,7 @@ Der Zugang zu offenen Daten soll überarbeitet und vereinfacht werden, so dass M
 ### Unsere Vision ist, dass jedeR die richtigen offenen meteorologischen und klimatologischen Daten von MeteoSchweiz leicht finden und nutzen kann. Wir garantieren maximale Kompatibilität mit den offenen Daten der europäischen und internationalen Partnerbehörden.
 
 **Unsere Mission** ist, 
-die Bereitstellung aller offenen Daten so zu gestalten, dass sie dieselbe Zuverlässigkeit und Sorgfalt widerspiegeln, die MeteoSchweiz den Menschen und Organisationen entgegenbringt, denen sie heute bereits dient.
+die Bereitstellung von offenen Daten für Menschen und Organisationen mit derselben Zuverlässigkeit und Sorgfalt zu gestalten, die sie von MeteoSchweiz bereits gewohnt sind.
 
 **Unsere Strategie** für die Version 1.0 ist, 
 allen Nutzerinnen und Nutzern zu ermöglichen, offene Daten als Files via die STAC-API der BGDI herunterzuladen.
@@ -90,7 +90,7 @@ L'accès aux données ouvertes doit être revu et simplifié afin que les person
 ### Notre vision est que chacun puisse trouver et utiliser facilement les données météorologiques et climatologiques ouvertes appropriées de MétéoSuisse. Nous garantissons une compatibilité maximale avec les données ouvertes des autorités partenaires européennes et internationales.
 
 **Notre mission** est, 
-de faire en sorte que la mise à disposition de toutes les données ouvertes reflète la même fiabilité et le même soin que MétéoSuisse apporte aux personnes et aux organisations qu'il sert déjà aujourd'hui.
+de mettre à la disposition des personnes et des organisations des données ouvertes avec la même fiabilité et le même soin que ceux auxquels MétéoSuisse les a déjà habituées.
 
 **Notre stratégie** pour la version 1.0 est, 
 de permettre à tous les utilisateurs de télécharger des données ouvertes sous forme de fichiers via l'API STAC de l'IFDG.
@@ -162,7 +162,7 @@ L'accesso ai dati aperti deve essere rivisto e semplificato in modo che persone 
 ### La nostra visione è che tutti possano facilmente trovare e utilizzare i giusti dati meteorologici e climatologici aperti di MeteoSvizzera. Garantiamo la massima compatibilità con i dati aperti delle autorità partner europee e internazionali.
 
 **La nostra missione** è, 
-rendere disponibili tutti i dati aperti in modo che riflettano la stessa affidabilità e cura che MeteoSvizzera fornisce alle persone e alle organizzazioni che già oggi serve.
+fornire dati aperti a persone e organizzazioni con la stessa affidabilità e cura a cui sono già abituati da MeteoSvizzera.
 
 **La nostra strategia** per la versione 1.0 è, 
 consentire a tutti gli utenti di scaricare i dati aperti come file attraverso l'API STAC del IFDG.
@@ -232,7 +232,7 @@ Access to open data must be revised and simplified so that people with different
 ### Our vision is that everyone can easily find and use the right open meteorological and climatological data from MeteoSwiss. We guarantee maximum compatibility with the open data of European and international partner agencies.
 
 **Our mission** is, 
-to make all open data available in such a way that it reflects the same reliability and care that MeteoSwiss provides to the people and organisations it already serves today.
+to provide open data to people and organisations with the same reliability and care that they are already accustomed to from MeteoSwiss.
 
 **Our strategy** for version 1.0 is, 
 to enable all users to download open data as files via the STAC API of the FSDI.
