@@ -267,7 +267,7 @@ Listed are the main functionalities for users and the OGD data products (with OG
 | Beta version | Version 1.0 | Next | Later |
 | :----------- | :---------- | :----------- | :----- |
 | Manually download single or multiple files via a WebGUI | | Query selected data via an API features | |
-| Obtain single or multiple files automatically via the STAC API of the FSDI | | | |
+| Obtain single or multiple files automatically via the STAC API of the FSDI | | |
 | | **Measured values: ** <br> [Automatic weather stations, precipitation stations, boundary layer stations](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manual and totaliser precipitation stations](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollen stations](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosoundings](#241-radio-soundings-radiosounding) (12) | | | 
 | | **Observations:** <br> [Meteorological visual observations](#233-visual-observations-obs) (06) <br> [Phenological observations](#236-phenological-observations-phenology) (11) | | |
 | | **Homogeneous measured values:** <br> [Climate stations and precipitation-climate stations](#234-climate-stations-swiss-nbcn-nbcn-nbcn-nbcn-precip) (07, 08) | | | 
