@@ -217,6 +217,46 @@ Per tutte le domande sul progetto, si prega di contattare: [opendata(at)meteoswi
 
 ---
 
+# Welcome to the 'Open Government Data (OGD)' service from MeteoSwiss
+
+## Background and key challenges
+
+With the introduction of the [Totalrevision der Verordnung über die Meteorologie und Klimatologie (MetV)](https://www.fedlex.admin.ch/de/consultation-procedures/ended/2023#https://fedlex.data.admin.ch/eli/dl/proj/2022/77/cons_1) - expected on 1 January 2025 - MeteoSwiss will exempt the data collected under the legal mandate from fees and thus implement access to open data, as required by the [Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG)](https://www.fedlex.admin.ch/eli/cc/2023/682/de). The compatibility with the EU's ['High Value Datasets (HVD)' Directive (see Annex, Chapter 3. ‘Meteorological’)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1) that MeteoSwiss is striving for and the requirements of EMBAG are leading to a change in data access from 'push' (i.e. on request/order) to 'pull' (i.e. via self-service).
+
+MeteoSwiss has been providing meteorological and climatological data at international, European and national level for decades. Since 2012, MeteoSwiss has also [built up experience with the provision of open data (see datasets beginning with ‘ch.meteoschweiz...’)](https://data.geo.admin.ch/). To this end, MeteoSwiss uses the [Federal Spatial Data Infrastructure FSDI](https://www.geo.admin.ch/en/general-terms-of-use-fsdi), which is operated by [swisstopo](https://www.swisstopo.admin.ch/en).
+
+Access to open data must be revised and simplified so that people with different levels of data technology and meteorological knowledge can easily find the required data. Application-orientated descriptions and contextual information help them to assess whether and under what conditions which data is suitable for a particular application.
+
+## Vision, mission and strategy for version 1.0
+
+### Our vision is that everyone can easily find and use the right open meteorological and climatological data from MeteoSwiss. We guarantee maximum compatibility with the open data of European and international partner agencies.
+
+**Our mission** is, 
+to make all open data available in such a way that it reflects the same reliability and care that MeteoSwiss provides to the people and organisations it already serves today.
+
+**Our strategy** for version 1.0 is, 
+to enable all users to download open data as files via the STAC API of the FSDI.
+
+The OGD provision of MeteoSwiss in version 1.0 thus fulfils the requirement of the EU's HVD Directive to make ‘datasets (...) available for re-use (...) through bulk download’ ([Annex, Chapter 3.2. a](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1)). The requirement to make datasets also available via APIs will be implemented by MeteoSwiss in a later implementation stage.
+
+**Our primary outcomes** for version 1.0 include:
+1. From the source systems of the various data types (ground station data and observations, climate data and spatial climate analyses, radar data, forecast data, atmospheric data), the OGD products [specified together with the corresponding specialists](#21-overview-of-data-types-to-be-made-available-as-open-data) and their 'file metadata' are continuously generated as files.
+2. All files are continuously transferred to the defined 'collections' in the STAC API of the FSDI and stored as 'assets' for the corresponding 'items'.
+3. For each collection, a corresponding 'discovery metadata' dataset is created in the geometadata catalogue [geocat.ch](https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/home). Geocat.ch integrates the 'discovery metadata' into the OGD metadata catalogue of the Swiss authorities [opendata.swiss](https://opendata.swiss/en), and opendata.swiss into the European OGD metadata catalogue [data.europa.eu](https://data.europa.eu/en).
+4. Users can download one or more files manually from MeteoSwiss via a WebGUI or obtain them automatically via the STAC API of the FSDI.
+
+**Our primary users** for version 1.0 include:
+1. People with little meteorological knowledge and varying levels of technical data knowledge,
+2. People with medium meteorological knowledge and varying levels of technical data knowledge,
+3. People with high meteorological and technical data knowledge.
+
+> [!NOTE]
+> Our user base is very broad and diverse. We have chosen this rough grouping to prioritise the functionalities as well as the application-oriented descriptions and context information of the data. The groups are listed from top to bottom according to their number (many > few).
+
+
+
+---
+
 Ab hier weiter auf Englisch | A partir d'ici, en anglais | Da qui in poi in inglese
 
 # Specification of OGD data products and sample data
