@@ -3,7 +3,7 @@
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master) -->
 
-[En français](#contexte-et-principaux-défis) | [In italiano](#contesto-e-sfide-principali) | [In English](#background-and-key-challenges)
+[En français](#contexte-et-principaux-défis) | [In italiano](#contesto-e-sfide-principali) | [In english](#background-and-key-challenges)
 
 # Willkommen bei der Bereitstellung von 'Open Government Data (OGD)' von MeteoSchweiz
 
