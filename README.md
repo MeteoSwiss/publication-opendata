@@ -170,7 +170,7 @@ consentire a tutti gli utenti di scaricare i dati aperti come file attraverso l'
 La fornitura di OGD di MeteoSvizzera nella versione 1.0 soddisfa quindi il requisito della Direttiva HVD dell'UE di mettere a disposizione “le serie di dati (...) per il riutilizzo tramite download in blocco” ([Allegato, capitolo 3.2. a](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1)). MeteoSvizzera implementerà il requisito di rendere disponibili i set di dati anche tramite API Features in una fase di implementazione successiva.
 
 **I nostri risultati più importanti** per la versione 1.0 sono:
-1. Dai sistemi di origine dei vari tipi di dati (dati delle stazioni al suolo e osservazioni, dati climatici e analisi spaziali del clima, dati radar, dati di previsione, dati atmosferici), i prodotti OGD [specificati insieme ai relativi specialisti] (#21-overview-of-data-types-to-be-to-be-made-available-as-open-data) e i loro “File Metadata” sono continuamente generati come file.
+1. Dai sistemi di origine dei vari tipi di dati (dati delle stazioni al suolo e osservazioni, dati climatici e analisi spaziali del clima, dati radar, dati di previsione, dati atmosferici), i prodotti OGD [specificati insieme ai relativi specialisti](#21-overview-of-data-types-to-be-to-be-made-available-as-open-data) e i loro “File Metadata” sono continuamente generati come file.
 2. Tutti i file vengono continuamente trasferiti nelle “Collections” definite nell'API STAC del IFDG e memorizzati come “Assets” per i corrispondenti “Items”.
 3. Per ogni “Collection” viene creato un corrispondente set di dati “Discovery Metadata” nel Catalogo dei Geometadati [geocat.ch](https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/home). Geocat.ch integra i “Discovery Metadata” nel Catalogo dei metadati OGD delle autorità svizzere [opendata.swiss](https://opendata.swiss/it), e opendata.swiss nel Catalogo europeo dei metadati OGD [data.europa.eu](https://data.europa.eu/it).
 4. Gli utenti possono scaricare file singoli o multipli manualmente tramite una WebGUI di MeteoSvizzera o ottenerli automaticamente tramite l'API STAC del IFDG.
@@ -292,7 +292,7 @@ Ab hier nur auf Englisch | A partir d'ici, uniquement en anglais | Da qui in poi
 # Specification of OGD data products and sample data
 
 ## 1. Context and mission of the project
-Jump to the [introduction in English above]().
+Jump to the [introduction in English above](#background-and-key-challenges).
 
 <!-- **Finding out, collecting, analysing and weighting user needs** is the central way for the project team to be able to offer good 'Open Data products'. Thank you very much for your attention and your openness to enter into an exchange with us on this matter. -->
 
