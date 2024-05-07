@@ -59,7 +59,7 @@ Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OG
 |              | **Messwerte:** <br> [Automatische Wetterstationen, Niederschlagsstationen, Grenzschichtstationen](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manuelle und Totalisator-Niederschlagsstationen](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollenstationen](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosondierungen](#241-radio-soundings-radiosounding) (12) |              |        | 
 |              | **Beobachtungen:** <br> [Meteorologische Augenbeobachtungen](#233-visual-observations-obs) (06) <br> [Phänologische Beobachtungen](#236-phenological-observations-phenology) (11) |              |        | 
 |              | **Homogene Messwerte:** <br> [Klimastationen und Niederschlags-Klimastationen](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) (07, 08) |              |        | 
-|              | **Gitterdaten:** <br> [Boden- und satellitengestützte räumliche Klimadaten](#261-spatial-climate-data) (16, 17) |              |        |
+|              | **Gitterdaten:** <br> [Boden- und satellitengestützte räumliche Klimadaten](#261-spatial-climate-data) (16, 17) <br> Radargestützte räumliche Klimadaten (xx) |              |        |
 |              | **Gitterdaten:** <br> [Grundlegende und erweiterte Radardaten](#262-radar-and-combiprecip-data) (18, 19) <br> [Kombinierte Niederschlagsberechnungen](#2623-combiprecip-data) (20) |              |        | 
 |              | **Gitterdaten:** <br> [Kurzfristprognosedaten](#251-inca-data-nowcasting) (13) <br> [Prognosedaten](#252-cosmoicon-data-forecasting) (14) |              |        | 
 |              | **Punktdaten:** <br> [Lokalprognosedaten](#253-postprocessed-local-forecast-data-data4web) (15) |              |        | 
@@ -129,7 +129,7 @@ Les fonctionnalités principales pour les utilisateurs ainsi que les produits de
 | | **Valeurs mesurées:** <br> [Stations automatiques météorologiques, pluviométriques et de la couche limite](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Stations manuelles pluviométriques et totalisateur](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Stations pollen](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosondages](#241-radio-soundings-radiosounding) (12) | | 
 | | **Observations:** <br> [Observations visuelles météorologiques](#233-visual-observations-obs) (06) <br> [Observations phénologiques](#236-phenological-observations-phenology) (11) | | 
 | | **Valeurs mesurées homogénéisées:** <br> [Stations climatiques et stations climatiques de précipitations](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) (07, 08) | | 
-| | **Données matricielles:** <br> [Données climatiques spatiales basées sur le sol et les satellites](#261-spatial-climate-data) (16, 17) | |
+| | **Données matricielles:** <br> [Données climatiques spatiales basées sur le sol et les satellites](#261-spatial-climate-data) (16, 17) <br> Données climatiques spatiales basées sur les radars (xx) | |
 | | **Données matricielles:** <br> [Données radar de base et avancées](#262-radar-and-combiprecip-data) (18, 19) <br> [Calculs combinés des précipitations](#2623-combiprecip-data) (20) | | 
 | | **Données matricielles:** <br> [Données de prévisions à court terme](#251-inca-data-nowcasting) (13) <br> [Données de prévisions](#252-cosmoicon-data-forecasting) (14) | | 
 | | **Données ponctuelles:** <br> [Données de prévisions locales](#253-postprocessed-local-forecast-data-data4web) (15) | | 
@@ -201,7 +201,7 @@ Sono elencate le principali funzionalità per gli utenti e i prodotti OGD (con i
 | | **Valori misurati:** <br> [Stazioni meteorologiche automatiche, pluviometriche automatiche e dello strato limite automatiche](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Stazioni pluviometriche manuali e di precipitazione totalizzatori](#232-stazioni-manuali-di-precipitazione-nime-tot) (04, 05) <br> [Stazioni pollini](#235-stazioni-svizzere-di-monitoraggio-polline) (10) <br> [Radiosondaggi](#241-radio-sondaggi-radiosondaggi) (12) | | | 
 | | **Osservazioni:** <br> [Osservazione visuale meteorologiche](#233-osservazioni-visive-obs) (06) <br> [Osservazioni fenologiche](#236-osservazioni-fenologia) (11) | | | 
 | | **Valori misurati omogeneizzati:** <br> [Stazioni climatologiche e climatologiche pluviometriche](#234-stazioni-climatiche-swiss-nbcn-nbcn-nbcn-precip) (07, 08) | | |
-| | **Dati a matrice:** <br> [Dati climatici spaziali da terra e da satellite](#261-spatial-climate-data) (16, 17) | | |
+| | **Dati a matrice:** <br> [Dati climatici spaziali da terra e da satellite](#261-spatial-climate-data) (16, 17) <br> Dati climatici spaziali da radar (xx) | | |
 | | **Dati a matrice:** <br> [Dati radar di base ed avanzati](#262-radar-e-combiprecip-data) (18, 19) <br> [Calcoli di precipitazione combinati](#2623-combiprecip-data) (20) | | |
 | | **Dati a matrice:** <br> [Dati di previsione a breve termine](#251-inca-data-nowcasting) (13) <br> [Dati di previsione](#252-cosmoicon-data-forecasting) (14) | | |
 | | **Dati puntuali:** <br> [Dati delle previsioni locali](#253-postprocessed-local-forecast-data-data4web) (15) | | | 
@@ -271,7 +271,7 @@ Listed are the main functionalities for users and the OGD data products (with OG
 | | **Measured values:** <br> [Automatic weather stations, precipitation stations, boundary layer stations](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manual and totaliser precipitation stations](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollen stations](#235-swiss-pollen-monitoring-stations-pollen) (10) <br> [Radiosoundings](#241-radio-soundings-radiosounding) (12) | | | 
 | | **Observations:** <br> [Meteorological visual observations](#233-visual-observations-obs) (06) <br> [Phenological observations](#236-phenological-observations-phenology) (11) | | |
 | | **Homogeneous measured values:** <br> [Climate stations and precipitation-climate stations](#234-climate-stations-swiss-nbcn-nbcn-nbcn-nbcn-precip) (07, 08) | | | 
-| | **Grid data:** <br> [Ground and satellite-based spatial climate data](#261-spatial-climate-data) (16, 17) | | |
+| | **Grid data:** <br> [Ground and satellite-based spatial climate data](#261-spatial-climate-data) (16, 17) <br> Radar-based spatial climate data (xx) | | |
 | | **Grid data:** <br> [Basic and extended radar data](#262-radar-and-combiprecip-data) (18, 19) <br> [Combined precipitation calculations](#2623-combiprecip-data) (20) | | |
 | | **Grid data:** <br> [Short-term forecast data](#251-inca-data-nowcasting) (13) <br> [Forecast data](#252-cosmoicon-data-forecasting) (14) | | | 
 | | **Point data:** <br> [Local forecast data](#253-postprocessed-local-forecast-data-data4web) (15) | | | 
