@@ -113,13 +113,13 @@ La mise à disposition OGD de MétéoSuisse dans la version 1.0 répond ainsi à
 
 ## Stratégie et planification des versions
 
-**Stratégie de priorisation**.
+**Stratégie de priorisation**
 1. Version Beta - Développer des composants individuels en tant que prototype afin de prendre des décisions importantes et d'évaluer les risques.
 2. Version 1.0 - **Réaliser les fonctionnalités absolument nécessaires** pour le lancement et mettre à disposition des produits OGD.
 3. Ensuite - Mettre à disposition d'autres produits OGD définis.
 4. Plus tard - Réaliser d'autres fonctionnalités (notamment consulter les données par un 'API features').
 
-**La feuille de route de la mise à disposition OGD** <br>.
+**La feuille de route de la mise à disposition OGD** <br>
 Les fonctionnalités principales pour les utilisateurs ainsi que les produits de données OGD (avec les numéros de produits OGD) sont indiqués.
 
 | Version Beta | Version 1.0 | Ensuite | Plus tard |
