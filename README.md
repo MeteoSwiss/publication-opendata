@@ -51,19 +51,19 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 
 **Roadmap der OGD-Bereitstellung** <br>
 - Hauptfunktionalitäten für Nutzerinnen und Nutzer
-- OGD-Datenprodukte ("Titel - Art der Daten", `STAC Collection Name`)
+- OGD-Datenprodukte (ID, "Titel - Art der Daten", `STAC Collection Name`)
 - "Art der Daten": "Messwerte", "Beobachtungen", "Homogene Messwerte", "Gitterdaten" ODER "Punktdaten"
 
 | Beta-Version | Version 1.0 | Als nächstes |
 | :----------- | :---------- | :----------- |
 | Einzelne oder mehrere Files über die STAC-API der BGDI herunterladen |  Einzelne oder mehrere Files über ein WebGUI zum Download auswählen |              |
-| [Automatische Wetterstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn` <br> [Automatische Niederschlagsstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn-precip` <br> [Automatische Grenzschichtstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn-tower` <br> <br> [Manuelle Niederschlagsstationen – Messwerte](#232-manual-precipitation-stations-nime-tot), `ogd-nime` <br> [Totalisator-Niederschlagsstationen – Messwerte](#232-manual-precipitation-stations-nime-tot), `ogd-tot` <br> <br> [Pollenstationen – Messwerte](#235-swiss-pollen-monitoring-stations-pollen), `ogd-pollen` <br> | [Radiosondierungen – Messwerte](#241-radio-soundings-radiosounding), `ogd-radiosounding` |              |
-| [Meteorologische Augenbeobachtungen](#233-visual-observations-obs), `ogd-obs` <br> <br> [Phänologische Beobachtungen](#236-phenological-observations-phenology), `ogd-phenology` <br> |              |              | 
-| [Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn` <br> [Niederschlags-Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn-precip` <br> |             |              | 
+| M01 [Automatische Wetterstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn` <br> M02 [Automatische Niederschlagsstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn-precip` <br> M03 [Automatische Grenzschichtstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn-tower` <br> <br> M04 [Manuelle Niederschlagsstationen – Messwerte](#232-manual-precipitation-stations-nime-tot), `ogd-nime` <br> M05 [Totalisator-Niederschlagsstationen – Messwerte](#232-manual-precipitation-stations-nime-tot), `ogd-tot` <br> <br> M06 [Pollenstationen – Messwerte](#235-swiss-pollen-monitoring-stations-pollen), `ogd-pollen` <br> | M07 [Radiosondierungen – Messwerte](#241-radio-soundings-radiosounding), `ogd-radiosounding` |              |
+| B01 [Meteorologische Augenbeobachtungen](#233-visual-observations-obs), `ogd-obs` <br> <br> B02 [Phänologische Beobachtungen](#236-phenological-observations-phenology), `ogd-phenology` <br> |              |              | 
+| H01 [Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn` <br> H02 [Niederschlags-Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn-precip` <br> |             |              | 
 |              | **Gitterdaten:** <br> [Boden- und satellitengestützte räumliche Klimadaten](#261-spatial-climate-data) (16, 17) <br> Radargestützte räumliche Klimadaten (xx) <br> |              |
 |              | **Gitterdaten:** <br> [Grundlegende und erweiterte Radardaten](#262-radar-and-combiprecip-data) (18, 19) <br> [Kombinierte Niederschlagsberechnungen](#2623-combiprecip-data) (20) <br> |              | 
-|              | [Kurzfristprognosedaten – Gitterdaten](#251-inca-data-nowcasting), `ogd-nowcasting` <br> <br> [ICON-CH1-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch1` <br> [ICON-CH2-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch2` <br> |              | 
-|              | [Lokalprognosedaten – Punktdaten](#253-postprocessed-local-forecast-data-data4web), `ogd-local-forecasting` <br> <br> [Klimanormwerte – Punktdaten](), `ogd-climate-normals` <br> |              | 
+|              | Gxx [Kurzfristprognosedaten – Gitterdaten](#251-inca-data-nowcasting), `ogd-nowcasting` <br> <br> Gxx [ICON-CH1-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch1` <br> Gxx [ICON-CH2-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch2` <br> |              | 
+|              | P01 [Lokalprognosedaten – Punktdaten](#253-postprocessed-local-forecast-data-data4web), `ogd-local-forecasting` <br> <br> P02 [Klimanormwerte – Punktdaten](), `ogd-climate-normals` <br> |              | 
 
 > [!NOTE]
 > Die Planung wird laufend aktualisiert und kann sich entsprechend ändern. Ab Juli 2024 wird sie für die [Datenprodukte](#21-overview-of-data-types-to-be-made-available-as-open-data) etappiert vorliegen und hier entsprechend kommuniziert.
