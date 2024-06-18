@@ -51,7 +51,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 
 **Roadmap der OGD-Bereitstellung** <br>
 - Hauptfunktionalitäten für Nutzerinnen und Nutzer
-- OGD-Datenprodukte (id: "Titel - Art der Daten", `STAC Collection Name`)
+- OGD-Datenprodukte (id: "Titel - Art der Daten", `STAC collection name`)
 - "Art der Daten": "Messwerte", "Beobachtungen", "Homogene Messwerte", "Gitterdaten" ODER "Punktdaten"
 
 | Beta-Version | Version 1.0 | Als nächstes |
@@ -122,7 +122,9 @@ La mise à disposition OGD de MétéoSuisse dans la version 1.0 répond ainsi à
 4. Plus tard - Réaliser d'autres fonctionnalités (notamment consulter les données par un 'API features').
 
 **La feuille de route de la mise à disposition OGD** <br>
-Les fonctionnalités principales pour les utilisateurs ainsi que les produits de données OGD (avec les numéros de produits OGD) sont indiqués.
+- Fonctionnalités principales pour les utilisateurs
+- Produits de données OGD (id : "Titre - Type de données", `STAC collection name`)
+- "Type de données" : "Valeurs mesurées", "Observations", "Valeurs mesurées homogénéisées", "Données matricielles" OU "Données ponctuelles"
 
 | Version Beta | Version 1.0 | Ensuite | Plus tard |
 | :----------- | :---------- | :----------- | :----- |
@@ -194,7 +196,9 @@ La fornitura di OGD di MeteoSvizzera nella versione 1.0 soddisfa quindi il requi
 4. Più tardi - Realizzare ulteriori funzionalità (compreso il reperimento dei dati tramite 'API Features')
 
 **Roadmap dell'offerta OGD** <br>
-Sono elencate le principali funzionalità per gli utenti e i prodotti OGD (con i numeri dei prodotti OGD).
+- Principali funzionalità per gli utenti
+- Prodotti di dati OGD (id: "Titolo - Tipo di dati", `STAC collection name`)
+- Tipo di dati": "Valori misurati", "Osservazioni", "Valori misurati omogeneizzati", "Dati a matrice" o "Dati puntuali"
 
 | Versione Beta | Versione 1.0 | Successiva | Più tardi |
 | :------------ | :----------- | :--------- | :-------- |
@@ -264,7 +268,9 @@ The OGD provision of MeteoSwiss in version 1.0 thus fulfils the requirement of t
 4. Later - Realise further functionalities (including querying data via API features)
 
 **Roadmap of the OGD provision** <br>
-Listed are the main functionalities for users and the OGD data products (with OGD product numbers).
+- Main functionalities for users
+- OGD data products (id: "Title - Type of data", `STAC collection name`)
+- "Type of data": "Measured values", "Observations", "Homogeneous measured values", "Grid data" OR "Point data"
 
 | Beta version | Version 1.0 | Next | Later |
 | :----------- | :---------- | :----------- | :----- |
