@@ -64,6 +64,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 | gXX: [Grundlegende Radardaten – Gitterdaten](#262-radar-and-combiprecip-data), `ogd-basic-radar` <br> gXX: [Erweiterte Radardaten – Gitterdaten](#262-radar-and-combiprecip-data), `ogd-advanced-radar` <br>  | gXX: [Kombinierte Niederschlagsberechnungen – Gitterdaten](#2623-combiprecip-data), `ogd-combiprecip` <br> |              | 
 | gXX: [Kurzfristprognosedaten – Gitterdaten](#251-inca-data-nowcasting), `ogd-nowcasting` <br> | gXX: [ICON-CH1-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch1` <br> gXX: [ICON-CH2-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch2` <br> |              | 
 |              | p01: [Lokalprognosedaten – Punktdaten](#253-postprocessed-local-forecast-data-data4web), `ogd-local-forecasting` <br> <br> p02: [Klimanormwerte – Punktdaten](), `ogd-climate-normals` <br> |              | 
+|              |              | x01: Klimaszenarien – ..., `ogd-climate-scenario` <br> | 
 
 > [!NOTE]
 > Die Planung wird laufend aktualisiert und kann sich entsprechend ändern. Ab Juli 2024 wird sie für die [Datenprodukte](#21-overview-of-data-types-to-be-made-available-as-open-data) etappiert vorliegen und hier entsprechend kommuniziert.
