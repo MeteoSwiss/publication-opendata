@@ -50,13 +50,13 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 4. Später - Weitere Funktionalitäten (u.a. Daten abfragen via API-Features) realisieren
 
 **Roadmap der OGD-Bereitstellung** <br>
-Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (mit OGD-Produktnummern).
+Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (mit Titel, STAC Collection Name und OGD-Produktnummer).
 
 | Beta-Version | Version 1.0 | Als nächstes | Später |
 | :----------- | :---------- | :----------- | :----- |
 | Einzelne oder mehrere Files über ein WebGUI manuell herunterladen |              |              | Ausgewählte Daten über ein API-Features abfragen |
 | Einzelne oder mehrere Files über die STAC-API der BGDI automatisiert beziehen |              |              |        |
-| **Messwerte:** <br> [Automatische Wetterstationen, Niederschlagsstationen, Grenzschichtstationen](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manuelle und Totalisator-Niederschlagsstationen](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollenstationen](#235-swiss-pollen-monitoring-stations-pollen) (10) | **Messwerte:** <br> [Radiosondierungen](#241-radio-soundings-radiosounding) (12) |              |        | 
+| **Messwerte:** <br> [Automatische Wetterstationen](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn`, 01 <br> Niederschlagsstationen, Grenzschichtstationen](#231-automatic-weather-stations-smn-smn-precip-smn-tower) (01, 02, 03) <br> [Manuelle und Totalisator-Niederschlagsstationen](#232-manual-precipitation-stations-nime-tot) (04, 05) <br> [Pollenstationen](#235-swiss-pollen-monitoring-stations-pollen) (10) | **Messwerte:** <br> [Radiosondierungen](#241-radio-soundings-radiosounding) (12) |              |        | 
 |              | **Beobachtungen:** <br> [Meteorologische Augenbeobachtungen](#233-visual-observations-obs) (06) <br> [Phänologische Beobachtungen](#236-phenological-observations-phenology) (11) |              |        | 
 |              | **Homogene Messwerte:** <br> [Klimastationen und Niederschlags-Klimastationen](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip) (07, 08) |              |        | 
 |              | **Gitterdaten:** <br> [Boden- und satellitengestützte räumliche Klimadaten](#261-spatial-climate-data) (16, 17) <br> Radargestützte räumliche Klimadaten (xx) |              |        |
