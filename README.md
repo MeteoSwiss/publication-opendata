@@ -56,8 +56,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 
 | Beta-Version | Version 1.0 | Als nächstes |
 | :----------- | :---------- | :----------- |
-| Einzelne oder mehrere Files über ein WebGUI manuell herunterladen |              |              |
-| Einzelne oder mehrere Files über die STAC-API der BGDI automatisiert beziehen |              |              |
+| Einzelne oder mehrere Files über die STAC-API der BGDI automatisiert beziehen |  Einzelne oder mehrere Files über ein WebGUI manuell herunterladen |              |
 | [Automatische Wetterstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn` <br> [Automatische Niederschlagsstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn-precip` <br> [Automatische Grenzschichtstationen – Messwerte](#231-automatic-weather-stations-smn-smn-precip-smn-tower), `ogd-smn-tower` <br> [Manuelle Niederschlagsstationen – Messwerte](#232-manual-precipitation-stations-nime-tot), `ogd-nime` <br> [Totalisator-Niederschlagsstationen – Messwerte](#232-manual-precipitation-stations-nime-tot), `ogd-tot` <br> [Pollenstationen – Messwerte](#235-swiss-pollen-monitoring-stations-pollen), `ogd-pollen` | [Radiosondierungen – Messwerte](#241-radio-soundings-radiosounding), `ogd-radiosounding` |              |
 | [Meteorologische Augenbeobachtungen](#233-visual-observations-obs), `ogd-obs` <br> [Phänologische Beobachtungen](#236-phenological-observations-phenology), `ogd-phenology` |              |              | 
 | [Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn` <br> [Niederschlags-Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn-precip` |             |              | 
