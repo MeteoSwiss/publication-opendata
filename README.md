@@ -63,7 +63,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 | g01: [Bodengestützte räumliche Klimadaten – Gitterdaten](#261-spatial-climate-data), `ogd-surface-derived-grid` <br> g02: [Satellitengestützte räumliche Klimadaten – Gitterdaten](#261-spatial-climate-data), `ogd-satellite-derived-grid` <br> | g03: Radargestützte räumliche Klimadaten – Gitterdaten, `ogd-radar-derived-grid` <br> |              |
 | g04: [Grundlegende Radardaten – Gitterdaten](#262-radar-and-combiprecip-data), `ogd-basic-radar` <br> g05: [Erweiterte Radardaten – Gitterdaten](#262-radar-and-combiprecip-data), `ogd-advanced-radar` <br>  | g06: [Kombinierte Niederschlagsberechnungen – Gitterdaten](#2623-combiprecip-data), `ogd-combiprecip` <br> |              | 
 | g07: [Kurzfristprognosedaten – Gitterdaten](#251-inca-data-nowcasting), `ogd-nowcasting` <br> | g08: [ICON-CH1-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch1` <br> g09: [ICON-CH2-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch2` <br> |              | 
-|              | p01: [Lokalprognosedaten – Punktdaten](#253-postprocessed-local-forecast-data-data4web), `ogd-local-forecasting` <br> <br> p02: [Klimanormwerte – Punktdaten](), `ogd-climate-normals` <br> |              | 
+| p01: [Lokalprognosedaten – Punktdaten](#253-postprocessed-local-forecast-data-data4web), `ogd-local-forecasting` <br> | p02: [Klimanormwerte – Punktdaten](), `ogd-climate-normals` <br> |              | 
 |              |              | xXX: Klimaszenarien – ..., `ogd-climate-scenario` <br> | 
 
 > [!NOTE]
