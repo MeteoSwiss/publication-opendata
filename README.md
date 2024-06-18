@@ -62,7 +62,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 | h01: [Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn` <br> h02: [Niederschlags-Klimastationen – Homogene Messwerte](#234-climate-stations-swiss-nbcn-nbcn-nbcn-precip), `ogd-nbcn-precip` <br> |             |              | 
 |              | **Gitterdaten:** <br> [Boden- und satellitengestützte räumliche Klimadaten](#261-spatial-climate-data) (16, 17) <br> Radargestützte räumliche Klimadaten (xx) <br> |              |
 |              | **Gitterdaten:** <br> [Grundlegende und erweiterte Radardaten](#262-radar-and-combiprecip-data) (18, 19) <br> [Kombinierte Niederschlagsberechnungen](#2623-combiprecip-data) (20) <br> |              | 
-|              | gXX: [Kurzfristprognosedaten – Gitterdaten](#251-inca-data-nowcasting), `ogd-nowcasting` <br> <br> gXX: [ICON-CH1-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch1` <br> gXX: [ICON-CH2-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch2` <br> |              | 
+| gXX: [Kurzfristprognosedaten – Gitterdaten](#251-inca-data-nowcasting), `ogd-nowcasting` <br> | gXX: [ICON-CH1-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch1` <br> gXX: [ICON-CH2-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch2` <br> |              | 
 |              | p01: [Lokalprognosedaten – Punktdaten](#253-postprocessed-local-forecast-data-data4web), `ogd-local-forecasting` <br> <br> p02: [Klimanormwerte – Punktdaten](), `ogd-climate-normals` <br> |              | 
 
 > [!NOTE]
