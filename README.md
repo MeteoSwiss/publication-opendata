@@ -50,7 +50,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 4. Später - Weitere Funktionalitäten (u.a. Daten abfragen via API-Features) realisieren
 
 **Roadmap der OGD-Bereitstellung** <br>
-Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte (Titel, `STAC Collection Name`).
+Aufgeführt sind Hauptfunktionalitäten für Nutzerinnen und Nutzer sowie die OGD-Datenprodukte ("Titel - Art der Daten (Messwerte, Beobachtungen, Homogene Messwerte, Gitterdaten ODER Punktdaten", `STAC Collection Name`).
 
 | Beta-Version | Version 1.0 | Als nächstes |
 | :----------- | :---------- | :----------- |
