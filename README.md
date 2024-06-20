@@ -66,6 +66,7 @@ Damit entspricht die OGD-Bereitstellung von MeteoSchweiz in der Version 1.0 der 
 | **Radardaten** | [Grundlegende Radardaten – Gitterdaten](#262-radar-and-combiprecip-data), `ogd-basic-radar` <br> <br> [Erweiterte Radardaten – Gitterdaten](#262-radar-and-combiprecip-data), `ogd-advanced-radar` <br>  | [Kombinierte Niederschlagsberechnungen – Gitterdaten](#2623-combiprecip-data), `ogd-combiprecip` <br> | 3D-Radardaten (in Abklärung) <br> | 
 | **Prognosedaten** | [Kurzfristprognosedaten – Gitterdaten](#251-inca-data-nowcasting), `ogd-nowcasting` <br> | [ICON-CH1-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch1` <br> <br> [ICON-CH2-Prognosedaten – Gitterdaten](#252-cosmoicon-data-forecasting), `ogd-forecasting-icon-ch2` <br> |             | 
 | | [Lokalprognosedaten – Punktdaten](#253-postprocessed-local-forecast-data-data4web), `ogd-local-forecasting` <br> |             |             | 
+
 **Weitere Daten (in Abklärung):**
 - Blitzdaten – ..., `ogd-satellite-derived-lightning`
 
