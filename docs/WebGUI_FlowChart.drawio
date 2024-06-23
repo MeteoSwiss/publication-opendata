@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T20:16:31.193Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="plGPKxwGtIa9FYk9HpyS" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-23T20:21:25.307Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="v0Kw5Ow5OrU25I-6JMNy" version="24.6.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="583" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -196,14 +196,11 @@
         <mxCell id="Gesd-R931Vldo4rdQ83H-111" value="Stationen&lt;br&gt;im Rechteck X" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;spacing=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="30" y="90" width="100" height="22.5" as="geometry" />
         </mxCell>
-        <mxCell id="Gesd-R931Vldo4rdQ83H-162" value="alle Stationen" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="24.44" y="273" width="105.56" height="22.5" as="geometry" />
+        <mxCell id="Gesd-R931Vldo4rdQ83H-163" value="Station X" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;spacing=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="27.220000000000002" y="290" width="105.56" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gesd-R931Vldo4rdQ83H-163" value="Station X" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="24.44" y="303" width="105.56" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Gesd-R931Vldo4rdQ83H-164" value="Stationen&lt;br&gt;im Rechteck X" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="24.44" y="333" width="105.56" height="22.5" as="geometry" />
+        <mxCell id="Gesd-R931Vldo4rdQ83H-164" value="Stationen&lt;br&gt;im Rechteck X" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;spacing=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="27.220000000000002" y="320" width="105.56" height="22.5" as="geometry" />
         </mxCell>
         <mxCell id="Gesd-R931Vldo4rdQ83H-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0066CC;" edge="1" parent="77e6c97f196da883-4">
           <mxGeometry relative="1" as="geometry">
