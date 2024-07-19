@@ -542,8 +542,9 @@ The radiosondes measure air pressure, temperature and humidity. Attached to a [w
 > Jump directly to 2.5.3. [Postprocessed local forecast data (data4web)](https://github.com/MeteoSwiss/publication-opendata/tree/main#253-postprocessed-local-forecast-data-data4web). <br>
 
 #### 2.5.1. INCA data (nowcasting)
-The INCA [nowcasting](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/nowcasting.html) forecasts come in 2 versions for most parameters a) a short 0h- +6h version and an b) an extended 6h-+28/33h version.
-Please be aware, that in the extended versions, the part after the first 6h comes from the COSMO-1E model, which means, that it is beeing updated only every 3h (00h, 03h, 06h, 09h etc. UTC). Only the first +6h are beeing updated according to the respective update frequency. 
+The INCA [nowcasting](https://www.meteoswiss.admin.ch/weather/warning-and-forecasting-systems/nowcasting.html) forecasts come for the period 0h- +6h.
+
+The data is being updated according to the respective update frequency. 
 For more information see the metadata in each NetCDF-File.
 
 > Jump directly 2.5.1.1. [INCA precipitation - quantitative/qualitative](https://github.com/MeteoSwiss/publication-opendata/tree/main#2511-inca-precipitation---quantitativequalitative). <br>
