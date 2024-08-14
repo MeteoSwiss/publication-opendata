@@ -1,6 +1,8 @@
 *Version, status:* v1.2, deprecated / [change log](https://github.com/MeteoSwiss/publication-opendata/commits/main) <br>
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss project team](mailto:opendata@meteoswiss.ch)
 
+<br>
+
 > [!IMPORTANT]
 > This documentation is no longer up-to-date and will soon be taken offline. **The continuously updated, valid Open Data documentation from MeteoSwiss is continuously updated [here](https://github.com/MeteoSwiss/opendata/blob/main/README.md).**
 
