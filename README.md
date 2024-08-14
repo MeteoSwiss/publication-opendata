@@ -6,6 +6,9 @@
 
 <br>
 <br>
+<br>
+
+---
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master) -->
 
