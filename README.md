@@ -2,7 +2,10 @@
 *Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss project team](mailto:opendata@meteoswiss.ch)
 
 > [!IMPORTANT]
-> This documentation is no longer up-to-date and will soon be taken offline. **The continuously updated, valid Open Data documentation from MeteoSwiss is continuously updated [here](https://github.com/MeteoSwiss/opendata/blob/main/README.md)**
+> This documentation is no longer up-to-date and will soon be taken offline. **The continuously updated, valid Open Data documentation from MeteoSwiss is continuously updated [here](https://github.com/MeteoSwiss/opendata/blob/main/README.md).**
+
+<br>
+<br>
 
 <!-- [![GitHub commit](https://img.shields.io/github/last-commit/MeteoSwiss/publication-opendata)](https://github.com/MeteoSwiss/publication-opendata/commits/master) -->
 
