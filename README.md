@@ -1,5 +1,5 @@
 *Version, status:* v1.2, deprecated / [change log](https://github.com/MeteoSwiss/publication-opendata/commits/main) <br>
-*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, [OGD@MeteoSwiss project team](mailto:opendata@meteoswiss.ch)
+*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, OGD@MeteoSwiss project team
 
 <br>
 
