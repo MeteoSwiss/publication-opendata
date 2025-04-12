@@ -4,7 +4,7 @@
 <br>
 
 > [!IMPORTANT]
-> This documentation is no longer up-to-date and will soon be taken offline. **The continuously updated, valid Open Data documentation from MeteoSwiss is [here](https://github.com/MeteoSwiss/opendata/blob/main/README.md).**
+> This documentation is no longer up-to-date and will soon be taken offline. **The continuously updated, valid Open Data documentation from MeteoSwiss is [here](https://opendatadocs.meteoswiss.ch).**
 
 <br>
 <br>
